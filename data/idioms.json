@@ -1,0 +1,3423 @@
+[
+  {
+    "id": 1,
+    "type": "idiom",
+    "front": "A ball park figure",
+    "back": {
+      "definition_eng": "A general financial figure",
+      "example_eng": "Can you give me a ball park figure for the project cost?",
+      "definition_hindi": "अनुमानित आंकड़ा",
+      "example_hindi": "क्या आप मुझे परियोजना लागत के लिए एक अनुमानित आंकड़ा दे सकते हैं?"
+    }
+  },
+  {
+    "id": 2,
+    "type": "idiom",
+    "front": "A big gun",
+    "back": {
+      "definition_eng": "An important person",
+      "example_eng": "The company brought in the big guns to handle the crisis.",
+      "definition_hindi": "महत्वपूर्ण व्यक्ति",
+      "example_hindi": "कंपनी ने संकट से निपटने के लिए महत्वपूर्ण व्यक्तियों को बुलाया।"
+    }
+  },
+  {
+    "id": 3,
+    "type": "idiom",
+    "front": "A bird's eye view",
+    "back": {
+      "definition_eng": "A view from a very high place that allows you to see a very large area",
+      "example_eng": "From the hilltop, we got a bird's eye view of the entire city.",
+      "definition_hindi": "ऊपर से दृश्य",
+      "example_hindi": "पहाड़ी की चोटी से, हमें पूरे शहर का ऊपर से दृश्य मिला।"
+    }
+  },
+  {
+    "id": 4,
+    "type": "idiom",
+    "front": "A blue Stocking",
+    "back": {
+      "definition_eng": "A learned/educated or intellectual woman",
+      "example_eng": "She was known as a blue stocking in academic circles.",
+      "definition_hindi": "शिक्षित बौद्धिक महिला",
+      "example_hindi": "वह academic circles में एक शिक्षित बौद्धिक महिला के रूप में जानी जाती थी।"
+    }
+  },
+  {
+    "id": 5,
+    "type": "idiom",
+    "front": "A bolt from the blue",
+    "back": {
+      "definition_eng": "Something unexpected",
+      "example_eng": "His resignation came as a bolt from the blue.",
+      "definition_hindi": "अचानक और अप्रत्याशित घटना",
+      "example_hindi": "उसका इस्तीफा एक अचानक और अप्रत्याशित घटना थी।"
+    }
+  },
+  {
+    "id": 6,
+    "type": "idiom",
+    "front": "A bone of contention",
+    "back": {
+      "definition_eng": "A source of quarrel",
+      "example_eng": "The property inheritance became a bone of contention between the brothers.",
+      "definition_hindi": "झगड़े का कारण",
+      "example_hindi": "संपत्ति की विरासत भाइयों के बीच झगड़े का कारण बन गई।"
+    }
+  },
+  {
+    "id": 7,
+    "type": "idiom",
+    "front": "A bosom friend",
+    "back": {
+      "definition_eng": "A very close friend",
+      "example_eng": "They have been bosom friends since childhood.",
+      "definition_hindi": "अत्यंत घनिष्ठ मित्र",
+      "example_hindi": "वे बचपन से ही अत्यंत घनिष्ठ मित्र हैं।"
+    }
+  },
+  {
+    "id": 8,
+    "type": "idiom",
+    "front": "A brown study",
+    "back": {
+      "definition_eng": "Dreaming",
+      "example_eng": "He was in a brown study and didn't hear me calling.",
+      "definition_hindi": "सपनों में खोया हुआ",
+      "example_hindi": "वह सपनों में खोया हुआ था और उसने मुझे बुलाते हुए नहीं सुना।"
+    }
+  },
+  {
+    "id": 9,
+    "type": "idiom",
+    "front": "A burnt child dreads the fire",
+    "back": {
+      "definition_eng": "One who has had a previous unpleasant experience is always scared of situations where such experiences are likely to be repeated",
+      "example_eng": "After his business failure, he's hesitant to invest again - a burnt child dreads the fire.",
+      "definition_hindi": "एक बार झुलसा हुआ बच्चा आग से डरता है",
+      "example_hindi": "अपने व्यवसाय की विफलता के बाद, वह फिर से निवेश करने में झिझक रहा है - एक बार झुलसा हुआ बच्चा आग से डरता है।"
+    }
+  },
+  {
+    "id": 10,
+    "type": "idiom",
+    "front": "A cash cow",
+    "back": {
+      "definition_eng": "A product or service that makes a lot of money for a company",
+      "example_eng": "Their flagship product has been a cash cow for years.",
+      "definition_hindi": "मुनाफे वाला उत्पाद या सेवा",
+      "example_hindi": "उनका प्रमुख उत्पाद सालों से मुनाफे वाला उत्पाद रहा है।"
+    }
+  },
+  {
+    "id": 11,
+    "type": "idiom",
+    "front": "A close shave",
+    "back": {
+      "definition_eng": "Narrow escape",
+      "example_eng": "He had a close shave when the car barely missed him.",
+      "definition_hindi": "बाल-बाल बचना",
+      "example_hindi": "वह बाल-बाल बच गया जब कार ने उसे मुश्किल से छोड़ा।"
+    }
+  },
+  {
+    "id": 12,
+    "type": "idiom",
+    "front": "A cock and bull story",
+    "back": {
+      "definition_eng": "A foolishly incredible story",
+      "example_eng": "He told some cock and bull story about why he was late.",
+      "definition_hindi": "मनगढ़ंत कहानी",
+      "example_hindi": "उसने देर से आने के बारे में कोई मनगढ़ंत कहानी सुनाई।"
+    }
+  },
+  {
+    "id": 13,
+    "type": "idiom",
+    "front": "A Fidus Achates",
+    "back": {
+      "definition_eng": "A faithful friend or a devoted follower",
+      "example_eng": "He has been my Fidus Achates through all difficulties.",
+      "definition_hindi": "वफादार दोस्त या समर्पित अनुयायी",
+      "example_hindi": "वह सभी कठिनाइयों में मेरा वफादार दोस्त रहा है।"
+    }
+  },
+  {
+    "id": 14,
+    "type": "idiom",
+    "front": "A hard nut to crack",
+    "back": {
+      "definition_eng": "A difficult problem",
+      "example_eng": "This mathematical equation is a hard nut to crack.",
+      "definition_hindi": "मुश्किल समस्या",
+      "example_hindi": "यह गणितीय समीकरण एक मुश्किल समस्या है।"
+    }
+  },
+  {
+    "id": 15,
+    "type": "idiom",
+    "front": "A house of cards",
+    "back": {
+      "definition_eng": "A poor plan",
+      "example_eng": "Their business strategy was a house of cards that collapsed quickly.",
+      "definition_hindi": "कमजोर योजना",
+      "example_hindi": "उनकी व्यापार रणनीति एक कमजोर योजना थी जो जल्दी ढह गई।"
+    }
+  },
+  {
+    "id": 16,
+    "type": "idiom",
+    "front": "A litmus Test",
+    "back": {
+      "definition_eng": "A method that helps to know if something is correct",
+      "example_eng": "This election will be a litmus test for the government's policies.",
+      "definition_hindi": "जाँच का तरीका",
+      "example_hindi": "यह चुनाव सरकार की नीतियों के लिए एक जाँच होगी।"
+    }
+  },
+  {
+    "id": 17,
+    "type": "idiom",
+    "front": "A man of straw",
+    "back": {
+      "definition_eng": "A man of no substance",
+      "example_eng": "He talks big but is actually a man of straw.",
+      "definition_hindi": "निरर्थक व्यक्ति",
+      "example_hindi": "वह बड़ी-बड़ी बातें करता है लेकिन वास्तव में एक निरर्थक व्यक्ति है।"
+    }
+  },
+  {
+    "id": 18,
+    "type": "idiom",
+    "front": "A miss is as good as a mile",
+    "back": {
+      "definition_eng": "Comes nowhere near it. If someone narrowly misses the target it still is treated as a missed one or failure.",
+      "example_eng": "He almost won the race, but a miss is as good as a mile.",
+      "definition_hindi": "चूक चूक होती है, चाहे थोड़ी हो या ज्यादा",
+      "example_hindi": "वह दौड़ लगभग जीत गया था, लेकिन चूक चूक होती है।"
+    }
+  },
+  {
+    "id": 19,
+    "type": "idiom",
+    "front": "A nine days' wonder",
+    "back": {
+      "definition_eng": "An event which relates a sensation for a time but is soon forgotten",
+      "example_eng": "The viral video was a nine days' wonder.",
+      "definition_hindi": "क्षणिक सनसनी",
+      "example_hindi": "वायरल वीडियो एक क्षणिक सनसनी थी।"
+    }
+  },
+  {
+    "id": 20,
+    "type": "idiom",
+    "front": "A thorn in the flesh",
+    "back": {
+      "definition_eng": "A constant source of annoyance",
+      "example_eng": "The noisy neighbor has become a thorn in the flesh for everyone.",
+      "definition_hindi": "लगातार परेशानी का स्रोत",
+      "example_hindi": "शोर करने वाला पड़ोसी सभी के लिए लगातार परेशानी का स्रोत बन गया है।"
+    }
+  },
+  {
+    "id": 21,
+    "type": "idiom",
+    "front": "A wee bit",
+    "back": {
+      "definition_eng": "A little",
+      "example_eng": "Could you turn the volume down a wee bit?",
+      "definition_hindi": "थोड़ा सा",
+      "example_hindi": "क्या आवाज़ थोड़ी कम कर सकते हैं?"
+    }
+  },
+  {
+    "id": 22,
+    "type": "idiom",
+    "front": "A Wet Blanket",
+    "back": {
+      "definition_eng": "A person who discourages enjoyment or enthusiasm",
+      "example_eng": "Don't be a wet blanket; join the celebration.",
+      "definition_hindi": "उत्साह भंग करने वाला व्यक्ति",
+      "example_hindi": "उत्साह भंग करने वाले मत बनो; उत्सव में शामिल हो जाओ।"
+    }
+  },
+  {
+    "id": 23,
+    "type": "idiom",
+    "front": "A white elephant",
+    "back": {
+      "definition_eng": "A useless possession which is extremely expensive to keep",
+      "example_eng": "The old mansion became a white elephant for the family.",
+      "definition_hindi": "बेकार की महंगी संपत्ति",
+      "example_hindi": "पुरानी हवेली परिवार के लिए एक बेकार की महंगी संपत्ति बन गई।"
+    }
+  },
+  {
+    "id": 24,
+    "type": "idiom",
+    "front": "Above all",
+    "back": {
+      "definition_eng": "Chiefly, Mainly",
+      "example_eng": "Above all, we must consider the safety of the children.",
+      "definition_hindi": "सबसे बढ़कर",
+      "example_hindi": "सबसे बढ़कर, हमें बच्चों की सुरक्षा पर विचार करना चाहिए।"
+    }
+  },
+  {
+    "id": 25,
+    "type": "idiom",
+    "front": "Above board",
+    "back": {
+      "definition_eng": "Honest and open",
+      "example_eng": "All their business dealings are above board.",
+      "definition_hindi": "ईमानदार और खुला",
+      "example_hindi": "उनके सभी व्यापारिक लेन-देन ईमानदार और खुले हैं।"
+    }
+  },
+  {
+    "id": 26,
+    "type": "idiom",
+    "front": "Add fuel to the fire",
+    "back": {
+      "definition_eng": "To aggravate the situation",
+      "example_eng": "His criticism only added fuel to the fire during the argument.",
+      "definition_hindi": "आग में घी डालना",
+      "example_hindi": "तर्क के दौरान उसकी आलोचना ने केवल आग में घी डाला।"
+    }
+  },
+  {
+    "id": 27,
+    "type": "idiom",
+    "front": "Afraid of one's own shadow",
+    "back": {
+      "definition_eng": "To become easily frightened",
+      "example_eng": "Since the incident, she's been afraid of her own shadow.",
+      "definition_hindi": "बहुत डरपोक होना",
+      "example_hindi": "घटना के बाद से, वह बहुत डरपोक हो गई है।"
+    }
+  },
+  {
+    "id": 28,
+    "type": "idiom",
+    "front": "All that glitters are not gold",
+    "back": {
+      "definition_eng": "Things are not always as attractive as they appear",
+      "example_eng": "The job offer seemed great, but all that glitters is not gold.",
+      "definition_hindi": "हर चमकती चीज सोना नहीं होती",
+      "example_hindi": "नौकरी का प्रस्ताव बढ़िया लग रहा था, लेकिन हर चमकती चीज सोना नहीं होती।"
+    }
+  },
+  {
+    "id": 29,
+    "type": "idiom",
+    "front": "Alpha and omega",
+    "back": {
+      "definition_eng": "The beginning and the end",
+      "example_eng": "Education is the alpha and omega of development.",
+      "definition_hindi": "शुरुआत और अंत",
+      "example_hindi": "शिक्षा विकास की शुरुआत और अंत है।"
+    }
+  },
+  {
+    "id": 30,
+    "type": "idiom",
+    "front": "An Ananias",
+    "back": {
+      "definition_eng": "A Liar",
+      "example_eng": "Don't believe him; he's known as an Ananias in our circle.",
+      "definition_hindi": "झूठा",
+      "example_hindi": "उस पर विश्वास मत करो; वह हमारे घेरे में एक झूठा के रूप में जाना जाता है।"
+    }
+  },
+  {
+    "id": 31,
+    "type": "idiom",
+    "front": "An Adonis",
+    "back": {
+      "definition_eng": "A very handsome man",
+      "example_eng": "The young actor was considered an Adonis by his fans.",
+      "definition_hindi": "बहुत सुंदर आदमी",
+      "example_hindi": "युवा अभिनेता को उसके प्रशंसकों द्वारा बहुत सुंदर आदमी माना जाता था।"
+    }
+  },
+  {
+    "id": 32,
+    "type": "idiom",
+    "front": "An Apollo",
+    "back": {
+      "definition_eng": "A Man with Perfect Physique",
+      "example_eng": "The athlete had the physique of an Apollo.",
+      "definition_hindi": "आदर्श शारीरिक बनावट वाला आदमी",
+      "example_hindi": "एथलीट की आदर्श शारीरिक बनावट थी।"
+    }
+  },
+  {
+    "id": 33,
+    "type": "idiom",
+    "front": "An acid test",
+    "back": {
+      "definition_eng": "A critical test",
+      "example_eng": "The final exam will be an acid test of your knowledge.",
+      "definition_hindi": "कठिन परीक्षा",
+      "example_hindi": "अंतिम परीक्षा आपके ज्ञान की कठिन परीक्षा होगी।"
+    }
+  },
+  {
+    "id": 34,
+    "type": "idiom",
+    "front": "An axe to grind",
+    "back": {
+      "definition_eng": "A personal interest in the matter",
+      "example_eng": "He has an axe to grind in this dispute, so his opinion is biased.",
+      "definition_hindi": "स्वार्थ होना",
+      "example_hindi": "इस विवाद में उसका स्वार्थ है, इसलिए उसकी राय पक्षपातपूर्ण है।"
+    }
+  },
+  {
+    "id": 35,
+    "type": "idiom",
+    "front": "Apple of one's eye",
+    "back": {
+      "definition_eng": "Being cherished",
+      "example_eng": "His daughter is the apple of his eye.",
+      "definition_hindi": "अत्यंत प्रिय",
+      "example_hindi": "उसकी बेटी उसकी अत्यंत प्रिय है।"
+    }
+  },
+  {
+    "id": 36,
+    "type": "idiom",
+    "front": "Apple Pie Order",
+    "back": {
+      "definition_eng": "In perfect order",
+      "example_eng": "She keeps her house in apple pie order.",
+      "definition_hindi": "पूरी तरह से व्यवस्थित",
+      "example_hindi": "वह अपना घर पूरी तरह से व्यवस्थित रखती है।"
+    }
+  },
+  {
+    "id": 37,
+    "type": "idiom",
+    "front": "Arcadian Life",
+    "back": {
+      "definition_eng": "A blissful, happy, rural and simple life",
+      "example_eng": "After retirement, they moved to the countryside for an Arcadian life.",
+      "definition_hindi": "सरल और खुशहाल ग्रामीण जीवन",
+      "example_hindi": "सेवानिवृत्ति के बाद, वे सरल और खुशहाल ग्रामीण जीवन के लिए गाँव चले गए।"
+    }
+  },
+  {
+    "id": 38,
+    "type": "idiom",
+    "front": "At arm's length",
+    "back": {
+      "definition_eng": "To keep at a distance",
+      "example_eng": "She keeps her colleagues at arm's length to maintain professionalism.",
+      "definition_hindi": "दूरी बनाए रखना",
+      "example_hindi": "वह पेशेवरता बनाए रखने के लिए अपने सहयोगियों से दूरी बनाए रखती है।"
+    }
+  },
+  {
+    "id": 39,
+    "type": "idiom",
+    "front": "At daggers drawn",
+    "back": {
+      "definition_eng": "Bitterly hostile",
+      "example_eng": "The two brothers have been at daggers drawn since their father's death.",
+      "definition_hindi": "कट्टर दुश्मन होना",
+      "example_hindi": "अपने पिता की मृत्यु के बाद से दोनों भाई कट्टर दुश्मन बने हुए हैं।"
+    }
+  },
+  {
+    "id": 40,
+    "type": "idiom",
+    "front": "At First Blush",
+    "back": {
+      "definition_eng": "At first sight",
+      "example_eng": "At first blush, the plan seemed perfect.",
+      "definition_hindi": "पहली नजर में",
+      "example_hindi": "पहली नजर में, योजना परफेक्ट लग रही थी।"
+    }
+  },
+  {
+    "id": 41,
+    "type": "idiom",
+    "front": "At home",
+    "back": {
+      "definition_eng": "Comfortable",
+      "example_eng": "She feels at home in front of large audiences.",
+      "definition_hindi": "आरामदायक",
+      "example_hindi": "वह बड़े दर्शकों के सामने आरामदायक महसूस करती है।"
+    }
+  },
+  {
+    "id": 42,
+    "type": "idiom",
+    "front": "At one's beck and call",
+    "back": {
+      "definition_eng": "Under his control",
+      "example_eng": "The assistant was at his boss's beck and call all day.",
+      "definition_hindi": "पूरी तरह से किसी के नियंत्रण में",
+      "example_hindi": "सहायक पूरे दिन अपने बॉस के पूरी तरह से नियंत्रण में था।"
+    }
+  },
+  {
+    "id": 43,
+    "type": "idiom",
+    "front": "At one's wits end",
+    "back": {
+      "definition_eng": "In a state where one does not know what to do",
+      "example_eng": "After trying to solve the problem for hours, she was at her wits end.",
+      "definition_hindi": "परेशान हो जाना, उलझन में",
+      "example_hindi": "घंटों समस्या को हल करने की कोशिश करने के बाद, वह परेशान हो गई थी।"
+    }
+  },
+  {
+    "id": 44,
+    "type": "idiom",
+    "front": "At sea",
+    "back": {
+      "definition_eng": "Confused and lost",
+      "example_eng": "I'm completely at sea with this new software.",
+      "definition_hindi": "भ्रमित और खोया हुआ",
+      "example_hindi": "मैं इस नए सॉफ्टवेयर के साथ पूरी तरह से भ्रमित हूँ।"
+    }
+  },
+  {
+    "id": 45,
+    "type": "idiom",
+    "front": "At sixes and sevens",
+    "back": {
+      "definition_eng": "In a disordered/disorganized manner, chaotic",
+      "example_eng": "After the party, the house was at sixes and sevens.",
+      "definition_hindi": "अव्यवस्थित तरीके से",
+      "example_hindi": "पार्टी के बाद, घर अव्यवस्थित तरीके से था।"
+    }
+  },
+  {
+    "id": 46,
+    "type": "idiom",
+    "front": "At a snail's pace",
+    "back": {
+      "definition_eng": "Very slowly",
+      "example_eng": "The construction work is progressing at a snail's pace.",
+      "definition_hindi": "बहुत धीमी गति से",
+      "example_hindi": "निर्माण कार्य बहुत धीमी गति से आगे बढ़ रहा है।"
+    }
+  },
+  {
+    "id": 47,
+    "type": "idiom",
+    "front": "At the drop of a hat",
+    "back": {
+      "definition_eng": "Willingness to do something instantly",
+      "example_eng": "He's always ready to help at the drop of a hat.",
+      "definition_hindi": "तुरंत तैयार होना",
+      "example_hindi": "वह हमेशा तुरंत मदद करने के लिए तैयार रहता है।"
+    }
+  },
+  {
+    "id": 48,
+    "type": "idiom",
+    "front": "At the eleventh hour",
+    "back": {
+      "definition_eng": "At the last moment",
+      "example_eng": "The agreement was reached at the eleventh hour.",
+      "definition_hindi": "आखिरी समय में",
+      "example_hindi": "समझौता आखिरी समय में हुआ।"
+    }
+  },
+  {
+    "id": 49,
+    "type": "idiom",
+    "front": "Back out",
+    "back": {
+      "definition_eng": "To withdraw from a promise or contract",
+      "example_eng": "He backed out of the deal at the last moment.",
+      "definition_hindi": "वादे से पीछे हटना",
+      "example_hindi": "उसने आखिरी समय में सौदे से वादा तोड़ दिया।"
+    }
+  },
+  {
+    "id": 50,
+    "type": "idiom",
+    "front": "Back Up",
+    "back": {
+      "definition_eng": "To support and sustain",
+      "example_eng": "I'll back you up in the meeting.",
+      "definition_hindi": "समर्थन करना",
+      "example_hindi": "मैं बैठक में आपका समर्थन करूंगा।"
+    }
+  },
+  {
+    "id": 51,
+    "type": "idiom",
+    "front": "Back Upon",
+    "back": {
+      "definition_eng": "To be relevant",
+      "example_eng": "Your argument doesn't back upon the main topic.",
+      "definition_hindi": "प्रासंगिक होना",
+      "example_hindi": "आपका तर्क मुख्य विषय से प्रासंगिक नहीं है।"
+    }
+  },
+  {
+    "id": 52,
+    "type": "idiom",
+    "front": "Bag and Baggage",
+    "back": {
+      "definition_eng": "With all one's belongings",
+      "example_eng": "They left the hotel bag and baggage after the argument.",
+      "definition_hindi": "अपना सामान लेकर",
+      "example_hindi": "तर्क के बाद वे होटल से अपना सामान लेकर चले गए।"
+    }
+  },
+  {
+    "id": 53,
+    "type": "idiom",
+    "front": "Ball is in your court",
+    "back": {
+      "definition_eng": "When it is up to you to make the next decision or step",
+      "example_eng": "I've made my offer; now the ball is in your court.",
+      "definition_hindi": "अगला कदम आप पर निर्भर है",
+      "example_hindi": "मैंने अपना प्रस्ताव रख दिया है; अब अगला कदम आप पर निर्भर है।"
+    }
+  },
+  {
+    "id": 54,
+    "type": "idiom",
+    "front": "Bark up the wrong tree",
+    "back": {
+      "definition_eng": "Accuse or denounce the wrong person",
+      "example_eng": "If you think I stole your pen, you're barking up the wrong tree.",
+      "definition_hindi": "गलत व्यक्ति को दोष देना",
+      "example_hindi": "अगर आपको लगता है कि मैंने आपकी कलम चुराई है, तो आप गलत व्यक्ति को दोष दे रहे हैं।"
+    }
+  },
+  {
+    "id": 55,
+    "type": "idiom",
+    "front": "Barmecide feast",
+    "back": {
+      "definition_eng": "Imaginary Benefits",
+      "example_eng": "His promises turned out to be a Barmecide feast.",
+      "definition_hindi": "काल्पनिक लाभ",
+      "example_hindi": "उसके वादे काल्पनिक लाभ साबित हुए।"
+    }
+  },
+  {
+    "id": 56,
+    "type": "idiom",
+    "front": "Be in a tight corner",
+    "back": {
+      "definition_eng": "In a very difficult situation",
+      "example_eng": "After losing his job, he found himself in a tight corner financially.",
+      "definition_hindi": "मुश्किल स्थिति में होना",
+      "example_hindi": "नौकरी खोने के बाद, वह आर्थिक रूप से मुश्किल स्थिति में था।"
+    }
+  },
+  {
+    "id": 57,
+    "type": "idiom",
+    "front": "Be on cloud nine",
+    "back": {
+      "definition_eng": "Be very happy",
+      "example_eng": "She was on cloud nine after getting the promotion.",
+      "definition_hindi": "बहुत खुश होना",
+      "example_hindi": "पदोन्नति मिलने के बाद वह बहुत खुश थी।"
+    }
+  },
+  {
+    "id": 58,
+    "type": "idiom",
+    "front": "Beating around the bush",
+    "back": {
+      "definition_eng": "Avoiding the main topic",
+      "example_eng": "Stop beating around the bush and come to the point.",
+      "definition_hindi": "मुख्य विषय से बचना",
+      "example_hindi": "मुख्य विषय से बचना बंद करो और सीधे बात पर आओ।"
+    }
+  },
+  {
+    "id": 59,
+    "type": "idiom",
+    "front": "Bee-line",
+    "back": {
+      "definition_eng": "The shortest distance between two places",
+      "example_eng": "He made a bee-line for the exit after the meeting.",
+      "definition_hindi": "सीधा रास्ता",
+      "example_hindi": "बैठक के बाद वह सीधा निकास की ओर चला गया।"
+    }
+  },
+  {
+    "id": 60,
+    "type": "idiom",
+    "front": "Behind one's back",
+    "back": {
+      "definition_eng": "Without one's Knowledge",
+      "example_eng": "They were making plans behind his back.",
+      "definition_hindi": "पीठ पीछे",
+      "example_hindi": "वे उसकी पीठ पीछे योजनाएँ बना रहे थे।"
+    }
+  },
+  {
+    "id": 61,
+    "type": "idiom",
+    "front": "Behind the scenes",
+    "back": {
+      "definition_eng": "In Private",
+      "example_eng": "A lot of negotiations happen behind the scenes.",
+      "definition_hindi": "गुप्त रूप से",
+      "example_hindi": "बहुत सारी वार्ताएँ गुप्त रूप से होती हैं।"
+    }
+  },
+  {
+    "id": 62,
+    "type": "idiom",
+    "front": "Between the devil and the deep sea",
+    "back": {
+      "definition_eng": "Between two dangers",
+      "example_eng": "He was between the devil and the deep sea when he had to choose between his job and his family.",
+      "definition_hindi": "दो मुसीबतों के बीच फँसना",
+      "example_hindi": "जब उसे अपनी नौकरी और अपने परिवार के बीच चयन करना पड़ा, तो वह दो मुसीबतों के बीच फँस गया।"
+    }
+  },
+  {
+    "id": 63,
+    "type": "idiom",
+    "front": "Bite off more than you can chew",
+    "back": {
+      "definition_eng": "Not able to complete a task due to lack of ability",
+      "example_eng": "He bit off more than he could chew by accepting three projects at once.",
+      "definition_hindi": "अपनी क्षमता से अधिक का काम लेना",
+      "example_hindi": "उसने एक साथ तीन परियोजनाएं स्वीकार करके अपनी क्षमता से अधिक का काम ले लिया।"
+    }
+  },
+  {
+    "id": 64,
+    "type": "idiom",
+    "front": "Black and blue",
+    "back": {
+      "definition_eng": "Full of Bruises",
+      "example_eng": "After the accident, he was black and blue all over.",
+      "definition_hindi": "चोट के निशान से भरा",
+      "example_hindi": "दुर्घटना के बाद, वह पूरी तरह से चोट के निशान से भरा था।"
+    }
+  },
+  {
+    "id": 65,
+    "type": "idiom",
+    "front": "Blessing in disguise",
+    "back": {
+      "definition_eng": "Something good and useful that did not initially seem that way",
+      "example_eng": "Losing that job was a blessing in disguise as it led to a better opportunity.",
+      "definition_hindi": "छिपा हुआ आशीर्वाद",
+      "example_hindi": "वह नौकरी खोना एक छिपा हुआ आशीर्वाद था क्योंकि इससे एक बेहतर अवसर मिला।"
+    }
+  },
+  {
+    "id": 66,
+    "type": "idiom",
+    "front": "Blow up",
+    "back": {
+      "definition_eng": "To explode",
+      "example_eng": "The old building blew up during the demolition.",
+      "definition_hindi": "विस्फोट होना",
+      "example_hindi": "पुरानी इमारत विध्वंस के दौरान विस्फोट हो गई।"
+    }
+  },
+  {
+    "id": 67,
+    "type": "idiom",
+    "front": "Break Down",
+    "back": {
+      "definition_eng": "Failure in something",
+      "example_eng": "The negotiations broke down due to disagreements.",
+      "definition_hindi": "विफल होना",
+      "example_hindi": "मतभेदों के कारण वार्ताएँ विफल हो गईं।"
+    }
+  },
+  {
+    "id": 68,
+    "type": "idiom",
+    "front": "Break off",
+    "back": {
+      "definition_eng": "To end or discontinue",
+      "example_eng": "They broke off their engagement after the argument.",
+      "definition_hindi": "समाप्त करना",
+      "example_hindi": "तर्क के बाद उन्होंने अपनी सगाई समाप्त कर दी।"
+    }
+  },
+  {
+    "id": 69,
+    "type": "idiom",
+    "front": "Break the ice",
+    "back": {
+      "definition_eng": "To initiate a social conversation or interaction",
+      "example_eng": "He told a joke to break the ice at the meeting.",
+      "definition_hindi": "बातचीत शुरू करना",
+      "example_hindi": "बैठक में बातचीत शुरू करने के लिए उसने एक चुटकुला सुनाया।"
+    }
+  },
+  {
+    "id": 70,
+    "type": "idiom",
+    "front": "Break Up",
+    "back": {
+      "definition_eng": "To disperse / dissolve",
+      "example_eng": "The crowd broke up after the police arrived.",
+      "definition_hindi": "तितर-बितर होना",
+      "example_hindi": "पुलिस के आने के बाद भीड़ तितर-बितर हो गई।"
+    }
+  },
+  {
+    "id": 71,
+    "type": "idiom",
+    "front": "Bring to light",
+    "back": {
+      "definition_eng": "Disclose",
+      "example_eng": "The investigation brought to light many corruption cases.",
+      "definition_hindi": "प्रकट करना",
+      "example_hindi": "जाँच ने कई भ्रष्टाचार के मामलों को प्रकट किया।"
+    }
+  },
+  {
+    "id": 72,
+    "type": "idiom",
+    "front": "Bring up",
+    "back": {
+      "definition_eng": "To rear",
+      "example_eng": "She brought up her children with good values.",
+      "definition_hindi": "पालन-पोषण करना",
+      "example_hindi": "उसने अपने बच्चों का अच्छे मूल्यों के साथ पालन-पोषण किया।"
+    }
+  },
+  {
+    "id": 73,
+    "type": "idiom",
+    "front": "Burn one's fingers",
+    "back": {
+      "definition_eng": "Get into trouble by interfering in other's affairs",
+      "example_eng": "He burned his fingers by getting involved in their family dispute.",
+      "definition_hindi": "दूसरों के मामलों में हस्तक्षेप करके मुसीबत में पड़ना",
+      "example_hindi": "उनके पारिवारिक विवाद में शामिल होकर वह मुसीबत में पड़ गया।"
+    }
+  },
+  {
+    "id": 74,
+    "type": "idiom",
+    "front": "Burn the midnight oil",
+    "back": {
+      "definition_eng": "Work or study hard",
+      "example_eng": "She had to burn the midnight oil to prepare for her exams.",
+      "definition_hindi": "देर रात तक काम करना",
+      "example_hindi": "उसे अपनी परीक्षाओं की तैयारी के लिए देर रात तक पढ़ाई करनी पड़ी।"
+    }
+  },
+  {
+    "id": 75,
+    "type": "idiom",
+    "front": "Bury the hatchet",
+    "back": {
+      "definition_eng": "End the quarrel and make peace",
+      "example_eng": "After years of fighting, they finally decided to bury the hatchet.",
+      "definition_hindi": "झगड़ा खत्म कर शांति बनाना",
+      "example_hindi": "सालों तक लड़ने के बाद, उन्होंने आखिरकार झगड़ा खत्म कर शांति बनाने का फैसला किया।"
+    }
+  },
+  {
+    "id": 76,
+    "type": "idiom",
+    "front": "By fits and starts",
+    "back": {
+      "definition_eng": "In short periods, not regularly",
+      "example_eng": "He works by fits and starts, so his progress is inconsistent.",
+      "definition_hindi": "रुक-रुक कर, अनियमित रूप से",
+      "example_hindi": "वह रुक-रुक कर काम करता है, इसलिए उसकी प्रगति असंगत है।"
+    }
+  },
+  {
+    "id": 77,
+    "type": "idiom",
+    "front": "By hook or by crook",
+    "back": {
+      "definition_eng": "By fair or foul means",
+      "example_eng": "He was determined to win the competition by hook or by crook.",
+      "definition_hindi": "हर हाल में",
+      "example_hindi": "वह हर हाल में प्रतियोगिता जीतने के लिए दृढ़ था।"
+    }
+  },
+  {
+    "id": 78,
+    "type": "idiom",
+    "front": "By leaps and bounds",
+    "back": {
+      "definition_eng": "Rapidly",
+      "example_eng": "Her English improved by leaps and bounds after she started practicing daily.",
+      "definition_hindi": "तेजी से",
+      "example_hindi": "रोजाना अभ्यास शुरू करने के बाद उसकी अंग्रेजी तेजी से सुधरी।"
+    }
+  },
+  {
+    "id": 79,
+    "type": "idiom",
+    "front": "Call a spade a spade",
+    "back": {
+      "definition_eng": "Speak frankly and directly",
+      "example_eng": "I appreciate people who call a spade a spade instead of beating around the bush.",
+      "definition_hindi": "सीधी-सीधी बात कहना",
+      "example_hindi": "मैं उन लोगों की सराहना करता हूँ जो घुमा-फिरा कर बात करने के बजाय सीधी-सीधी बात कहते हैं।"
+    }
+  },
+  {
+    "id": 80,
+    "type": "idiom",
+    "front": "Call forth",
+    "back": {
+      "definition_eng": "To provoke",
+      "example_eng": "His comments called forth strong reactions.",
+      "definition_hindi": "उकसाना",
+      "example_hindi": "उसकी टिप्पणियों ने मजबूत प्रतिक्रियाएं उकसाईं।"
+    }
+  },
+  {
+    "id": 81,
+    "type": "idiom",
+    "front": "Call out",
+    "back": {
+      "definition_eng": "To shout",
+      "example_eng": "He called out for help when he got lost.",
+      "definition_hindi": "चिल्लाना",
+      "example_hindi": "खो जाने पर उसने मदद के लिए चिल्लाया।"
+    }
+  },
+  {
+    "id": 82,
+    "type": "idiom",
+    "front": "Call upon",
+    "back": {
+      "definition_eng": "To order",
+      "example_eng": "The manager called upon the team to work harder.",
+      "definition_hindi": "आदेश देना",
+      "example_hindi": "प्रबंधक ने टीम को कड़ी मेहनत करने का आदेश दिया।"
+    }
+  },
+  {
+    "id": 83,
+    "type": "idiom",
+    "front": "Can't judge a book by its cover",
+    "back": {
+      "definition_eng": "Cannot judge something primarily on appearance",
+      "example_eng": "The restaurant looks small but serves amazing food - you can't judge a book by its cover.",
+      "definition_hindi": "दिखावे से भ्रमित न होना",
+      "example_hindi": "रेस्तरां छोटा लगता है लेकिन अद्भुत भोजन परोसता है - दिखावे से भ्रमित न हों।"
+    }
+  },
+  {
+    "id": 84,
+    "type": "idiom",
+    "front": "Care killed the cat",
+    "back": {
+      "definition_eng": "Don't fret and worry yourself to death",
+      "example_eng": "Stop worrying so much - care killed the cat.",
+      "definition_hindi": "ज्यादा चिंता करना अच्छा नहीं",
+      "example_hindi": "इतनी चिंता करना बंद करो - ज्यादा चिंता करना अच्छा नहीं।"
+    }
+  },
+  {
+    "id": 85,
+    "type": "idiom",
+    "front": "Carry on",
+    "back": {
+      "definition_eng": "To continue",
+      "example_eng": "Carry on with your work while I'm away.",
+      "definition_hindi": "जारी रखना",
+      "example_hindi": "मेरे दूर रहते हुए अपना काम जारी रखो।"
+    }
+  },
+  {
+    "id": 86,
+    "type": "idiom",
+    "front": "Cast away",
+    "back": {
+      "definition_eng": "To throw aside",
+      "example_eng": "He cast away his old habits after the warning.",
+      "definition_hindi": "फेंक देना",
+      "example_hindi": "चेतावनी के बाद उसने अपनी पुरानी आदतों को फेंक दिया।"
+    }
+  },
+  {
+    "id": 87,
+    "type": "idiom",
+    "front": "Cat and dog life",
+    "back": {
+      "definition_eng": "Life full of quarrels",
+      "example_eng": "They lead a cat and dog life, always arguing about something.",
+      "definition_hindi": "झगड़ों से भरा जीवन",
+      "example_hindi": "वे झगड़ों से भरा जीवन जीते हैं, हमेशा किसी बात पर बहस करते रहते हैं।"
+    }
+  },
+  {
+    "id": 88,
+    "type": "idiom",
+    "front": "Catch up with",
+    "back": {
+      "definition_eng": "To overtake",
+      "example_eng": "I need to catch up with the latest trends.",
+      "definition_hindi": "आगे निकल जाना",
+      "example_hindi": "मुझे नवीनतम रुझानों के साथ आगे निकलने की जरूरत है।"
+    }
+  },
+  {
+    "id": 89,
+    "type": "idiom",
+    "front": "Chew the cud",
+    "back": {
+      "definition_eng": "Ponder over something",
+      "example_eng": "He needed time to chew the cud before making a decision.",
+      "definition_hindi": "किसी बात पर गहराई से विचार करना",
+      "example_hindi": "निर्णय लेने से पहले उसे किसी बात पर गहराई से विचार करने का समय चाहिए था।"
+    }
+  },
+  {
+    "id": 90,
+    "type": "idiom",
+    "front": "Chip on your shoulder",
+    "back": {
+      "definition_eng": "When someone is upset about something that happened a while ago",
+      "example_eng": "He still has a chip on his shoulder about not getting promoted.",
+      "definition_hindi": "पुरानी बातों को लेकर नाराजगी",
+      "example_hindi": "उसे पदोन्नति न मिलने की पुरानी बातों को लेकर अभी भी नाराजगी है।"
+    }
+  },
+  {
+    "id": 91,
+    "type": "idiom",
+    "front": "Close fisted",
+    "back": {
+      "definition_eng": "Mean",
+      "example_eng": "He's too close fisted to donate to charity.",
+      "definition_hindi": "कंजूस",
+      "example_hindi": "वह दान देने के लिए बहुत कंजूस है।"
+    }
+  },
+  {
+    "id": 92,
+    "type": "idiom",
+    "front": "Cock and bull story",
+    "back": {
+      "definition_eng": "Made up story that one should not believe",
+      "example_eng": "He told me some cock and bull story about why he was late.",
+      "definition_hindi": "मनगढ़ंत कहानी",
+      "example_hindi": "उसने मुझे देर से आने के बारे में कोई मनगढ़ंत कहानी सुनाई।"
+    }
+  },
+  {
+    "id": 93,
+    "type": "idiom",
+    "front": "Come off",
+    "back": {
+      "definition_eng": "To take place",
+      "example_eng": "The event came off successfully despite the rain.",
+      "definition_hindi": "घटित होना",
+      "example_hindi": "बारिश के बावजूद कार्यक्रम सफलतापूर्वक घटित हुआ।"
+    }
+  },
+  {
+    "id": 94,
+    "type": "idiom",
+    "front": "Come off with flying colors",
+    "back": {
+      "definition_eng": "Be highly successful",
+      "example_eng": "She came off with flying colors in her final exams.",
+      "definition_hindi": "बहुत सफल होना",
+      "example_hindi": "उसने अपनी अंतिम परीक्षाओं में बहुत सफलता प्राप्त की।"
+    }
+  },
+  {
+    "id": 95,
+    "type": "idiom",
+    "front": "Come hell or high water",
+    "back": {
+      "definition_eng": "Possible obstacles in your path",
+      "example_eng": "I'll finish this project come hell or high water.",
+      "definition_hindi": "किसी भी बाधा के बावजूद",
+      "example_hindi": "मैं इस परियोजना को किसी भी बाधा के बावजूद पूरा करूंगा।"
+    }
+  },
+  {
+    "id": 96,
+    "type": "idiom",
+    "front": "Cost an arm and a leg",
+    "back": {
+      "definition_eng": "Be very expensive",
+      "example_eng": "The new smartphone costs an arm and a leg.",
+      "definition_hindi": "बहुत महंगा होना",
+      "example_hindi": "नया स्मार्टफोन बहुत महंगा है।"
+    }
+  },
+  {
+    "id": 97,
+    "type": "idiom",
+    "front": "Crocodile tears",
+    "back": {
+      "definition_eng": "Hypocritical Tears",
+      "example_eng": "She shed crocodile tears at his funeral.",
+      "definition_hindi": "ढोंगी आँसू",
+      "example_hindi": "उसने उसके अंतिम संस्कार पर ढोंगी आँसू बहाए।"
+    }
+  },
+  {
+    "id": 98,
+    "type": "idiom",
+    "front": "Cross one's t's and dot one's i's",
+    "back": {
+      "definition_eng": "Be precise, careful and exact",
+      "example_eng": "When preparing legal documents, you must cross your t's and dot your i's.",
+      "definition_hindi": "बहुत सावधान और सटीक होना",
+      "example_hindi": "कानूनी दस्तावेज तैयार करते समय, आपको बहुत सावधान और सटीक होना चाहिए।"
+    }
+  },
+  {
+    "id": 99,
+    "type": "idiom",
+    "front": "Cry Down",
+    "back": {
+      "definition_eng": "To make little of",
+      "example_eng": "Don't cry down his achievements.",
+      "definition_hindi": "तुच्छ समझना",
+      "example_hindi": "उसकी उपलब्धियों को तुच्छ मत समझो।"
+    }
+  },
+  {
+    "id": 100,
+    "type": "idiom",
+    "front": "Cry for the moon",
+    "back": {
+      "definition_eng": "Ask for the impossible",
+      "example_eng": "Asking for a 100% salary increase is like crying for the moon.",
+      "definition_hindi": "असंभव की माँग करना",
+      "example_hindi": "100% वेतन वृद्धि माँगना असंभव की माँग करने जैसा है।"
+    }
+  },
+  {
+    "id": 101,
+    "type": "idiom",
+    "front": "Cry out against",
+    "back": {
+      "definition_eng": "To complain loudly against",
+      "example_eng": "The workers cried out against the unfair treatment.",
+      "definition_hindi": "जोर से शिकायत करना",
+      "example_hindi": "कर्मचारियों ने अनुचित व्यवहार के खिलाफ जोर से शिकायत की।"
+    }
+  },
+  {
+    "id": 102,
+    "type": "idiom",
+    "front": "Cry over spilled milk",
+    "back": {
+      "definition_eng": "Complaining about a loss or failure from the past",
+      "example_eng": "There's no use crying over spilled milk; focus on the future.",
+      "definition_hindi": "बीती हुई बातों पर पछताना",
+      "example_hindi": "बीती हुई बातों पर पछताने का कोई फायदा नहीं है; भविष्य पर ध्यान दो।"
+    }
+  },
+  {
+    "id": 103,
+    "type": "idiom",
+    "front": "Cut and dried",
+    "back": {
+      "definition_eng": "Readymade",
+      "example_eng": "The agreement was cut and dried before the meeting.",
+      "definition_hindi": "पहले से तैयार",
+      "example_hindi": "बैठक से पहले समझौता पहले से तैयार था।"
+    }
+  },
+  {
+    "id": 104,
+    "type": "idiom",
+    "front": "Cut out",
+    "back": {
+      "definition_eng": "Designed for",
+      "example_eng": "He's cut out for leadership roles.",
+      "definition_hindi": "के लिए बना होना",
+      "example_hindi": "वह नेतृत्व की भूमिकाओं के लिए बना है।"
+    }
+  },
+  {
+    "id": 105,
+    "type": "idiom",
+    "front": "Cut your cloth according to your cloth",
+    "back": {
+      "definition_eng": "Live within your income",
+      "example_eng": "We need to cut our cloth according to our cloth during these difficult times.",
+      "definition_hindi": "आमदनी के अनुसार खर्च करना",
+      "example_hindi": "इन मुश्किल समयों के दौरान हमें अपनी आमदनी के अनुसार खर्च करना होगा।"
+    }
+  },
+  {
+    "id": 106,
+    "type": "idiom",
+    "front": "Devil's Advocate",
+    "back": {
+      "definition_eng": "To present a counter argument",
+      "example_eng": "Let me play devil's advocate and challenge your assumptions.",
+      "definition_hindi": "विपरीत तर्क पेश करना",
+      "example_hindi": "मुझे विपरीत तर्क पेश करने दो और आपकी मान्यताओं को चुनौती देने दो।"
+    }
+  },
+  {
+    "id": 107,
+    "type": "idiom",
+    "front": "Devil's bones",
+    "back": {
+      "definition_eng": "Dice",
+      "example_eng": "They were playing with devil's bones in the corner.",
+      "definition_hindi": "पासा",
+      "example_hindi": "वे कोने में पासे से खेल रहे थे।"
+    }
+  },
+  {
+    "id": 108,
+    "type": "idiom",
+    "front": "Devil's Playthings",
+    "back": {
+      "definition_eng": "Playing Cards",
+      "example_eng": "The old men spent their evenings with devil's playthings.",
+      "definition_hindi": "ताश के पत्ते",
+      "example_hindi": "बूढ़े आदमी अपनी शामें ताश के पत्तों के साथ बिताते थे।"
+    }
+  },
+  {
+    "id": 109,
+    "type": "idiom",
+    "front": "Die in harness",
+    "back": {
+      "definition_eng": "Die while in service",
+      "example_eng": "He died in harness while working on his research project.",
+      "definition_hindi": "काम करते हुए मर जाना",
+      "example_hindi": "वह अपने शोध प्रोजेक्ट पर काम करते हुए मर गया।"
+    }
+  },
+  {
+    "id": 110,
+    "type": "idiom",
+    "front": "Don't give up the day job",
+    "back": {
+      "definition_eng": "You are not very good at something. You could not do it professionally.",
+      "example_eng": "After hearing him sing, I told him not to give up the day job.",
+      "definition_hindi": "इस काम में आप अच्छे नहीं हैं",
+      "example_hindi": "उसे गाते हुए सुनने के बाद, मैंने उसे कहा कि इस काम में आप अच्छे नहीं हैं।"
+    }
+  },
+  {
+    "id": 111,
+    "type": "idiom",
+    "front": "Don't put all your eggs in one basket",
+    "back": {
+      "definition_eng": "Do not put all your resources in one basket (in one place or thing)",
+      "example_eng": "Invest in different stocks; don't put all your eggs in one basket.",
+      "definition_hindi": "सारे संसाधन एक जगह न लगाना",
+      "example_hindi": "अलग-अलग स्टॉक्स में निवेश करो; सारे संसाधन एक जगह मत लगाओ।"
+    }
+  },
+  {
+    "id": 112,
+    "type": "idiom",
+    "front": "Drop in",
+    "back": {
+      "definition_eng": "To Visit Casually",
+      "example_eng": "Feel free to drop in anytime you're in the neighborhood.",
+      "definition_hindi": "अचानक मिलने आना",
+      "example_hindi": "जब भी इलाके में हों, अचानक मिलने आने के लिए स्वतंत्र महसूस करें।"
+    }
+  },
+  {
+    "id": 113,
+    "type": "idiom",
+    "front": "Drop out",
+    "back": {
+      "definition_eng": "To fall",
+      "example_eng": "He dropped out of college to start his business.",
+      "definition_hindi": "छोड़ देना",
+      "example_hindi": "उसने अपना व्यवसाय शुरू करने के लिए कॉलेज छोड़ दिया।"
+    }
+  },
+  {
+    "id": 114,
+    "type": "idiom",
+    "front": "Every cloud has a silver lining",
+    "back": {
+      "definition_eng": "Adverse conditions do not last forever",
+      "example_eng": "Don't worry about losing that job - every cloud has a silver lining.",
+      "definition_hindi": "हर मुश्किल के पीछे कुछ अच्छा छिपा होता है",
+      "example_hindi": "उस नौकरी के खोने के बारे में चिंता मत करो - हर मुश्किल के पीछे कुछ अच्छा छिपा होता है।"
+    }
+  },
+  {
+    "id": 115,
+    "type": "idiom",
+    "front": "Every dog has his day",
+    "back": {
+      "definition_eng": "Sooner or later, everyone has his share of good fortune",
+      "example_eng": "Don't worry about your failures; every dog has his day.",
+      "definition_hindi": "समय सबका अच्छा आता है",
+      "example_hindi": "अपनी असफलताओं के बारे में चिंता मत करो; समय सबका अच्छा आता है।"
+    }
+  },
+  {
+    "id": 116,
+    "type": "idiom",
+    "front": "Evil days",
+    "back": {
+      "definition_eng": "A period of misfortune",
+      "example_eng": "The company faced evil days during the recession.",
+      "definition_hindi": "दुर्भाग्य का समय",
+      "example_hindi": "मंदी के दौरान कंपनी ने दुर्भाग्य का समय देखा।"
+    }
+  },
+  {
+    "id": 117,
+    "type": "idiom",
+    "front": "Fall back",
+    "back": {
+      "definition_eng": "To Recede; To Retreat",
+      "example_eng": "The army had to fall back due to heavy enemy fire.",
+      "definition_hindi": "पीछे हटना",
+      "example_hindi": "भारी दुश्मन गोलाबारी के कारण सेना को पीछे हटना पड़ा।"
+    }
+  },
+  {
+    "id": 118,
+    "type": "idiom",
+    "front": "Fall down",
+    "back": {
+      "definition_eng": "From a higher position to a lower one",
+      "example_eng": "The child fell down from the bicycle.",
+      "definition_hindi": "नीचे गिरना",
+      "example_hindi": "बच्चा साइकिल से नीचे गिर गया।"
+    }
+  },
+  {
+    "id": 119,
+    "type": "idiom",
+    "front": "Fall off",
+    "back": {
+      "definition_eng": "To Withdraw; To Drop Off",
+      "example_eng": "Sales have fallen off since the price increase.",
+      "definition_hindi": "कम होना",
+      "example_hindi": "कीमत बढ़ने के बाद से बिक्री कम हुई है।"
+    }
+  },
+  {
+    "id": 120,
+    "type": "idiom",
+    "front": "Fall under",
+    "back": {
+      "definition_eng": "To come under",
+      "example_eng": "This case falls under the jurisdiction of the high court.",
+      "definition_hindi": "के अंतर्गत आना",
+      "example_hindi": "यह मामला उच्च न्यायालय के अधिकार क्षेत्र में आता है।"
+    }
+  },
+  {
+    "id": 121,
+    "type": "idiom",
+    "front": "Feather one's own nest",
+    "back": {
+      "definition_eng": "Make money unfairly",
+      "example_eng": "The corrupt official was feathering his own nest with public money.",
+      "definition_hindi": "गलत तरीके से पैसा कमाना",
+      "example_hindi": "भ्रष्ट अधिकारी सार्वजनिक धन से गलत तरीके से पैसा कमा रहा था।"
+    }
+  },
+  {
+    "id": 122,
+    "type": "idiom",
+    "front": "Feeling a bit under the weather",
+    "back": {
+      "definition_eng": "Feeling slightly ill",
+      "example_eng": "I'm feeling a bit under the weather today.",
+      "definition_hindi": "थोड़ा बीमार महसूस करना",
+      "example_hindi": "मैं आज थोड़ा बीमार महसूस कर रहा हूँ।"
+    }
+  },
+  {
+    "id": 123,
+    "type": "idiom",
+    "front": "Fool's paradise",
+    "back": {
+      "definition_eng": "False sense of happiness",
+      "example_eng": "He's living in a fool's paradise if he thinks everything will work out without effort.",
+      "definition_hindi": "झूठी खुशी",
+      "example_hindi": "वह झूठी खुशी में जी रहा है अगर वह सोचता है कि बिना प्रयास के सब कुछ ठीक हो जाएगा।"
+    }
+  },
+  {
+    "id": 124,
+    "type": "idiom",
+    "front": "Foul play",
+    "back": {
+      "definition_eng": "Cheating",
+      "example_eng": "The police suspected foul play in his disappearance.",
+      "definition_hindi": "धोखाधड़ी",
+      "example_hindi": "पुलिस को उसके गायब होने में धोखाधड़ी का शक था।"
+    }
+  },
+  {
+    "id": 125,
+    "type": "idiom",
+    "front": "Gain ground",
+    "back": {
+      "definition_eng": "Become Popular",
+      "example_eng": "The new political party is gaining ground among young voters.",
+      "definition_hindi": "लोकप्रिय होना",
+      "example_hindi": "नया राजनीतिक दल युवा मतदाताओं के बीच लोकप्रिय हो रहा है।"
+    }
+  },
+  {
+    "id": 126,
+    "type": "idiom",
+    "front": "Get a raw deal",
+    "back": {
+      "definition_eng": "To not be treated as well as other people",
+      "example_eng": "She got a raw deal in the salary negotiations.",
+      "definition_hindi": "अनुचित व्यवहार मिलना",
+      "example_hindi": "उसे वेतन वार्ताओं में अनुचित व्यवहार मिला।"
+    }
+  },
+  {
+    "id": 127,
+    "type": "idiom",
+    "front": "Get along",
+    "back": {
+      "definition_eng": "To Prosper; To Progress; To Proceed",
+      "example_eng": "How are you getting along with your new job?",
+      "definition_hindi": "आगे बढ़ना",
+      "example_hindi": "आप अपनी नई नौकरी के साथ कैसे आगे बढ़ रहे हैं?"
+    }
+  },
+  {
+    "id": 128,
+    "type": "idiom",
+    "front": "Get into",
+    "back": {
+      "definition_eng": "To be involved in",
+      "example_eng": "He got into trouble for breaking the rules.",
+      "definition_hindi": "शामिल होना",
+      "example_hindi": "नियम तोड़ने के लिए वह मुसीबत में शामिल हो गया।"
+    }
+  },
+  {
+    "id": 129,
+    "type": "idiom",
+    "front": "Get on with",
+    "back": {
+      "definition_eng": "To Live Pleasantly Together; To Progress",
+      "example_eng": "She gets on well with her colleagues.",
+      "definition_hindi": "अच्छे से रहना",
+      "example_hindi": "वह अपने सहयोगियों के साथ अच्छे से रहती है।"
+    }
+  },
+  {
+    "id": 130,
+    "type": "idiom",
+    "front": "Give a dog a bad name and hang him",
+    "back": {
+      "definition_eng": "Once a person loses his reputation",
+      "example_eng": "Give a dog a bad name and hang him - he'll never find another job.",
+      "definition_hindi": "एक बार प्रतिष्ठा खो जाने पर",
+      "example_hindi": "एक बार प्रतिष्ठा खो जाने पर - उसे कभी दूसरी नौकरी नहीं मिलेगी।"
+    }
+  },
+  {
+    "id": 131,
+    "type": "idiom",
+    "front": "Give cold shoulder",
+    "back": {
+      "definition_eng": "To ignore",
+      "example_eng": "She gave me the cold shoulder after our argument.",
+      "definition_hindi": "ध्यान न देना",
+      "example_hindi": "हमारे तर्क के बाद उसने मेरा ध्यान नहीं दिया।"
+    }
+  },
+  {
+    "id": 132,
+    "type": "idiom",
+    "front": "Give in",
+    "back": {
+      "definition_eng": "To Surrender; To Yield",
+      "example_eng": "After hours of negotiation, they finally gave in.",
+      "definition_hindi": "झुक जाना",
+      "example_hindi": "घंटों की वार्ता के बाद, वे अंततः झुक गए।"
+    }
+  },
+  {
+    "id": 133,
+    "type": "idiom",
+    "front": "Give over",
+    "back": {
+      "definition_eng": "Not to do any longer",
+      "example_eng": "Give over complaining and start working.",
+      "definition_hindi": "बंद करना",
+      "example_hindi": "शिकायत करना बंद करो और काम शुरू करो।"
+    }
+  },
+  {
+    "id": 134,
+    "type": "idiom",
+    "front": "Go after",
+    "back": {
+      "definition_eng": "To Follow; To Pursue",
+      "example_eng": "The police went after the escaped prisoner.",
+      "definition_hindi": "पीछा करना",
+      "example_hindi": "पुलिस भागे हुए कैदी का पीछा करने गई।"
+    }
+  },
+  {
+    "id": 135,
+    "type": "idiom",
+    "front": "Go by",
+    "back": {
+      "definition_eng": "To follow",
+      "example_eng": "We should go by the rules.",
+      "definition_hindi": "पालन करना",
+      "example_hindi": "हमें नियमों का पालन करना चाहिए।"
+    }
+  },
+  {
+    "id": 136,
+    "type": "idiom",
+    "front": "Go Down",
+    "back": {
+      "definition_eng": "To be accepted",
+      "example_eng": "His explanation didn't go down well with the committee.",
+      "definition_hindi": "स्वीकार किया जाना",
+      "example_hindi": "उसकी व्याख्या समिति द्वारा अच्छी तरह से स्वीकार नहीं की गई।"
+    }
+  },
+  {
+    "id": 137,
+    "type": "idiom",
+    "front": "Go to the devil",
+    "back": {
+      "definition_eng": "Be off",
+      "example_eng": "When he became rude, she told him to go to the devil.",
+      "definition_hindi": "चले जाओ",
+      "example_hindi": "जब वह असभ्य हो गया, तो उसने उसे चले जाने के लिए कहा।"
+    }
+  },
+  {
+    "id": 138,
+    "type": "idiom",
+    "front": "Go without",
+    "back": {
+      "definition_eng": "To remain without",
+      "example_eng": "During the crisis, many had to go without basic necessities.",
+      "definition_hindi": "बिना रहना",
+      "example_hindi": "संकट के दौरान, कई लोगों को बुनियादी जरूरतों के बिना रहना पड़ा।"
+    }
+  },
+  {
+    "id": 139,
+    "type": "idiom",
+    "front": "Golden handshake",
+    "back": {
+      "definition_eng": "A big sum of money given to a person when he/she leaves a company or retires",
+      "example_eng": "He received a golden handshake when he retired after 30 years of service.",
+      "definition_hindi": "विदाई समय दी जाने वाली बड़ी राशि",
+      "example_hindi": "30 साल की सेवा के बाद सेवानिवृत्त होने पर उन्हें एक बड़ी राशि मिली।"
+    }
+  },
+  {
+    "id": 140,
+    "type": "idiom",
+    "front": "Good wine needs no bush",
+    "back": {
+      "definition_eng": "There is no need to advertise something good",
+      "example_eng": "Their restaurant is always full - good wine needs no bush.",
+      "definition_hindi": "अच्छी चीज को प्रचार की जरूरत नहीं होती",
+      "example_hindi": "उनका रेस्तरां हमेशा भरा रहता है - अच्छी चीज को प्रचार की जरूरत नहीं होती।"
+    }
+  },
+  {
+    "id": 141,
+    "type": "idiom",
+    "front": "Halcyon Days",
+    "back": {
+      "definition_eng": "A time when there are peace and happiness in the land",
+      "example_eng": "They often reminisce about the halcyon days of their youth.",
+      "definition_hindi": "शांति और खुशहाली का समय",
+      "example_hindi": "वे अक्सर अपनी जवानी के शांति और खुशहाली के समय को याद करते हैं।"
+    }
+  },
+  {
+    "id": 142,
+    "type": "idiom",
+    "front": "Hand to mouth",
+    "back": {
+      "definition_eng": "Live on only basic necessities",
+      "example_eng": "Many families in the village live hand to mouth.",
+      "definition_hindi": "मुश्किल से गुजारा करना",
+      "example_hindi": "गाँव के कई परिवार मुश्किल से गुजारा करते हैं।"
+    }
+  },
+  {
+    "id": 143,
+    "type": "idiom",
+    "front": "Hang about",
+    "back": {
+      "definition_eng": "To Loiter near a place",
+      "example_eng": "Some suspicious people were hanging about near the bank.",
+      "definition_hindi": "आस-पास मंडराना",
+      "example_hindi": "कुछ संदिग्ध लोग बैंक के पास आस-पास मंडरा रहे थे।"
+    }
+  },
+  {
+    "id": 144,
+    "type": "idiom",
+    "front": "Hang upon",
+    "back": {
+      "definition_eng": "To depend upon",
+      "example_eng": "The success of the project hangs upon your decision.",
+      "definition_hindi": "निर्भर करना",
+      "example_hindi": "परियोजना की सफलता आपके निर्णय पर निर्भर करती है।"
+    }
+  },
+  {
+    "id": 145,
+    "type": "idiom",
+    "front": "Hard and fast rules",
+    "back": {
+      "definition_eng": "Strict rules",
+      "example_eng": "There are no hard and fast rules for creativity.",
+      "definition_hindi": "कठोर नियम",
+      "example_hindi": "रचनात्मकता के लिए कोई कठोर नियम नहीं हैं।"
+    }
+  },
+  {
+    "id": 146,
+    "type": "idiom",
+    "front": "Harp on the same string",
+    "back": {
+      "definition_eng": "Dwell on the same subject",
+      "example_eng": "He keeps harping on the same string about his achievements.",
+      "definition_hindi": "एक ही बात को बार-बार दोहराना",
+      "example_hindi": "वह अपनी उपलब्धियों के बारे में एक ही बात को बार-बार दोहराता रहता है।"
+    }
+  },
+  {
+    "id": 147,
+    "type": "idiom",
+    "front": "Have a card up one's sleeve",
+    "back": {
+      "definition_eng": "Have a secret plan in reserve",
+      "example_eng": "Don't worry about the negotiation; I have a card up my sleeve.",
+      "definition_hindi": "गुप्त योजना होना",
+      "example_hindi": "बातचीत को लेकर चिंता न करें; मेरे पास एक गुप्त योजना है।"
+    }
+  },
+  {
+    "id": 148,
+    "type": "idiom",
+    "front": "He has no backbone",
+    "back": {
+      "definition_eng": "He has no will of his own",
+      "example_eng": "He agrees with everyone; he has no backbone.",
+      "definition_hindi": "उसमें इच्छाशक्ति की कमी है",
+      "example_hindi": "वह सभी से सहमत होता है; उसमें इच्छाशक्ति की कमी है।"
+    }
+  },
+  {
+    "id": 149,
+    "type": "idiom",
+    "front": "Hear it on grapevine",
+    "back": {
+      "definition_eng": "To hear rumors about something or someone",
+      "example_eng": "I heard it on the grapevine that they're getting married.",
+      "definition_hindi": "अफवाह सुनना",
+      "example_hindi": "मैंने अफवाह सुनी कि वे शादी कर रहे हैं।"
+    }
+  },
+  {
+    "id": 150,
+    "type": "idiom",
+    "front": "Hear it on the grapevine",
+    "back": {
+      "definition_eng": "To hear rumors",
+      "example_eng": "I heard it on the grapevine that they're getting divorced.",
+      "definition_hindi": "अफवाह सुनना",
+      "example_hindi": "मैंने अफवाह सुनी कि वे तलाक ले रहे हैं।"
+    }
+  },
+  {
+    "id": 151,
+    "type": "idiom",
+    "front": "Hit the nail on the head",
+    "back": {
+      "definition_eng": "Do or say the exact thing",
+      "example_eng": "You hit the nail on the head when you said we need better communication.",
+      "definition_hindi": "ठीक बात कहना",
+      "example_hindi": "जब आपने कहा कि हमें बेहतर संचार की आवश्यकता है, तो आपने ठीक बात कही।"
+    }
+  },
+  {
+    "id": 152,
+    "type": "idiom",
+    "front": "Hold out",
+    "back": {
+      "definition_eng": "To Endure; To Refuse to yield; To continue; To offer",
+      "example_eng": "They held out against the enemy attack for three days.",
+      "definition_hindi": "बनाए रखना",
+      "example_hindi": "उन्होंने तीन दिनों तक दुश्मन के हमले के खिलाफ बनाए रखा।"
+    }
+  },
+  {
+    "id": 153,
+    "type": "idiom",
+    "front": "Hold to",
+    "back": {
+      "definition_eng": "Abide By",
+      "example_eng": "You should hold to your promises.",
+      "definition_hindi": "पालन करना",
+      "example_hindi": "आपको अपने वादों का पालन करना चाहिए।"
+    }
+  },
+  {
+    "id": 154,
+    "type": "idiom",
+    "front": "Hoping against hope",
+    "back": {
+      "definition_eng": "Without hope",
+      "example_eng": "They were hoping against hope that their missing son would return.",
+      "definition_hindi": "निराशा में आशा करना",
+      "example_hindi": "वे निराशा में आशा कर रहे थे कि उनका खोया हुआ बेटा वापस आएगा।"
+    }
+  },
+  {
+    "id": 155,
+    "type": "idiom",
+    "front": "Icing on the cake",
+    "back": {
+      "definition_eng": "Something that turns good into great",
+      "example_eng": "Winning the award was the icing on the cake after the successful project.",
+      "definition_hindi": "अच्छे को बेहतर बनाना",
+      "example_hindi": "सफल परियोजना के बाद पुरस्कार जीतना अच्छे को बेहतर बनाना था।"
+    }
+  },
+  {
+    "id": 156,
+    "type": "idiom",
+    "front": "If the cap fits, wear it",
+    "back": {
+      "definition_eng": "If you think the remarks refer to you, then accept the criticism",
+      "example_eng": "I'm not naming anyone, but if the cap fits, wear it.",
+      "definition_hindi": "अगर टोपी फिट बैठती है तो पहन लो",
+      "example_hindi": "मैं किसी का नाम नहीं ले रहा, लेकिन अगर टोपी फिट बैठती है तो पहन लो।"
+    }
+  },
+  {
+    "id": 157,
+    "type": "idiom",
+    "front": "If wishes were horses, beggars might ride",
+    "back": {
+      "definition_eng": "If wishing could make things happen, then even the most destitute people would have everything they wanted",
+      "example_eng": "Stop dreaming and start working - if wishes were horses, beggars might ride.",
+      "definition_hindi": "अगर इच्छाएं घोड़े होतीं, तो भिखारी भी सवारी करते",
+      "example_hindi": "सपने देखना बंद करो और काम शुरू करो - अगर इच्छाएं घोड़े होतीं, तो भिखारी भी सवारी करते।"
+    }
+  },
+  {
+    "id": 158,
+    "type": "idiom",
+    "front": "In cold blood",
+    "back": {
+      "definition_eng": "Deliberately and without emotion",
+      "example_eng": "The murder was committed in cold blood.",
+      "definition_hindi": "ठंडे दिमाग से, जानबूझकर",
+      "example_hindi": "हत्या ठंडे दिमाग से की गई थी।"
+    }
+  },
+  {
+    "id": 159,
+    "type": "idiom",
+    "front": "In high spirits",
+    "back": {
+      "definition_eng": "Very happy",
+      "example_eng": "Everyone was in high spirits at the wedding party.",
+      "definition_hindi": "बहुत खुश",
+      "example_hindi": "शादी की पार्टी में सभी बहुत खुश थे।"
+    }
+  },
+  {
+    "id": 160,
+    "type": "idiom",
+    "front": "In hot water",
+    "back": {
+      "definition_eng": "In trouble",
+      "example_eng": "He's in hot water with his boss for missing the deadline.",
+      "definition_hindi": "मुसीबत में",
+      "example_hindi": "डेडलाइन मिस करने के कारण वह अपने बॉस के साथ मुसीबत में है।"
+    }
+  },
+  {
+    "id": 161,
+    "type": "idiom",
+    "front": "In the heat of the moment",
+    "back": {
+      "definition_eng": "Overwhelmed by what is happening in the moment",
+      "example_eng": "I said things I didn't mean in the heat of the moment.",
+      "definition_hindi": "गुस्से में",
+      "example_hindi": "मैंने गुस्से में वे बातें कह दीं जो मेरा मतलब नहीं थीं।"
+    }
+  },
+  {
+    "id": 162,
+    "type": "idiom",
+    "front": "In the long run",
+    "back": {
+      "definition_eng": "Eventually; ultimately",
+      "example_eng": "Regular exercise will benefit you in the long run.",
+      "definition_hindi": "अंततः",
+      "example_hindi": "नियमित व्यायाम अंततः आपको लाभ देगा।"
+    }
+  },
+  {
+    "id": 163,
+    "type": "idiom",
+    "front": "In the nick of time",
+    "back": {
+      "definition_eng": "Just at the last moment",
+      "example_eng": "The ambulance arrived in the nick of time to save his life.",
+      "definition_hindi": "आखिरी समय में",
+      "example_hindi": "उसकी जान बचाने के लिए एम्बुलेंस आखिरी समय में आ गई।"
+    }
+  },
+  {
+    "id": 164,
+    "type": "idiom",
+    "front": "It takes two to tango",
+    "back": {
+      "definition_eng": "Actions or communications need more than one person",
+      "example_eng": "The argument wasn't just his fault - it takes two to tango.",
+      "definition_hindi": "दोनों पक्ष जिम्मेदार हैं",
+      "example_hindi": "तर्क केवल उसकी गलती नहीं थी - दोनों पक्ष जिम्मेदार हैं।"
+    }
+  },
+  {
+    "id": 165,
+    "type": "idiom",
+    "front": "It takes two to tango",
+    "back": {
+      "definition_eng": "Both people involved in a bad situation are responsible for it",
+      "example_eng": "The argument wasn't just his fault - it takes two to tango.",
+      "definition_hindi": "दोनों पक्ष जिम्मेदार हैं",
+      "example_hindi": "तर्क केवल उसकी गलती नहीं थी - दोनों पक्ष जिम्मेदार हैं।"
+    }
+  },
+  {
+    "id": 166,
+    "type": "idiom",
+    "front": "It's Greek to me",
+    "back": {
+      "definition_eng": "Something that is not understandable",
+      "example_eng": "This technical manual is Greek to me.",
+      "definition_hindi": "समझ में न आना",
+      "example_hindi": "यह तकनीकी मैनुअल मेरी समझ में नहीं आता।"
+    }
+  },
+  {
+    "id": 167,
+    "type": "idiom",
+    "front": "Jump the bandwagon",
+    "back": {
+      "definition_eng": "To join a popular activity or trend",
+      "example_eng": "Many companies are jumping on the AI bandwagon.",
+      "definition_hindi": "लोकप्रिय चलन में शामिल होना",
+      "example_hindi": "कई कंपनियां AI के लोकप्रिय चलन में शामिल हो रही हैं।"
+    }
+  },
+  {
+    "id": 168,
+    "type": "idiom",
+    "front": "Keep one at bay",
+    "back": {
+      "definition_eng": "Keep one at a distance",
+      "example_eng": "She used her umbrella to keep the aggressive dog at bay.",
+      "definition_hindi": "दूर रखना",
+      "example_hindi": "उसने आक्रामक कुत्ते को दूर रखने के लिए अपनी छतरी का इस्तेमाल किया।"
+    }
+  },
+  {
+    "id": 169,
+    "type": "idiom",
+    "front": "Keep one's fingers crossed",
+    "back": {
+      "definition_eng": "The anxiety in which you hope that nothing will upset your plans",
+      "example_eng": "I'm keeping my fingers crossed that I get the job.",
+      "definition_hindi": "शुभकामनाएँ देना",
+      "example_hindi": "मैं उम्मीद कर रहा हूँ कि मुझे नौकरी मिल जाए।"
+    }
+  },
+  {
+    "id": 170,
+    "type": "idiom",
+    "front": "Keep off",
+    "back": {
+      "definition_eng": "To ward off",
+      "example_eng": "Keep off the grass.",
+      "definition_hindi": "दूर रखना",
+      "example_hindi": "घास से दूर रहें।"
+    }
+  },
+  {
+    "id": 171,
+    "type": "idiom",
+    "front": "Keep something at bay",
+    "back": {
+      "definition_eng": "Keep something away",
+      "example_eng": "Regular exercise helps keep illnesses at bay.",
+      "definition_hindi": "दूर रखना",
+      "example_hindi": "नियमित व्यायाम बीमारियों को दूर रखने में मदद करता है।"
+    }
+  },
+  {
+    "id": 172,
+    "type": "idiom",
+    "front": "Keep up with",
+    "back": {
+      "definition_eng": "To keep pace with",
+      "example_eng": "It's hard to keep up with technological changes.",
+      "definition_hindi": "साथ चलना",
+      "example_hindi": "तकनीकी परिवर्तनों के साथ चलना मुश्किल है।"
+    }
+  },
+  {
+    "id": 173,
+    "type": "idiom",
+    "front": "Kill two birds with one stone",
+    "back": {
+      "definition_eng": "To solve two problems at a time with just one action",
+      "example_eng": "By cycling to work, I kill two birds with one stone - exercise and commute.",
+      "definition_hindi": "एक पंथ दो काज",
+      "example_hindi": "काम पर साइकिल चलाकर, मैं एक पंथ दो काज करता हूँ - व्यायाम और आवागमन।"
+    }
+  },
+  {
+    "id": 174,
+    "type": "idiom",
+    "front": "Kill two birds with one stone",
+    "back": {
+      "definition_eng": "To achieve two results with one effort",
+      "example_eng": "By working from home, she kills two birds with one stone - earning money and taking care of her children.",
+      "definition_hindi": "एक पंथ दो काज",
+      "example_hindi": "घर से काम करके, वह एक पंथ दो काज करती है - पैसा कमाना और अपने बच्चों की देखभाल करना।"
+    }
+  },
+  {
+    "id": 175,
+    "type": "idiom",
+    "front": "Knock out",
+    "back": {
+      "definition_eng": "To win by hitting another one",
+      "example_eng": "The boxer knocked out his opponent in the first round.",
+      "definition_hindi": "हरा देना",
+      "example_hindi": "मुक्केबाज ने पहले राउंड में अपने प्रतिद्वंद्वी को हरा दिया।"
+    }
+  },
+  {
+    "id": 176,
+    "type": "idiom",
+    "front": "Last straw",
+    "back": {
+      "definition_eng": "The final problem in a series of problems",
+      "example_eng": "When he came late again, it was the last straw for his boss.",
+      "definition_hindi": "आखिरी सीमा",
+      "example_hindi": "जब वह फिर से देर से आया, तो यह उसके बॉस के लिए आखिरी सीमा थी।"
+    }
+  },
+  {
+    "id": 177,
+    "type": "idiom",
+    "front": "Laugh one's head off",
+    "back": {
+      "definition_eng": "Laugh heartily",
+      "example_eng": "We laughed our heads off at the comedian's jokes.",
+      "definition_hindi": "खुलकर हँसना",
+      "example_hindi": "हम कॉमेडियन के चुटकुलों पर खुलकर हँसे।"
+    }
+  },
+  {
+    "id": 178,
+    "type": "idiom",
+    "front": "Leave no stone unturned",
+    "back": {
+      "definition_eng": "Use all available means",
+      "example_eng": "The police left no stone unturned in their search for the missing child.",
+      "definition_hindi": "हर संभव प्रयास करना",
+      "example_hindi": "पुलिस ने लापता बच्चे की तलाश में हर संभव प्रयास किया।"
+    }
+  },
+  {
+    "id": 179,
+    "type": "idiom",
+    "front": "Leave one in the lurch",
+    "back": {
+      "definition_eng": "Desert one in difficulties; leave one in a helpless condition",
+      "example_eng": "He left his friend in the lurch when he needed help the most.",
+      "definition_hindi": "मुसीबत में अकेला छोड़ देना",
+      "example_hindi": "उसने अपने दोस्त को मुसीबत में अकेला छोड़ दिया जब उसे सबसे ज्यादा मदद की जरूरत थी।"
+    }
+  },
+  {
+    "id": 180,
+    "type": "idiom",
+    "front": "Let sleeping dogs lie",
+    "back": {
+      "definition_eng": "Leave something alone if it might cause trouble",
+      "example_eng": "Don't bring up old arguments; let sleeping dogs lie.",
+      "definition_hindi": "शांत स्थिति को न छेड़ना",
+      "example_hindi": "पुराने तर्क मत उठाओ; शांत स्थिति को न छेड़ो।"
+    }
+  },
+  {
+    "id": 181,
+    "type": "idiom",
+    "front": "Let the cat out of the bag",
+    "back": {
+      "definition_eng": "Reveal a secret",
+      "example_eng": "He let the cat out of the bag about the surprise party.",
+      "definition_hindi": "भेद खोल देना",
+      "example_hindi": "उसने सरप्राइज पार्टी के बारे में भेद खोल दिया।"
+    }
+  },
+  {
+    "id": 182,
+    "type": "idiom",
+    "front": "Like a cat on hot bricks",
+    "back": {
+      "definition_eng": "Very nervous",
+      "example_eng": "He was like a cat on hot bricks before his job interview.",
+      "definition_hindi": "बहुत घबराया हुआ",
+      "example_hindi": "वह अपने नौकरी साक्षात्कार से पहले बहुत घबराया हुआ था।"
+    }
+  },
+  {
+    "id": 183,
+    "type": "idiom",
+    "front": "Like a fish out of water",
+    "back": {
+      "definition_eng": "In a strange situation",
+      "example_eng": "As a country boy in the big city, he felt like a fish out of water.",
+      "definition_hindi": "अजनबी हालात में",
+      "example_hindi": "बड़े शहर में एक गाँव के लड़के के रूप में, वह अजनबी हालात में महसूस कर रहा था।"
+    }
+  },
+  {
+    "id": 184,
+    "type": "idiom",
+    "front": "Lock, stock and barrel",
+    "back": {
+      "definition_eng": "The whole of everything",
+      "example_eng": "They sold the business lock, stock and barrel.",
+      "definition_hindi": "पूरी तरह से",
+      "example_hindi": "उन्होंने व्यवसाय पूरी तरह से बेच दिया।"
+    }
+  },
+  {
+    "id": 185,
+    "type": "idiom",
+    "front": "Make a clean breast of it",
+    "back": {
+      "definition_eng": "Confess – especially when a person has done a wrong thing",
+      "example_eng": "He decided to make a clean breast of it and admit his mistake.",
+      "definition_hindi": "सच्चाई स्वीकार करना",
+      "example_hindi": "उसने सच्चाई स्वीकार करने और अपनी गलती मानने का फैसला किया।"
+    }
+  },
+  {
+    "id": 186,
+    "type": "idiom",
+    "front": "Make a face",
+    "back": {
+      "definition_eng": "To show dislike or disappointment through facial expressions",
+      "example_eng": "The child made a face when given vegetables.",
+      "definition_hindi": "मुँह बनाना",
+      "example_hindi": "बच्चे ने सब्जियाँ दिए जाने पर मुँह बनाया।"
+    }
+  },
+  {
+    "id": 187,
+    "type": "idiom",
+    "front": "Make hay while the sun shines",
+    "back": {
+      "definition_eng": "Take advantage of all opportunities",
+      "example_eng": "The market is good now - make hay while the sun shines.",
+      "definition_hindi": "मौके का फायदा उठाना",
+      "example_hindi": "बाजार अभी अच्छा है - मौके का फायदा उठाओ।"
+    }
+  },
+  {
+    "id": 188,
+    "type": "idiom",
+    "front": "Make up one's mind",
+    "back": {
+      "definition_eng": "Decide",
+      "example_eng": "I need to make up my mind about which college to attend.",
+      "definition_hindi": "निर्णय लेना",
+      "example_hindi": "मुझे यह निर्णय लेना होगा कि किस कॉलेज में जाना है।"
+    }
+  },
+  {
+    "id": 189,
+    "type": "idiom",
+    "front": "Mean business",
+    "back": {
+      "definition_eng": "Being Serious or Dedicated",
+      "example_eng": "The new manager means business about improving productivity.",
+      "definition_hindi": "गंभीर होना",
+      "example_hindi": "नया प्रबंधक उत्पादकता में सुधार के बारे में गंभीर है।"
+    }
+  },
+  {
+    "id": 190,
+    "type": "idiom",
+    "front": "Nip in the bud",
+    "back": {
+      "definition_eng": "Destroy in the early stage",
+      "example_eng": "We need to nip this problem in the bud before it gets worse.",
+      "definition_hindi": "शुरुआत में ही रोक देना",
+      "example_hindi": "इससे पहले कि यह समस्या और बढ़े, हमें इसे शुरुआत में ही रोक देना चाहिए।"
+    }
+  },
+  {
+    "id": 191,
+    "type": "idiom",
+    "front": "No avail",
+    "back": {
+      "definition_eng": "Without any result",
+      "example_eng": "He tried hard to convince them, but to no avail.",
+      "definition_hindi": "बिना किसी परिणाम के",
+      "example_hindi": "उसने उन्हें मनाने की कड़ी कोशिश की, लेकिन बिना किसी परिणाम के।"
+    }
+  },
+  {
+    "id": 192,
+    "type": "idiom",
+    "front": "Not a spark of decency",
+    "back": {
+      "definition_eng": "No Manners",
+      "example_eng": "He has not a spark of decency in his behavior.",
+      "definition_hindi": "शिष्टता की कमी",
+      "example_hindi": "उसके व्यवहार में शिष्टता की कमी है।"
+    }
+  },
+  {
+    "id": 193,
+    "type": "idiom",
+    "front": "Off color",
+    "back": {
+      "definition_eng": "Not in the usual form",
+      "example_eng": "He's been off color since his illness.",
+      "definition_hindi": "सामान्य से अलग",
+      "example_hindi": "बीमारी के बाद से वह सामान्य से अलग है।"
+    }
+  },
+  {
+    "id": 194,
+    "type": "idiom",
+    "front": "On Account of",
+    "back": {
+      "definition_eng": "Due to",
+      "example_eng": "The match was canceled on account of heavy rain.",
+      "definition_hindi": "के कारण",
+      "example_hindi": "भारी बारिश के कारण मैच रद्द कर दिया गया था।"
+    }
+  },
+  {
+    "id": 195,
+    "type": "idiom",
+    "front": "On no account",
+    "back": {
+      "definition_eng": "Not for Any Reason",
+      "example_eng": "On no account should you share your password with anyone.",
+      "definition_hindi": "किसी भी हालत में नहीं",
+      "example_hindi": "किसी भी हालत में आपको अपना पासवर्ड किसी के साथ साझा नहीं करना चाहिए।"
+    }
+  },
+  {
+    "id": 196,
+    "type": "idiom",
+    "front": "On tenterhooks",
+    "back": {
+      "definition_eng": "In a state of suspense and anxiety",
+      "example_eng": "We were on tenterhooks waiting for the exam results.",
+      "definition_hindi": "बेचैनी और उत्सुकता की स्थिति में",
+      "example_hindi": "हम परीक्षा के परिणामों का इंतजार करते हुए बेचैनी और उत्सुकता की स्थिति में थे।"
+    }
+  },
+  {
+    "id": 197,
+    "type": "idiom",
+    "front": "Once in a blue moon",
+    "back": {
+      "definition_eng": "Something that happens very rarely",
+      "example_eng": "He visits his hometown once in a blue moon.",
+      "definition_hindi": "बहुत कम होने वाली घटना",
+      "example_hindi": "वह अपने गृहनगर में बहुत कम जाता है।"
+    }
+  },
+  {
+    "id": 198,
+    "type": "idiom",
+    "front": "One swallow does not make a summer",
+    "back": {
+      "definition_eng": "It is unreliable to base one's conclusions on only a single test or incident",
+      "example_eng": "Don't judge the team by one victory; one swallow does not make a summer.",
+      "definition_hindi": "एक मौसमी पक्षी गर्मी नहीं लाता",
+      "example_hindi": "टीम को एक जीत से मत आंको; एक मौसमी पक्षी गर्मी नहीं लाता।"
+    }
+  },
+  {
+    "id": 199,
+    "type": "idiom",
+    "front": "One's bread and butter",
+    "back": {
+      "definition_eng": "One's means of livelihood",
+      "example_eng": "Teaching is his bread and butter.",
+      "definition_hindi": "आजीविका का साधन",
+      "example_hindi": "शिक्षण उसकी आजीविका का साधन है।"
+    }
+  },
+  {
+    "id": 200,
+    "type": "idiom",
+    "front": "Open the floodgates",
+    "back": {
+      "definition_eng": "Release something that was previously under control",
+      "example_eng": "The new policy opened the floodgates for foreign investment.",
+      "definition_hindi": "नियंत्रण से मुक्त करना",
+      "example_hindi": "नई नीति ने विदेशी निवेश के लिए नियंत्रण मुक्त कर दिया।"
+    }
+  },
+  {
+    "id": 201,
+    "type": "idiom",
+    "front": "Out of the blue",
+    "back": {
+      "definition_eng": "Happen unexpectedly",
+      "example_eng": "He got a job offer out of the blue.",
+      "definition_hindi": "अचानक होना",
+      "example_hindi": "उसे अचानक नौकरी का प्रस्ताव मिला।"
+    }
+  },
+  {
+    "id": 202,
+    "type": "idiom",
+    "front": "Out of the question",
+    "back": {
+      "definition_eng": "Impossible",
+      "example_eng": "A vacation this year is out of the question due to budget constraints.",
+      "definition_hindi": "असंभव",
+      "example_hindi": "बजट की कमी के कारण इस साल छुट्टी लेना असंभव है।"
+    }
+  },
+  {
+    "id": 203,
+    "type": "idiom",
+    "front": "Out of the way",
+    "back": {
+      "definition_eng": "Strange",
+      "example_eng": "His behavior has been out of the way lately.",
+      "definition_hindi": "अजीब, असामान्य",
+      "example_hindi": "उसका व्यवहार हाल ही में अजीब रहा है।"
+    }
+  },
+  {
+    "id": 204,
+    "type": "idiom",
+    "front": "Out of the wood",
+    "back": {
+      "definition_eng": "Free from difficulties and dangers",
+      "example_eng": "After the successful surgery, the doctor said he was out of the wood.",
+      "definition_hindi": "मुश्किलों से बाहर",
+      "example_hindi": "सफल सर्जरी के बाद, डॉक्टर ने कहा कि वह मुश्किलों से बाहर है।"
+    }
+  },
+  {
+    "id": 205,
+    "type": "idiom",
+    "front": "Out on a limb",
+    "back": {
+      "definition_eng": "Do something risky",
+      "example_eng": "I'm going out on a limb by investing all my savings in this startup.",
+      "definition_hindi": "जोखिम भरा काम करना",
+      "example_hindi": "मैं अपनी सारी बचत इस स्टार्टअप में निवेश करके जोखिम भरा काम कर रहा हूँ।"
+    }
+  },
+  {
+    "id": 206,
+    "type": "idiom",
+    "front": "Over the Top",
+    "back": {
+      "definition_eng": "Totally excessive and not suitable for the occasion",
+      "example_eng": "His reaction was over the top for such a small mistake.",
+      "definition_hindi": "अत्यधिक और अनुपयुक्त",
+      "example_hindi": "इतनी छोटी गलती के लिए उसकी प्रतिक्रिया अत्यधिक और अनुपयुक्त थी।"
+    }
+  },
+  {
+    "id": 207,
+    "type": "idiom",
+    "front": "Pay off old scores",
+    "back": {
+      "definition_eng": "Take revenge",
+      "example_eng": "He was waiting for an opportunity to pay off old scores.",
+      "definition_hindi": "बदला लेना",
+      "example_hindi": "वह बदला लेने के अवसर की प्रतीक्षा कर रहा था।"
+    }
+  },
+  {
+    "id": 208,
+    "type": "idiom",
+    "front": "Pen is mightier than the sword",
+    "back": {
+      "definition_eng": "Words and communication have a greater effect than war",
+      "example_eng": "The journalist proved that the pen is mightier than the sword with her articles.",
+      "definition_hindi": "कलम तलवार से अधिक शक्तिशाली है",
+      "example_hindi": "पत्रकार ने अपने लेखों से साबित किया कि कलम तलवार से अधिक शक्तिशाली है।"
+    }
+  },
+  {
+    "id": 209,
+    "type": "idiom",
+    "front": "Piece of cake",
+    "back": {
+      "definition_eng": "Something that is easy to understand or do",
+      "example_eng": "The math test was a piece of cake for her.",
+      "definition_hindi": "बहुत आसान काम",
+      "example_hindi": "गणित की परीक्षा उसके लिए बहुत आसान थी।"
+    }
+  },
+  {
+    "id": 210,
+    "type": "idiom",
+    "front": "Play second fiddle",
+    "back": {
+      "definition_eng": "Take an unimportant part",
+      "example_eng": "He didn't want to play second fiddle to anyone in the company.",
+      "definition_hindi": "महत्वहीन भूमिका निभाना",
+      "example_hindi": "वह कंपनी में किसी के लिए भी महत्वहीन भूमिका निभाना नहीं चाहता था।"
+    }
+  },
+  {
+    "id": 211,
+    "type": "idiom",
+    "front": "Push one's luck",
+    "back": {
+      "definition_eng": "Trying to obtain more than what one has",
+      "example_eng": "Don't push your luck by asking for another raise so soon.",
+      "definition_hindi": "किस्मत आजमाना",
+      "example_hindi": "इतनी जल्दी दूसरी वृद्धि माँगकर अपनी किस्मत मत आजमाओ।"
+    }
+  },
+  {
+    "id": 212,
+    "type": "idiom",
+    "front": "Put a spoke in one's wheel",
+    "back": {
+      "definition_eng": "To upset one's plans",
+      "example_eng": "The bad weather put a spoke in our picnic plans.",
+      "definition_hindi": "किसी की योजनाओं में बाधा डालना",
+      "example_hindi": "खराब मौसम ने हमारी पिकनिक की योजनाओं में बाधा डाली।"
+    }
+  },
+  {
+    "id": 213,
+    "type": "idiom",
+    "front": "Put the cart before the horse",
+    "back": {
+      "definition_eng": "Put or do things in the wrong order",
+      "example_eng": "Buying furniture before you have a house is putting the cart before the horse.",
+      "definition_hindi": "गलत क्रम में काम करना",
+      "example_hindi": "घर लेने से पहले फर्नीचर खरीदना गलत क्रम में काम करना है।"
+    }
+  },
+  {
+    "id": 214,
+    "type": "idiom",
+    "front": "Rain cats and dogs",
+    "back": {
+      "definition_eng": "Rain heavily",
+      "example_eng": "We can't go out now; it's raining cats and dogs.",
+      "definition_hindi": "मूसलाधार बारिश होना",
+      "example_hindi": "हम अब बाहर नहीं जा सकते; मूसलाधार बारिश हो रही है।"
+    }
+  },
+  {
+    "id": 215,
+    "type": "idiom",
+    "front": "Rank and File",
+    "back": {
+      "definition_eng": "Ordinary People",
+      "example_eng": "The rank and file of the organization supported the new policy.",
+      "definition_hindi": "आम लोग, साधारण सदस्य",
+      "example_hindi": "संगठन के आम सदस्यों ने नई नीति का समर्थन किया।"
+    }
+  },
+  {
+    "id": 216,
+    "type": "idiom",
+    "front": "Read between the lines",
+    "back": {
+      "definition_eng": "Understand the hidden meaning",
+      "example_eng": "If you read between the lines, you'll see he's not happy with the decision.",
+      "definition_hindi": "छिपे हुए अर्थ को समझना",
+      "example_hindi": "अगर आप छिपे हुए अर्थ को समझेंगे, तो आप देखेंगे कि वह फैसले से खुश नहीं है।"
+    }
+  },
+  {
+    "id": 217,
+    "type": "idiom",
+    "front": "Reap the harvest",
+    "back": {
+      "definition_eng": "Benefit or suffer as a direct result of past actions",
+      "example_eng": "After years of hard work, he's now reaping the harvest of his efforts.",
+      "definition_hindi": "पिछले कार्यों का परिणाम भुगतना",
+      "example_hindi": "सालों की कड़ी मेहनत के बाद, वह अब अपने प्रयासों का परिणाम भुगत रहा है।"
+    }
+  },
+  {
+    "id": 218,
+    "type": "idiom",
+    "front": "Roll up sleeves",
+    "back": {
+      "definition_eng": "To get yourself prepared",
+      "example_eng": "It's time to roll up our sleeves and get to work.",
+      "definition_hindi": "तैयार हो जाना",
+      "example_hindi": "अब हमारे तैयार होने और काम शुरू करने का समय है।"
+    }
+  },
+  {
+    "id": 219,
+    "type": "idiom",
+    "front": "See eye to eye",
+    "back": {
+      "definition_eng": "To be in agreement with",
+      "example_eng": "We don't always see eye to eye on political issues.",
+      "definition_hindi": "सहमत होना",
+      "example_hindi": "हम राजनीतिक मुद्दों पर हमेशा सहमत नहीं होते।"
+    }
+  },
+  {
+    "id": 220,
+    "type": "idiom",
+    "front": "She is no chicken",
+    "back": {
+      "definition_eng": "She is older than she says",
+      "example_eng": "She's no chicken, despite what her profile says.",
+      "definition_hindi": "वह बताए से अधिक उम्र की है",
+      "example_hindi": "उसकी प्रोफाइल जो कहती है उसके बावजूद, वह बताए से अधिक उम्र की है।"
+    }
+  },
+  {
+    "id": 221,
+    "type": "idiom",
+    "front": "Shot in the dark",
+    "back": {
+      "definition_eng": "A complete guess",
+      "example_eng": "My answer was just a shot in the dark, but it turned out to be correct.",
+      "definition_hindi": "अंधाधुंध अनुमान",
+      "example_hindi": "मेरा जवाब सिर्फ एक अंधाधुंध अनुमान था, लेकिन यह सही निकला।"
+    }
+  },
+  {
+    "id": 222,
+    "type": "idiom",
+    "front": "Show a clean pair of heels",
+    "back": {
+      "definition_eng": "Run away",
+      "example_eng": "When he saw the police, he showed a clean pair of heels.",
+      "definition_hindi": "भाग जाना",
+      "example_hindi": "जब उसने पुलिस को देखा, तो वह भाग गया।"
+    }
+  },
+  {
+    "id": 223,
+    "type": "idiom",
+    "front": "Sink your teeth into",
+    "back": {
+      "definition_eng": "Do something with a lot of energy and enthusiasm",
+      "example_eng": "She sank her teeth into the new project with great enthusiasm.",
+      "definition_hindi": "पूरे जोश के साथ करना",
+      "example_hindi": "उसने नई परियोजना को बहुत उत्साह के साथ पूरे जोश के साथ किया।"
+    }
+  },
+  {
+    "id": 224,
+    "type": "idiom",
+    "front": "Sitting on the fence",
+    "back": {
+      "definition_eng": "Hesitate between two decisions",
+      "example_eng": "Stop sitting on the fence and make a decision.",
+      "definition_hindi": "निर्णय न ले पाना",
+      "example_hindi": "निर्णय न लेने की बजाय एक फैसला करो।"
+    }
+  },
+  {
+    "id": 225,
+    "type": "idiom",
+    "front": "Skating on thin ice",
+    "back": {
+      "definition_eng": "Do or say something risky",
+      "example_eng": "You're skating on thin ice by challenging the boss's decision.",
+      "definition_hindi": "जोखिम भरी स्थिति में होना",
+      "example_hindi": "आप बॉस के फैसले को चुनौती देकर जोखिम भरी स्थिति में हैं।"
+    }
+  },
+  {
+    "id": 226,
+    "type": "idiom",
+    "front": "Smell a rat",
+    "back": {
+      "definition_eng": "Suspect something foul",
+      "example_eng": "I smell a rat in this business deal.",
+      "definition_hindi": "कुछ गड़बड़ होने का शक होना",
+      "example_hindi": "मुझे इस व्यापारिक सौदे में कुछ गड़बड़ होने का शक है।"
+    }
+  },
+  {
+    "id": 227,
+    "type": "idiom",
+    "front": "Speak of the devil!",
+    "back": {
+      "definition_eng": "This expression is used when the person you have just been talking about arrives",
+      "example_eng": "Speak of the devil! We were just talking about you.",
+      "definition_hindi": "चर्चा करते ही सामने आ जाना",
+      "example_hindi": "चर्चा करते ही सामने आ गए! हम अभी आपके बारे में बात कर रहे थे।"
+    }
+  },
+  {
+    "id": 228,
+    "type": "idiom",
+    "front": "Spill the beans",
+    "back": {
+      "definition_eng": "To disclose a secret",
+      "example_eng": "Someone spilled the beans about the surprise party.",
+      "definition_hindi": "भेद खोलना",
+      "example_hindi": "किसी ने सरप्राइज पार्टी के बारे में भेद खोल दिया।"
+    }
+  },
+  {
+    "id": 229,
+    "type": "idiom",
+    "front": "Spread like wild fire",
+    "back": {
+      "definition_eng": "Spread quickly",
+      "example_eng": "The news of their engagement spread like wild fire.",
+      "definition_hindi": "तेजी से फैलना",
+      "example_hindi": "उनकी सगाई की खबर तेजी से फैल गई।"
+    }
+  },
+  {
+    "id": 230,
+    "type": "idiom",
+    "front": "Stand in a good stead",
+    "back": {
+      "definition_eng": "To be useful or be of good service to someone",
+      "example_eng": "His language skills stood him in good stead during his international assignment.",
+      "definition_hindi": "उपयोगी साबित होना",
+      "example_hindi": "अंतर्राष्ट्रीय असाइनमेंट के दौरान उसके भाषा कौशल ने उसे उपयोगी साबित किया।"
+    }
+  },
+  {
+    "id": 231,
+    "type": "idiom",
+    "front": "Stick to one's guns",
+    "back": {
+      "definition_eng": "Remain faithful to the cause",
+      "example_eng": "Despite opposition, she stuck to her guns and pursued her dream.",
+      "definition_hindi": "अपने सिद्धांतों पर डटे रहना",
+      "example_hindi": "विरोध के बावजूद, वह अपने सिद्धांतों पर डटी रही और अपने सपने को पूरा किया।"
+    }
+  },
+  {
+    "id": 232,
+    "type": "idiom",
+    "front": "Strike while the iron is hot",
+    "back": {
+      "definition_eng": "To act at the right time",
+      "example_eng": "Strike while the iron is hot and apply for the job now.",
+      "definition_hindi": "सही समय पर कार्य करना",
+      "example_hindi": "सही समय पर कार्य करो और अभी नौकरी के लिए आवेदन करो।"
+    }
+  },
+  {
+    "id": 233,
+    "type": "idiom",
+    "front": "Take a back seat",
+    "back": {
+      "definition_eng": "Choose to be less important in a role",
+      "example_eng": "After the promotion, he decided to take a back seat in social activities.",
+      "definition_hindi": "पीछे रहना",
+      "example_hindi": "पदोन्नति के बाद, उसने सामाजिक गतिविधियों में पीछे रहने का फैसला किया।"
+    }
+  },
+  {
+    "id": 234,
+    "type": "idiom",
+    "front": "Take a leaf out of one's book",
+    "back": {
+      "definition_eng": "Imitate one",
+      "example_eng": "You should take a leaf out of your brother's book and study harder.",
+      "definition_hindi": "किसी का अनुसरण करना",
+      "example_hindi": "तुम्हें अपने भाई का अनुसरण करना चाहिए और और मेहनत से पढ़ाई करनी चाहिए।"
+    }
+  },
+  {
+    "id": 235,
+    "type": "idiom",
+    "front": "Take a nosedive",
+    "back": {
+      "definition_eng": "Rapid drop or decrease in value",
+      "example_eng": "The stock market took a nosedive after the bad news.",
+      "definition_hindi": "तेजी से गिरना",
+      "example_hindi": "बुरी खबर के बाद शेयर बाजार तेजी से गिर गया।"
+    }
+  },
+  {
+    "id": 236,
+    "type": "idiom",
+    "front": "Take one to task",
+    "back": {
+      "definition_eng": "Rebuke",
+      "example_eng": "The teacher took the student to task for not completing homework.",
+      "definition_hindi": "डाँटना",
+      "example_hindi": "शिक्षक ने होमवर्क पूरा न करने के लिए छात्र को डाँटा।"
+    }
+  },
+  {
+    "id": 237,
+    "type": "idiom",
+    "front": "Take the plunge",
+    "back": {
+      "definition_eng": "Venture into something of one's interest despite the risks involved",
+      "example_eng": "He finally took the plunge and started his own business.",
+      "definition_hindi": "जोखिम उठाना",
+      "example_hindi": "उसने आखिरकार जोखिम उठाया और अपना खुद का व्यवसाय शुरू किया।"
+    }
+  },
+  {
+    "id": 238,
+    "type": "idiom",
+    "front": "Take to one's heels",
+    "back": {
+      "definition_eng": "Run away",
+      "example_eng": "When they saw the guard, they took to their heels.",
+      "definition_hindi": "भाग जाना",
+      "example_hindi": "जब उन्होंने गार्ड को देखा, तो वे भाग गए।"
+    }
+  },
+  {
+    "id": 239,
+    "type": "idiom",
+    "front": "Take with a grain/pinch of salt",
+    "back": {
+      "definition_eng": "To doubt the accuracy of information",
+      "example_eng": "Take his promises with a grain of salt; he often doesn't keep them.",
+      "definition_hindi": "संदेह के साथ लेना",
+      "example_hindi": "उसके वादों को संदेह के साथ लो; वह अक्सर उन्हें नहीं रखता।"
+    }
+  },
+  {
+    "id": 240,
+    "type": "idiom",
+    "front": "The best of both worlds",
+    "back": {
+      "definition_eng": "The benefits of widely differing situations, enjoyed at the same time",
+      "example_eng": "Working from home gives her the best of both worlds - career and family time.",
+      "definition_hindi": "दोनों तरफ के फायदे",
+      "example_hindi": "घर से काम करना उसे दोनों तरफ के फायदे देता है - करियर और परिवार का समय।"
+    }
+  },
+  {
+    "id": 241,
+    "type": "idiom",
+    "front": "The gift of the gab",
+    "back": {
+      "definition_eng": "Talent for speaking",
+      "example_eng": "With his gift of the gab, he could convince anyone.",
+      "definition_hindi": "बातचीत का हुनर",
+      "example_hindi": "बातचीत के अपने हुनर से, वह किसी को भी मना सकता था।"
+    }
+  },
+  {
+    "id": 242,
+    "type": "idiom",
+    "front": "The Heel of Achilles",
+    "back": {
+      "definition_eng": "A Weak Point",
+      "example_eng": "His temper is the heel of Achilles in his personality.",
+      "definition_hindi": "कमजोर बिंदु",
+      "example_hindi": "उसका गुस्सा उसके व्यक्तित्व में कमजोर बिंदु है।"
+    }
+  },
+  {
+    "id": 243,
+    "type": "idiom",
+    "front": "The pros and cons",
+    "back": {
+      "definition_eng": "The various aspects of a matter in detail",
+      "example_eng": "We need to consider all the pros and cons before making a decision.",
+      "definition_hindi": "फायदे और नुकसान",
+      "example_hindi": "निर्णय लेने से पहले हमें सभी फायदे और नुकसान पर विचार करना होगा।"
+    }
+  },
+  {
+    "id": 244,
+    "type": "idiom",
+    "front": "Think the world of",
+    "back": {
+      "definition_eng": "Admire someone very much",
+      "example_eng": "She thinks the world of her mentor.",
+      "definition_hindi": "बहुत सम्मान करना",
+      "example_hindi": "वह अपने मेंटर का बहुत सम्मान करती है।"
+    }
+  },
+  {
+    "id": 245,
+    "type": "idiom",
+    "front": "Through thick and thin",
+    "back": {
+      "definition_eng": "Under all conditions",
+      "example_eng": "She stood by her friend through thick and thin.",
+      "definition_hindi": "हर परिस्थिति में",
+      "example_hindi": "वह हर परिस्थिति में अपने दोस्त के साथ खड़ी रही।"
+    }
+  },
+  {
+    "id": 246,
+    "type": "idiom",
+    "front": "Throw out of gear",
+    "back": {
+      "definition_eng": "Disturb the work",
+      "example_eng": "The sudden power cut threw all our work out of gear.",
+      "definition_hindi": "काम में बाधा डालना",
+      "example_hindi": "अचानक बिजली कटौती ने हमारे सारे काम में बाधा डाल दी।"
+    }
+  },
+  {
+    "id": 247,
+    "type": "idiom",
+    "front": "Tight spot",
+    "back": {
+      "definition_eng": "A difficult situation",
+      "example_eng": "The company is in a tight spot financially.",
+      "definition_hindi": "मुश्किल स्थिति",
+      "example_hindi": "कंपनी आर्थिक रूप से मुश्किल स्थिति में है।"
+    }
+  },
+  {
+    "id": 248,
+    "type": "idiom",
+    "front": "To all names",
+    "back": {
+      "definition_eng": "To abuse",
+      "example_eng": "The angry customer was calling the manager all names.",
+      "definition_hindi": "गाली देना",
+      "example_hindi": "गुस्से में ग्राहक मैनेजर को गाली दे रहा था।"
+    }
+  },
+  {
+    "id": 249,
+    "type": "idiom",
+    "front": "To assume airs",
+    "back": {
+      "definition_eng": "To affect superiority",
+      "example_eng": "After getting promoted, he started assuming airs with his colleagues.",
+      "definition_hindi": "श्रेष्ठता का दिखावा करना",
+      "example_hindi": "पदोन्नति मिलने के बाद, उसने अपने सहयोगियों के साथ श्रेष्ठता का दिखावा करना शुरू कर दिया।"
+    }
+  },
+  {
+    "id": 250,
+    "type": "idiom",
+    "front": "To backbite a person",
+    "back": {
+      "definition_eng": "To speak disguise about someone",
+      "example_eng": "It's not good to backbite your colleagues.",
+      "definition_hindi": "चुगली करना",
+      "example_hindi": "अपने सहयोगियों की चुगली करना अच्छा नहीं है।"
+    }
+  },
+  {
+    "id": 251,
+    "type": "idiom",
+    "front": "To balance the books",
+    "back": {
+      "definition_eng": "To make certain that the amount of money spent is not more than the amount of money received.",
+      "example_eng": "The accountant worked late to balance the books.",
+      "definition_hindi": "आय-व्यय का हिसाब रखना",
+      "example_hindi": "लेखाकार ने आय-व्यय का हिसाब रखने के लिए देर तक काम किया।"
+    }
+  },
+  {
+    "id": 252,
+    "type": "idiom",
+    "front": "To be cock sure",
+    "back": {
+      "definition_eng": "To be perfectly sure or certain",
+      "example_eng": "He was cock sure about his victory in the election.",
+      "definition_hindi": "पूरी तरह से आश्वस्त होना",
+      "example_hindi": "वह चुनाव में अपनी जीत के बारे में पूरी तरह से आश्वस्त था।"
+    }
+  },
+  {
+    "id": 253,
+    "type": "idiom",
+    "front": "To be in the doldrums",
+    "back": {
+      "definition_eng": "To be in low spirits",
+      "example_eng": "He's been in the doldrums since he lost his job.",
+      "definition_hindi": "उदास होना",
+      "example_hindi": "नौकरी खोने के बाद से वह उदास है।"
+    }
+  },
+  {
+    "id": 254,
+    "type": "idiom",
+    "front": "To be snowed under",
+    "back": {
+      "definition_eng": "To be very busy",
+      "example_eng": "I'm snowed under with work this week.",
+      "definition_hindi": "बहुत व्यस्त होना",
+      "example_hindi": "मैं इस सप्ताह काम से बहुत व्यस्त हूँ।"
+    }
+  },
+  {
+    "id": 255,
+    "type": "idiom",
+    "front": "To beat about the bush",
+    "back": {
+      "definition_eng": "Talk irrelevantly",
+      "example_eng": "Stop beating about the bush and tell me what you want.",
+      "definition_hindi": "घुमा-फिराकर बात करना",
+      "example_hindi": "घुमा-फिराकर बात करना बंद करो और मुझे बताओ कि तुम क्या चाहते हो।"
+    }
+  },
+  {
+    "id": 256,
+    "type": "idiom",
+    "front": "To bell the cat",
+    "back": {
+      "definition_eng": "To face the risk",
+      "example_eng": "Someone has to bell the cat and tell the boss the truth.",
+      "definition_hindi": "जोखिम उठाना",
+      "example_hindi": "किसी को जोखिम उठाना होगा और बॉस को सच बताना होगा।"
+    }
+  },
+  {
+    "id": 257,
+    "type": "idiom",
+    "front": "To bite the dust",
+    "back": {
+      "definition_eng": "To be Defeated in Battle",
+      "example_eng": "Many businesses bit the dust during the economic crisis.",
+      "definition_hindi": "हार मानना",
+      "example_hindi": "आर्थिक संकट के दौरान कई व्यवसायों ने हार मान ली।"
+    }
+  },
+  {
+    "id": 258,
+    "type": "idiom",
+    "front": "To blow one's own trumpet",
+    "back": {
+      "definition_eng": "To praise one's own achievement",
+      "example_eng": "He's always blowing his own trumpet about his accomplishments.",
+      "definition_hindi": "अपनी प्रशंसा स्वयं करना",
+      "example_hindi": "वह हमेशा अपनी उपलब्धियों के बारे में अपनी प्रशंसा स्वयं करता है।"
+    }
+  },
+  {
+    "id": 259,
+    "type": "idiom",
+    "front": "To break the back of anything",
+    "back": {
+      "definition_eng": "To perform the most difficult part",
+      "example_eng": "We've broken the back of the project; the rest should be easier.",
+      "definition_hindi": "सबसे कठिन हिस्सा पूरा करना",
+      "example_hindi": "हमने परियोजना का सबसे कठिन हिस्सा पूरा कर लिया है; बाकी आसान होना चाहिए।"
+    }
+  },
+  {
+    "id": 260,
+    "type": "idiom",
+    "front": "To breadth one's last",
+    "back": {
+      "definition_eng": "To Die",
+      "example_eng": "The old man breathed his last surrounded by family.",
+      "definition_hindi": "अंतिम सांस लेना",
+      "example_hindi": "बूढ़ा आदमी परिवार के बीच अपनी अंतिम सांस ले रहा था।"
+    }
+  },
+  {
+    "id": 261,
+    "type": "idiom",
+    "front": "To build castles in the air",
+    "back": {
+      "definition_eng": "Make imaginary schemes",
+      "example_eng": "Instead of building castles in the air, focus on practical goals.",
+      "definition_hindi": "हवाई किले बनाना",
+      "example_hindi": "हवाई किले बनाने के बजाय, व्यावहारिक लक्ष्यों पर ध्यान दें।"
+    }
+  },
+  {
+    "id": 262,
+    "type": "idiom",
+    "front": "To burn candle at both ends",
+    "back": {
+      "definition_eng": "To waste lavishly",
+      "example_eng": "He's burning the candle at both ends with his extravagant lifestyle.",
+      "definition_hindi": "फिजूलखर्ची करना",
+      "example_hindi": "वह अपनी शानदार जीवनशैली के साथ फिजूलखर्ची कर रहा है।"
+    }
+  },
+  {
+    "id": 263,
+    "type": "idiom",
+    "front": "To burn one's boats",
+    "back": {
+      "definition_eng": "Go back on a decision",
+      "example_eng": "By quitting his job without another lined up, he burned his boats.",
+      "definition_hindi": "निर्णय बदलना",
+      "example_hindi": "बिना दूसरी नौकरी के अपनी नौकरी छोड़कर, उसने अपना निर्णय बदल दिया।"
+    }
+  },
+  {
+    "id": 264,
+    "type": "idiom",
+    "front": "To Catch one's eye",
+    "back": {
+      "definition_eng": "To attract attention",
+      "example_eng": "The bright colors caught my eye in the store.",
+      "definition_hindi": "ध्यान आकर्षित करना",
+      "example_hindi": "दुकान में चमकीले रंगों ने मेरा ध्यान आकर्षित किया।"
+    }
+  },
+  {
+    "id": 265,
+    "type": "idiom",
+    "front": "To cause bad blood",
+    "back": {
+      "definition_eng": "To Cause Enmity",
+      "example_eng": "The property dispute caused bad blood between the brothers.",
+      "definition_hindi": "दुश्मनी पैदा करना",
+      "example_hindi": "संपत्ति विवाद ने भाइयों के बीच दुश्मनी पैदा कर दी।"
+    }
+  },
+  {
+    "id": 266,
+    "type": "idiom",
+    "front": "To commit to memory",
+    "back": {
+      "definition_eng": "To learn by heart",
+      "example_eng": "The students committed the poem to memory.",
+      "definition_hindi": "याद करना",
+      "example_hindi": "छात्रों ने कविता याद कर ली।"
+    }
+  },
+  {
+    "id": 267,
+    "type": "idiom",
+    "front": "To cook the books",
+    "back": {
+      "definition_eng": "To modify financial statements",
+      "example_eng": "The executive was caught cooking the books.",
+      "definition_hindi": "हिसाब-किताब में हेराफेरी करना",
+      "example_hindi": "अधिकारी को हिसाब-किताब में हेराफेरी करते पकड़ा गया।"
+    }
+  },
+  {
+    "id": 268,
+    "type": "idiom",
+    "front": "To cut a sorry figure",
+    "back": {
+      "definition_eng": "To make a poor show",
+      "example_eng": "He cut a sorry figure in the debate competition.",
+      "definition_hindi": "बुरा प्रदर्शन करना",
+      "example_hindi": "उसने बहस प्रतियोगिता में बुरा प्रदर्शन किया।"
+    }
+  },
+  {
+    "id": 269,
+    "type": "idiom",
+    "front": "To eat humble pie",
+    "back": {
+      "definition_eng": "To apologize humbly and to yield under humiliating circumstances",
+      "example_eng": "After being proven wrong, he had to eat humble pie.",
+      "definition_hindi": "विनम्रतापूर्वक माफी माँगना",
+      "example_hindi": "गलत साबित होने के बाद, उसे विनम्रतापूर्वक माफी माँगनी पड़ी।"
+    }
+  },
+  {
+    "id": 270,
+    "type": "idiom",
+    "front": "To get rid of",
+    "back": {
+      "definition_eng": "Dispose of",
+      "example_eng": "I need to get rid of these old books.",
+      "definition_hindi": "छुटकारा पाना",
+      "example_hindi": "मुझे इन पुरानी किताबों से छुटकारा पाने की जरूरत है।"
+    }
+  },
+  {
+    "id": 271,
+    "type": "idiom",
+    "front": "To get the sack",
+    "back": {
+      "definition_eng": "To be dismissed from your job",
+      "example_eng": "He got the sack for consistently underperforming.",
+      "definition_hindi": "नौकरी से निकाला जाना",
+      "example_hindi": "वह लगातार कम प्रदर्शन करने के लिए नौकरी से निकाल दिया गया।"
+    }
+  },
+  {
+    "id": 272,
+    "type": "idiom",
+    "front": "To Grind",
+    "back": {
+      "definition_eng": "To have some selfish objective in view",
+      "example_eng": "He always has an axe to grind in these discussions.",
+      "definition_hindi": "स्वार्थी उद्देश्य रखना",
+      "example_hindi": "इन चर्चाओं में उसका हमेशा कोई स्वार्थी उद्देश्य होता है।"
+    }
+  },
+  {
+    "id": 273,
+    "type": "idiom",
+    "front": "To hit below the belt",
+    "back": {
+      "definition_eng": "To act unfairly in a contest",
+      "example_eng": "Bringing up his past mistakes was hitting below the belt.",
+      "definition_hindi": "गलत तरीके से काम करना",
+      "example_hindi": "उसकी पुरानी गलतियों को उठाना गलत तरीके से काम करना था।"
+    }
+  },
+  {
+    "id": 274,
+    "type": "idiom",
+    "front": "To jump from a frying pan into fire",
+    "back": {
+      "definition_eng": "To come out of one trouble and get into a worse",
+      "example_eng": "By leaving that job without another, he jumped from frying pan into fire.",
+      "definition_hindi": "एक मुसीबत से निकलकर दूसरी में फँसना",
+      "example_hindi": "बिना दूसरी नौकरी के उस नौकरी को छोड़कर, वह एक मुसीबत से निकलकर दूसरी में फँस गया।"
+    }
+  },
+  {
+    "id": 275,
+    "type": "idiom",
+    "front": "To keep the ball rolling",
+    "back": {
+      "definition_eng": "To keep things going",
+      "example_eng": "Let's keep the ball rolling on this project.",
+      "definition_hindi": "काम जारी रखना",
+      "example_hindi": "चलो इस परियोजना पर काम जारी रखते हैं।"
+    }
+  },
+  {
+    "id": 276,
+    "type": "idiom",
+    "front": "To kick the bucket",
+    "back": {
+      "definition_eng": "To die",
+      "example_eng": "The old car finally kicked the bucket after twenty years.",
+      "definition_hindi": "मर जाना",
+      "example_hindi": "बीस साल बाद पुरानी कार आखिरकार मर गई।"
+    }
+  },
+  {
+    "id": 277,
+    "type": "idiom",
+    "front": "To lead to the altar",
+    "back": {
+      "definition_eng": "To marry",
+      "example_eng": "He finally led her to the altar after five years of dating.",
+      "definition_hindi": "शादी करना",
+      "example_hindi": "पाँच साल की डेटिंग के बाद उसने आखिरकार उससे शादी कर ली।"
+    }
+  },
+  {
+    "id": 278,
+    "type": "idiom",
+    "front": "To make both ends meet",
+    "back": {
+      "definition_eng": "To live within one's income",
+      "example_eng": "It's difficult to make both ends meet with such a low salary.",
+      "definition_hindi": "गुजारा चलाना",
+      "example_hindi": "इतने कम वेतन के साथ गुजारा चलाना मुश्किल है।"
+    }
+  },
+  {
+    "id": 279,
+    "type": "idiom",
+    "front": "To make bricks without straw",
+    "back": {
+      "definition_eng": "To attempt to do something without proper materials",
+      "example_eng": "Trying to complete the project without funding is like making bricks without straw.",
+      "definition_hindi": "बिना साधनों के काम करने की कोशिश करना",
+      "example_hindi": "बिना फंडिंग के प्रोजेक्ट पूरा करने की कोशिश करना बिना साधनों के काम करने जैसा है।"
+    }
+  },
+  {
+    "id": 280,
+    "type": "idiom",
+    "front": "To move heaven and earth",
+    "back": {
+      "definition_eng": "To make a supreme effort",
+      "example_eng": "He moved heaven and earth to get his son admitted to that school.",
+      "definition_hindi": "हर संभव प्रयास करना",
+      "example_hindi": "उसने अपने बेटे का दाखिला उस स्कूल में कराने के लिए हर संभव प्रयास किया।"
+    }
+  },
+  {
+    "id": 281,
+    "type": "idiom",
+    "front": "To pick and choose",
+    "back": {
+      "definition_eng": "To make a careful selection",
+      "example_eng": "You can't pick and choose which rules to follow.",
+      "definition_hindi": "सावधानी से चयन करना",
+      "example_hindi": "आप यह नहीं चुन सकते कि किन नियमों का पालन करना है।"
+    }
+  },
+  {
+    "id": 282,
+    "type": "idiom",
+    "front": "To play ducks and drakes",
+    "back": {
+      "definition_eng": "To act foolishly or inconsistently",
+      "example_eng": "He's playing ducks and drakes with his career by changing jobs so frequently.",
+      "definition_hindi": "मूर्खतापूर्ण व्यवहार करना",
+      "example_hindi": "वह इतनी बार नौकरियाँ बदलकर अपने करियर के साथ मूर्खतापूर्ण व्यवहार कर रहा है।"
+    }
+  },
+  {
+    "id": 283,
+    "type": "idiom",
+    "front": "To pour oil on troubled waters",
+    "back": {
+      "definition_eng": "To make peace",
+      "example_eng": "The mediator tried to pour oil on troubled waters between the two parties.",
+      "definition_hindi": "शांति बनाना",
+      "example_hindi": "मध्यस्थ ने दोनों पक्षों के बीच शांति बनाने की कोशिश की।"
+    }
+  },
+  {
+    "id": 284,
+    "type": "idiom",
+    "front": "To put in a nutshell",
+    "back": {
+      "definition_eng": "To say in a few words or to make something concise",
+      "example_eng": "To put it in a nutshell, we need to increase sales.",
+      "definition_hindi": "संक्षेप में कहना",
+      "example_hindi": "संक्षेप में कहें तो, हमें बिक्री बढ़ाने की जरूरत है।"
+    }
+  },
+  {
+    "id": 285,
+    "type": "idiom",
+    "front": "To set the Thames on fire",
+    "back": {
+      "definition_eng": "To do something sensational or remarkable",
+      "example_eng": "His invention set the Thames on fire in the scientific community.",
+      "definition_hindi": "कुछ अद्भुत करना",
+      "example_hindi": "उसके आविष्कार ने वैज्ञानिक समुदाय में कुछ अद्भुत कर दिया।"
+    }
+  },
+  {
+    "id": 286,
+    "type": "idiom",
+    "front": "To sit on the fence",
+    "back": {
+      "definition_eng": "To remain neutral",
+      "example_eng": "Don't sit on the fence; take a stand on this issue.",
+      "definition_hindi": "तटस्थ रहना",
+      "example_hindi": "तटस्थ मत रहो; इस मुद्दे पर एक स्टैंड लो।"
+    }
+  },
+  {
+    "id": 287,
+    "type": "idiom",
+    "front": "To square the circle",
+    "back": {
+      "definition_eng": "To attempt something impossible",
+      "example_eng": "Trying to please everyone is like squaring the circle.",
+      "definition_hindi": "असंभव को संभव करने की कोशिश करना",
+      "example_hindi": "सबको खुश करने की कोशिश करना असंभव को संभव करने जैसा है।"
+    }
+  },
+  {
+    "id": 288,
+    "type": "idiom",
+    "front": "To stand aloof",
+    "back": {
+      "definition_eng": "To keep to oneself and not mix with others",
+      "example_eng": "She stands aloof from office politics.",
+      "definition_hindi": "अलग-थलग रहना",
+      "example_hindi": "वह ऑफिस की राजनीति से अलग-थलग रहती है।"
+    }
+  },
+  {
+    "id": 289,
+    "type": "idiom",
+    "front": "To step into dead man's shoes",
+    "back": {
+      "definition_eng": "To come into an inheritance",
+      "example_eng": "He stepped into his father's shoes and took over the business.",
+      "definition_hindi": "विरासत में मिलना",
+      "example_hindi": "उसने अपने पिता की विरासत संभाली और व्यवसाय को अपने हाथ में ले लिया।"
+    }
+  },
+  {
+    "id": 290,
+    "type": "idiom",
+    "front": "To take the bull by the horns",
+    "back": {
+      "definition_eng": "To tackle a problem in a bold and direct fashion",
+      "example_eng": "Instead of avoiding the issue, she decided to take the bull by the horns.",
+      "definition_hindi": "मुश्किल का सामना साहस से करना",
+      "example_hindi": "मुद्दे से बचने के बजाय, उसने मुश्किल का सामना साहस से करने का फैसला किया।"
+    }
+  },
+  {
+    "id": 291,
+    "type": "idiom",
+    "front": "To take the chair",
+    "back": {
+      "definition_eng": "To preside a meeting",
+      "example_eng": "The director will take the chair at today's meeting.",
+      "definition_hindi": "बैठक की अध्यक्षता करना",
+      "example_hindi": "निर्देशक आज की बैठक की अध्यक्षता करेंगे।"
+    }
+  },
+  {
+    "id": 292,
+    "type": "idiom",
+    "front": "To take up arms",
+    "back": {
+      "definition_eng": "To fight or go to the war",
+      "example_eng": "The citizens were ready to take up arms to defend their country.",
+      "definition_hindi": "लड़ाई करना या युद्ध में जाना",
+      "example_hindi": "नागरिक अपने देश की रक्षा के लिए लड़ाई करने के लिए तैयार थे।"
+    }
+  },
+  {
+    "id": 293,
+    "type": "idiom",
+    "front": "To throw cold water upon anything",
+    "back": {
+      "definition_eng": "To discourage efforts",
+      "example_eng": "Don't throw cold water on their innovative ideas.",
+      "definition_hindi": "हौसला तोड़ना",
+      "example_hindi": "उनके नवीन विचारों पर हौसला मत तोड़ो।"
+    }
+  },
+  {
+    "id": 294,
+    "type": "idiom",
+    "front": "To throw dust in one's eyes",
+    "back": {
+      "definition_eng": "To try to deceive someone or mislead someone",
+      "example_eng": "He tried to throw dust in our eyes with false promises.",
+      "definition_hindi": "किसी को धोखा देना या भटकाना",
+      "example_hindi": "उसने झूठे वादों से हमारी आँखों में धूल झोंकने की कोशिश की।"
+    }
+  },
+  {
+    "id": 295,
+    "type": "idiom",
+    "front": "To Upset the Apple Cart",
+    "back": {
+      "definition_eng": "To disturb the peace",
+      "example_eng": "His sudden announcement upset the apple cart at the meeting.",
+      "definition_hindi": "शांति भंग करना",
+      "example_hindi": "उसके अचानक ऐलान ने बैठक में शांति भंग कर दी।"
+    }
+  },
+  {
+    "id": 296,
+    "type": "idiom",
+    "front": "To work your fingers to the bone",
+    "back": {
+      "definition_eng": "To work really hard",
+      "example_eng": "She worked her fingers to the bone to support her family.",
+      "definition_hindi": "बहुत मेहनत करना",
+      "example_hindi": "उसने अपने परिवार का समर्थन करने के लिए बहुत मेहनत की।"
+    }
+  },
+  {
+    "id": 297,
+    "type": "idiom",
+    "front": "Too many cooks spoil the broth",
+    "back": {
+      "definition_eng": "Where there are more workers than necessary",
+      "example_eng": "We need to assign clear roles - too many cooks spoil the broth.",
+      "definition_hindi": "जहाँ जरूरत से ज्यादा कामगार हों",
+      "example_hindi": "हमें स्पष्ट भूमिकाएं निर्दिष्ट करनी होंगी - जहाँ जरूरत से ज्यादा कामगार हों।"
+    }
+  },
+  {
+    "id": 298,
+    "type": "idiom",
+    "front": "Tooth and nail",
+    "back": {
+      "definition_eng": "With all one's power",
+      "example_eng": "They fought tooth and nail to protect their rights.",
+      "definition_hindi": "पूरी ताकत से",
+      "example_hindi": "उन्होंने अपने अधिकारों की रक्षा के लिए पूरी ताकत से लड़ाई लड़ी।"
+    }
+  },
+  {
+    "id": 299,
+    "type": "idiom",
+    "front": "Turn a deaf ear",
+    "back": {
+      "definition_eng": "Disregard / ignore what one says",
+      "example_eng": "He turned a deaf ear to all the warnings.",
+      "definition_hindi": "ध्यान न देना",
+      "example_hindi": "उसने सभी चेतावनियों पर ध्यान नहीं दिया।"
+    }
+  },
+  {
+    "id": 300,
+    "type": "idiom",
+    "front": "Turn over a new leaf",
+    "back": {
+      "definition_eng": "Change for the better",
+      "example_eng": "After the accident, he decided to turn over a new leaf and quit smoking.",
+      "definition_hindi": "अच्छे के लिए बदलना",
+      "example_hindi": "दुर्घटना के बाद, उसने अच्छे के लिए बदलने और धूम्रपान छोड़ने का फैसला किया।"
+    }
+  },
+  {
+    "id": 301,
+    "type": "idiom",
+    "front": "Under his thumb",
+    "back": {
+      "definition_eng": "Under his control",
+      "example_eng": "The manager keeps all his employees under his thumb.",
+      "definition_hindi": "उसके नियंत्रण में",
+      "example_hindi": "प्रबंधक अपने सभी कर्मचारियों को अपने नियंत्रण में रखता है।"
+    }
+  },
+  {
+    "id": 302,
+    "type": "idiom",
+    "front": "Up to date",
+    "back": {
+      "definition_eng": "Recent",
+      "example_eng": "Please keep me up to date with the latest developments.",
+      "definition_hindi": "नवीनतम",
+      "example_hindi": "कृपया मुझे नवीनतम घटनाक्रम से अवगत रखें।"
+    }
+  },
+  {
+    "id": 303,
+    "type": "idiom",
+    "front": "Wash one's dirty linen",
+    "back": {
+      "definition_eng": "Discuss unpleasant private matters before strangers",
+      "example_eng": "They shouldn't wash their dirty linen in public.",
+      "definition_hindi": "अजनबियों के सामने निजी मामलों की चर्चा करना",
+      "example_hindi": "उन्हें अजनबियों के सामने अपने निजी मामलों की चर्चा नहीं करनी चाहिए।"
+    }
+  },
+  {
+    "id": 304,
+    "type": "idiom",
+    "front": "Wave a dead chicken",
+    "back": {
+      "definition_eng": "Do something useless",
+      "example_eng": "Trying to fix that old computer is like waving a dead chicken.",
+      "definition_hindi": "बेकार का काम करना",
+      "example_hindi": "उस पुराने कंप्यूटर को ठीक करने की कोशिश करना बेकार का काम करने जैसा है।"
+    }
+  },
+  {
+    "id": 305,
+    "type": "idiom",
+    "front": "Whale of a time",
+    "back": {
+      "definition_eng": "Enjoy a lot",
+      "example_eng": "We had a whale of a time at the beach party.",
+      "definition_hindi": "बहुत आनंद लेना",
+      "example_hindi": "हमने बीच पार्टी में बहुत आनंद लिया।"
+    }
+  },
+  {
+    "id": 306,
+    "type": "idiom",
+    "front": "Whole nine yards",
+    "back": {
+      "definition_eng": "Everything. All of it",
+      "example_eng": "They went the whole nine yards for their wedding celebration.",
+      "definition_hindi": "पूरी तरह से",
+      "example_hindi": "उन्होंने अपनी शादी की celebration के लिए पूरी तरह से तैयारी की।"
+    }
+  },
+  {
+    "id": 307,
+    "type": "idiom",
+    "front": "With a high hand",
+    "back": {
+      "definition_eng": "Oppressively",
+      "example_eng": "The manager ruled the department with a high hand.",
+      "definition_hindi": "दमनकारी तरीके से",
+      "example_hindi": "प्रबंधक ने विभाग पर दमनकारी तरीके से शासन किया।"
+    }
+  },
+  {
+    "id": 308,
+    "type": "idiom",
+    "front": "Wrap one's brain around",
+    "back": {
+      "definition_eng": "Concentrate on something to understand",
+      "example_eng": "I'm trying to wrap my brain around this complex theory.",
+      "definition_hindi": "समझने के लिए ध्यान केंद्रित करना",
+      "example_hindi": "मैं इस जटिल सिद्धांत को समझने के लिए ध्यान केंद्रित करने की कोशिश कर रहा हूँ।"
+    }
+  },
+  {
+    "id": 309,
+    "type": "idiom",
+    "front": "Yellow press",
+    "back": {
+      "definition_eng": "Newspapers which publish sensational and unscrupulous stories and exaggerates the news to attract readers.",
+      "example_eng": "Don't believe everything you read in the yellow press.",
+      "definition_hindi": "अतिसंवेदनशील अखबार",
+      "example_hindi": "अतिसंवेदनशील अखबार में पढ़ी हर बात पर विश्वास मत करो।"
+    }
+  },
+  {
+    "id": 310,
+    "type": "idiom",
+    "front": "Your guess is as good as mine",
+    "back": {
+      "definition_eng": "To have no idea about anything",
+      "example_eng": "Where's the manager? Your guess is as good as mine.",
+      "definition_hindi": "मुझे भी नहीं पता",
+      "example_hindi": "मैनेजर कहाँ है? मुझे भी नहीं पता।"
+    }
+  },
+  {
+    "id": 311,
+    "type": "idiom",
+    "front": "Zero in on something",
+    "back": {
+      "definition_eng": "Focus all attention on one thing",
+      "example_eng": "The detective zeroed in on the key evidence.",
+      "definition_hindi": "पूरा ध्यान एक चीज पर केंद्रित करना",
+      "example_hindi": "जासूस ने मुख्य सबूत पर पूरा ध्यान केंद्रित किया।"
+    }
+  }
+]

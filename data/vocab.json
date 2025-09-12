@@ -1,0 +1,4655 @@
+[
+  {
+    "id": 1,
+    "type": "vocab",
+    "front": "Abattoir",
+    "back": {
+      "definition_eng": "A place where animals are slaughtered for consumption as food.",
+      "example_eng": "The meat was delivered fresh from the abattoir.",
+      "definition_hindi": "कसाईखाना",
+      "example_hindi": "मांस कसाईख़ाने से ताज़ा पहुँचाया गया था।"
+    }
+  },
+  {
+    "id": 2,
+    "type": "vocab",
+    "front": "Abdicate",
+    "back": {
+      "definition_eng": "To give up the position of being king/queen.",
+      "example_eng": "The aging monarch decided to abdicate the throne in favor of his son.",
+      "definition_hindi": "त्यागना",
+      "example_hindi": "बुजुर्ग सम्राट ने अपने बेटे के पक्ष में सिंहासन त्यागने का फैसला किया।"
+    }
+  },
+  {
+    "id": 3,
+    "type": "vocab",
+    "front": "Abolish",
+    "back": {
+      "definition_eng": "Formally put an end to a system, practice, or institution.",
+      "example_eng": "The government passed a law to abolish child labor.",
+      "definition_hindi": "समाप्त करना",
+      "example_hindi": "सरकार ने बाल श्रम को समाप्त करने के लिए एक कानून पारित किया।"
+    }
+  },
+  {
+    "id": 4,
+    "type": "vocab",
+    "front": "Absolute",
+    "back": {
+      "definition_eng": "One who is perfect/complete/free from imperfection.",
+      "example_eng": "In a world of variables, finding an absolute truth is difficult.",
+      "definition_hindi": "पूर्ण",
+      "example_hindi": "चरों की दुनिया में, एक पूर्ण सत्य खोजना मुश्किल है।"
+    }
+  },
+  {
+    "id": 5,
+    "type": "vocab",
+    "front": "Abstain",
+    "back": {
+      "definition_eng": "To choose not to use a vote, either in favour of/ against something.",
+      "example_eng": "He decided to abstain from voting in the election.",
+      "definition_hindi": "बचना",
+      "example_hindi": "उसने चुनाव में मतदान से बचने का फैसला किया।"
+    }
+  },
+  {
+    "id": 6,
+    "type": "vocab",
+    "front": "Abstruse",
+    "back": {
+      "definition_eng": "Difficult to comprehend; obscure.",
+      "example_eng": "The professor's lecture on quantum mechanics was too abstruse for most students.",
+      "definition_hindi": "जटिल",
+      "example_hindi": "क्वांटम मैकेनिक्स पर प्रोफेसर का व्याख्यान अधिकांश छात्रों के लिए बहुत जटिल था।"
+    }
+  },
+  {
+    "id": 7,
+    "type": "vocab",
+    "front": "Accomplice",
+    "back": {
+      "definition_eng": "A person who helps another to commit a crime/ to do something wrong.",
+      "example_eng": "The driver of the getaway car was charged as an accomplice.",
+      "definition_hindi": "सह-अपराधी",
+      "example_hindi": "भागने वाली कार के चालक पर सह-अपराधी के रूप में आरोप लगाया गया था।"
+    }
+  },
+  {
+    "id": 8,
+    "type": "vocab",
+    "front": "Accountant",
+    "back": {
+      "definition_eng": "A person whose profession is to keep accounts.",
+      "example_eng": "The accountant carefully reviewed the company's financial records.",
+      "definition_hindi": "मुनीम",
+      "example_hindi": "मुनीम ने कंपनी के वित्तीय रिकॉर्ड की सावधानीपूर्वक समीक्षा की।"
+    }
+  },
+  {
+    "id": 9,
+    "type": "vocab",
+    "front": "Acquittal",
+    "back": {
+      "definition_eng": "An official decision in court that a person is not guilty of a crime.",
+      "example_eng": "After a long trial, the jury returned a verdict of acquittal.",
+      "definition_hindi": "दोषमुक्ति",
+      "example_hindi": "एक लंबे मुकदमे के बाद, जूरी ने दोषमुक्ति का फैसला सुनाया।"
+    }
+  },
+  {
+    "id": 10,
+    "type": "vocab",
+    "front": "Acrobat",
+    "back": {
+      "definition_eng": "An entertainer who performs difficult acts such as balancing on high ropes.",
+      "example_eng": "The acrobat performed a breathtaking routine on the high wire.",
+      "definition_hindi": "कलाबाज",
+      "example_hindi": "कलाबाज ने ऊँचे तार पर एक लुभावनी दिनचर्या का प्रदर्शन किया।"
+    }
+  },
+  {
+    "id": 11,
+    "type": "vocab",
+    "front": "Acronym",
+    "back": {
+      "definition_eng": "A word formed from the first letters of the words that make up the name of something.",
+      "example_eng": "NASA is an acronym for National Aeronautics and Space Administration.",
+      "definition_hindi": "परिवर्णी शब्द",
+      "example_hindi": "नासा (NASA) नेशनल एरोनॉटिक्स एंड स्पेस एडमिनिस्ट्रेशन का परिवर्णी शब्द है।"
+    }
+  },
+  {
+    "id": 12,
+    "type": "vocab",
+    "front": "Acrophobia",
+    "back": {
+      "definition_eng": "Fear of great heights.",
+      "example_eng": "Her acrophobia prevented her from going up the tall tower.",
+      "definition_hindi": "ऊँचाई का डर",
+      "example_hindi": "उसके ऊँचाई के डर ने उसे ऊँची मीनार पर चढ़ने से रोक दिया।"
+    }
+  },
+  {
+    "id": 13,
+    "type": "vocab",
+    "front": "Activist",
+    "back": {
+      "definition_eng": "Advocating or engaged in activism.",
+      "example_eng": "As a passionate environmental activist, she organized many protests.",
+      "definition_hindi": "कार्यकर्ता",
+      "example_hindi": "एक उत्साही पर्यावरण कार्यकर्ता के रूप में, उसने कई विरोध प्रदर्शन आयोजित किए।"
+    }
+  },
+  {
+    "id": 14,
+    "type": "vocab",
+    "front": "Actuary",
+    "back": {
+      "definition_eng": "Someone who uses statistics to calculate insurance premiums.",
+      "example_eng": "The actuary calculated the risk and set the price for the insurance policy.",
+      "definition_hindi": "मुंशी",
+      "example_hindi": "बीमांकक ने जोखिम की गणना की और बीमा पॉलिसी की कीमत निर्धारित की।"
+    }
+  },
+  {
+    "id": 15,
+    "type": "vocab",
+    "front": "Acumen",
+    "back": {
+      "definition_eng": "The ability to make good judgements and take quick decisions.",
+      "example_eng": "She has a sharp business acumen that has made her very successful.",
+      "definition_hindi": "कुशाग्रता",
+      "example_hindi": "उसके पास तेज व्यावसायिक कुशाग्रता है जिसने उसे बहुत सफल बनाया है।"
+    }
+  },
+  {
+    "id": 16,
+    "type": "vocab",
+    "front": "Addict",
+    "back": {
+      "definition_eng": "A person who is unable to stop taking harmful drugs.",
+      "example_eng": "The support group helps many a drug addict to recover.",
+      "definition_hindi": "लती, नशेबाज",
+      "example_hindi": "सहायता समूह कई नशा करने वालों को ठीक होने में मदद करता है।"
+    }
+  },
+  {
+    "id": 17,
+    "type": "vocab",
+    "front": "Adept",
+    "back": {
+      "definition_eng": "A person who is good at doing something that is quite difficult.",
+      "example_eng": "He is an adept guitarist, able to play complex solos.",
+      "definition_hindi": "निपुण",
+      "example_hindi": "वह एक निपुण गिटारवादक है, जो जटिल सोलो बजाने में सक्षम है।"
+    }
+  },
+  {
+    "id": 18,
+    "type": "vocab",
+    "front": "Adolescent",
+    "back": {
+      "definition_eng": "In the process of developing from a child into an adult.",
+      "example_eng": "It can be challenging to raise an adolescent.",
+      "definition_hindi": "किशोर",
+      "example_hindi": "एक किशोर का पालन-पोषण करना चुनौतीपूर्ण हो सकता है।"
+    }
+  },
+  {
+    "id": 19,
+    "type": "vocab",
+    "front": "Aerial",
+    "back": {
+      "definition_eng": "Growing/ existing in air.",
+      "example_eng": "The drone captured some stunning aerial views of the city.",
+      "definition_hindi": "हवाई",
+      "example_hindi": "ड्रोन ने शहर के कुछ आश्चर्यजनक हवाई दृश्य कैप्चर किए।"
+    }
+  },
+  {
+    "id": 20,
+    "type": "vocab",
+    "front": "Affable",
+    "back": {
+      "definition_eng": "Pleasant, friendly and easy to talk to.",
+      "example_eng": "His affable nature made him popular among his colleagues.",
+      "definition_hindi": "मिलनसार",
+      "example_hindi": "उसके मिलनसार स्वभाव ने उसे अपने सहकर्मियों के बीच लोकप्रिय बना दिया।"
+    }
+  },
+  {
+    "id": 21,
+    "type": "vocab",
+    "front": "Agenda",
+    "back": {
+      "definition_eng": "A list of items to be discussed at a meeting.",
+      "example_eng": "The first item on the agenda is the quarterly budget review.",
+      "definition_hindi": "कार्यसूची",
+      "example_hindi": "कार्यसूची में पहला विषय तिमाही बजट समीक्षा है।"
+    }
+  },
+  {
+    "id": 22,
+    "type": "vocab",
+    "front": "Agnostic",
+    "back": {
+      "definition_eng": "A person who doubts the truth of religion.",
+      "example_eng": "As an agnostic, she believed that the existence of God could not be proven or disproven.",
+      "definition_hindi": "ईश्वर के बारे में संशयवादी व्यक्ति",
+      "example_hindi": "एक अज्ञेयवादी के रूप में, वह मानती थी कि ईश्वर के अस्तित्व को साबित या अस्वीकृत नहीं किया जा सकता है।"
+    }
+  },
+  {
+    "id": 23,
+    "type": "vocab",
+    "front": "Alien",
+    "back": {
+      "definition_eng": "Hostile, strange and frightening; different from what you are used to.",
+      "example_eng": "The customs of the country were alien to him.",
+      "definition_hindi": "विदेशी",
+      "example_hindi": "देश के रीति-रिवाज उसके लिए विदेशी थे।"
+    }
+  },
+  {
+    "id": 24,
+    "type": "vocab",
+    "front": "Alimony",
+    "back": {
+      "definition_eng": "The money that a court orders somebody to pay regularly to his former wife/ husband when the marriage is ended.",
+      "example_eng": "After the divorce, he was ordered to pay alimony to his ex-wife.",
+      "definition_hindi": "निर्वाह निधि",
+      "example_hindi": "तलाक के बाद, उसे अपनी पूर्व पत्नी को निर्वाह निधि देने का आदेश दिया गया।"
+    }
+  },
+  {
+    "id": 25,
+    "type": "vocab",
+    "front": "Allegory",
+    "back": {
+      "definition_eng": "A story, play, picture, etc. in which each character/event is a symbol representing an idea/a quality.",
+      "example_eng": "George Orwell's 'Animal Farm' is a famous political allegory.",
+      "definition_hindi": "नीति कथा",
+      "example_hindi": "जॉर्ज ऑरवेल का 'एनिमल फार्म' एक प्रसिद्ध राजनीतिक नीति कथा है।"
+    }
+  },
+  {
+    "id": 26,
+    "type": "vocab",
+    "front": "Altruist",
+    "back": {
+      "definition_eng": "Someone who makes charitable donations intended to increase human wellbeing.",
+      "example_eng": "The altruist spent her life helping others without expecting anything in return.",
+      "definition_hindi": "परोपकारी सिद्धांतों वाला",
+      "example_hindi": "उस परोपकारी ने अपना जीवन बिना किसी बदले की उम्मीद के दूसरों की मदद करने में बिताया।"
+    }
+  },
+  {
+    "id": 27,
+    "type": "vocab",
+    "front": "Amateur",
+    "back": {
+      "definition_eng": "A person who likes to take part in a sport/ other activity for enjoyment, not as a job.",
+      "example_eng": "The competition is open to both professional and amateur photographers.",
+      "definition_hindi": "शौक़ीन व्यक्ति",
+      "example_hindi": "यह प्रतियोगिता पेशेवर और शौकिया फोटोग्राफरों दोनों के लिए खुली है।"
+    }
+  },
+  {
+    "id": 28,
+    "type": "vocab",
+    "front": "Ambidextrous",
+    "back": {
+      "definition_eng": "Able to use both the hands equally well.",
+      "example_eng": "The ambidextrous artist could paint with her left hand while sketching with her right.",
+      "definition_hindi": "उभयहस्त, दोनों हाथ का कुशलता से उपयोग",
+      "example_hindi": "उभयहस्त कलाकार अपने बाएं हाथ से पेंट कर सकती थी जबकि दाएं हाथ से स्केचिंग कर सकती थी।"
+    }
+  },
+  {
+    "id": 29,
+    "type": "vocab",
+    "front": "Ambiguous",
+    "back": {
+      "definition_eng": "That can be understood in more than one way; not clearly defined or stated.",
+      "example_eng": "The politician's ambiguous response left the reporters with more questions.",
+      "definition_hindi": "अस्पष्ट",
+      "example_hindi": "राजनेता की अस्पष्ट प्रतिक्रिया ने संवाददाताओं को और सवालों के साथ छोड़ दिया।"
+    }
+  },
+  {
+    "id": 30,
+    "type": "vocab",
+    "front": "Ambivert",
+    "back": {
+      "definition_eng": "A person who is both an introvert and an extrovert.",
+      "example_eng": "As an ambivert, she enjoys social gatherings but also needs her alone time.",
+      "definition_hindi": "उभयमुखी",
+      "example_hindi": "एक उभयमुखी के रूप में, वह सामाजिक समारोहों का आनंद लेती है लेकिन उसे अपने अकेले समय की भी आवश्यकता होती है।"
+    }
+  },
+  {
+    "id": 31,
+    "type": "vocab",
+    "front": "Amnesia",
+    "back": {
+      "definition_eng": "A medical condition in which somebody partly/ completely loses his memory.",
+      "example_eng": "After the accident, he suffered from amnesia and could not remember his own name.",
+      "definition_hindi": "भूलने की बीमारी",
+      "example_hindi": "दुर्घटना के बाद, वह भूलने की बीमारी से पीड़ित हो गया और अपना नाम भी याद नहीं रख सका।"
+    }
+  },
+  {
+    "id": 32,
+    "type": "vocab",
+    "front": "Amnesty",
+    "back": {
+      "definition_eng": "An official statement that allows people who have been put in prison for crimes against the state to go free.",
+      "example_eng": "The government granted amnesty to all political prisoners.",
+      "definition_hindi": "राज-क्षमा",
+      "example_hindi": "सरकार ने सभी राजनीतिक कैदियों को राज-क्षमा प्रदान की।"
+    }
+  },
+  {
+    "id": 33,
+    "type": "vocab",
+    "front": "Amoral",
+    "back": {
+      "definition_eng": "Not following any moral rules and not caring about right/wrong.",
+      "example_eng": "The character in the book was completely amoral, acting only for his own benefit.",
+      "definition_hindi": "नीतिहीन",
+      "example_hindi": "किताब का चरित्र पूरी तरह से नीतिहीन था, जो केवल अपने लाभ के लिए काम करता था।"
+    }
+  },
+  {
+    "id": 34,
+    "type": "vocab",
+    "front": "Amphibians",
+    "back": {
+      "definition_eng": "Any animal that can live both on land and in water.",
+      "example_eng": "Frogs and salamanders are common types of amphibians.",
+      "definition_hindi": "उभयचर जन्तु",
+      "example_hindi": "मेंढक और सैलामैंडर सामान्य प्रकार के उभयचर जन्तु हैं।"
+    }
+  },
+  {
+    "id": 35,
+    "type": "vocab",
+    "front": "Anarchist",
+    "back": {
+      "definition_eng": "A person who believes that laws and governments are not necessary.",
+      "example_eng": "The anarchist group called for the complete dismantling of the state.",
+      "definition_hindi": "अराजकतावादी",
+      "example_hindi": "अराजकतावादी समूह ने राज्य को पूरी तरह से भंग करने का आह्वान किया।"
+    }
+  },
+  {
+    "id": 36,
+    "type": "vocab",
+    "front": "Anarchy",
+    "back": {
+      "definition_eng": "A situation in a country, an organization, etc. in which there is no government, order/control.",
+      "example_eng": "After the government collapsed, the country descended into anarchy.",
+      "definition_hindi": "अराजकता",
+      "example_hindi": "सरकार के गिरने के बाद, देश में अराजकता फैल गई।"
+    }
+  },
+  {
+    "id": 37,
+    "type": "vocab",
+    "front": "Anecdote",
+    "back": {
+      "definition_eng": "A short, interesting or amusing story about a real person or an event.",
+      "example_eng": "The speaker shared a humorous anecdote about his childhood.",
+      "definition_hindi": "लघुकथा",
+      "example_hindi": "वक्ता ने अपने बचपन के बारे में एक हास्यप्रद लघुकथा साझा की।"
+    }
+  },
+  {
+    "id": 38,
+    "type": "vocab",
+    "front": "Anonymous",
+    "back": {
+      "definition_eng": "With a name that is not known/ that is not made public.",
+      "example_eng": "An anonymous donor provided the funds for the new library.",
+      "definition_hindi": "गुमनाम",
+      "example_hindi": "एक गुमनाम दाता ने नई लाइब्रेरी के लिए धन उपलब्ध कराया।"
+    }
+  },
+  {
+    "id": 39,
+    "type": "vocab",
+    "front": "Anthropology",
+    "back": {
+      "definition_eng": "The study of human race, especially of its origin, development, customs and beliefs.",
+      "example_eng": "She is studying anthropology at the university to learn about different cultures.",
+      "definition_hindi": "मनुष्य जाति का विज्ञान",
+      "example_hindi": "वह विभिन्न संस्कृतियों के बारे में जानने के लिए विश्वविद्यालय में मानव विज्ञान का अध्ययन कर रही है।"
+    }
+  },
+  {
+    "id": 40,
+    "type": "vocab",
+    "front": "Antidote",
+    "back": {
+      "definition_eng": "A substance that controls the effects of a poison/disease.",
+      "example_eng": "The doctor quickly administered the antidote for the snake bite.",
+      "definition_hindi": "विषहर औषध",
+      "example_hindi": "डॉक्टर ने तुरंत साँप के काटने का विषहर औषध दिया।"
+    }
+  },
+  {
+    "id": 41,
+    "type": "vocab",
+    "front": "Antiseptic",
+    "back": {
+      "definition_eng": "A substance that helps to prevent infection in wounds by killing bacteria.",
+      "example_eng": "He cleaned the cut with an antiseptic wipe to prevent infection.",
+      "definition_hindi": "रोगाणु रोधक",
+      "example_hindi": "उसने संक्रमण को रोकने के लिए घाव को एक रोगाणु रोधक पोंछे से साफ किया।"
+    }
+  },
+  {
+    "id": 42,
+    "type": "vocab",
+    "front": "Apathetic",
+    "back": {
+      "definition_eng": "Showing or feeling no interest, enthusiasm, or concern.",
+      "example_eng": "The apathetic students didn't care about the upcoming school event.",
+      "definition_hindi": "उदासीन",
+      "example_hindi": "उदासीन छात्रों को आगामी स्कूल कार्यक्रम की कोई परवाह नहीं थी।"
+    }
+  },
+  {
+    "id": 43,
+    "type": "vocab",
+    "front": "Apathy",
+    "back": {
+      "definition_eng": "The feeling of not being interested in or enthusiastic.",
+      "example_eng": "Voter apathy was high, and the election turnout was very low.",
+      "definition_hindi": "उदासीनता",
+      "example_hindi": "मतदाता उदासीनता अधिक थी, और चुनाव में मतदान बहुत कम था।"
+    }
+  },
+  {
+    "id": 44,
+    "type": "vocab",
+    "front": "Apiary",
+    "back": {
+      "definition_eng": "A place where bees are kept.",
+      "example_eng": "The beekeeper collected fresh honey from his apiary.",
+      "definition_hindi": "मधमक्खियों के पालने का स्थान",
+      "example_hindi": "मधुमक्खी पालक ने अपने मधुमक्खी पालन केंद्र से ताजा शहद एकत्र किया।"
+    }
+  },
+  {
+    "id": 45,
+    "type": "vocab",
+    "front": "Apprentice",
+    "back": {
+      "definition_eng": "A person who works for an expert to learn a trade.",
+      "example_eng": "The young apprentice learned the craft of carpentry from the master.",
+      "definition_hindi": "शिक्षार्थी",
+      "example_hindi": "युवा शिक्षार्थी ने गुरु से बढ़ईगीरी का शिल्प सीखा।"
+    }
+  },
+  {
+    "id": 46,
+    "type": "vocab",
+    "front": "Aquatic",
+    "back": {
+      "definition_eng": "Growing or living in, or near water.",
+      "example_eng": "Fish are aquatic animals that breathe through gills.",
+      "definition_hindi": "जलीय",
+      "example_hindi": "मछली जलीय जानवर हैं जो गलफड़ों से सांस लेते हैं।"
+    }
+  },
+  {
+    "id": 47,
+    "type": "vocab",
+    "front": "Aquarium",
+    "back": {
+      "definition_eng": "A glass tank where fish and water plants are kept.",
+      "example_eng": "The children love to watch the colorful fish swim in the aquarium.",
+      "definition_hindi": "मछलीघर",
+      "example_hindi": "बच्चे मछलीघर में रंगीन मछलियों को तैरते देखना पसंद करते हैं।"
+    }
+  },
+  {
+    "id": 48,
+    "type": "vocab",
+    "front": "Arbitrator",
+    "back": {
+      "definition_eng": "A person who is chosen to settle a disagreement.",
+      "example_eng": "An arbitrator was called in to resolve the dispute between the two companies.",
+      "definition_hindi": "पंच",
+      "example_hindi": "दोनों कंपनियों के बीच विवाद को सुलझाने के लिए एक पंच को बुलाया गया।"
+    }
+  },
+  {
+    "id": 49,
+    "type": "vocab",
+    "front": "Archaeologist",
+    "back": {
+      "definition_eng": "A person who studies cultures of the past, and of periods of history by examining the remains of buildings and objects found in the ground.",
+      "example_eng": "The archaeologist discovered an ancient tomb filled with treasures.",
+      "definition_hindi": "पुरातत्त्ववेत्ता",
+      "example_hindi": "पुरातत्त्ववेत्ता ने खजाने से भरी एक प्राचीन कब्र की खोज की।"
+    }
+  },
+  {
+    "id": 50,
+    "type": "vocab",
+    "front": "Archaeology",
+    "back": {
+      "definition_eng": "The study of cultures of the past, and of periods of history by examining the remains of buildings and objects found in the ground.",
+      "example_eng": "Archaeology helps us understand how ancient civilizations lived.",
+      "definition_hindi": "पुरातत्त्व",
+      "example_hindi": "पुरातत्त्व हमें यह समझने में मदद करता है कि प्राचीन सभ्यताएँ कैसे रहती थीं।"
+    }
+  },
+  {
+    "id": 51,
+    "type": "vocab",
+    "front": "Archipelago",
+    "back": {
+      "definition_eng": "A large body of water with many islands.",
+      "example_eng": "Indonesia is a vast archipelago consisting of thousands of islands.",
+      "definition_hindi": "द्वीपसमूह",
+      "example_hindi": "इंडोनेशिया हजारों द्वीपों से बना एक विशाल द्वीपसमूह है।"
+    }
+  },
+  {
+    "id": 52,
+    "type": "vocab",
+    "front": "Archives",
+    "back": {
+      "definition_eng": "A collection of historical documents/records of a government, a family, a place or an organization.",
+      "example_eng": "The national archives hold important documents related to the country's history.",
+      "definition_hindi": "अभिलेखागार",
+      "example_hindi": "राष्ट्रीय अभिलेखागार में देश के इतिहास से संबंधित महत्वपूर्ण दस्तावेज हैं।"
+    }
+  },
+  {
+    "id": 53,
+    "type": "vocab",
+    "front": "Aristocracy",
+    "back": {
+      "definition_eng": "The rule by nobles / government by person of highest social order.",
+      "example_eng": "The French Revolution sought to overthrow the aristocracy.",
+      "definition_hindi": "श्रेष्ठ जनों के द्वारा राज्य शासन",
+      "example_hindi": "फ्रांसीसी क्रांति ने श्रेष्ठ जनों के शासन को उखाड़ फेंकने की मांग की।"
+    }
+  },
+  {
+    "id": 54,
+    "type": "vocab",
+    "front": "Articulate",
+    "back": {
+      "definition_eng": "Good at expressing ideas/ feelings clearly in words (speech).",
+      "example_eng": "She is an articulate speaker who can explain complex ideas simply.",
+      "definition_hindi": "स्पष्ट, गाँठदार",
+      "example_hindi": "वह एक स्पष्ट वक्ता है जो जटिल विचारों को सरलता से समझा सकती है।"
+    }
+  },
+  {
+    "id": 55,
+    "type": "vocab",
+    "front": "Artist",
+    "back": {
+      "definition_eng": "A person who creates works of art - paintings/ drawings.",
+      "example_eng": "The artist sold her paintings at the local art gallery.",
+      "definition_hindi": "कलाकार",
+      "example_hindi": "कलाकार ने अपनी पेंटिंग्स को स्थानीय आर्ट गैलरी में बेचा।"
+    }
+  },
+  {
+    "id": 56,
+    "type": "vocab",
+    "front": "Ascetic",
+    "back": {
+      "definition_eng": "A person who lives in a simple and strict way, without physical pleasures, especially for religious reasons.",
+      "example_eng": "The ascetic monk lived in a small hut and ate only what was necessary.",
+      "definition_hindi": "तपस्वी",
+      "example_hindi": "वह तपस्वी साधु एक छोटी सी झोपड़ी में रहता था और केवल वही खाता था जो आवश्यक था।"
+    }
+  },
+  {
+    "id": 57,
+    "type": "vocab",
+    "front": "Asylum",
+    "back": {
+      "definition_eng": "Protection that a government gives to people who have left their own country, because they were in danger for political reasons.",
+      "example_eng": "The refugee sought political asylum in a neighboring country.",
+      "definition_hindi": "शरणस्थल",
+      "example_hindi": "शरणार्थी ने पड़ोसी देश में राजनीतिक शरण मांगी।"
+    }
+  },
+  {
+    "id": 58,
+    "type": "vocab",
+    "front": "Atheism",
+    "back": {
+      "definition_eng": "The belief that god does not exist.",
+      "example_eng": "Atheism is a philosophical stance, not a religion.",
+      "definition_hindi": "नास्तिकता",
+      "example_hindi": "नास्तिकता एक दार्शनिक रुख है, कोई धर्म नहीं।"
+    }
+  },
+  {
+    "id": 59,
+    "type": "vocab",
+    "front": "Atheist",
+    "back": {
+      "definition_eng": "A person who believes that god does not exist.",
+      "example_eng": "As an atheist, he did not participate in any religious ceremonies.",
+      "definition_hindi": "नास्तिक",
+      "example_hindi": "एक नास्तिक होने के नाते, उसने किसी भी धार्मिक समारोह में भाग नहीं लिया।"
+    }
+  },
+  {
+    "id": 60,
+    "type": "vocab",
+    "front": "Audible",
+    "back": {
+      "definition_eng": "That can be heard clearly.",
+      "example_eng": "His whisper was barely audible in the quiet room.",
+      "definition_hindi": "सुनाई देने योग्य",
+      "example_hindi": "शांत कमरे में उसकी फुसफुसाहट मुश्किल से सुनाई दे रही थी।"
+    }
+  },
+  {
+    "id": 61,
+    "type": "vocab",
+    "front": "Authentic",
+    "back": {
+      "definition_eng": "Made or done in the traditional or original way.",
+      "example_eng": "The museum displayed an authentic artifact from ancient Egypt.",
+      "definition_hindi": "विश्वसनीय",
+      "example_hindi": "संग्रहालय में प्राचीन मिस्र की एक विश्वसनीय कलाकृति प्रदर्शित थी।"
+    }
+  },
+  {
+    "id": 62,
+    "type": "vocab",
+    "front": "Autobiography",
+    "back": {
+      "definition_eng": "A biography of yourself.",
+      "example_eng": "Mahatma Gandhi's autobiography is titled 'The Story of My Experiments with Truth'.",
+      "definition_hindi": "आत्मकथा",
+      "example_hindi": "महात्मा गांधी की आत्मकथा का शीर्षक 'सत्य के साथ मेरे प्रयोगों की कहानी' है।"
+    }
+  },
+  {
+    "id": 63,
+    "type": "vocab",
+    "front": "Autocracy",
+    "back": {
+      "definition_eng": "A system of government of a country in which one person has complete power.",
+      "example_eng": "The people rebelled against the ruler's oppressive autocracy.",
+      "definition_hindi": "एकतंत्र",
+      "example_hindi": "लोगों ने शासक के दमनकारी एकतंत्र के खिलाफ विद्रोह किया।"
+    }
+  },
+  {
+    "id": 64,
+    "type": "vocab",
+    "front": "Avarice",
+    "back": {
+      "definition_eng": "Extreme desire for wealth.",
+      "example_eng": "His heart was filled with avarice, and he cared only for money.",
+      "definition_hindi": "लोभ",
+      "example_hindi": "उसका हृदय लोभ से भरा था, और वह केवल धन की परवाह करता था।"
+    }
+  },
+  {
+    "id": 65,
+    "type": "vocab",
+    "front": "Aviary",
+    "back": {
+      "definition_eng": "A place where birds are kept.",
+      "example_eng": "The zoo has a large aviary with exotic birds from around the world.",
+      "definition_hindi": "पक्षीशाल",
+      "example_hindi": "चिड़ियाघर में दुनिया भर के विदेशी पक्षियों के साथ एक बड़ा पक्षीशाल है।"
+    }
+  },
+  {
+    "id": 66,
+    "type": "vocab",
+    "front": "Ballad",
+    "back": {
+      "definition_eng": "A song/poem that tells a story.",
+      "example_eng": "The folk singer performed a traditional ballad about a lost love.",
+      "definition_hindi": "गाथागीत",
+      "example_hindi": "लोक गायक ने एक खोए हुए प्यार के बारे में एक पारंपरिक गाथागीत प्रस्तुत किया।"
+    }
+  },
+  {
+    "id": 67,
+    "type": "vocab",
+    "front": "Barometer",
+    "back": {
+      "definition_eng": "An instrument for measuring air pressure to show when the weather will change.",
+      "example_eng": "The falling barometer indicated that a storm was approaching.",
+      "definition_hindi": "बैरोमीटर",
+      "example_hindi": "गिरता हुआ बैरोमीटर संकेत दे रहा था कि तूफान आ रहा है।"
+    }
+  },
+  {
+    "id": 68,
+    "type": "vocab",
+    "front": "Beneficiary",
+    "back": {
+      "definition_eng": "A person who gains as a results of something.",
+      "example_eng": "He was the sole beneficiary of his grandfather's will.",
+      "definition_hindi": "लाभार्थी",
+      "example_hindi": "वह अपने दादा की वसीयत का एकमात्र लाभार्थी था।"
+    }
+  },
+  {
+    "id": 69,
+    "type": "vocab",
+    "front": "Bibliography",
+    "back": {
+      "definition_eng": "A list of books or articles about a particular subject or by a particular author.",
+      "example_eng": "The research paper included a long bibliography of sources.",
+      "definition_hindi": "ग्रन्थसूची",
+      "example_hindi": "शोध पत्र में स्रोतों की एक लंबी ग्रन्थसूची शामिल थी।"
+    }
+  },
+  {
+    "id": 70,
+    "type": "vocab",
+    "front": "Bigot",
+    "back": {
+      "definition_eng": "A person who has very strong, unreasonable beliefs or opinions about race, religion/ politics.",
+      "example_eng": "It is difficult to argue with a bigot because they are not open to reason.",
+      "definition_hindi": "कट्टर व्यक्ति",
+      "example_hindi": "एक कट्टर व्यक्ति से बहस करना मुश्किल है क्योंकि वे तर्क के लिए खुले नहीं होते हैं।"
+    }
+  },
+  {
+    "id": 71,
+    "type": "vocab",
+    "front": "Bilingual",
+    "back": {
+      "definition_eng": "Able to speak two languages equally well.",
+      "example_eng": "Being bilingual is a great advantage in the global job market.",
+      "definition_hindi": "द्विभाषिक",
+      "example_hindi": "वैश्विक नौकरी बाजार में द्विभाषी होना एक बड़ा फायदा है।"
+    }
+  },
+  {
+    "id": 72,
+    "type": "vocab",
+    "front": "Biography",
+    "back": {
+      "definition_eng": "The story of a person's life written by somebody else.",
+      "example_eng": "Walter Isaacson's biography of Steve Jobs became a bestseller.",
+      "definition_hindi": "जीवनी",
+      "example_hindi": "वाल्टर आईजैकसन की स्टीव जॉब्स पर लिखी जीवनी बेस्टसेलर बन गई।"
+    }
+  },
+  {
+    "id": 73,
+    "type": "vocab",
+    "front": "Biopsy",
+    "back": {
+      "definition_eng": "The removal of tissue from the body of somebody who is ill and its examination in order to find out more about the disease.",
+      "example_eng": "The doctor performed a biopsy to check for cancerous cells.",
+      "definition_hindi": "जीवित ऊतकों की जांच",
+      "example_hindi": "डॉक्टर ने कैंसर कोशिकाओं की जांच के लिए जीवित ऊतकों की जांच की।"
+    }
+  },
+  {
+    "id": 74,
+    "type": "vocab",
+    "front": "Bizarre",
+    "back": {
+      "definition_eng": "Very strange or unusual.",
+      "example_eng": "She wore a bizarre hat that looked like a bird's nest.",
+      "definition_hindi": "विचित्र",
+      "example_hindi": "उसने एक विचित्र टोपी पहनी थी जो एक पक्षी के घोंसले की तरह दिखती थी।"
+    }
+  },
+  {
+    "id": 75,
+    "type": "vocab",
+    "front": "Blasphemy",
+    "back": {
+      "definition_eng": "Behaviour/ language that insults/shows a lack of respect for god/ religion.",
+      "example_eng": "He was accused of blasphemy for his critical writings about religion.",
+      "definition_hindi": "ईशनिंदा",
+      "example_hindi": "उस पर धर्म के बारे में अपनी आलोचनात्मक लेखनी के लिए ईशनिंदा का आरोप लगाया गया था।"
+    }
+  },
+  {
+    "id": 76,
+    "type": "vocab",
+    "front": "Bohemian",
+    "back": {
+      "definition_eng": "A person who is involved with the arts, who lives in a very informal way without following accepted rules of behaviour.",
+      "example_eng": "The artists lived a bohemian lifestyle, free from societal norms.",
+      "definition_hindi": "रूढ़िमुक्त",
+      "example_hindi": "कलाकारों ने सामाजिक मानदंडों से मुक्त, एक रूढ़िमुक्त जीवन शैली जी।"
+    }
+  },
+  {
+    "id": 77,
+    "type": "vocab",
+    "front": "Bouquet",
+    "back": {
+      "definition_eng": "A bunch of flowers arranged in an attractive way so that it can be carried in a ceremony/presented as a gift.",
+      "example_eng": "He gave her a beautiful bouquet of red roses.",
+      "definition_hindi": "गुलदस्ता",
+      "example_hindi": "उसने उसे लाल गुलाब का एक सुंदर गुलदस्ता दिया।"
+    }
+  },
+  {
+    "id": 78,
+    "type": "vocab",
+    "front": "Bovine",
+    "back": {
+      "definition_eng": "Connected with cows.",
+      "example_eng": "The farm was filled with the gentle, bovine creatures.",
+      "definition_hindi": "गोजातीय",
+      "example_hindi": "खेत कोमल, गोजातीय प्राणियों से भरा था।"
+    }
+  },
+  {
+    "id": 79,
+    "type": "vocab",
+    "front": "Brittle",
+    "back": {
+      "definition_eng": "Hard but easily broken.",
+      "example_eng": "The old, brittle pages of the book crumbled in his hands.",
+      "definition_hindi": "भंगुर",
+      "example_hindi": "किताब के पुराने, भंगुर पन्ने उसके हाथों में बिखर गए।"
+    }
+  },
+  {
+    "id": 80,
+    "type": "vocab",
+    "front": "Brunette",
+    "back": {
+      "definition_eng": "A white-skinned woman with dark brown hair.",
+      "example_eng": "The actress, a stunning brunette, captured the audience's attention.",
+      "definition_hindi": "गोरी स्त्री जिसके काले बाल हों",
+      "example_hindi": "अभिनेत्री, एक आश्चर्यजनक काले बालों वाली गोरी महिला, ने दर्शकों का ध्यान खींचा।"
+    }
+  },
+  {
+    "id": 81,
+    "type": "vocab",
+    "front": "Bureaucracy",
+    "back": {
+      "definition_eng": "A system of government in which there are a large number of state officials who are not elected.",
+      "example_eng": "It took months to get the permit due to the endless bureaucracy.",
+      "definition_hindi": "नौकरशाही",
+      "example_hindi": "अंतहीन नौकरशाही के कारण परमिट मिलने में महीनों लग गए।"
+    }
+  },
+  {
+    "id": 82,
+    "type": "vocab",
+    "front": "Burglar",
+    "back": {
+      "definition_eng": "A person who enters a building illegally in order to steal.",
+      "example_eng": "The burglar was caught by the police while trying to escape.",
+      "definition_hindi": "सेंधमार",
+      "example_hindi": "भागने की कोशिश करते समय सेंधमार पुलिस द्वारा पकड़ा गया।"
+    }
+  },
+  {
+    "id": 83,
+    "type": "vocab",
+    "front": "Cacophony",
+    "back": {
+      "definition_eng": "Loud confusing disagreeable sounds.",
+      "example_eng": "The city market was a cacophony of vendors shouting and traffic horns blaring.",
+      "definition_hindi": "कोलाहल",
+      "example_hindi": "शहर का बाजार विक्रेताओं के चिल्लाने और ट्रैफिक हॉर्न के बजने का कोलाहल था।"
+    }
+  },
+  {
+    "id": 84,
+    "type": "vocab",
+    "front": "Calligrapher",
+    "back": {
+      "definition_eng": "Someone skilled in penmanship (calligraphy beautiful writing done with a special pen/brush).",
+      "example_eng": "A professional calligrapher designed the elegant script for the certificates.",
+      "definition_hindi": "सुलेखक",
+      "example_hindi": "एक पेशेवर सुलेखक ने प्रमाण-पत्रों के लिए सुंदर लिपि डिजाइन की।"
+    }
+  },
+  {
+    "id": 85,
+    "type": "vocab",
+    "front": "Calligraphy",
+    "back": {
+      "definition_eng": "Beautiful handwriting that you do with a special pen/brush.",
+      "example_eng": "The wedding invitation was written in beautiful calligraphy.",
+      "definition_hindi": "सुलेख",
+      "example_hindi": "शादी का निमंत्रण सुंदर सुलेख में लिखा गया था।"
+    }
+  },
+  {
+    "id": 86,
+    "type": "vocab",
+    "front": "Callous",
+    "back": {
+      "definition_eng": "Not caring about other people's feelings or suffering.",
+      "example_eng": "His callous disregard for the victims' families was shocking.",
+      "definition_hindi": "कठोर",
+      "example_hindi": "पीड़ितों के परिवारों के प्रति उसकी कठोर उपेक्षा चौंकाने वाली थी।"
+    }
+  },
+  {
+    "id": 87,
+    "type": "vocab",
+    "front": "Camouflage",
+    "back": {
+      "definition_eng": "The disguising of military personnel, equipment, and installations by painting or covering them to make them blend in with their surroundings.",
+      "example_eng": "The soldier's uniform provided excellent camouflage in the jungle.",
+      "definition_hindi": "छलावरण",
+      "example_hindi": "सैनिक की वर्दी ने जंगल में उत्कृष्ट छलावरण प्रदान किया।"
+    }
+  },
+  {
+    "id": 88,
+    "type": "vocab",
+    "front": "Canine",
+    "back": {
+      "definition_eng": "Connected with dogs.",
+      "example_eng": "The police used a canine unit to search for the missing person.",
+      "definition_hindi": "कुत्ते के जैसा",
+      "example_hindi": "पुलिस ने लापता व्यक्ति की तलाश के लिए एक श्वान दल का इस्तेमाल किया।"
+    }
+  },
+  {
+    "id": 89,
+    "type": "vocab",
+    "front": "Cannibal",
+    "back": {
+      "definition_eng": "A person who eats human flesh.",
+      "example_eng": "The story of the lost explorers turned cannibal to survive was horrifying.",
+      "definition_hindi": "नरभक्षक",
+      "example_hindi": "खोए हुए खोजकर्ताओं की जीवित रहने के लिए नरभक्षी बन जाने की कहानी भयावह थी।"
+    }
+  },
+  {
+    "id": 90,
+    "type": "vocab",
+    "front": "Capitalist",
+    "back": {
+      "definition_eng": "A person who supports the fact that a country's businesses and industry are controlled and run by private owners rather than by the government.",
+      "example_eng": "The capitalist invested in several new technology startups.",
+      "definition_hindi": "पूंजीवादी",
+      "example_hindi": "पूंजीवादी ने कई नई प्रौद्योगिकी स्टार्टअप्स में निवेश किया।"
+    }
+  },
+  {
+    "id": 91,
+    "type": "vocab",
+    "front": "Caravan",
+    "back": {
+      "definition_eng": "A covered vehicle, used for living by gypsies.",
+      "example_eng": "The caravan of traders traveled across the desert for weeks.",
+      "definition_hindi": "काफिला",
+      "example_hindi": "व्यापारियों का काफिला हफ्तों तक रेगिस्तान में यात्रा करता रहा।"
+    }
+  },
+  {
+    "id": 92,
+    "type": "vocab",
+    "front": "Caricature",
+    "back": {
+      "definition_eng": "A funny drawing/ picture of somebody that exaggerates some of his features.",
+      "example_eng": "The newspaper published a caricature of the politician with a very long nose.",
+      "definition_hindi": "व्यंग्य-चित्र",
+      "example_hindi": "अखबार ने बहुत लंबी नाक वाले राजनेता का एक व्यंग्य-चित्र प्रकाशित किया।"
+    }
+  },
+  {
+    "id": 93,
+    "type": "vocab",
+    "front": "Carnivore",
+    "back": {
+      "definition_eng": "Eats the flesh of other animals (animal).",
+      "example_eng": "The lion is a fierce carnivore at the top of the food chain.",
+      "definition_hindi": "मांसभक्षी",
+      "example_hindi": "शेर खाद्य श्रृंखला के शीर्ष पर एक भयंकर मांसभक्षी है।"
+    }
+  },
+  {
+    "id": 94,
+    "type": "vocab",
+    "front": "Carnivorous",
+    "back": {
+      "definition_eng": "Animals that eat meat.",
+      "example_eng": "Tigers, lions, and wolves are all carnivorous animals.",
+      "definition_hindi": "मांसभक्षी",
+      "example_hindi": "बाघ, शेर और भेड़िये सभी मांसभक्षी जानवर हैं।"
+    }
+  },
+  {
+    "id": 95,
+    "type": "vocab",
+    "front": "Cartographer",
+    "back": {
+      "definition_eng": "A person who draws or makes maps.",
+      "example_eng": "The ancient cartographer carefully drew the map of the newly discovered lands.",
+      "definition_hindi": "मानचित्रकार",
+      "example_hindi": "प्राचीन मानचित्रकार ने नए खोजे गए देशों का नक्शा सावधानी से बनाया।"
+    }
+  },
+  {
+    "id": 96,
+    "type": "vocab",
+    "front": "Cartography",
+    "back": {
+      "definition_eng": "The art or process of drawing or making maps.",
+      "example_eng": "Cartography has evolved significantly with the advent of satellite technology.",
+      "definition_hindi": "मानचित्रकारी",
+      "example_hindi": "उपग्रह प्रौद्योगिकी के आगमन के साथ मानचित्रकारी में काफी विकास हुआ है।"
+    }
+  },
+  {
+    "id": 97,
+    "type": "vocab",
+    "front": "Cartoon",
+    "back": {
+      "definition_eng": "An amusing drawing about politics/events in the news.",
+      "example_eng": "The political cartoon in the newspaper cleverly satirized the recent scandal.",
+      "definition_hindi": "व्यंगचित्र",
+      "example_hindi": "अखबार में राजनीतिक व्यंगचित्र ने हाल के घोटाले पर चतुराई से व्यंग्य किया।"
+    }
+  },
+  {
+    "id": 98,
+    "type": "vocab",
+    "front": "Catalogue",
+    "back": {
+      "definition_eng": "A complete list of items, for example, of things that people can look at/buy.",
+      "example_eng": "She browsed the catalogue to choose a new dress.",
+      "definition_hindi": "सूची",
+      "example_hindi": "उसने एक नई पोशाक चुनने के लिए सूची देखी।"
+    }
+  },
+  {
+    "id": 99,
+    "type": "vocab",
+    "front": "Cavalry",
+    "back": {
+      "definition_eng": "The part of the army that fought on horses (in the past).",
+      "example_eng": "The cavalry charged into battle with their swords drawn.",
+      "definition_hindi": "घुड़सवार सेना",
+      "example_hindi": "घुड़सवार सेना अपनी तलवारें निकालकर युद्ध में कूद पड़ी।"
+    }
+  },
+  {
+    "id": 100,
+    "type": "vocab",
+    "front": "Celestial",
+    "back": {
+      "definition_eng": "Of the sky/ heaven.",
+      "example_eng": "Astronomers study the movement of celestial bodies like stars and planets.",
+      "definition_hindi": "आकाशीय",
+      "example_hindi": "खगोलविद सितारों और ग्रहों जैसे आकाशीय पिंडों की गति का अध्ययन करते हैं।"
+    }
+  },
+  {
+    "id": 101,
+    "type": "vocab",
+    "front": "Celibate",
+    "back": {
+      "definition_eng": "A person who has chosen not to marry.",
+      "example_eng": "The priest took a vow to remain celibate for life.",
+      "definition_hindi": "अविवाहित",
+      "example_hindi": "पुजारी ने जीवन भर अविवाहित रहने का व्रत लिया।"
+    }
+  },
+  {
+    "id": 102,
+    "type": "vocab",
+    "front": "Cellar",
+    "back": {
+      "definition_eng": "An underground room often used for storing things (wine, salt, etc.).",
+      "example_eng": "They kept their finest wines in the cellar to age.",
+      "definition_hindi": "तहखाना",
+      "example_hindi": "वे अपनी बेहतरीन वाइन को उम्र बढ़ने के लिए तहखाने में रखते थे।"
+    }
+  },
+  {
+    "id": 103,
+    "type": "vocab",
+    "front": "Cemetery",
+    "back": {
+      "definition_eng": "A graveyard where the dead are buried.",
+      "example_eng": "We visited the old cemetery to see our ancestors' graves.",
+      "definition_hindi": "कब्रिस्तान",
+      "example_hindi": "हम अपने पूर्वजों की कब्रें देखने के लिए पुराने कब्रिस्तान गए।"
+    }
+  },
+  {
+    "id": 104,
+    "type": "vocab",
+    "front": "Centenarian",
+    "back": {
+      "definition_eng": "A person who is a 100 years old or more.",
+      "example_eng": "The town celebrated the birthday of its oldest resident, a centenarian.",
+      "definition_hindi": "सौ वर्ष का",
+      "example_hindi": "शहर ने अपने सबसे पुराने निवासी, एक सौ वर्षीय व्यक्ति का जन्मदिन मनाया।"
+    }
+  },
+  {
+    "id": 105,
+    "type": "vocab",
+    "front": "Chauffeur",
+    "back": {
+      "definition_eng": "A person whose job is to drive a car, especially for somebody rich/important.",
+      "example_eng": "The millionaire's chauffeur drove him to the airport in a luxury car.",
+      "definition_hindi": "मोटर-चालक",
+      "example_hindi": "करोड़पति का मोटर-चालक उसे एक लक्जरी कार में हवाई अड्डे तक ले गया।"
+    }
+  },
+  {
+    "id": 106,
+    "type": "vocab",
+    "front": "Choreography",
+    "back": {
+      "definition_eng": "The act of designing and arranging the steps.",
+      "example_eng": "The choreography in the ballet was absolutely stunning.",
+      "definition_hindi": "नृत्यकला",
+      "example_hindi": "बैले में नृत्यकला बिल्कुल आश्चर्यजनक थी।"
+    }
+  },
+  {
+    "id": 107,
+    "type": "vocab",
+    "front": "Circumlocution",
+    "back": {
+      "definition_eng": "Using more words than are necessary instead of speaking or writing in a clear/direct way.",
+      "example_eng": "The politician used circumlocution to avoid answering the direct question.",
+      "definition_hindi": "कपटपूर्ण बातें",
+      "example_hindi": "राजनेता ने सीधे सवाल का जवाब देने से बचने के लिए कपटपूर्ण बातों का इस्तेमाल किया।"
+    }
+  },
+  {
+    "id": 108,
+    "type": "vocab",
+    "front": "Claustrophobia",
+    "back": {
+      "definition_eng": "An extreme fear of being in a small confined place.",
+      "example_eng": "He suffers from claustrophobia, so he always takes the stairs instead of the elevator.",
+      "definition_hindi": "छोटे जगह में होने का अत्यधिक डर",
+      "example_hindi": "वह क्लॉस्ट्रोफोबिया से पीड़ित है, इसलिए वह लिफ्ट के बजाय हमेशा सीढ़ियों का उपयोग करता है।"
+    }
+  },
+  {
+    "id": 109,
+    "type": "vocab",
+    "front": "Colleague",
+    "back": {
+      "definition_eng": "A person that one work with at the same place, in a profession or a business.",
+      "example_eng": "I'm going out for lunch with a colleague from the marketing department.",
+      "definition_hindi": "साथ काम करने वाला",
+      "example_hindi": "मैं मार्केटिंग विभाग के एक सहकर्मी के साथ दोपहर के भोजन के लिए बाहर जा रहा हूँ।"
+    }
+  },
+  {
+    "id": 110,
+    "type": "vocab",
+    "front": "Communist",
+    "back": {
+      "definition_eng": "A person who believes in or supports living together and sharing possessions and responsibilities.",
+      "example_eng": "The communist party advocated for state ownership of all property.",
+      "definition_hindi": "साम्यवादी",
+      "example_hindi": "साम्यवादी दल ने सभी संपत्ति के राज्य के स्वामित्व की वकालत की।"
+    }
+  },
+  {
+    "id": 111,
+    "type": "vocab",
+    "front": "Compromise",
+    "back": {
+      "definition_eng": "An agreement made between two people or groups.",
+      "example_eng": "After a long negotiation, they finally reached a compromise.",
+      "definition_hindi": "समझौता",
+      "example_hindi": "एक लंबी बातचीत के बाद, वे अंततः एक समझौते पर पहुँचे।"
+    }
+  },
+  {
+    "id": 112,
+    "type": "vocab",
+    "front": "Congregation",
+    "back": {
+      "definition_eng": "A group of people who are gathered together in a church to worship god.",
+      "example_eng": "The congregation sang hymns together during the Sunday service.",
+      "definition_hindi": "धार्मिक सभा",
+      "example_hindi": "रविवार की सेवा के दौरान धार्मिक सभा ने मिलकर भजन गाए।"
+    }
+  },
+  {
+    "id": 113,
+    "type": "vocab",
+    "front": "Connoisseur",
+    "back": {
+      "definition_eng": "An expert on matters involving the judgmental beauty, quality or skill in art, food or music.",
+      "example_eng": "He was a connoisseur of fine wines.",
+      "definition_hindi": "विशेषज्ञ",
+      "example_hindi": "वह उत्कृष्ट वाइन का विशेषज्ञ था।"
+    }
+  },
+  {
+    "id": 114,
+    "type": "vocab",
+    "front": "Conservative",
+    "back": {
+      "definition_eng": "A person who is opposed to great/sudden social change.",
+      "example_eng": "My grandfather is very conservative and dislikes modern technology.",
+      "definition_hindi": "रूढ़िवादी, अपरिवर्तनवादी",
+      "example_hindi": "मेरे दादाजी बहुत रूढ़िवादी हैं और आधुनिक तकनीक को नापसंद करते हैं।"
+    }
+  },
+  {
+    "id": 115,
+    "type": "vocab",
+    "front": "Cordial",
+    "back": {
+      "definition_eng": "Warm and sincere.",
+      "example_eng": "We received a cordial welcome from our hosts.",
+      "definition_hindi": "हार्दिक",
+      "example_hindi": "हमें हमारे मेजबानों से हार्दिक स्वागत मिला।"
+    }
+  },
+  {
+    "id": 116,
+    "type": "vocab",
+    "front": "Cosmopolitan",
+    "back": {
+      "definition_eng": "A person who has the experience of many different parts of the world.",
+      "example_eng": "London is a truly cosmopolitan city with people from all over the globe.",
+      "definition_hindi": "सर्वदेशीय",
+      "example_hindi": "लंदन दुनिया भर के लोगों के साथ वास्तव में एक सर्वदेशीय शहर है।"
+    }
+  },
+  {
+    "id": 117,
+    "type": "vocab",
+    "front": "Credible",
+    "back": {
+      "definition_eng": "That can be believed or trusted.",
+      "example_eng": "The police received a credible tip from an informant.",
+      "definition_hindi": "विश्वसनीय",
+      "example_hindi": "पुलिस को एक मुखबिर से एक विश्वसनीय सूचना मिली।"
+    }
+  },
+  {
+    "id": 118,
+    "type": "vocab",
+    "front": "Credulous",
+    "back": {
+      "definition_eng": "Ready to believe things and therefore easy to trick.",
+      "example_eng": "Credulous people are often the victims of scams.",
+      "definition_hindi": "भोला-भाला",
+      "example_hindi": "भोले-भाले लोग अक्सर घोटालों का शिकार होते हैं।"
+    }
+  },
+  {
+    "id": 119,
+    "type": "vocab",
+    "front": "Criminal",
+    "back": {
+      "definition_eng": "Connected with crime.",
+      "example_eng": "He has a long criminal record of theft and assault.",
+      "definition_hindi": "अपराधी",
+      "example_hindi": "उसके पास चोरी और हमले का एक लंबा आपराधिक रिकॉर्ड है।"
+    }
+  },
+  {
+    "id": 120,
+    "type": "vocab",
+    "front": "Culpable",
+    "back": {
+      "definition_eng": "Responsible and deserving blame for having done something wrong.",
+      "example_eng": "The driver was found to be culpable in the accident.",
+      "definition_hindi": "आपराधिक",
+      "example_hindi": "दुर्घटना में चालक को आपराधिक पाया गया।"
+    }
+  },
+  {
+    "id": 121,
+    "type": "vocab",
+    "front": "Curator",
+    "back": {
+      "definition_eng": "A person whose job is to be in charge of the objects or words of art in a museum or art gallery, etc.",
+      "example_eng": "The curator of the museum gave us a guided tour of the new exhibit.",
+      "definition_hindi": "संग्रहाध्यक्ष",
+      "example_hindi": "संग्रहालय के संग्रहाध्यक्ष ने हमें नई प्रदर्शनी का एक निर्देशित दौरा कराया।"
+    }
+  },
+  {
+    "id": 122,
+    "type": "vocab",
+    "front": "Cynic",
+    "back": {
+      "definition_eng": "Someone who is critical of the motives of others.",
+      "example_eng": "A cynic believes that people are only motivated by self-interest.",
+      "definition_hindi": "निंदक",
+      "example_hindi": "एक निंदक का मानना है कि लोग केवल स्वार्थ से प्रेरित होते हैं।"
+    }
+  },
+  {
+    "id": 123,
+    "type": "vocab",
+    "front": "Cynosure",
+    "back": {
+      "definition_eng": "Centre of attraction.",
+      "example_eng": "The beautifully decorated bride was the cynosure of all eyes at the wedding.",
+      "definition_hindi": "आकर्षण-बिन्दु",
+      "example_hindi": "खूबसूरती से सजी दुल्हन शादी में सभी की आँखों का आकर्षण-बिन्दु थी।"
+    }
+  },
+  {
+    "id": 124,
+    "type": "vocab",
+    "front": "Demagogue",
+    "back": {
+      "definition_eng": "A political leader who tries to win support by using arguments based on emotion rather than reason.",
+      "example_eng": "The demagogue stirred up the crowd with a fiery speech full of false promises.",
+      "definition_hindi": "दुर्जनों का नेता",
+      "example_hindi": "उस जनोत्तेजक नेता ने झूठे वादों से भरे एक उग्र भाषण से भीड़ को भड़काया।"
+    }
+  },
+  {
+    "id": 125,
+    "type": "vocab",
+    "front": "Democracy",
+    "back": {
+      "definition_eng": "A country in which all the people of the country can vote to elect their representatives.",
+      "example_eng": "India is the world's largest democracy.",
+      "definition_hindi": "जनतंत्र",
+      "example_hindi": "भारत दुनिया का सबसे बड़ा जनतंत्र है।"
+    }
+  },
+  {
+    "id": 126,
+    "type": "vocab",
+    "front": "Derelict",
+    "back": {
+      "definition_eng": "A person without a home, a job or property.",
+      "example_eng": "The old factory building stood derelict for years.",
+      "definition_hindi": "आवारा व्यक्ति",
+      "example_hindi": "कारखाने की पुरानी इमारत सालों तक परित्यक्त खड़ी रही।"
+    }
+  },
+  {
+    "id": 127,
+    "type": "vocab",
+    "front": "Dermatology",
+    "back": {
+      "definition_eng": "The scientific study of skin diseases.",
+      "example_eng": "She is pursuing a specialization in dermatology to become a skin doctor.",
+      "definition_hindi": "त्वचाविज्ञान",
+      "example_hindi": "वह त्वचा विशेषज्ञ बनने के लिए त्वचाविज्ञान में विशेषज्ञता हासिल कर रही है।"
+    }
+  },
+  {
+    "id": 128,
+    "type": "vocab",
+    "front": "Dialogue",
+    "back": {
+      "definition_eng": "Conversations in a book, play or film/movie.",
+      "example_eng": "The witty dialogue between the two main characters made the play very entertaining.",
+      "definition_hindi": "संवाद",
+      "example_hindi": "दो मुख्य पात्रों के बीच मजाकिया संवाद ने नाटक को बहुत मनोरंजक बना दिया।"
+    }
+  },
+  {
+    "id": 129,
+    "type": "vocab",
+    "front": "Dictatorship",
+    "back": {
+      "definition_eng": "A form of government by a ruler who has complete power over a country.",
+      "example_eng": "The country suffered for decades under a brutal dictatorship.",
+      "definition_hindi": "अधिनायकत्व",
+      "example_hindi": "देश दशकों तक एक क्रूर अधिनायकत्व के तहत पीड़ित रहा।"
+    }
+  },
+  {
+    "id": 130,
+    "type": "vocab",
+    "front": "Dilettante",
+    "back": {
+      "definition_eng": "A person who does or studies something but is not serious about it and does not have much knowledge.",
+      "example_eng": "He's a mere dilettante in the arts; he has no real training.",
+      "definition_hindi": "अनुरागी",
+      "example_hindi": "वह कला में केवल एक अनुरागी है; उसके पास कोई वास्तविक प्रशिक्षण नहीं है।"
+    }
+  },
+  {
+    "id": 131,
+    "type": "vocab",
+    "front": "Dirge",
+    "back": {
+      "definition_eng": "A song sung in the past at a funeral or for a dead person.",
+      "example_eng": "A mournful dirge was played at the funeral.",
+      "definition_hindi": "शोकगीत",
+      "example_hindi": "अंतिम संस्कार में एक शोकपूर्ण गीत बजाया गया।"
+    }
+  },
+  {
+    "id": 132,
+    "type": "vocab",
+    "front": "Dipsomania",
+    "back": {
+      "definition_eng": "An intense persistent desire to drink alcoholic beverages to excess.",
+      "example_eng": "He was suffering from dipsomania and couldn't control his urge to drink.",
+      "definition_hindi": "शराब की लत",
+      "example_hindi": "वह शराब की लत से पीड़ित था और पीने की अपनी इच्छा को नियंत्रित नहीं कर सकता था।"
+    }
+  },
+  {
+    "id": 133,
+    "type": "vocab",
+    "front": "Eccentric",
+    "back": {
+      "definition_eng": "A person who is considered by other people to be strange/unusual.",
+      "example_eng": "The eccentric billionaire was known for his strange habits.",
+      "definition_hindi": "सनकी",
+      "example_hindi": "सनकी अरबपति अपनी अजीब आदतों के लिए जाना जाता था।"
+    }
+  },
+  {
+    "id": 134,
+    "type": "vocab",
+    "front": "Ecology",
+    "back": {
+      "definition_eng": "The study of the relation of plants and living creatures to each other and to their environment.",
+      "example_eng": "Studying ecology is crucial for understanding the impact of climate change.",
+      "definition_hindi": "परिस्थितिकी",
+      "example_hindi": "जलवायु परिवर्तन के प्रभाव को समझने के लिए परिस्थितिकी का अध्ययन महत्वपूर्ण है।"
+    }
+  },
+  {
+    "id": 135,
+    "type": "vocab",
+    "front": "Edible",
+    "back": {
+      "definition_eng": "Fit/ suitable to be eaten.",
+      "example_eng": "Not all mushrooms are edible; some are highly poisonous.",
+      "definition_hindi": "खाद्य",
+      "example_hindi": "सभी मशरूम खाद्य नहीं होते हैं; कुछ अत्यधिक जहरीले होते हैं।"
+    }
+  },
+  {
+    "id": 136,
+    "type": "vocab",
+    "front": "Effaced",
+    "back": {
+      "definition_eng": "Remove completely from recognition/memory.",
+      "example_eng": "Time had effaced the inscription on the old stone.",
+      "definition_hindi": "पोछकर मिटाना",
+      "example_hindi": "समय ने पुराने पत्थर पर लिखे शिलालेख को मिटा दिया था।"
+    }
+  },
+  {
+    "id": 137,
+    "type": "vocab",
+    "front": "Effeminate",
+    "back": {
+      "definition_eng": "Looking, behaving/sounding like women / a girl.",
+      "example_eng": "He had a high, effeminate voice that surprised people.",
+      "definition_hindi": "नारी जैसा",
+      "example_hindi": "उसकी एक ऊँची, नारी जैसी आवाज़ थी जो लोगों को आश्चर्यचकित करती थी।"
+    }
+  },
+  {
+    "id": 138,
+    "type": "vocab",
+    "front": "Egoist",
+    "back": {
+      "definition_eng": "A person who thinks he/she is better than other people and who thinks and talks too much about himself/herself.",
+      "example_eng": "The egoist bored everyone by talking only about his own achievements.",
+      "definition_hindi": "अहंवादी",
+      "example_hindi": "उस अहंवादी ने केवल अपनी उपलब्धियों के बारे में बात करके सभी को बोर कर दिया।"
+    }
+  },
+  {
+    "id": 139,
+    "type": "vocab",
+    "front": "Egotist",
+    "back": {
+      "definition_eng": "A person who is excessively conceited or absorbed in themselves.",
+      "example_eng": "The actor was a known egotist, always demanding the best treatment.",
+      "definition_hindi": "अहंवादी",
+      "example_hindi": "अभिनेता एक जाना-माना अहंवादी था, जो हमेशा बेहतरीन व्यवहार की मांग करता था।"
+    }
+  },
+  {
+    "id": 140,
+    "type": "vocab",
+    "front": "Elegy",
+    "back": {
+      "definition_eng": "A poem/song that expresses sadness, especially for somebody who has died.",
+      "example_eng": "The poet wrote a moving elegy for his departed friend.",
+      "definition_hindi": "शोकगीत",
+      "example_hindi": "कवि ने अपने दिवंगत मित्र के लिए एक मार्मिक शोकगीत लिखा।"
+    }
+  },
+  {
+    "id": 141,
+    "type": "vocab",
+    "front": "Eligible",
+    "back": {
+      "definition_eng": "A person who is able to have/do something because he has the right qualifications, is the right age, etc.",
+      "example_eng": "You must be 18 or older to be eligible to vote.",
+      "definition_hindi": "योग्य",
+      "example_hindi": "मतदान के योग्य होने के लिए आपकी आयु 18 वर्ष या उससे अधिक होनी चाहिए।"
+    }
+  },
+  {
+    "id": 142,
+    "type": "vocab",
+    "front": "Emancipation",
+    "back": {
+      "definition_eng": "Freeing someone from the control of another.",
+      "example_eng": "The Emancipation Proclamation was a key moment in the fight against slavery.",
+      "definition_hindi": "मुक्ति",
+      "example_hindi": "मुक्ति उद्घोषणा गुलामी के खिलाफ लड़ाई में एक महत्वपूर्ण क्षण था।"
+    }
+  },
+  {
+    "id": 143,
+    "type": "vocab",
+    "front": "Embezzlement",
+    "back": {
+      "definition_eng": "The act of stealing money that you are responsible for or that belongs to your employer.",
+      "example_eng": "The accountant was charged with embezzlement of company funds.",
+      "definition_hindi": "गबन",
+      "example_hindi": "लेखाकार पर कंपनी के धन के गबन का आरोप लगाया गया था।"
+    }
+  },
+  {
+    "id": 144,
+    "type": "vocab",
+    "front": "Emeritus",
+    "back": {
+      "definition_eng": "One who is honorably discharged from service.",
+      "example_eng": "The professor emeritus continued to advise students even after his official retirement.",
+      "definition_hindi": "अवकाश प्राप्त",
+      "example_hindi": "अवकाश प्राप्त प्रोफेसर अपनी आधिकारिक सेवानिवृत्ति के बाद भी छात्रों को सलाह देते रहे।"
+    }
+  },
+  {
+    "id": 145,
+    "type": "vocab",
+    "front": "Emigrant",
+    "back": {
+      "definition_eng": "A person who leaves his country to live in another.",
+      "example_eng": "Many emigrants from Ireland moved to the United States in the 19th century.",
+      "definition_hindi": "उत्प्रवासी",
+      "example_hindi": "19वीं सदी में आयरलैंड से कई उत्प्रवासी संयुक्त राज्य अमेरिका चले गए।"
+    }
+  },
+  {
+    "id": 146,
+    "type": "vocab",
+    "front": "Emissary",
+    "back": {
+      "definition_eng": "A person who is sent to deliver an official message from one country to another or to perform a special task.",
+      "example_eng": "The king sent an emissary to negotiate a peace treaty.",
+      "definition_hindi": "दूत",
+      "example_hindi": "राजा ने शांति संधि पर बातचीत करने के लिए एक दूत भेजा।"
+    }
+  },
+  {
+    "id": 147,
+    "type": "vocab",
+    "front": "Empathy",
+    "back": {
+      "definition_eng": "The ability to understand another person's feelings, experience, etc.",
+      "example_eng": "Having empathy for others is a key component of emotional intelligence.",
+      "definition_hindi": "समवेदना",
+      "example_hindi": "दूसरों के प्रति समवेदना रखना भावनात्मक बुद्धिमत्ता का एक प्रमुख घटक है।"
+    }
+  },
+  {
+    "id": 148,
+    "type": "vocab",
+    "front": "Endemic",
+    "back": {
+      "definition_eng": "Regularly found in a particular place or among a particular group of people and difficult to get rid of.",
+      "example_eng": "This rare bird is endemic to a small island in the Pacific.",
+      "definition_hindi": "स्थानिक",
+      "example_hindi": "यह दुर्लभ पक्षी प्रशांत महासागर के एक छोटे से द्वीप के लिए स्थानिक है।"
+    }
+  },
+  {
+    "id": 149,
+    "type": "vocab",
+    "front": "Ennui",
+    "back": {
+      "definition_eng": "A state of mental weariness from lack of occupation.",
+      "example_eng": "A sense of ennui filled his days after he retired from his busy job.",
+      "definition_hindi": "विरक्ति",
+      "example_hindi": "अपनी व्यस्त नौकरी से सेवानिवृत्त होने के बाद उसके दिनों में विरक्ति की भावना भर गई।"
+    }
+  },
+  {
+    "id": 150,
+    "type": "vocab",
+    "front": "Entomologist",
+    "back": {
+      "definition_eng": "A zoologist (person) who studies insects.",
+      "example_eng": "The entomologist identified a new species of beetle in the rainforest.",
+      "definition_hindi": "कीटविज्ञानशास्री",
+      "example_hindi": "कीटविज्ञानी ने वर्षावन में बीटल की एक नई प्रजाति की पहचान की।"
+    }
+  },
+  {
+    "id": 151,
+    "type": "vocab",
+    "front": "Entomology",
+    "back": {
+      "definition_eng": "The scientific study of insects.",
+      "example_eng": "His fascination with bugs led him to pursue a degree in entomology.",
+      "definition_hindi": "कीटविज्ञान",
+      "example_hindi": "कीड़ों के प्रति उसके आकर्षण ने उसे कीटविज्ञान में डिग्री हासिल करने के लिए प्रेरित किया।"
+    }
+  },
+  {
+    "id": 152,
+    "type": "vocab",
+    "front": "Envious",
+    "back": {
+      "definition_eng": "Feeling of discontented aroused by someone else's possessions or qualities.",
+      "example_eng": "He was envious of his friend's new car.",
+      "definition_hindi": "ईर्ष्या",
+      "example_hindi": "वह अपने दोस्त की नई कार से ईर्ष्या करता था।"
+    }
+  },
+  {
+    "id": 153,
+    "type": "vocab",
+    "front": "Ephemeral",
+    "back": {
+      "definition_eng": "Lasting/ used for only a short period of time.",
+      "example_eng": "The beauty of the cherry blossoms is ephemeral, lasting only a week.",
+      "definition_hindi": "छणिक",
+      "example_hindi": "चेरी ब्लॉसम की सुंदरता क्षणिक होती है, जो केवल एक सप्ताह तक रहती है।"
+    }
+  },
+  {
+    "id": 154,
+    "type": "vocab",
+    "front": "Epicure",
+    "back": {
+      "definition_eng": "A person who enjoys food and drink of high quality and knows a lot about it.",
+      "example_eng": "The epicure traveled the world to taste the finest cuisines.",
+      "definition_hindi": "भोग - विलासी",
+      "example_hindi": "भोग-विलासी ने बेहतरीन व्यंजनों का स्वाद लेने के लिए दुनिया की यात्रा की।"
+    }
+  },
+  {
+    "id": 155,
+    "type": "vocab",
+    "front": "Epidemic",
+    "back": {
+      "definition_eng": "A large number of cases of a particular disease happening at the same time in a particular community.",
+      "example_eng": "The government took swift action to control the flu epidemic.",
+      "definition_hindi": "महामारी",
+      "example_hindi": "सरकार ने फ्लू महामारी को नियंत्रित करने के लिए तेजी से कार्रवाई की।"
+    }
+  },
+  {
+    "id": 156,
+    "type": "vocab",
+    "front": "Epigram",
+    "back": {
+      "definition_eng": "A short poem/ phrase that expresses an idea in a clever/amusing way.",
+      "example_eng": "Oscar Wilde was famous for his witty epigrams.",
+      "definition_hindi": "चुटकुला",
+      "example_hindi": "ऑस्कर वाइल्ड अपने मजाकिया चुटकुलों के लिए प्रसिद्ध थे।"
+    }
+  },
+  {
+    "id": 157,
+    "type": "vocab",
+    "front": "Epigraph",
+    "back": {
+      "definition_eng": "An engraved inscription.",
+      "example_eng": "The epigraph on the monument honored the fallen soldiers.",
+      "definition_hindi": "शिलालेख",
+      "example_hindi": "स्मारक पर शिलालेख ने शहीद सैनिकों को सम्मानित किया।"
+    }
+  },
+  {
+    "id": 158,
+    "type": "vocab",
+    "front": "Epilogue",
+    "back": {
+      "definition_eng": "A speech at the end of a play, book, or film/movie that comments on or acts as a conclusion to what has happened.",
+      "example_eng": "The epilogue revealed that the hero went on to live a quiet and happy life.",
+      "definition_hindi": "उपसंहार",
+      "example_hindi": "उपसंहार में पता चला कि नायक ने आगे एक शांत और सुखी जीवन व्यतीत किया।"
+    }
+  },
+  {
+    "id": 159,
+    "type": "vocab",
+    "front": "Epitaph",
+    "back": {
+      "definition_eng": "An inscription on a tombstone.",
+      "example_eng": "The soldier's epitaph read, 'A life given for his country'.",
+      "definition_hindi": "समाधि-लेख",
+      "example_hindi": "सैनिक के समाधि-लेख पर लिखा था, 'देश के लिए दिया गया जीवन'।"
+    }
+  },
+  {
+    "id": 160,
+    "type": "vocab",
+    "front": "Epitome",
+    "back": {
+      "definition_eng": "A person or thing that is a perfect example of a particular quality or type.",
+      "example_eng": "With his kindness and generosity, he was the epitome of a true gentleman.",
+      "definition_hindi": "प्रतीक",
+      "example_hindi": "अपनी दया और उदारता के साथ, वह एक सच्चे सज्जन का प्रतीक था।"
+    }
+  },
+  {
+    "id": 161,
+    "type": "vocab",
+    "front": "Eternal",
+    "back": {
+      "definition_eng": "Continuing forever.",
+      "example_eng": "Many religions speak of an eternal life after death.",
+      "definition_hindi": "सनातन",
+      "example_hindi": "कई धर्म मृत्यु के बाद एक सनातन जीवन की बात करते हैं।"
+    }
+  },
+  {
+    "id": 162,
+    "type": "vocab",
+    "front": "Ethnology",
+    "back": {
+      "definition_eng": "The scientific study and comparison of human races.",
+      "example_eng": "Ethnology compares the cultural practices of different societies.",
+      "definition_hindi": "मानव जाति विज्ञान",
+      "example_hindi": "मानव जाति विज्ञान विभिन्न समाजों की सांस्कृतिक प्रथाओं की तुलना करता है।"
+    }
+  },
+  {
+    "id": 163,
+    "type": "vocab",
+    "front": "Etymology",
+    "back": {
+      "definition_eng": "The study of the origin and history of words and their meanings.",
+      "example_eng": "Studying etymology can help you understand the deeper meaning of words.",
+      "definition_hindi": "शब्द-व्युपत्तिशास्र",
+      "example_hindi": "शब्द-व्युत्पत्ति का अध्ययन आपको शब्दों के गहरे अर्थ को समझने में मदद कर सकता है।"
+    }
+  },
+  {
+    "id": 164,
+    "type": "vocab",
+    "front": "Eulogy",
+    "back": {
+      "definition_eng": "A speech/piece of writing praising somebody/something very much.",
+      "example_eng": "He delivered a moving eulogy at his grandfather's funeral.",
+      "definition_hindi": "प्रशंसा भाषण",
+      "example_hindi": "उसने अपने दादा के अंतिम संस्कार में एक मार्मिक प्रशंसा भाषण दिया।"
+    }
+  },
+  {
+    "id": 165,
+    "type": "vocab",
+    "front": "Euphemism",
+    "back": {
+      "definition_eng": "An indirect word/phrase that people often use to refer to something embarrassing or unpleasant.",
+      "example_eng": "'Passed away' is a common euphemism for 'died'.",
+      "definition_hindi": "व्यंजना",
+      "example_hindi": "'स्वर्गवासी होना' 'मर जाना' के लिए एक आम व्यंजना है।"
+    }
+  },
+  {
+    "id": 166,
+    "type": "vocab",
+    "front": "Exemplary",
+    "back": {
+      "definition_eng": "Providing a good example for people to copy.",
+      "example_eng": "Her dedication to her work is exemplary.",
+      "definition_hindi": "अनुकरणीय",
+      "example_hindi": "अपने काम के प्रति उसका समर्पण अनुकरणीय है।"
+    }
+  },
+  {
+    "id": 167,
+    "type": "vocab",
+    "front": "Exonerate",
+    "back": {
+      "definition_eng": "To officially state that somebody is not responsible for something that he has been blamed for.",
+      "example_eng": "The new evidence completely exonerated the defendant.",
+      "definition_hindi": "बरी करना",
+      "example_hindi": "नए सबूतों ने प्रतिवादी को पूरी तरह से बरी कर दिया।"
+    }
+  },
+  {
+    "id": 168,
+    "type": "vocab",
+    "front": "Expatriate",
+    "back": {
+      "definition_eng": "A person living in a country that is not his own.",
+      "example_eng": "Many expatriates from Europe live and work in Dubai.",
+      "definition_hindi": "प्रवासी",
+      "example_hindi": "यूरोप के कई प्रवासी दुबई में रहते और काम करते हैं।"
+    }
+  },
+  {
+    "id": 169,
+    "type": "vocab",
+    "front": "Extempore",
+    "back": {
+      "definition_eng": "Spoken/ done without any previous thought/ preparation.",
+      "example_eng": "He was asked to give an extempore speech at the event.",
+      "definition_hindi": "बिना तैयारी के",
+      "example_hindi": "उन्हें कार्यक्रम में बिना तैयारी के भाषण देने के लिए कहा गया था।"
+    }
+  },
+  {
+    "id": 170,
+    "type": "vocab",
+    "front": "Extravagant",
+    "back": {
+      "definition_eng": "Spending a lot of more money/using a lot more of something that you can afford or than is necessary.",
+      "example_eng": "Her extravagant lifestyle led to her eventual bankruptcy.",
+      "definition_hindi": "फिजूल खर्च",
+      "example_hindi": "उसकी फिजूलखर्ची जीवनशैली ने उसे अंततः दिवालिया बना दिया।"
+    }
+  },
+  {
+    "id": 171,
+    "type": "vocab",
+    "front": "Fable",
+    "back": {
+      "definition_eng": "A traditional short story that teaches a moral lesson (animals).",
+      "example_eng": "The story of 'The Tortoise and the Hare' is a classic fable.",
+      "definition_hindi": "कल्पित कहानी",
+      "example_hindi": "'कछुआ और खरगोश' की कहानी एक क्लासिक कल्पित कहानी है।"
+    }
+  },
+  {
+    "id": 172,
+    "type": "vocab",
+    "front": "Fanatic",
+    "back": {
+      "definition_eng": "Extremely enthusiastic about one's belief.",
+      "example_eng": "He is a fitness fanatic who exercises for two hours every day.",
+      "definition_hindi": "कट्टर",
+      "example_hindi": "वह एक फिटनेस कट्टरपंथी है जो हर दिन दो घंटे व्यायाम करता है।"
+    }
+  },
+  {
+    "id": 173,
+    "type": "vocab",
+    "front": "Fantasy",
+    "back": {
+      "definition_eng": "A pleasant situation that you imagine but that is unlikely to happen.",
+      "example_eng": "He lived in a world of fantasy, dreaming of becoming a famous actor.",
+      "definition_hindi": "कपोल कल्पित",
+      "example_hindi": "वह एक प्रसिद्ध अभिनेता बनने का सपना देखते हुए, कपोल कल्पित दुनिया में रहता था।"
+    }
+  },
+  {
+    "id": 174,
+    "type": "vocab",
+    "front": "Fascist",
+    "back": {
+      "definition_eng": "A person who supports an extreme political system or attitude which is in favour of strong central government.",
+      "example_eng": "The dictator was a fascist who suppressed all opposition.",
+      "definition_hindi": "तानाशाही का समर्थक",
+      "example_hindi": "तानाशाह एक फासीवादी था जिसने सभी विरोधों को दबा दिया।"
+    }
+  },
+  {
+    "id": 175,
+    "type": "vocab",
+    "front": "Fastidious",
+    "back": {
+      "definition_eng": "Being careful that every detail is correct; not liking things to be dirty/untidy.",
+      "example_eng": "She was so fastidious about cleanliness that she sanitized her hands every few minutes.",
+      "definition_hindi": "दुराराध्य",
+      "example_hindi": "वह सफाई को लेकर इतनी दुराराध्य थी कि वह हर कुछ मिनट में अपने हाथ साफ करती थी।"
+    }
+  },
+  {
+    "id": 176,
+    "type": "vocab",
+    "front": "Fatal",
+    "back": {
+      "definition_eng": "Causing or ending in death.",
+      "example_eng": "The car crash resulted in a fatal injury.",
+      "definition_hindi": "घातक",
+      "example_hindi": "कार दुर्घटना के परिणामस्वरूप एक घातक चोट लगी।"
+    }
+  },
+  {
+    "id": 177,
+    "type": "vocab",
+    "front": "Fatalist",
+    "back": {
+      "definition_eng": "A person who believes that events are decided by fate and cannot be controlled.",
+      "example_eng": "The fatalist accepted his misfortune without complaint, believing it was his destiny.",
+      "definition_hindi": "भाग्यवादी",
+      "example_hindi": "उस भाग्यवादी ने बिना किसी शिकायत के अपने दुर्भाग्य को स्वीकार कर लिया, यह मानते हुए कि यह उसकी नियति थी।"
+    }
+  },
+  {
+    "id": 178,
+    "type": "vocab",
+    "front": "Fauna",
+    "back": {
+      "definition_eng": "All the animals living in an area or in a particular period of history.",
+      "example_eng": "The scientist studied the unique flora and fauna of the island.",
+      "definition_hindi": "पशुवर्ग",
+      "example_hindi": "वैज्ञानिक ने द्वीप के अद्वितीय वनस्पति और पशुवर्ग का अध्ययन किया।"
+    }
+  },
+  {
+    "id": 179,
+    "type": "vocab",
+    "front": "Feline",
+    "back": {
+      "definition_eng": "Connected with an animal of the cat family.",
+      "example_eng": "She walked with a feline grace that was captivating.",
+      "definition_hindi": "बिल्ली के समान",
+      "example_hindi": "वह एक बिल्ली के समान अनुग्रह के साथ चलती थी जो मनमोहक था।"
+    }
+  },
+  {
+    "id": 180,
+    "type": "vocab",
+    "front": "Feminist",
+    "back": {
+      "definition_eng": "A person who supports the belief that women should have the same rights and opportunities as men.",
+      "example_eng": "As a feminist, she fought for equal pay and women's rights.",
+      "definition_hindi": "नारीवादी",
+      "example_hindi": "एक नारीवादी के रूप में, उसने समान वेतन और महिलाओं के अधिकारों के लिए लड़ाई लड़ी।"
+    }
+  },
+  {
+    "id": 181,
+    "type": "vocab",
+    "front": "Fidelity",
+    "back": {
+      "definition_eng": "Loyalty accuracy.",
+      "example_eng": "Fidelity is a cornerstone of a strong marriage.",
+      "definition_hindi": "सत्य के प्रति निष्ठा",
+      "example_hindi": "सत्य के प्रति निष्ठा एक मजबूत विवाह का आधार है।"
+    }
+  },
+  {
+    "id": 182,
+    "type": "vocab",
+    "front": "Flora",
+    "back": {
+      "definition_eng": "The plants of a particular area, type of environment or period of time.",
+      "example_eng": "The book documents the diverse flora of the Amazon rainforest.",
+      "definition_hindi": "वनस्पति",
+      "example_hindi": "यह पुस्तक अमेज़ॅन वर्षावन की विविध वनस्पतियों का दस्तावेजीकरण करती है।"
+    }
+  },
+  {
+    "id": 183,
+    "type": "vocab",
+    "front": "Fratricide",
+    "back": {
+      "definition_eng": "The crime of killing your brother/sister.",
+      "example_eng": "The story of Cain and Abel is a tale of fratricide.",
+      "definition_hindi": "भ्रातृघातक",
+      "example_hindi": "कैन और हाबिल की कहानी भ्रातृघातक की कहानी है।"
+    }
+  },
+  {
+    "id": 184,
+    "type": "vocab",
+    "front": "Fugitive",
+    "back": {
+      "definition_eng": "A person who has escaped/is running away from somewhere and is trying to avoid being caught.",
+      "example_eng": "The fugitive was on the run from the law for three years.",
+      "definition_hindi": "भगोड़ा",
+      "example_hindi": "वह भगोड़ा तीन साल तक कानून से भागता रहा।"
+    }
+  },
+  {
+    "id": 185,
+    "type": "vocab",
+    "front": "Gamophobia",
+    "back": {
+      "definition_eng": "Fear of marriage.",
+      "example_eng": "His gamophobia was so strong that he ended the relationship before it got too serious.",
+      "definition_hindi": "विवाह का डर",
+      "example_hindi": "उसका विवाह का डर इतना मजबूत था कि उसने रिश्ते को बहुत गंभीर होने से पहले ही खत्म कर दिया।"
+    }
+  },
+  {
+    "id": 186,
+    "type": "vocab",
+    "front": "Genealogy",
+    "back": {
+      "definition_eng": "The study of family history, including the study of who the ancestors of a particular person were.",
+      "example_eng": "He traced his family's genealogy back to the 16th century.",
+      "definition_hindi": "वंशावली",
+      "example_hindi": "उसने अपने परिवार की वंशावली को 16वीं शताब्दी तक खोजा।"
+    }
+  },
+  {
+    "id": 187,
+    "type": "vocab",
+    "front": "Genocide",
+    "back": {
+      "definition_eng": "The murder of a whole race or a group of people.",
+      "example_eng": "The Holocaust is one of the most horrific acts of genocide in history.",
+      "definition_hindi": "नरसंहार",
+      "example_hindi": "होलोकॉस्ट इतिहास में नरसंहार के सबसे भयानक कृत्यों में से एक है।"
+    }
+  },
+  {
+    "id": 188,
+    "type": "vocab",
+    "front": "Geology",
+    "back": {
+      "definition_eng": "The study of earth, including the origin and history of the rocks and soil of which the earth is made.",
+      "example_eng": "He majored in geology to learn about the formation of mountains and volcanoes.",
+      "definition_hindi": "भूगर्भशास्त्र",
+      "example_hindi": "उसने पहाड़ों और ज्वालामुखियों के निर्माण के बारे में जानने के लिए भूगर्भशास्त्र में विशेषज्ञता हासिल की।"
+    }
+  },
+  {
+    "id": 189,
+    "type": "vocab",
+    "front": "Germicide",
+    "back": {
+      "definition_eng": "A substance which destroys bacteria, etc.",
+      "example_eng": "The hospital uses a powerful germicide to clean the operating rooms.",
+      "definition_hindi": "अंकुर का नष्ट करने की शक्ति से युक्त",
+      "example_hindi": "अस्पताल ऑपरेटिंग कमरों को साफ करने के लिए एक शक्तिशाली कीटाणुनाशक का उपयोग करता है।"
+    }
+  },
+  {
+    "id": 190,
+    "type": "vocab",
+    "front": "Glutton",
+    "back": {
+      "definition_eng": "A person who eats too much.",
+      "example_eng": "He was such a glutton that he ate the entire cake by himself.",
+      "definition_hindi": "खाऊ",
+      "example_hindi": "वह इतना खाऊ था कि उसने पूरा केक अकेले ही खा लिया।"
+    }
+  },
+  {
+    "id": 191,
+    "type": "vocab",
+    "front": "Gregarious",
+    "back": {
+      "definition_eng": "Liking to be with other people; living in groups (animals).",
+      "example_eng": "Dolphins are gregarious animals that live in large pods.",
+      "definition_hindi": "झुण्ड में रहनेवाला",
+      "example_hindi": "डॉल्फिन झुंड में रहने वाले जानवर हैं जो बड़े समूहों में रहते हैं।"
+    }
+  },
+  {
+    "id": 192,
+    "type": "vocab",
+    "front": "Gullible",
+    "back": {
+      "definition_eng": "Easily tricked because of being too trusting.",
+      "example_eng": "The gullible man lost all his money to a phone scammer.",
+      "definition_hindi": "आसानी से धोखा खानेवाला",
+      "example_hindi": "आसानी से धोखा खाने वाले उस व्यक्ति ने एक फोन घोटालेबाज के हाथों अपना सारा पैसा खो दिया।"
+    }
+  },
+  {
+    "id": 193,
+    "type": "vocab",
+    "front": "Hallucination",
+    "back": {
+      "definition_eng": "The fact of seeing/hearing something that is not really there.",
+      "example_eng": "The high fever caused him to experience vivid hallucinations.",
+      "definition_hindi": "माया",
+      "example_hindi": "तेज बुखार के कारण उसे तीव्र माया का अनुभव हुआ।"
+    }
+  },
+  {
+    "id": 194,
+    "type": "vocab",
+    "front": "Hedonist",
+    "back": {
+      "definition_eng": "A person who believes that pleasure is the most important thing in life.",
+      "example_eng": "The hedonist lived a life of luxury and indulgence.",
+      "definition_hindi": "सुखवादी",
+      "example_hindi": "सुखवादी ने विलासिता और भोग का जीवन जिया।"
+    }
+  },
+  {
+    "id": 195,
+    "type": "vocab",
+    "front": "Herbivore",
+    "back": {
+      "definition_eng": "Eats only plants (animal).",
+      "example_eng": "The cow is a herbivore, feeding primarily on grass.",
+      "definition_hindi": "शाकाहारी",
+      "example_hindi": "गाय एक शाकाहारी है, जो मुख्य रूप से घास खाती है।"
+    }
+  },
+  {
+    "id": 196,
+    "type": "vocab",
+    "front": "Herbivorous",
+    "back": {
+      "definition_eng": "Animals that feed on plants.",
+      "example_eng": "Rabbits and deer are herbivorous animals.",
+      "definition_hindi": "शाकाहारी",
+      "example_hindi": "खरगोश और हिरण शाकाहारी जानवर हैं।"
+    }
+  },
+  {
+    "id": 197,
+    "type": "vocab",
+    "front": "Heresy",
+    "back": {
+      "definition_eng": "A belief or an opinion that is against the principle of a particular religion.",
+      "example_eng": "In the past, expressing scientific ideas that contradicted the church was considered heresy.",
+      "definition_hindi": "विधर्म",
+      "example_hindi": "अतीत में, चर्च का खंडन करने वाले वैज्ञानिक विचारों को व्यक्त करना विधर्म माना जाता था।"
+    }
+  },
+  {
+    "id": 198,
+    "type": "vocab",
+    "front": "Hermit",
+    "back": {
+      "definition_eng": "A person who, usually for religious reasons, lives a very simple life alone and does not meet/talk to other people.",
+      "example_eng": "The hermit lived in a cave in the mountains, far from civilization.",
+      "definition_hindi": "एकांतवासी",
+      "example_hindi": "वह एकांतवासी सभ्यता से दूर, पहाड़ों की एक गुफा में रहता था।"
+    }
+  },
+  {
+    "id": 199,
+    "type": "vocab",
+    "front": "Homage",
+    "back": {
+      "definition_eng": "Something that is said/done to show respect for somebody.",
+      "example_eng": "The concert was a tribute and an homage to the late musician.",
+      "definition_hindi": "श्रद्धांजलि",
+      "example_hindi": "यह संगीत कार्यक्रम दिवंगत संगीतकार को श्रद्धांजलि और सम्मान था।"
+    }
+  },
+  {
+    "id": 200,
+    "type": "vocab",
+    "front": "Homicide",
+    "back": {
+      "definition_eng": "The crime of killing somebody deliberately.",
+      "example_eng": "The detective was investigating a homicide case.",
+      "definition_hindi": "मानव हत्या",
+      "example_hindi": "जासूस एक मानव हत्या के मामले की जांच कर रहा था।"
+    }
+  },
+  {
+    "id": 201,
+    "type": "vocab",
+    "front": "Homogeneous",
+    "back": {
+      "definition_eng": "All (things or people) of the same or similar kind or nature.",
+      "example_eng": "The population of the small village was largely homogeneous.",
+      "definition_hindi": "सजातीय",
+      "example_hindi": "छोटे से गाँव की आबादी काफी हद तक सजातीय थी।"
+    }
+  },
+  {
+    "id": 202,
+    "type": "vocab",
+    "front": "Honorarium",
+    "back": {
+      "definition_eng": "A payment made for somebody's professional services; a fee paid for a nominally free service.",
+      "example_eng": "The guest speaker received an honorarium for his lecture.",
+      "definition_hindi": "मानदेय",
+      "example_hindi": "अतिथि वक्ता को उनके व्याख्यान के लिए एक मानदेय मिला।"
+    }
+  },
+  {
+    "id": 203,
+    "type": "vocab",
+    "front": "Honorary",
+    "back": {
+      "definition_eng": "Given as an honour.",
+      "example_eng": "The university awarded him an honorary degree for his contributions to science.",
+      "definition_hindi": "माननीय",
+      "example_hindi": "विश्वविद्यालय ने उन्हें विज्ञान में उनके योगदान के लिए मानद उपाधि से सम्मानित किया।"
+    }
+  },
+  {
+    "id": 204,
+    "type": "vocab",
+    "front": "Horticulture",
+    "back": {
+      "definition_eng": "The study/practice of growing flowers, fruits and vegetables.",
+      "example_eng": "She studied horticulture to learn how to cultivate a beautiful garden.",
+      "definition_hindi": "बागवानी",
+      "example_hindi": "उसने एक सुंदर बगीचा कैसे उगाना है यह जानने के लिए बागवानी का अध्ययन किया।"
+    }
+  },
+  {
+    "id": 205,
+    "type": "vocab",
+    "front": "Humanitarian",
+    "back": {
+      "definition_eng": "Concerned with reducing suffering and improving the conditions that people live in.",
+      "example_eng": "The organization provides humanitarian aid to regions affected by disaster.",
+      "definition_hindi": "मानवीय",
+      "example_hindi": "यह संगठन आपदा प्रभावित क्षेत्रों को मानवीय सहायता प्रदान करता है।"
+    }
+  },
+  {
+    "id": 206,
+    "type": "vocab",
+    "front": "Hydrophobia",
+    "back": {
+      "definition_eng": "Extreme fear of water.",
+      "example_eng": "After the boating accident, he developed a severe case of hydrophobia.",
+      "definition_hindi": "पानी से भय",
+      "example_hindi": "नाव दुर्घटना के बाद, उसे पानी से गंभीर भय हो गया।"
+    }
+  },
+  {
+    "id": 207,
+    "type": "vocab",
+    "front": "Hymn",
+    "back": {
+      "definition_eng": "A song of praise (to god or to a saint or to a nation).",
+      "example_eng": "The church choir sang a beautiful hymn during the service.",
+      "definition_hindi": "भजन",
+      "example_hindi": "चर्च के गायक दल ने सेवा के दौरान एक सुंदर भजन गाया।"
+    }
+  },
+  {
+    "id": 208,
+    "type": "vocab",
+    "front": "Hypochondriac",
+    "back": {
+      "definition_eng": "Worried all the time about your health and believing that you are ill/sick when there is nothing wrong with you.",
+      "example_eng": "The hypochondriac visited the doctor for every minor cough or sneeze.",
+      "definition_hindi": "रोगभ्रमी",
+      "example_hindi": "वह रोगभ्रमी हर छोटी-मोटी खांसी या छींक के लिए डॉक्टर के पास जाता था।"
+    }
+  },
+  {
+    "id": 209,
+    "type": "vocab",
+    "front": "Hypocrite",
+    "back": {
+      "definition_eng": "A person who pretends to have moral standards/ opinions that they do not actually have.",
+      "example_eng": "He's a hypocrite; he tells others not to smoke, but he smokes a pack a day.",
+      "definition_hindi": "पाखंडी",
+      "example_hindi": "वह एक पाखंडी है; वह दूसरों को धूम्रपान न करने के लिए कहता है, लेकिन वह दिन में एक पैकेट धूम्रपान करता है।"
+    }
+  },
+  {
+    "id": 210,
+    "type": "vocab",
+    "front": "Iconoclast",
+    "back": {
+      "definition_eng": "A person who criticizes popular beliefs / established customs and ideas.",
+      "example_eng": "The artist was an iconoclast, challenging the traditional norms of the art world.",
+      "definition_hindi": "रिवाज़ तोड़ने वाला",
+      "example_hindi": "कलाकार एक रिवाज़ तोड़ने वाला था, जो कला जगत के पारंपरिक मानदंडों को चुनौती देता था।"
+    }
+  },
+  {
+    "id": 211,
+    "type": "vocab",
+    "front": "Idiosyncrasy",
+    "back": {
+      "definition_eng": "A person's particular way of behaving, thinking, etc., especially when it is unusual.",
+      "example_eng": "One of his little idiosyncrasies was always wearing mismatched socks.",
+      "definition_hindi": "अनोखापन",
+      "example_hindi": "उसकी छोटी-छोटी विचित्रताओं में से एक हमेशा बेमेल मोज़े पहनना था।"
+    }
+  },
+  {
+    "id": 212,
+    "type": "vocab",
+    "front": "Illegible",
+    "back": {
+      "definition_eng": "Difficult/impossible to read.",
+      "example_eng": "The doctor's handwriting was completely illegible.",
+      "definition_hindi": "अस्पष्ट",
+      "example_hindi": "डॉक्टर की लिखावट पूरी तरह से अस्पष्ट थी।"
+    }
+  },
+  {
+    "id": 213,
+    "type": "vocab",
+    "front": "Illicit",
+    "back": {
+      "definition_eng": "Not allowed by law.",
+      "example_eng": "He was arrested for selling illicit drugs.",
+      "definition_hindi": "अवैध",
+      "example_hindi": "उसे अवैध ड्रग्स बेचने के आरोप में गिरफ्तार किया गया था।"
+    }
+  },
+  {
+    "id": 214,
+    "type": "vocab",
+    "front": "Illiterate",
+    "back": {
+      "definition_eng": "Not knowing how to read/write.",
+      "example_eng": "The program aims to help illiterate adults learn to read and write.",
+      "definition_hindi": "निरक्षर",
+      "example_hindi": "इस कार्यक्रम का उद्देश्य निरक्षर वयस्कों को पढ़ना और लिखना सीखने में मदद करना है।"
+    }
+  },
+  {
+    "id": 215,
+    "type": "vocab",
+    "front": "Immigrant",
+    "back": {
+      "definition_eng": "A person who comes to a country where they were not born in order to settle there.",
+      "example_eng": "My grandparents were immigrants from Italy.",
+      "definition_hindi": "अप्रवासी",
+      "example_hindi": "मेरे दादा-दादी इटली के अप्रवासी थे।"
+    }
+  },
+  {
+    "id": 216,
+    "type": "vocab",
+    "front": "Impregnable",
+    "back": {
+      "definition_eng": "Strong and impossible to defeat/change.",
+      "example_eng": "The castle was surrounded by an impregnable wall.",
+      "definition_hindi": "अभेद्य",
+      "example_hindi": "महल एक अभेद्य दीवार से घिरा हुआ था।"
+    }
+  },
+  {
+    "id": 217,
+    "type": "vocab",
+    "front": "Imposter",
+    "back": {
+      "definition_eng": "A person who pretends to be somebody else in order to trick people.",
+      "example_eng": "The man who claimed to be a prince was revealed to be an imposter.",
+      "definition_hindi": "ढोंगी",
+      "example_hindi": "जिस व्यक्ति ने राजकुमार होने का दावा किया था, वह एक ढोंगी निकला।"
+    }
+  },
+  {
+    "id": 218,
+    "type": "vocab",
+    "front": "Inaccessible",
+    "back": {
+      "definition_eng": "Difficult/ impossible to reach/ to get.",
+      "example_eng": "The remote village is inaccessible during the winter.",
+      "definition_hindi": "दुर्गम",
+      "example_hindi": "सर्दियों के दौरान दूरदराज का गाँव दुर्गम होता है।"
+    }
+  },
+  {
+    "id": 219,
+    "type": "vocab",
+    "front": "Inaudible",
+    "back": {
+      "definition_eng": "That you cannot hear.",
+      "example_eng": "The sound was almost inaudible to the human ear.",
+      "definition_hindi": "अश्राव्य",
+      "example_hindi": "यह ध्वनि मानव कान के लिए लगभग अश्राव्य थी।"
+    }
+  },
+  {
+    "id": 220,
+    "type": "vocab",
+    "front": "Incentive",
+    "back": {
+      "definition_eng": "Something that encourages you to do something.",
+      "example_eng": "The company offered a bonus as an incentive for employees to work harder.",
+      "definition_hindi": "प्रोत्साहन",
+      "example_hindi": "कंपनी ने कर्मचारियों को और अधिक मेहनत करने के लिए प्रोत्साहन के रूप में बोनस की पेशकश की।"
+    }
+  },
+  {
+    "id": 221,
+    "type": "vocab",
+    "front": "Incorrigible",
+    "back": {
+      "definition_eng": "Having bad habits which cannot be changed or improved.",
+      "example_eng": "He is an incorrigible liar; you can't believe a word he says.",
+      "definition_hindi": "असंशोधनीय",
+      "example_hindi": "वह एक असंशोधनीय झूठा है; आप उसके एक भी शब्द पर विश्वास नहीं कर सकते।"
+    }
+  },
+  {
+    "id": 222,
+    "type": "vocab",
+    "front": "Incredible",
+    "back": {
+      "definition_eng": "Impossible/difficult to believe.",
+      "example_eng": "The magician performed an incredible trick that amazed the audience.",
+      "definition_hindi": "अविश्वसनीय",
+      "example_hindi": "जादूगर ने एक अविश्वसनीय करतब दिखाया जिसने दर्शकों को चकित कर दिया।"
+    }
+  },
+  {
+    "id": 223,
+    "type": "vocab",
+    "front": "Indelible",
+    "back": {
+      "definition_eng": "That cannot be removed/erased.",
+      "example_eng": "The traumatic experience left an indelible mark on his memory.",
+      "definition_hindi": "अमिट",
+      "example_hindi": "दर्दनाक अनुभव ने उसकी स्मृति पर एक अमिट छाप छोड़ी।"
+    }
+  },
+  {
+    "id": 224,
+    "type": "vocab",
+    "front": "Indefatigable",
+    "back": {
+      "definition_eng": "Never giving up or getting tired of doing something.",
+      "example_eng": "She was an indefatigable campaigner for human rights.",
+      "definition_hindi": "अथक",
+      "example_hindi": "वह मानवाधिकारों के लिए एक अथक प्रचारक थीं।"
+    }
+  },
+  {
+    "id": 225,
+    "type": "vocab",
+    "front": "Indigenous",
+    "back": {
+      "definition_eng": "Originating or occurring naturally in the place or country where found; native.",
+      "example_eng": "The kangaroo is an animal indigenous to Australia.",
+      "definition_hindi": "स्वदेशी",
+      "example_hindi": "कंगारू ऑस्ट्रेलिया का एक स्वदेशी जानवर है।"
+    }
+  },
+  {
+    "id": 226,
+    "type": "vocab",
+    "front": "Ineffable",
+    "back": {
+      "definition_eng": "Too great/beautiful to describe in words.",
+      "example_eng": "The beauty of the sunset over the ocean was ineffable.",
+      "definition_hindi": "अवर्णनीय",
+      "example_hindi": "समुद्र के ऊपर सूर्यास्त की सुंदरता अवर्णनीय थी।"
+    }
+  },
+  {
+    "id": 227,
+    "type": "vocab",
+    "front": "Ineligible",
+    "back": {
+      "definition_eng": "Not having necessary qualifications to have/ do something.",
+      "example_eng": "Since he had a criminal record, he was ineligible for the job.",
+      "definition_hindi": "अयोग्य",
+      "example_hindi": "चूंकि उसका एक आपराधिक रिकॉर्ड था, वह नौकरी के लिए अयोग्य था।"
+    }
+  },
+  {
+    "id": 228,
+    "type": "vocab",
+    "front": "Inevitable",
+    "back": {
+      "definition_eng": "That you cannot avoid/prevent.",
+      "example_eng": "After the massive loss, the company's bankruptcy was inevitable.",
+      "definition_hindi": "अपरिहार्य",
+      "example_hindi": "भारी नुकसान के बाद कंपनी का दिवालिया होना अपरिहार्य था।"
+    }
+  },
+  {
+    "id": 229,
+    "type": "vocab",
+    "front": "Inexorable",
+    "back": {
+      "definition_eng": "That cannot be stopped or changed.",
+      "example_eng": "The inexorable march of time affects us all.",
+      "definition_hindi": "निष्ठुर",
+      "example_hindi": "समय की निष्ठुर चाल हम सभी को प्रभावित करती है।"
+    }
+  },
+  {
+    "id": 230,
+    "type": "vocab",
+    "front": "Infallible",
+    "back": {
+      "definition_eng": "That never fails; always doing what it is supposed to do.",
+      "example_eng": "The Pope's judgment on matters of faith is considered infallible by Catholics.",
+      "definition_hindi": "अचूक",
+      "example_hindi": "कैथोलिकों द्वारा आस्था के मामलों पर पोप के निर्णय को अचूक माना जाता है।"
+    }
+  },
+  {
+    "id": 231,
+    "type": "vocab",
+    "front": "Infanticide",
+    "back": {
+      "definition_eng": "The crime of killing a baby.",
+      "example_eng": "The practice of female infanticide has been outlawed in many countries.",
+      "definition_hindi": "शिशु हत्या",
+      "example_hindi": "कई देशों में कन्या शिशु हत्या की प्रथा को गैरकानूनी घोषित कर दिया गया है।"
+    }
+  },
+  {
+    "id": 232,
+    "type": "vocab",
+    "front": "Insolvent",
+    "back": {
+      "definition_eng": "A person not having enough to pay what he owes.",
+      "example_eng": "The company was declared insolvent after it could not pay its debts.",
+      "definition_hindi": "दिवालिया",
+      "example_hindi": "कंपनी को अपने कर्ज का भुगतान न कर पाने के बाद दिवालिया घोषित कर दिया गया।"
+    }
+  },
+  {
+    "id": 233,
+    "type": "vocab",
+    "front": "Insomnia",
+    "back": {
+      "definition_eng": "The condition of being unable to sleep.",
+      "example_eng": "Stress and anxiety can often lead to insomnia.",
+      "definition_hindi": "अनिद्रा",
+      "example_hindi": "तनाव और चिंता अक्सर अनिद्रा का कारण बन सकते हैं।"
+    }
+  },
+  {
+    "id": 234,
+    "type": "vocab",
+    "front": "Interment",
+    "back": {
+      "definition_eng": "The act of burying a dead person.",
+      "example_eng": "The interment of the king took place at the royal cemetery.",
+      "definition_hindi": "दफ़न",
+      "example_hindi": "राजा का दफ़न शाही कब्रिस्तान में हुआ।"
+    }
+  },
+  {
+    "id": 235,
+    "type": "vocab",
+    "front": "Internment",
+    "back": {
+      "definition_eng": "The act of confining someone in a prison.",
+      "example_eng": "During the war, many citizens of enemy nationality faced internment.",
+      "definition_hindi": "नजरबंदी",
+      "example_hindi": "युद्ध के दौरान, दुश्मन राष्ट्रीयता के कई नागरिकों को नजरबंदी का सामना करना पड़ा।"
+    }
+  },
+  {
+    "id": 236,
+    "type": "vocab",
+    "front": "Interregnum",
+    "back": {
+      "definition_eng": "A period of time during which a country, an organization, etc. does not have a leader and is waiting for a new one.",
+      "example_eng": "There was a brief interregnum between the two rulers.",
+      "definition_hindi": "दो शासनों के बीच का काल",
+      "example_hindi": "दोनों शासकों के बीच एक संक्षिप्त अंतराल था।"
+    }
+  },
+  {
+    "id": 237,
+    "type": "vocab",
+    "front": "Intestate",
+    "back": {
+      "definition_eng": "Having made no legal will.",
+      "example_eng": "He died intestate, so his property was divided according to the law.",
+      "definition_hindi": "बिना वसीयतनामा मारा हुआ",
+      "example_hindi": "उसकी मृत्यु बिना वसीयत के हुई, इसलिए उसकी संपत्ति कानून के अनुसार विभाजित की गई।"
+    }
+  },
+  {
+    "id": 238,
+    "type": "vocab",
+    "front": "Invincible",
+    "back": {
+      "definition_eng": "Too strong to be defeated/changed.",
+      "example_eng": "The champion boxer seemed invincible in the ring.",
+      "definition_hindi": "अजेय",
+      "example_hindi": "चैंपियन मुक्केबाज रिंग में अजेय लग रहा था।"
+    }
+  },
+  {
+    "id": 239,
+    "type": "vocab",
+    "front": "Itinerant",
+    "back": {
+      "definition_eng": "Travelling from place to place, especially to find work.",
+      "example_eng": "The itinerant workers moved from farm to farm during the harvest season.",
+      "definition_hindi": "भ्रमणकारी",
+      "example_hindi": "भ्रमणकारी मजदूर फसल के मौसम में एक खेत से दूसरे खेत में जाते थे।"
+    }
+  },
+  {
+    "id": 240,
+    "type": "vocab",
+    "front": "Itinerary",
+    "back": {
+      "definition_eng": "A plan of a journey, including the route and the places that you visit.",
+      "example_eng": "Our travel agent prepared a detailed itinerary for our trip to Europe.",
+      "definition_hindi": "यात्रा कार्यक्रम",
+      "example_hindi": "हमारे यात्रा एजेंट ने हमारी यूरोप यात्रा के लिए एक विस्तृत यात्रा कार्यक्रम तैयार किया।"
+    }
+  },
+  {
+    "id": 241,
+    "type": "vocab",
+    "front": "Judge",
+    "back": {
+      "definition_eng": "A person in a court who has the authority to decide how criminals should be punished or to make legal decisions.",
+      "example_eng": "The judge sentenced the defendant to five years in prison.",
+      "definition_hindi": "न्यायाधीश",
+      "example_hindi": "न्यायाधीश ने प्रतिवादी को पांच साल की कैद की सजा सुनाई।"
+    }
+  },
+  {
+    "id": 242,
+    "type": "vocab",
+    "front": "Juxtapose",
+    "back": {
+      "definition_eng": "Place side by side.",
+      "example_eng": "The artist chose to juxtapose bright colors with dark shades in his painting.",
+      "definition_hindi": "मिलाना",
+      "example_hindi": "कलाकार ने अपनी पेंटिंग में चमकीले रंगों को गहरे रंगों के साथ मिलाना चुना।"
+    }
+  },
+  {
+    "id": 243,
+    "type": "vocab",
+    "front": "Kleptomania",
+    "back": {
+      "definition_eng": "A mental illness in which somebody has a strong desire, which they cannot control, to steal things.",
+      "example_eng": "She was diagnosed with kleptomania after being caught shoplifting multiple times.",
+      "definition_hindi": "चोरी करने की बीमारी",
+      "example_hindi": "कई बार दुकानदारी करते पकड़े जाने के बाद उसे क्लेप्टोमेनिया का निदान किया गया।"
+    }
+  },
+  {
+    "id": 244,
+    "type": "vocab",
+    "front": "Knell",
+    "back": {
+      "definition_eng": "The sound of a bell rung slowly to announce a death/ a funeral/the end of something.",
+      "example_eng": "The church bell's knell signaled the start of the funeral.",
+      "definition_hindi": "शोक सूचक घंटे की ध्वनि",
+      "example_hindi": "चर्च की घंटी की शोक सूचक ध्वनि ने अंतिम संस्कार की शुरुआत का संकेत दिया।"
+    }
+  },
+  {
+    "id": 245,
+    "type": "vocab",
+    "front": "Landscape",
+    "back": {
+      "definition_eng": "Everything you can see when you look across a large area of land.",
+      "example_eng": "The artist painted a beautiful landscape of the countryside.",
+      "definition_hindi": "परिदृश्य",
+      "example_hindi": "कलाकार ने ग्रामीण इलाकों का एक सुंदर परिदृश्य चित्रित किया।"
+    }
+  },
+  {
+    "id": 246,
+    "type": "vocab",
+    "front": "Lapidist",
+    "back": {
+      "definition_eng": "A skilled worker who cuts and engraves precious stones.",
+      "example_eng": "The lapidist carefully cut the diamond to maximize its brilliance.",
+      "definition_hindi": "कुशल श्रमिक जो कीमती पत्थरों को काटता और उकेरता है",
+      "example_hindi": "कुशल जौहरी ने हीरे को उसकी चमक को अधिकतम करने के लिए सावधानी से काटा।"
+    }
+  },
+  {
+    "id": 247,
+    "type": "vocab",
+    "front": "Laxative",
+    "back": {
+      "definition_eng": "A medicine, food/ drink that makes somebody empty their bowels easily.",
+      "example_eng": "He took a laxative to relieve his constipation.",
+      "definition_hindi": "पेट साफ करने वाली",
+      "example_hindi": "उसने अपनी कब्ज से राहत पाने के लिए एक पेट साफ करने वाली दवा ली।"
+    }
+  },
+  {
+    "id": 248,
+    "type": "vocab",
+    "front": "Lease",
+    "back": {
+      "definition_eng": "A legal agreement that allows you to use a building, piece of equipment/ some land for a period of time, usually in return for rent.",
+      "example_eng": "We signed a one-year lease for the apartment.",
+      "definition_hindi": "पट्टा",
+      "example_hindi": "हमने अपार्टमेंट के लिए एक साल के पट्टे पर हस्ताक्षर किए।"
+    }
+  },
+  {
+    "id": 249,
+    "type": "vocab",
+    "front": "Legend",
+    "back": {
+      "definition_eng": "A story from ancient times about people and events, that may/may not be true.",
+      "example_eng": "The legend of King Arthur has been told for centuries.",
+      "definition_hindi": "दिव्य चरित्र",
+      "example_hindi": "राजा आर्थर की दिव्य चरित्र की कहानी सदियों से सुनाई जाती रही है।"
+    }
+  },
+  {
+    "id": 250,
+    "type": "vocab",
+    "front": "Lexicographer",
+    "back": {
+      "definition_eng": "A person who writes and edits dictionaries.",
+      "example_eng": "The lexicographer spent years compiling the new dictionary.",
+      "definition_hindi": "कोशकार",
+      "example_hindi": "कोशकार ने नया शब्दकोश संकलित करने में वर्षों बिताए।"
+    }
+  },
+  {
+    "id": 251,
+    "type": "vocab",
+    "front": "Loquacious",
+    "back": {
+      "definition_eng": "One who talks a lot.",
+      "example_eng": "My loquacious aunt can talk for hours on the phone.",
+      "definition_hindi": "बातूनी",
+      "example_hindi": "मेरी बातूनी चाची फोन पर घंटों बात कर सकती हैं।"
+    }
+  },
+  {
+    "id": 252,
+    "type": "vocab",
+    "front": "Maiden",
+    "back": {
+      "definition_eng": "Being the first of its kind (speech, journey by a plane/ship), etc.",
+      "example_eng": "The Titanic's maiden voyage ended in disaster.",
+      "definition_hindi": "प्रथम",
+      "example_hindi": "टाइटैनिक की पहली यात्रा एक आपदा में समाप्त हुई।"
+    }
+  },
+  {
+    "id": 253,
+    "type": "vocab",
+    "front": "Maiden Speech",
+    "back": {
+      "definition_eng": "The first speech made by a person.",
+      "example_eng": "The new Member of Parliament delivered his maiden speech today.",
+      "definition_hindi": "पहला भाषण",
+      "example_hindi": "नए सांसद ने आज अपना पहला भाषण दिया।"
+    }
+  },
+  {
+    "id": 254,
+    "type": "vocab",
+    "front": "Manuscript",
+    "back": {
+      "definition_eng": "A copy of a book, piece of music, etc. before it has been printed.",
+      "example_eng": "The author submitted the final manuscript of her novel to the publisher.",
+      "definition_hindi": "हस्तलिपि",
+      "example_hindi": "लेखक ने अपने उपन्यास की अंतिम हस्तलिपि प्रकाशक को सौंपी।"
+    }
+  },
+  {
+    "id": 255,
+    "type": "vocab",
+    "front": "Martyr",
+    "back": {
+      "definition_eng": "A person who suffers very much or is killed because of his religious/ political beliefs.",
+      "example_eng": "Joan of Arc is considered a martyr by the Catholic Church.",
+      "definition_hindi": "शहीद",
+      "example_hindi": "जोन ऑफ आर्क को कैथोलिक चर्च द्वारा एक शहीद माना जाता है।"
+    }
+  },
+  {
+    "id": 256,
+    "type": "vocab",
+    "front": "Masochist",
+    "back": {
+      "definition_eng": "Someone who obtains pleasure from receiving punishment.",
+      "example_eng": "Only a masochist would enjoy such a painful and difficult task.",
+      "definition_hindi": "परपीड़न-कामुक",
+      "example_hindi": "केवल एक परपीड़न-कामुक ही इतने दर्दनाक और कठिन कार्य का आनंद उठाएगा।"
+    }
+  },
+  {
+    "id": 257,
+    "type": "vocab",
+    "front": "Matricide",
+    "back": {
+      "definition_eng": "The killing of one's mother.",
+      "example_eng": "The character in the play commits matricide in a fit of rage.",
+      "definition_hindi": "मातृहत्या",
+      "example_hindi": "नाटक का पात्र गुस्से में आकर मातृहत्या कर बैठता है।"
+    }
+  },
+  {
+    "id": 258,
+    "type": "vocab",
+    "front": "Megalomania",
+    "back": {
+      "definition_eng": "A mental illness/condition in which somebody has an exaggerated belief in their own importance/power.",
+      "example_eng": "The dictator's megalomania led him to believe he was invincible.",
+      "definition_hindi": "अहंकारोन्माद",
+      "example_hindi": "तानाशाह के अहंकारोन्माद ने उसे यह विश्वास दिलाया कि वह अजेय है।"
+    }
+  },
+  {
+    "id": 259,
+    "type": "vocab",
+    "front": "Memorandum",
+    "back": {
+      "definition_eng": "A proposal/ report on a particular subject for a person, an organisation, a committee, etc.",
+      "example_eng": "The CEO sent a memorandum to all employees about the new policy.",
+      "definition_hindi": "ज्ञापन",
+      "example_hindi": "सीईओ ने सभी कर्मचारियों को नई नीति के बारे में एक ज्ञापन भेजा।"
+    }
+  },
+  {
+    "id": 260,
+    "type": "vocab",
+    "front": "Mercenary",
+    "back": {
+      "definition_eng": "A soldier who will fight for any country/group that offers payment.",
+      "example_eng": "The warlord hired a group of mercenaries to protect his territory.",
+      "definition_hindi": "किराए का टट्टू",
+      "example_hindi": "सरदार ने अपने क्षेत्र की रक्षा के लिए किराए के सैनिकों के एक समूह को काम पर रखा।"
+    }
+  },
+  {
+    "id": 261,
+    "type": "vocab",
+    "front": "Mint",
+    "back": {
+      "definition_eng": "A place where money is coined by authority of the government.",
+      "example_eng": "The new coins were produced at the national mint.",
+      "definition_hindi": "टकसाल",
+      "example_hindi": "नए सिक्के राष्ट्रीय टकसाल में बनाए गए थे।"
+    }
+  },
+  {
+    "id": 262,
+    "type": "vocab",
+    "front": "Misanthrope",
+    "back": {
+      "definition_eng": "A person who hates and avoids other people.",
+      "example_eng": "After years of betrayal, he became a misanthrope, preferring solitude.",
+      "definition_hindi": "मानवद्वेषी",
+      "example_hindi": "वर्षों के धोखे के बाद, वह एक मानवद्वेषी बन गया और एकांत पसंद करने लगा।"
+    }
+  },
+  {
+    "id": 263,
+    "type": "vocab",
+    "front": "Misogamist",
+    "back": {
+      "definition_eng": "A person who hates marriage.",
+      "example_eng": "As a confirmed misogamist, he swore he would never get married.",
+      "definition_hindi": "विवाह से घृणा करने वाला",
+      "example_hindi": "एक पक्के विवाह-द्वेषी के रूप में, उसने कसम खाई कि वह कभी शादी नहीं करेगा।"
+    }
+  },
+  {
+    "id": 264,
+    "type": "vocab",
+    "front": "Misogynist",
+    "back": {
+      "definition_eng": "A person who dislikes women.",
+      "example_eng": "His misogynist remarks made everyone in the room uncomfortable.",
+      "definition_hindi": "स्री जाति से द्वेष करनेवाला",
+      "example_hindi": "उसकी स्त्री-द्वेषी टिप्पणियों ने कमरे में मौजूद सभी को असहज कर दिया।"
+    }
+  },
+  {
+    "id": 265,
+    "type": "vocab",
+    "front": "Momentous",
+    "back": {
+      "definition_eng": "Very important or serious.",
+      "example_eng": "The signing of the peace treaty was a momentous occasion.",
+      "definition_hindi": "सब से अहम",
+      "example_hindi": "शांति संधि पर हस्ताक्षर करना एक सबसे अहम अवसर था।"
+    }
+  },
+  {
+    "id": 266,
+    "type": "vocab",
+    "front": "Monarchy",
+    "back": {
+      "definition_eng": "A system of government by a king/a queen.",
+      "example_eng": "The United Kingdom is a constitutional monarchy.",
+      "definition_hindi": "राज-तंत्र",
+      "example_hindi": "यूनाइटेड किंगडम एक संवैधानिक राज-तंत्र है।"
+    }
+  },
+  {
+    "id": 267,
+    "type": "vocab",
+    "front": "Monologue",
+    "back": {
+      "definition_eng": "A long speech by one person during a conversation that stops other people from speaking or expressing an opinion.",
+      "example_eng": "The actor delivered a powerful monologue that captivated the audience.",
+      "definition_hindi": "स्वगत भाषण",
+      "example_hindi": "अभिनेता ने एक शक्तिशाली स्वगत भाषण दिया जिसने दर्शकों को मंत्रमुग्ध कर दिया।"
+    }
+  },
+  {
+    "id": 268,
+    "type": "vocab",
+    "front": "Monotheism",
+    "back": {
+      "definition_eng": "The belief that there is only one god.",
+      "example_eng": "Judaism, Christianity, and Islam are all forms of monotheism.",
+      "definition_hindi": "एकेश्वरवाद",
+      "example_hindi": "यहूदी धर्म, ईसाई धर्म और इस्लाम सभी एकेश्वरवाद के रूप हैं।"
+    }
+  },
+  {
+    "id": 269,
+    "type": "vocab",
+    "front": "Mortal",
+    "back": {
+      "definition_eng": "Subject to death.",
+      "example_eng": "All humans are mortal.",
+      "definition_hindi": "नाशवान",
+      "example_hindi": "सभी मनुष्य नाशवान हैं।"
+    }
+  },
+  {
+    "id": 270,
+    "type": "vocab",
+    "front": "Mortuary",
+    "back": {
+      "definition_eng": "A place/room/building in which dead bodies are kept before they are buried/cremated.",
+      "example_eng": "The body was taken to the mortuary for a post-mortem examination.",
+      "definition_hindi": "शवगृह",
+      "example_hindi": "शव को पोस्टमार्टम के लिए शवगृह ले जाया गया।"
+    }
+  },
+  {
+    "id": 271,
+    "type": "vocab",
+    "front": "Mutiny",
+    "back": {
+      "definition_eng": "The act of refusing to obey the orders of somebody in authority, especially by soldiers/ sailors.",
+      "example_eng": "The sailors staged a mutiny against the cruel captain.",
+      "definition_hindi": "गदर",
+      "example_hindi": "नाविकों ने क्रूर कप्तान के खिलाफ गदर कर दिया।"
+    }
+  },
+  {
+    "id": 272,
+    "type": "vocab",
+    "front": "Mystic",
+    "back": {
+      "definition_eng": "A person who tries to become united with god through prayer and meditation and so understand important things that are beyond normal human understanding.",
+      "example_eng": "The mystic spent his days in deep meditation.",
+      "definition_hindi": "रहस्यवादी",
+      "example_hindi": "रहस्यवादी ने अपने दिन गहरे ध्यान में बिताए।"
+    }
+  },
+  {
+    "id": 273,
+    "type": "vocab",
+    "front": "Narcissist",
+    "back": {
+      "definition_eng": "A person who admires himself/herself too much, especially his appearance.",
+      "example_eng": "The narcissist constantly checked his reflection in every mirror.",
+      "definition_hindi": "आत्मरतिक",
+      "example_hindi": "आत्मरतिक व्यक्ति हर दर्पण में लगातार अपना प्रतिबिंब देखता रहता था।"
+    }
+  },
+  {
+    "id": 274,
+    "type": "vocab",
+    "front": "Nepotism",
+    "back": {
+      "definition_eng": "Giving unfair advantages to your own family if you are in a position of power, especially by giving them jobs.",
+      "example_eng": "He was accused of nepotism after hiring his unqualified son for a key position.",
+      "definition_hindi": "भाई-भतीजावाद",
+      "example_hindi": "उस पर अपने अयोग्य बेटे को एक प्रमुख पद पर रखने के बाद भाई-भतीजावाद का आरोप लगाया गया।"
+    }
+  },
+  {
+    "id": 275,
+    "type": "vocab",
+    "front": "Neutral",
+    "back": {
+      "definition_eng": "Not supporting/ helping either side in a disagreement, competition, etc.",
+      "example_eng": "Switzerland remained a neutral country during both World Wars.",
+      "definition_hindi": "तटस्थ",
+      "example_hindi": "स्विट्जरलैंड दोनों विश्व युद्धों के दौरान एक तटस्थ देश बना रहा।"
+    }
+  },
+  {
+    "id": 276,
+    "type": "vocab",
+    "front": "Neophyte",
+    "back": {
+      "definition_eng": "A person who has recently started an activity.",
+      "example_eng": "As a neophyte in the kitchen, he struggled to even boil an egg.",
+      "definition_hindi": "नवसिखुआ",
+      "example_hindi": "रसोई में एक नवसिखुआ के रूप में, उसे अंडा उबालने में भी संघर्ष करना पड़ा।"
+    }
+  },
+  {
+    "id": 277,
+    "type": "vocab",
+    "front": "Notorious",
+    "back": {
+      "definition_eng": "Well-known for being bad.",
+      "example_eng": "The gangster was notorious for his cruelty.",
+      "definition_hindi": "कुख्यात",
+      "example_hindi": "गैंगस्टर अपनी क्रूरता के लिए कुख्यात था।"
+    }
+  },
+  {
+    "id": 278,
+    "type": "vocab",
+    "front": "Novice",
+    "back": {
+      "definition_eng": "A person who is new and has little experience in a skill, job or situation.",
+      "example_eng": "He is a complete novice at skiing.",
+      "definition_hindi": "नौसिखिया",
+      "example_hindi": "वह स्कीइंग में एक पूरा नौसिखिया है।"
+    }
+  },
+  {
+    "id": 279,
+    "type": "vocab",
+    "front": "Numismatist",
+    "back": {
+      "definition_eng": "A person who collects or studies coins or medals.",
+      "example_eng": "The numismatist had an impressive collection of ancient Roman coins.",
+      "definition_hindi": "मुद्राशास्त्री",
+      "example_hindi": "मुद्राशास्त्री के पास प्राचीन रोमन सिक्कों का एक प्रभावशाली संग्रह था।"
+    }
+  },
+  {
+    "id": 280,
+    "type": "vocab",
+    "front": "Nymphomania",
+    "back": {
+      "definition_eng": "The behaviour of a woman who has or wants to have sex very often.",
+      "example_eng": "In the story, the character's nymphomania leads to many complications.",
+      "definition_hindi": "स्त्रियों का कामोन्माद",
+      "example_hindi": "कहानी में, चरित्र का कामोन्माद कई जटिलताओं को जन्म देता है।"
+    }
+  },
+  {
+    "id": 281,
+    "type": "vocab",
+    "front": "Obeisance",
+    "back": {
+      "definition_eng": "The act of obeying.",
+      "example_eng": "The subjects made obeisance to the queen.",
+      "definition_hindi": "आदर",
+      "example_hindi": "प्रजा ने रानी को आदरपूर्वक प्रणाम किया।"
+    }
+  },
+  {
+    "id": 282,
+    "type": "vocab",
+    "front": "Obituary",
+    "back": {
+      "definition_eng": "A notice of someone's death (with his life and achievements).",
+      "example_eng": "The newspaper published a lengthy obituary for the famous writer.",
+      "definition_hindi": "शोक सन्देश",
+      "example_hindi": "अखबार ने प्रसिद्ध लेखक के लिए एक लंबा शोक सन्देश प्रकाशित किया।"
+    }
+  },
+  {
+    "id": 283,
+    "type": "vocab",
+    "front": "Obscure",
+    "back": {
+      "definition_eng": "Not clearly understood or expressed.",
+      "example_eng": "The meaning of the ancient text was obscure.",
+      "definition_hindi": "अस्पष्ट",
+      "example_hindi": "प्राचीन पाठ का अर्थ अस्पष्ट था।"
+    }
+  },
+  {
+    "id": 284,
+    "type": "vocab",
+    "front": "Obsolete",
+    "back": {
+      "definition_eng": "No longer used because something new has been invented.",
+      "example_eng": "With the advent of smartphones, pagers have become obsolete.",
+      "definition_hindi": "अप्रचलित",
+      "example_hindi": "स्मार्टफोन के आगमन के साथ, पेजर अप्रचलित हो गए हैं।"
+    }
+  },
+  {
+    "id": 285,
+    "type": "vocab",
+    "front": "Octagon",
+    "back": {
+      "definition_eng": "A flat shape with eight straight sides and eight angles.",
+      "example_eng": "A stop sign is in the shape of an octagon.",
+      "definition_hindi": "अष्टकोना",
+      "example_hindi": "एक स्टॉप साइन एक अष्टकोण के आकार का होता है।"
+    }
+  },
+  {
+    "id": 286,
+    "type": "vocab",
+    "front": "Ode",
+    "back": {
+      "definition_eng": "A poem that speaks to a person/thing/celebrates a special event.",
+      "example_eng": "John Keats' 'Ode to a Nightingale' is a famous romantic poem.",
+      "definition_hindi": "संबोधगीत",
+      "example_hindi": "जॉन कीट्स का 'ओड टू ए नाइटिंगेल' एक प्रसिद्ध रोमांटिक संबोधगीत है।"
+    }
+  },
+  {
+    "id": 287,
+    "type": "vocab",
+    "front": "Oligarchy",
+    "back": {
+      "definition_eng": "A form of government in which only a small group of people hold all the power.",
+      "example_eng": "The country was ruled by an oligarchy of wealthy landowners.",
+      "definition_hindi": "कुलीनतंत्र",
+      "example_hindi": "देश पर धनी जमींदारों के एक कुलीनतंत्र का शासन था।"
+    }
+  },
+  {
+    "id": 288,
+    "type": "vocab",
+    "front": "Omnipotent",
+    "back": {
+      "definition_eng": "Having total power; able to do anything.",
+      "example_eng": "In many mythologies, the chief god is described as omnipotent.",
+      "definition_hindi": "सर्वशक्तिमान",
+      "example_hindi": "कई पौराणिक कथाओं में, मुख्य देवता को सर्वशक्तिमान के रूप में वर्णित किया गया है।"
+    }
+  },
+  {
+    "id": 289,
+    "type": "vocab",
+    "front": "Omnipresent",
+    "back": {
+      "definition_eng": "Present everywhere.",
+      "example_eng": "The company's logo seems to be omnipresent in the city.",
+      "definition_hindi": "सर्व-भूत",
+      "example_hindi": "कंपनी का लोगो शहर में सर्व-भूत लगता है।"
+    }
+  },
+  {
+    "id": 290,
+    "type": "vocab",
+    "front": "Omniscient",
+    "back": {
+      "definition_eng": "Knowing everything.",
+      "example_eng": "The narrator of the novel is an omniscient storyteller.",
+      "definition_hindi": "सर्वज्ञ",
+      "example_hindi": "उपन्यास का कथावाचक एक सर्वज्ञ कहानीकार है।"
+    }
+  },
+  {
+    "id": 291,
+    "type": "vocab",
+    "front": "Omnivorous",
+    "back": {
+      "definition_eng": "Eating all types of food (plants and meat).",
+      "example_eng": "Humans are omnivorous, eating both plants and animals.",
+      "definition_hindi": "सर्व-भक्षक",
+      "example_hindi": "मनुष्य सर्व-भक्षक हैं, जो पौधे और जानवर दोनों खाते हैं।"
+    }
+  },
+  {
+    "id": 292,
+    "type": "vocab",
+    "front": "Oncology",
+    "back": {
+      "definition_eng": "Study and treatment of tumours.",
+      "example_eng": "She is a leading researcher in the field of oncology.",
+      "definition_hindi": "कर्करोग विज्ञान",
+      "example_hindi": "वह कर्करोग विज्ञान के क्षेत्र में एक प्रमुख शोधकर्ता हैं।"
+    }
+  },
+  {
+    "id": 293,
+    "type": "vocab",
+    "front": "Opaque",
+    "back": {
+      "definition_eng": "Not clear enough to see through/ allow light through.",
+      "example_eng": "The frosted glass in the bathroom door is opaque.",
+      "definition_hindi": "अपारदार्शक",
+      "example_hindi": "बाथरूम के दरवाजे में लगा धुंधला कांच अपारदर्शी है।"
+    }
+  },
+  {
+    "id": 294,
+    "type": "vocab",
+    "front": "Optician",
+    "back": {
+      "definition_eng": "A person whose job is to examine people's eyes and to recommend and sell glasses.",
+      "example_eng": "The optician helped me choose the right frames for my new glasses.",
+      "definition_hindi": "प्रकाशविज्ञानशास्री",
+      "example_hindi": "प्रकाशिकीविद् ने मुझे मेरे नए चश्मे के लिए सही फ्रेम चुनने में मदद की।"
+    }
+  },
+  {
+    "id": 295,
+    "type": "vocab",
+    "front": "Optimist",
+    "back": {
+      "definition_eng": "A person who always expects good things to happen or things to be successful.",
+      "example_eng": "Despite the challenges, she remained an optimist, believing everything would work out.",
+      "definition_hindi": "आशावादी",
+      "example_hindi": "चुनौतियों के बावजूद, वह एक आशावादी बनी रही, यह विश्वास करते हुए कि सब कुछ ठीक हो जाएगा।"
+    }
+  },
+  {
+    "id": 296,
+    "type": "vocab",
+    "front": "Oration",
+    "back": {
+      "definition_eng": "A formal speech made on a public occasion, especially as part of a ceremony.",
+      "example_eng": "He delivered a powerful oration at the graduation ceremony.",
+      "definition_hindi": "भाषण",
+      "example_hindi": "उन्होंने स्नातक समारोह में एक शक्तिशाली भाषण दिया।"
+    }
+  },
+  {
+    "id": 297,
+    "type": "vocab",
+    "front": "Orator",
+    "back": {
+      "definition_eng": "A person who is good at public speaking/ who makes formal speeches.",
+      "example_eng": "The prime minister was known for being a skilled orator.",
+      "definition_hindi": "वक्ता",
+      "example_hindi": "प्रधानमंत्री एक कुशल वक्ता होने के लिए जाने जाते थे।"
+    }
+  },
+  {
+    "id": 298,
+    "type": "vocab",
+    "front": "Ornithologist",
+    "back": {
+      "definition_eng": "A person who studies birds.",
+      "example_eng": "The ornithologist spent months in the forest studying rare bird species.",
+      "definition_hindi": "पक्षी विज्ञानी",
+      "example_hindi": "पक्षी विज्ञानी ने जंगल में दुर्लभ पक्षी प्रजातियों का अध्ययन करते हुए महीनों बिताए।"
+    }
+  },
+  {
+    "id": 299,
+    "type": "vocab",
+    "front": "Ornithology",
+    "back": {
+      "definition_eng": "The scientific study of birds.",
+      "example_eng": "Ornithology involves observing, identifying, and classifying birds.",
+      "definition_hindi": "पक्षीविज्ञान",
+      "example_hindi": "पक्षीविज्ञान में पक्षियों का अवलोकन, पहचान और वर्गीकरण शामिल है।"
+    }
+  },
+  {
+    "id": 300,
+    "type": "vocab",
+    "front": "Orphan",
+    "back": {
+      "definition_eng": "A child whose parents are dead.",
+      "example_eng": "The kind couple decided to adopt an orphan.",
+      "definition_hindi": "अनाथ",
+      "example_hindi": "दयालु दंपति ने एक अनाथ को गोद लेने का फैसला किया।"
+    }
+  },
+  {
+    "id": 301,
+    "type": "vocab",
+    "front": "Pacifist",
+    "back": {
+      "definition_eng": "A person who believes that war and violence are always wrong.",
+      "example_eng": "As a pacifist, he refused to join the army.",
+      "definition_hindi": "शांतिवादी",
+      "example_hindi": "एक शांतिवादी के रूप में, उसने सेना में शामिल होने से इनकार कर दिया।"
+    }
+  },
+  {
+    "id": 302,
+    "type": "vocab",
+    "front": "Paediatrics",
+    "back": {
+      "definition_eng": "Branch of medicine concerned with children and their diseases.",
+      "example_eng": "She is studying paediatrics to become a children's doctor.",
+      "definition_hindi": "बच्चों की दवा करने की विद्या",
+      "example_hindi": "वह बच्चों का डॉक्टर बनने के लिए बाल चिकित्सा का अध्ययन कर रही है।"
+    }
+  },
+  {
+    "id": 303,
+    "type": "vocab",
+    "front": "Palpable",
+    "back": {
+      "definition_eng": "Able to be touched or felt.",
+      "example_eng": "The tension in the room was so thick it was almost palpable.",
+      "definition_hindi": "स्पर्शनीय",
+      "example_hindi": "कमरे में तनाव इतना घना था कि वह लगभग स्पर्शनीय था।"
+    }
+  },
+  {
+    "id": 304,
+    "type": "vocab",
+    "front": "Panacea",
+    "back": {
+      "definition_eng": "Something that will solve all the problems of a particular situation.",
+      "example_eng": "Many people wrongly believe that technology is a panacea for all our problems.",
+      "definition_hindi": "रामबाण",
+      "example_hindi": "बहुत से लोग गलत मानते हैं कि प्रौद्योगिकी हमारी सभी समस्याओं के लिए रामबाण है।"
+    }
+  },
+  {
+    "id": 305,
+    "type": "vocab",
+    "front": "Pandemonium",
+    "back": {
+      "definition_eng": "A situation in which there is a lot of noise, activity and confusion, because people are angry/frightened.",
+      "example_eng": "Pandemonium broke out when the fire alarm went off during the concert.",
+      "definition_hindi": "विप्लव",
+      "example_hindi": "संगीत कार्यक्रम के दौरान आग का अलार्म बजने पर विप्लव मच गया।"
+    }
+  },
+  {
+    "id": 306,
+    "type": "vocab",
+    "front": "Pantheism",
+    "back": {
+      "definition_eng": "The belief that god is present in all natural things.",
+      "example_eng": "Pantheism sees the divine in every tree, river, and mountain.",
+      "definition_hindi": "देवपूजां",
+      "example_hindi": "सर्वेश्वरवाद हर पेड़, नदी और पहाड़ में दिव्यता देखता है।"
+    }
+  },
+  {
+    "id": 307,
+    "type": "vocab",
+    "front": "Parable",
+    "back": {
+      "definition_eng": "A short story that teaches a spiritual lesson, especially one of those told by Jesus.",
+      "example_eng": "The teacher told the students a parable about the importance of kindness.",
+      "definition_hindi": "नीति कथा",
+      "example_hindi": "शिक्षक ने छात्रों को दया के महत्व के बारे में एक नीति कथा सुनाई।"
+    }
+  },
+  {
+    "id": 308,
+    "type": "vocab",
+    "front": "Parricide",
+    "back": {
+      "definition_eng": "The crime of killing your father, mother or a close relative.",
+      "example_eng": "The prince was exiled from the kingdom for the heinous crime of parricide.",
+      "definition_hindi": "पितृघातक",
+      "example_hindi": "राजकुमार को पितृहत्या के जघन्य अपराध के लिए राज्य से निर्वासित कर दिया गया था।"
+    }
+  },
+  {
+    "id": 309,
+    "type": "vocab",
+    "front": "Partisan",
+    "back": {
+      "definition_eng": "An ardent and enthusiastic supporter of some person/activity.",
+      "example_eng": "The partisan crowd cheered loudly for their home team.",
+      "definition_hindi": "पक्षपातपूर्ण",
+      "example_hindi": "पक्षपाती भीड़ ने अपनी घरेलू टीम के लिए जोर-शोर से जयकार की।"
+    }
+  },
+  {
+    "id": 310,
+    "type": "vocab",
+    "front": "Patricide",
+    "back": {
+      "definition_eng": "The crime of killing your father.",
+      "example_eng": "He was tried and convicted for patricide.",
+      "definition_hindi": "पिता का वध",
+      "example_hindi": "उस पर पितृहत्या का मुकदमा चलाया गया और उसे दोषी ठहराया गया।"
+    }
+  },
+  {
+    "id": 311,
+    "type": "vocab",
+    "front": "Patrimony",
+    "back": {
+      "definition_eng": "Property that is given to somebody when his father dies.",
+      "example_eng": "He inherited a vast patrimony of land and wealth.",
+      "definition_hindi": "विरासत",
+      "example_hindi": "उसे भूमि और धन की एक विशाल विरासत मिली।"
+    }
+  },
+  {
+    "id": 312,
+    "type": "vocab",
+    "front": "Pedant",
+    "back": {
+      "definition_eng": "A person who pays more attention to formal rules and book learning than they merit.",
+      "example_eng": "The professor was a pedant who constantly corrected his students' minor grammar mistakes.",
+      "definition_hindi": "रूढ़िवादी",
+      "example_hindi": "प्रोफेसर एक रूढ़िवादी थे जो लगातार अपने छात्रों की छोटी-मोटी व्याकरण की गलतियों को सुधारते थे।"
+    }
+  },
+  {
+    "id": 313,
+    "type": "vocab",
+    "front": "Pedestrian",
+    "back": {
+      "definition_eng": "A person walking and not travelling in a vehicle.",
+      "example_eng": "The city is building more sidewalks to make it safer for pedestrians.",
+      "definition_hindi": "पैदल यात्री",
+      "example_hindi": "शहर पैदल यात्रियों के लिए इसे सुरक्षित बनाने के लिए और अधिक फुटपाथ बना रहा है।"
+    }
+  },
+  {
+    "id": 314,
+    "type": "vocab",
+    "front": "Peninsula",
+    "back": {
+      "definition_eng": "A large mass of land projecting into a body of water.",
+      "example_eng": "The state of Florida is a large peninsula.",
+      "definition_hindi": "प्रायद्वीप",
+      "example_hindi": "फ्लोरिडा राज्य एक बड़ा प्रायद्वीप है।"
+    }
+  },
+  {
+    "id": 315,
+    "type": "vocab",
+    "front": "Perseverance",
+    "back": {
+      "definition_eng": "The quality of continuing to try to achieve a particular aim despite difficulties.",
+      "example_eng": "With perseverance, she finally achieved her dream of climbing Mount Everest.",
+      "definition_hindi": "दृढ़ता",
+      "example_hindi": "दृढ़ता के साथ, उसने अंततः माउंट एवरेस्ट पर चढ़ने का अपना सपना पूरा किया।"
+    }
+  },
+  {
+    "id": 316,
+    "type": "vocab",
+    "front": "Pessimist",
+    "back": {
+      "definition_eng": "A person who always expects bad things to happen or something not to be successful.",
+      "example_eng": "The pessimist always saw the negative side of every situation.",
+      "definition_hindi": "निराशावादी",
+      "example_hindi": "निराशावादी हमेशा हर स्थिति का नकारात्मक पक्ष देखता था।"
+    }
+  },
+  {
+    "id": 317,
+    "type": "vocab",
+    "front": "Philanderer",
+    "back": {
+      "definition_eng": "A man who has sexual relationships with many different women.",
+      "example_eng": "He had a reputation as a philanderer.",
+      "definition_hindi": "इश्कबाज",
+      "example_hindi": "उसकी एक इश्कबाज के रूप में प्रतिष्ठा थी।"
+    }
+  },
+  {
+    "id": 318,
+    "type": "vocab",
+    "front": "Philanthropist",
+    "back": {
+      "definition_eng": "A rich person who helps the poor and those in need, especially by giving money.",
+      "example_eng": "The philanthropist donated millions to build the new hospital wing.",
+      "definition_hindi": "जन हितैषी",
+      "example_hindi": "उस जन हितैषी ने अस्पताल का नया विंग बनाने के लिए लाखों का दान दिया।"
+    }
+  },
+  {
+    "id": 319,
+    "type": "vocab",
+    "front": "Philatelist",
+    "back": {
+      "definition_eng": "A person who collects or studies stamps.",
+      "example_eng": "The philatelist proudly showed off his rare stamp collection.",
+      "definition_hindi": "डाक के टिकट का संग्रहक",
+      "example_hindi": "डाक टिकट संग्रहकर्ता ने गर्व से अपना दुर्लभ टिकट संग्रह दिखाया।"
+    }
+  },
+  {
+    "id": 320,
+    "type": "vocab",
+    "front": "Philistine",
+    "back": {
+      "definition_eng": "A person who does not like/understand art, literature, music, etc.",
+      "example_eng": "He called me a philistine because I don't enjoy classical music.",
+      "definition_hindi": "अशिक्षित",
+      "example_hindi": "उसने मुझे अशिक्षित कहा क्योंकि मुझे शास्त्रीय संगीत पसंद नहीं है।"
+    }
+  },
+  {
+    "id": 321,
+    "type": "vocab",
+    "front": "Philogynist",
+    "back": {
+      "definition_eng": "A person who esteems woman as the higher type of humanity.",
+      "example_eng": "The professor, a well-known philogynist, always encouraged his female students.",
+      "definition_hindi": "वह व्यक्ति जो स्त्री को उच्च प्रकार की मानवता के रूप में मानता है",
+      "example_hindi": "प्रोफेसर, एक जाने-माने नारी-प्रशंसक, हमेशा अपनी महिला छात्रों को प्रोत्साहित करते थे।"
+    }
+  },
+  {
+    "id": 322,
+    "type": "vocab",
+    "front": "Philology",
+    "back": {
+      "definition_eng": "The scientific study of the development of language or of a particular language.",
+      "example_eng": "Through philology, we can trace the history and evolution of words.",
+      "definition_hindi": "भाषाशास्त्र",
+      "example_hindi": "भाषाशास्त्र के माध्यम से, हम शब्दों के इतिहास और विकास का पता लगा सकते हैं।"
+    }
+  },
+  {
+    "id": 323,
+    "type": "vocab",
+    "front": "Philosopher",
+    "back": {
+      "definition_eng": "A person who thinks deeply about things.",
+      "example_eng": "The ancient Greek philosopher Socrates is famous for his teachings.",
+      "definition_hindi": "दार्शनिक",
+      "example_hindi": "प्राचीन यूनानी दार्शनिक सुकरात अपनी शिक्षाओं के लिए प्रसिद्ध हैं।"
+    }
+  },
+  {
+    "id": 324,
+    "type": "vocab",
+    "front": "Philosophy",
+    "back": {
+      "definition_eng": "The study of the nature and meaning of the universe and of the human life.",
+      "example_eng": "He studied philosophy to explore questions about existence and knowledge.",
+      "definition_hindi": "दर्शन",
+      "example_hindi": "उसने अस्तित्व और ज्ञान के बारे में सवालों का पता लगाने के लिए दर्शनशास्त्र का अध्ययन किया।"
+    }
+  },
+  {
+    "id": 325,
+    "type": "vocab",
+    "front": "Physiology",
+    "back": {
+      "definition_eng": "The study of the normal functions of living things.",
+      "example_eng": "The medical student had to pass a difficult exam in human physiology.",
+      "definition_hindi": "शरीर क्रिया विज्ञान",
+      "example_hindi": "चिकित्सा छात्र को मानव शरीर क्रिया विज्ञान में एक कठिन परीक्षा पास करनी थी।"
+    }
+  },
+  {
+    "id": 326,
+    "type": "vocab",
+    "front": "Pilferage",
+    "back": {
+      "definition_eng": "The act of stealing small amounts or small articles.",
+      "example_eng": "The store owner was concerned about the constant pilferage of small items.",
+      "definition_hindi": "चोरी",
+      "example_hindi": "दुकान का मालिक छोटी-मोटी वस्तुओं की लगातार चोरी को लेकर चिंतित था।"
+    }
+  },
+  {
+    "id": 327,
+    "type": "vocab",
+    "front": "Pioneer",
+    "back": {
+      "definition_eng": "A person who is the first to study and develop a particular area of knowledge, culture, etc. that other people then continue to develop.",
+      "example_eng": "Marie Curie was a pioneer in the field of radioactivity.",
+      "definition_hindi": "प्रथम अन्वेषक",
+      "example_hindi": "मैरी क्यूरी रेडियोधर्मिता के क्षेत्र में एक प्रथम अन्वेषक थीं।"
+    }
+  },
+  {
+    "id": 328,
+    "type": "vocab",
+    "front": "Plagiarism",
+    "back": {
+      "definition_eng": "An act of copying another person's ideas, words or work and pretend that they are your own.",
+      "example_eng": "The student was expelled for plagiarism in his final essay.",
+      "definition_hindi": "साहित्यिक चोरी",
+      "example_hindi": "छात्र को उसके अंतिम निबंध में साहित्यिक चोरी के लिए निष्कासित कर दिया गया था।"
+    }
+  },
+  {
+    "id": 329,
+    "type": "vocab",
+    "front": "Plagiarist",
+    "back": {
+      "definition_eng": "Someone who uses another person's words/ ideas as if they were his own.",
+      "example_eng": "The journalist was fired after being exposed as a plagiarist.",
+      "definition_hindi": "साहित्यिक चोर",
+      "example_hindi": "साहित्यिक चोर के रूप में उजागर होने के बाद पत्रकार को नौकरी से निकाल दिया गया।"
+    }
+  },
+  {
+    "id": 330,
+    "type": "vocab",
+    "front": "Plutocracy",
+    "back": {
+      "definition_eng": "Government by the richest people of a country.",
+      "example_eng": "Critics argue that the nation is becoming a plutocracy, where only the wealthy have influence.",
+      "definition_hindi": "धनिक तन्त्र",
+      "example_hindi": "आलोचकों का तर्क है कि राष्ट्र एक धनिक तंत्र बनता जा रहा है, जहाँ केवल अमीरों का प्रभाव है।"
+    }
+  },
+  {
+    "id": 331,
+    "type": "vocab",
+    "front": "Polyandry",
+    "back": {
+      "definition_eng": "The custom of having more than one husband at the same time.",
+      "example_eng": "Polyandry is a rare marital practice found in some Himalayan cultures.",
+      "definition_hindi": "बहुपतित्व",
+      "example_hindi": "बहुपतित्व कुछ हिमालयी संस्कृतियों में पाई जाने वाली एक दुर्लभ वैवाहिक प्रथा है।"
+    }
+  },
+  {
+    "id": 332,
+    "type": "vocab",
+    "front": "Polygamy",
+    "back": {
+      "definition_eng": "The custom of having more than one wife at the same time.",
+      "example_eng": "Polygamy is illegal in most countries.",
+      "definition_hindi": "बहुविवाह",
+      "example_hindi": "अधिकांश देशों में बहुविवाह अवैध है।"
+    }
+  },
+  {
+    "id": 333,
+    "type": "vocab",
+    "front": "Polyglot",
+    "back": {
+      "definition_eng": "A person who knows, uses/writes in more than one language.",
+      "example_eng": "The diplomat was a polyglot, fluent in six different languages.",
+      "definition_hindi": "बहुभाषी",
+      "example_hindi": "राजनयिक एक बहुभाषी था, जो छह अलग-अलग भाषाओं में पारंगत था।"
+    }
+  },
+  {
+    "id": 334,
+    "type": "vocab",
+    "front": "Polygon",
+    "back": {
+      "definition_eng": "A flat shape with at least three straight sides and three angles, and usually five or more.",
+      "example_eng": "A square is a polygon with four equal sides.",
+      "definition_hindi": "बहुभुज",
+      "example_hindi": "एक वर्ग चार समान भुजाओं वाला एक बहुभुज है।"
+    }
+  },
+  {
+    "id": 335,
+    "type": "vocab",
+    "front": "Polytheist",
+    "back": {
+      "definition_eng": "One who believes in a plurality of gods.",
+      "example_eng": "Ancient Romans were polytheists, worshipping many gods and goddesses.",
+      "definition_hindi": "बहुदेववादी",
+      "example_hindi": "प्राचीन रोमन बहुदेववादी थे, जो कई देवी-देवताओं की पूजा करते थे।"
+    }
+  },
+  {
+    "id": 336,
+    "type": "vocab",
+    "front": "Prodigy",
+    "back": {
+      "definition_eng": "An unusually gifted/intelligent (young) person.",
+      "example_eng": "Mozart was a child prodigy who composed music at a very young age.",
+      "definition_hindi": "अद्भुत वस्तु",
+      "example_hindi": "मोजार्ट एक बाल विलक्षण था जिसने बहुत कम उम्र में संगीत की रचना की।"
+    }
+  },
+  {
+    "id": 337,
+    "type": "vocab",
+    "front": "Prologue",
+    "back": {
+      "definition_eng": "A speech, etc. at the beginning of a play, book, or film that introduces it.",
+      "example_eng": "The prologue of the play sets the scene for the tragedy that follows.",
+      "definition_hindi": "प्रस्तावना",
+      "example_hindi": "नाटक की प्रस्तावना आने वाली त्रासदी के लिए दृश्य निर्धारित करती है।"
+    }
+  },
+  {
+    "id": 338,
+    "type": "vocab",
+    "front": "Prophet",
+    "back": {
+      "definition_eng": "A person sent by god to teach the people and give them messages from god.",
+      "example_eng": "The prophet warned the people to change their ways.",
+      "definition_hindi": "पैगम्बर (ईश्वरदूत)",
+      "example_hindi": "पैगंबर ने लोगों को अपने तरीके बदलने की चेतावनी दी।"
+    }
+  },
+  {
+    "id": 339,
+    "type": "vocab",
+    "front": "Proselyte",
+    "back": {
+      "definition_eng": "A person who has been converted to another religious or political belief.",
+      "example_eng": "The missionary was successful in making a new proselyte.",
+      "definition_hindi": "धर्मांतरित व्यक्ति",
+      "example_hindi": "मिशनरी एक नया धर्मांतरित व्यक्ति बनाने में सफल रहा।"
+    }
+  },
+  {
+    "id": 340,
+    "type": "vocab",
+    "front": "Protocol",
+    "back": {
+      "definition_eng": "A system of fixed rules and formal behaviour used at official meetings.",
+      "example_eng": "Diplomatic protocol must be followed during the state visit.",
+      "definition_hindi": "नयाचार / शिष्टाचार",
+      "example_hindi": "राजकीय यात्रा के दौरान राजनयिक शिष्टाचार का पालन किया जाना चाहिए।"
+    }
+  },
+  {
+    "id": 341,
+    "type": "vocab",
+    "front": "Psephology",
+    "back": {
+      "definition_eng": "The study of how people vote in elections.",
+      "example_eng": "Psephology helps to analyze voting patterns and predict election outcomes.",
+      "definition_hindi": "चुनाव विश्लेषण",
+      "example_hindi": "चुनाव विश्लेषण मतदान पैटर्न का विश्लेषण करने और चुनाव परिणामों की भविष्यवाणी करने में मदद करता है।"
+    }
+  },
+  {
+    "id": 342,
+    "type": "vocab",
+    "front": "Pseudonym",
+    "back": {
+      "definition_eng": "A fictitious name used instead of his real names.",
+      "example_eng": "The author wrote under a pseudonym to protect her privacy.",
+      "definition_hindi": "उपनाम",
+      "example_hindi": "लेखक ने अपनी गोपनीयता की रक्षा के लिए एक उपनाम के तहत लिखा।"
+    }
+  },
+  {
+    "id": 343,
+    "type": "vocab",
+    "front": "Psychology",
+    "back": {
+      "definition_eng": "The scientific study of the mind and how it influences behaviour.",
+      "example_eng": "She studied psychology to understand human behavior.",
+      "definition_hindi": "मनोविज्ञान",
+      "example_hindi": "उसने मानव व्यवहार को समझने के लिए मनोविज्ञान का अध्ययन किया।"
+    }
+  },
+  {
+    "id": 344,
+    "type": "vocab",
+    "front": "Pun",
+    "back": {
+      "definition_eng": "The clever or humorous use of a word that has more than one meaning, or of words that have different meanings but sound the same.",
+      "example_eng": "A good pun is its own reword.",
+      "definition_hindi": "दो अर्थी वचन",
+      "example_hindi": "एक अच्छा श्लेष अपने आप में एक इनाम है।"
+    }
+  },
+  {
+    "id": 345,
+    "type": "vocab",
+    "front": "Pyromania",
+    "back": {
+      "definition_eng": "An obsessive desire to set fire to things.",
+      "example_eng": "The arsonist was diagnosed with pyromania by the court psychologist.",
+      "definition_hindi": "दहनोन्माद",
+      "example_hindi": "अदालत के मनोवैज्ञानिक द्वारा आगजनी करने वाले को दहनोन्माद का निदान किया गया।"
+    }
+  },
+  {
+    "id": 346,
+    "type": "vocab",
+    "front": "Ransom",
+    "back": {
+      "definition_eng": "Money that is paid to kidnappers.",
+      "example_eng": "The kidnappers demanded a ransom of one million dollars.",
+      "definition_hindi": "फिरौती",
+      "example_hindi": "अपहरणकर्ताओं ने दस लाख डॉलर की फिरौती मांगी।"
+    }
+  },
+  {
+    "id": 347,
+    "type": "vocab",
+    "front": "Rapacious",
+    "back": {
+      "definition_eng": "Greedy for money.",
+      "example_eng": "The rapacious landlord kept increasing the rent.",
+      "definition_hindi": "लालची",
+      "example_hindi": "लालची मकान मालिक किराया बढ़ाता रहा।"
+    }
+  },
+  {
+    "id": 348,
+    "type": "vocab",
+    "front": "Recluse",
+    "back": {
+      "definition_eng": "A person who lives alone and likes to avoid other people.",
+      "example_eng": "The wealthy businessman became a recluse after his wife's death.",
+      "definition_hindi": "वैरागी",
+      "example_hindi": "अपनी पत्नी की मृत्यु के बाद धनी व्यवसायी एक वैरागी बन गया।"
+    }
+  },
+  {
+    "id": 349,
+    "type": "vocab",
+    "front": "Red Tapism",
+    "back": {
+      "definition_eng": "The practice of requiring excessive paperwork and tedious procedures before official action can be considered/ completed.",
+      "example_eng": "The project was delayed by months due to government red tapism.",
+      "definition_hindi": "लेट - लतीफी",
+      "example_hindi": "सरकारी लालफीताशाही के कारण परियोजना में महीनों की देरी हुई।"
+    }
+  },
+  {
+    "id": 350,
+    "type": "vocab",
+    "front": "Refugee",
+    "back": {
+      "definition_eng": "A person who has been forced to leave his country/ home, because there is a war or for political, religious or social reasons.",
+      "example_eng": "The camp was set up to provide shelter for refugees fleeing the war.",
+      "definition_hindi": "शरणार्थी",
+      "example_hindi": "यह शिविर युद्ध से भाग रहे शरणार्थियों को आश्रय प्रदान करने के लिए स्थापित किया गया था।"
+    }
+  },
+  {
+    "id": 351,
+    "type": "vocab",
+    "front": "Regicide",
+    "back": {
+      "definition_eng": "The crime of killing a king/queen.",
+      "example_eng": "Regicide is considered one of the most severe forms of treason.",
+      "definition_hindi": "राज-हत्या",
+      "example_hindi": "राज-हत्या को राजद्रोह के सबसे गंभीर रूपों में से एक माना जाता है।"
+    }
+  },
+  {
+    "id": 352,
+    "type": "vocab",
+    "front": "Retaliate",
+    "back": {
+      "definition_eng": "Return the same sort of attack / give tit for tat.",
+      "example_eng": "The army was ordered not to retaliate against the provocation.",
+      "definition_hindi": "प्रतिकार करना",
+      "example_hindi": "सेना को उकसावे के खिलाफ प्रतिकार न करने का आदेश दिया गया।"
+    }
+  },
+  {
+    "id": 353,
+    "type": "vocab",
+    "front": "Reticent",
+    "back": {
+      "definition_eng": "Unwilling to tell people about things / one who speaks less.",
+      "example_eng": "He was very reticent about his past.",
+      "definition_hindi": "अल्पभाषी",
+      "example_hindi": "वह अपने अतीत के बारे में बहुत अल्पभाषी था।"
+    }
+  },
+  {
+    "id": 354,
+    "type": "vocab",
+    "front": "Retreat",
+    "back": {
+      "definition_eng": "To move away from a place; to back off.",
+      "example_eng": "The army was forced to retreat after a heavy attack.",
+      "definition_hindi": "पीछे हटना",
+      "example_hindi": "भारी हमले के बाद सेना को पीछे हटने के लिए मजबूर होना पड़ा।"
+    }
+  },
+  {
+    "id": 355,
+    "type": "vocab",
+    "front": "Rhetoric",
+    "back": {
+      "definition_eng": "Speech/writing that is intended to influence people, but that is not completely honest/sincere.",
+      "example_eng": "The politician's speech was full of empty rhetoric.",
+      "definition_hindi": "वक्रपटुता",
+      "example_hindi": "राजनेता का भाषण खोखली वक्रपटुता से भरा था।"
+    }
+  },
+  {
+    "id": 356,
+    "type": "vocab",
+    "front": "Ridicule",
+    "back": {
+      "definition_eng": "Unkind remarks that make fun of somebody/something or make him/ it look silly.",
+      "example_eng": "She was subjected to ridicule for her unusual ideas.",
+      "definition_hindi": "उपहास",
+      "example_hindi": "उसे उसके असामान्य विचारों के लिए उपहास का पात्र बनाया गया।"
+    }
+  },
+  {
+    "id": 357,
+    "type": "vocab",
+    "front": "Ritual",
+    "back": {
+      "definition_eng": "A series of actions that are always performed in the same way, especially as part of a religious ceremony.",
+      "example_eng": "The wedding ceremony included several ancient rituals.",
+      "definition_hindi": "अनुष्ठान",
+      "example_hindi": "विवाह समारोह में कई प्राचीन अनुष्ठान शामिल थे।"
+    }
+  },
+  {
+    "id": 358,
+    "type": "vocab",
+    "front": "Sacrilege",
+    "back": {
+      "definition_eng": "An act of treating a holy thing or place without respect.",
+      "example_eng": "Vandalizing the temple was considered an act of sacrilege.",
+      "definition_hindi": "अपवित्रीकरण",
+      "example_hindi": "मंदिर में तोड़फोड़ को अपवित्रीकरण का कार्य माना गया।"
+    }
+  },
+  {
+    "id": 359,
+    "type": "vocab",
+    "front": "Sadist",
+    "back": {
+      "definition_eng": "A person who gets pleasure from hurting other people.",
+      "example_eng": "The movie's villain was a cruel sadist.",
+      "definition_hindi": "परपीड़क",
+      "example_hindi": "फिल्म का खलनायक एक क्रूर परपीड़क था।"
+    }
+  },
+  {
+    "id": 360,
+    "type": "vocab",
+    "front": "Sanatorium",
+    "back": {
+      "definition_eng": "A place like a hospital where patients who have a lasting illness/who are getting better after an illness are treated.",
+      "example_eng": "He spent six months recovering at a sanatorium in the mountains.",
+      "definition_hindi": "आरोग्य निवास",
+      "example_hindi": "उसने पहाड़ों के एक आरोग्य निवास में ठीक होने में छह महीने बिताए।"
+    }
+  },
+  {
+    "id": 361,
+    "type": "vocab",
+    "front": "Sanctity",
+    "back": {
+      "definition_eng": "The state of being very important and worth protecting.",
+      "example_eng": "The sanctity of the marriage vows should be respected.",
+      "definition_hindi": "पवित्रता",
+      "example_hindi": "विवाह की शपथ की पवित्रता का सम्मान किया जाना चाहिए।"
+    }
+  },
+  {
+    "id": 362,
+    "type": "vocab",
+    "front": "Sanguine",
+    "back": {
+      "definition_eng": "Optimistic in an apparently difficult situation.",
+      "example_eng": "She remained sanguine about her chances of recovery.",
+      "definition_hindi": "आशावादी",
+      "example_hindi": "वह अपने ठीक होने की संभावनाओं के बारे में आशावादी बनी रही।"
+    }
+  },
+  {
+    "id": 363,
+    "type": "vocab",
+    "front": "Satire",
+    "back": {
+      "definition_eng": "A way of criticizing a person, an idea or an institution in which you use humour to show his/its faults/ weaknesses.",
+      "example_eng": "The show uses political satire to comment on current events.",
+      "definition_hindi": "हास्य व्यंग्य",
+      "example_hindi": "यह शो वर्तमान घटनाओं पर टिप्पणी करने के लिए राजनीतिक हास्य व्यंग्य का उपयोग करता है।"
+    }
+  },
+  {
+    "id": 364,
+    "type": "vocab",
+    "front": "Sceptic",
+    "back": {
+      "definition_eng": "Someone who habitually doubts accepted beliefs.",
+      "example_eng": "He is a sceptic who questions everything he is told.",
+      "definition_hindi": "संदेहवादी",
+      "example_hindi": "वह एक संदेहवादी है जो उसे बताई गई हर बात पर सवाल उठाता है।"
+    }
+  },
+  {
+    "id": 365,
+    "type": "vocab",
+    "front": "Scepticism",
+    "back": {
+      "definition_eng": "An attitude of doubting that claims/statements are true and that something will happen.",
+      "example_eng": "Her initial scepticism turned to belief after seeing the evidence.",
+      "definition_hindi": "संदेहवाद",
+      "example_hindi": "सबूत देखने के बाद उसका प्रारंभिक संदेहवाद विश्वास में बदल गया।"
+    }
+  },
+  {
+    "id": 366,
+    "type": "vocab",
+    "front": "Schedule",
+    "back": {
+      "definition_eng": "A plan that lists all the work that you have to do and when you must do each thing.",
+      "example_eng": "I have a very busy schedule this week.",
+      "definition_hindi": "अनुसूची",
+      "example_hindi": "इस हफ्ते मेरी एक बहुत व्यस्त अनुसूची है।"
+    }
+  },
+  {
+    "id": 367,
+    "type": "vocab",
+    "front": "Scholar",
+    "back": {
+      "definition_eng": "A person who knows all about a particular subject because he has studied it in detail.",
+      "example_eng": "He is a renowned scholar of ancient history.",
+      "definition_hindi": "पंडित",
+      "example_hindi": "वह प्राचीन इतिहास के एक प्रसिद्ध पंडित हैं।"
+    }
+  },
+  {
+    "id": 368,
+    "type": "vocab",
+    "front": "Scullery",
+    "back": {
+      "definition_eng": "A small room next to the kitchen in an old house, originally used for washing dishes, etc.",
+      "example_eng": "The dirty dishes were piled up in the scullery.",
+      "definition_hindi": "बर्तन माँजने की जगह",
+      "example_hindi": "बर्तन माँजने की जगह में गंदे बर्तन ढेर लगे हुए थे।"
+    }
+  },
+  {
+    "id": 369,
+    "type": "vocab",
+    "front": "Secular",
+    "back": {
+      "definition_eng": "Living among ordinary people rather than in a religious community; Government not connected with religious or spiritual matters.",
+      "example_eng": "India is a secular country, respecting all religions.",
+      "definition_hindi": "धर्म निरपेक्ष",
+      "example_hindi": "भारत एक धर्मनिरपेक्ष देश है, जो सभी धर्मों का सम्मान करता है।"
+    }
+  },
+  {
+    "id": 370,
+    "type": "vocab",
+    "front": "Seer",
+    "back": {
+      "definition_eng": "A person who claims that he can see what is going to happen in the future.",
+      "example_eng": "The ancient seer predicted the fall of the empire.",
+      "definition_hindi": "पैगंबर",
+      "example_hindi": "प्राचीन पैगंबर ने साम्राज्य के पतन की भविष्यवाणी की थी।"
+    }
+  },
+  {
+    "id": 371,
+    "type": "vocab",
+    "front": "Seismology",
+    "back": {
+      "definition_eng": "The scientific study of earthquakes.",
+      "example_eng": "Seismology helps us understand the causes and effects of earthquakes.",
+      "definition_hindi": "भूकंप विज्ञान",
+      "example_hindi": "भूकंप विज्ञान हमें भूकंपों के कारणों और प्रभावों को समझने में मदद करता है।"
+    }
+  },
+  {
+    "id": 372,
+    "type": "vocab",
+    "front": "Septuagenarian",
+    "back": {
+      "definition_eng": "A person between the ages of 70 and 79.",
+      "example_eng": "My grandfather, a spry septuagenarian, still goes for a walk every day.",
+      "definition_hindi": "सत्तर वर्ष की अवस्था का मनुष्य",
+      "example_hindi": "मेरे दादाजी, एक फुर्तीले सत्तर वर्षीय, अभी भी हर दिन टहलने जाते हैं।"
+    }
+  },
+  {
+    "id": 373,
+    "type": "vocab",
+    "front": "Sinecure",
+    "back": {
+      "definition_eng": "A job that you are paid for even though it involves little/no work.",
+      "example_eng": "His position on the board was a sinecure; he rarely attended meetings.",
+      "definition_hindi": "ऐसा पद जिस में वेतन मिले परन्तु कुछ काम न करना पड़े",
+      "example_hindi": "बोर्ड में उसका पद एक ऐसी नौकरी थी जिसमें काम कम और वेतन ज्यादा था; वह शायद ही कभी बैठकों में शामिल होता था।"
+    }
+  },
+  {
+    "id": 374,
+    "type": "vocab",
+    "front": "Socialist",
+    "back": {
+      "definition_eng": "A person who believes in or supports the belief that everyone has an equal right to a share of a country's wealth and that the government should own and control the main industries.",
+      "example_eng": "The socialist politician argued for more public services.",
+      "definition_hindi": "समाजवादी",
+      "example_hindi": "समाजवादी राजनेता ने और अधिक सार्वजनिक सेवाओं के लिए तर्क दिया।"
+    }
+  },
+  {
+    "id": 375,
+    "type": "vocab",
+    "front": "Sociology",
+    "back": {
+      "definition_eng": "The study and classification of human societies.",
+      "example_eng": "Sociology examines how social structures and institutions shape our lives.",
+      "definition_hindi": "नागरिक सास्त्र",
+      "example_hindi": "समाजशास्त्र यह जांचता है कि सामाजिक संरचनाएं और संस्थाएं हमारे जीवन को कैसे आकार देती हैं।"
+    }
+  },
+  {
+    "id": 376,
+    "type": "vocab",
+    "front": "Sojourn",
+    "back": {
+      "definition_eng": "A temporary stay (as a guest).",
+      "example_eng": "Our sojourn in the countryside was a refreshing break from city life.",
+      "definition_hindi": "डेरा डालना",
+      "example_hindi": "ग्रामीण इलाकों में हमारा अस्थायी निवास शहरी जीवन से एक ताजगी भरा विराम था।"
+    }
+  },
+  {
+    "id": 377,
+    "type": "vocab",
+    "front": "Soliloquy",
+    "back": {
+      "definition_eng": "A speech in a play in which a character, who is alone on the stage, speaks his/her thoughts.",
+      "example_eng": "Hamlet's famous 'To be or not to be' speech is a soliloquy.",
+      "definition_hindi": "आत्मभाषण",
+      "example_hindi": "हेमलेट का प्रसिद्ध 'होना या न होना' भाषण एक आत्मभाषण है।"
+    }
+  },
+  {
+    "id": 378,
+    "type": "vocab",
+    "front": "Sonnet",
+    "back": {
+      "definition_eng": "A poem that has 14 lines, each containing 10 syllables, and a fixed pattern of rhyme.",
+      "example_eng": "Shakespeare wrote many famous sonnets about love and beauty.",
+      "definition_hindi": "गाथा",
+      "example_hindi": "शेक्सपियर ने प्रेम और सौंदर्य के बारे में कई प्रसिद्ध गाथाएँ लिखीं।"
+    }
+  },
+  {
+    "id": 379,
+    "type": "vocab",
+    "front": "Soporific",
+    "back": {
+      "definition_eng": "A drug making you want to go to sleep.",
+      "example_eng": "The monotonous lecture had a soporific effect on the audience.",
+      "definition_hindi": "निंदासा",
+      "example_hindi": "उबाऊ व्याख्यान का दर्शकों पर नींद लाने वाला प्रभाव पड़ा।"
+    }
+  },
+  {
+    "id": 380,
+    "type": "vocab",
+    "front": "Sororicide",
+    "back": {
+      "definition_eng": "The murder of one's sister.",
+      "example_eng": "The crime of sororicide is extremely rare but deeply tragic.",
+      "definition_hindi": "बहन की हत्या",
+      "example_hindi": "बहन की हत्या का अपराध अत्यंत दुर्लभ लेकिन गहरा दुखद है।"
+    }
+  },
+  {
+    "id": 381,
+    "type": "vocab",
+    "front": "Spinster",
+    "back": {
+      "definition_eng": "An old unmarried woman.",
+      "example_eng": "In the old novel, the main character was a kind-hearted spinster.",
+      "definition_hindi": "वृद्ध अविवाहिता",
+      "example_hindi": "पुराने उपन्यास में, मुख्य पात्र एक दयालु वृद्ध अविवाहित महिला थी।"
+    }
+  },
+  {
+    "id": 382,
+    "type": "vocab",
+    "front": "Stoic",
+    "back": {
+      "definition_eng": "A person who is able to suffer pain/trouble without complaining/showing what they are feeling.",
+      "example_eng": "He remained stoic despite the immense pain.",
+      "definition_hindi": "उदासीन",
+      "example_hindi": "अत्यधिक दर्द के बावजूद वह उदासीन बना रहा।"
+    }
+  },
+  {
+    "id": 383,
+    "type": "vocab",
+    "front": "Stoicism",
+    "back": {
+      "definition_eng": "The fact of not explaining/showing what you are feeling when you are suffering.",
+      "example_eng": "His stoicism in the face of adversity was admirable.",
+      "definition_hindi": "वैराग्य",
+      "example_hindi": "विपत्ति के समय उसका वैराग्य सराहनीय था।"
+    }
+  },
+  {
+    "id": 384,
+    "type": "vocab",
+    "front": "Suffrage",
+    "back": {
+      "definition_eng": "The right to vote in political elections.",
+      "example_eng": "The suffragette movement fought for women's suffrage.",
+      "definition_hindi": "मताधिकार",
+      "example_hindi": "मताधिकार आंदोलन ने महिलाओं के मताधिकार के लिए संघर्ष किया।"
+    }
+  },
+  {
+    "id": 385,
+    "type": "vocab",
+    "front": "Suicide",
+    "back": {
+      "definition_eng": "The act of killing yourself deliberately.",
+      "example_eng": "The novel deals with the sensitive topic of suicide.",
+      "definition_hindi": "आत्महत्या",
+      "example_hindi": "यह उपन्यास आत्महत्या के संवेदनशील विषय से संबंधित है।"
+    }
+  },
+  {
+    "id": 386,
+    "type": "vocab",
+    "front": "Summary",
+    "back": {
+      "definition_eng": "A brief account of a subject.",
+      "example_eng": "Please provide a brief summary of the report's main findings.",
+      "definition_hindi": "सारांश",
+      "example_hindi": "कृपया रिपोर्ट के मुख्य निष्कर्षों का एक संक्षिप्त सारांश प्रदान करें।"
+    }
+  },
+  {
+    "id": 387,
+    "type": "vocab",
+    "front": "Superstition",
+    "back": {
+      "definition_eng": "The belief that particular events happen in a way that cannot be explained by reason/ science.",
+      "example_eng": "It is a common superstition that breaking a mirror brings bad luck.",
+      "definition_hindi": "अंधविश्वास",
+      "example_hindi": "यह एक आम अंधविश्वास है कि आईना तोड़ने से दुर्भाग्य आता है।"
+    }
+  },
+  {
+    "id": 388,
+    "type": "vocab",
+    "front": "Sycophant",
+    "back": {
+      "definition_eng": "A person who praises important or powerful people too much and in a way that is not sincere, especially in order to get something from them.",
+      "example_eng": "The manager was surrounded by sycophants who agreed with his every word.",
+      "definition_hindi": "चापलूस",
+      "example_hindi": "मैनेजर चापलूसों से घिरा हुआ था जो उसकी हर बात से सहमत थे।"
+    }
+  },
+  {
+    "id": 389,
+    "type": "vocab",
+    "front": "Synagogue",
+    "back": {
+      "definition_eng": "A building where the Jews meet for religious worship and teaching.",
+      "example_eng": "The family went to the synagogue for the weekly service.",
+      "definition_hindi": "यहूदियो का आराधनालय",
+      "example_hindi": "परिवार साप्ताहिक सेवा के लिए यहूदियों के आराधनालय गया।"
+    }
+  },
+  {
+    "id": 390,
+    "type": "vocab",
+    "front": "Taxidermy",
+    "back": {
+      "definition_eng": "The art of stuffing dead animals, birds and fish with a special material so that they may look like living ones and can be displayed.",
+      "example_eng": "The museum had a fascinating exhibit of taxidermy showing animals in their natural habitats.",
+      "definition_hindi": "चर्मपूर्ण करना",
+      "example_hindi": "संग्रहालय में जानवरों को उनके प्राकृतिक आवासों में दिखाने वाली चर्मपूर्णता की एक आकर्षक प्रदर्शनी थी।"
+    }
+  },
+  {
+    "id": 391,
+    "type": "vocab",
+    "front": "Teetotaller",
+    "back": {
+      "definition_eng": "A person who does not drink alcohol.",
+      "example_eng": "As a teetotaller, he always orders juice or water at parties.",
+      "definition_hindi": "मादक द्रव्यों का त्यागी",
+      "example_hindi": "एक मादक द्रव्यों का त्यागी होने के नाते, वह पार्टियों में हमेशा जूस या पानी ऑर्डर करता है।"
+    }
+  },
+  {
+    "id": 392,
+    "type": "vocab",
+    "front": "Temporal",
+    "back": {
+      "definition_eng": "Connected with/ limited by time.",
+      "example_eng": "The film explores both the spiritual and temporal aspects of life.",
+      "definition_hindi": "थोड़े समय का",
+      "example_hindi": "यह फिल्म जीवन के आध्यात्मिक और लौकिक दोनों पहलुओं की पड़ताल करती है।"
+    }
+  },
+  {
+    "id": 393,
+    "type": "vocab",
+    "front": "Tenacious",
+    "back": {
+      "definition_eng": "Sticking together.",
+      "example_eng": "The tenacious reporter would not give up until she had the full story.",
+      "definition_hindi": "संलग्नशील",
+      "example_hindi": "दृढ़ पत्रकार तब तक हार नहीं मानेगी जब तक उसे पूरी कहानी नहीं मिल जाती।"
+    }
+  },
+  {
+    "id": 394,
+    "type": "vocab",
+    "front": "Terrestrial",
+    "back": {
+      "definition_eng": "Living on the land/on the ground, rather than in water/on trees/ in the air.",
+      "example_eng": "Lions are terrestrial animals, whereas dolphins are aquatic.",
+      "definition_hindi": "पृथ्वी संबंधी",
+      "example_hindi": "शेर स्थलीय जानवर हैं, जबकि डॉल्फिन जलीय हैं।"
+    }
+  },
+  {
+    "id": 395,
+    "type": "vocab",
+    "front": "Terrorist",
+    "back": {
+      "definition_eng": "A person who uses violent action in order to achieve political aims or to force a government to act.",
+      "example_eng": "The government is committed to fighting terrorist groups.",
+      "definition_hindi": "आतंकवादी",
+      "example_hindi": "सरकार आतंकवादी समूहों से लड़ने के लिए प्रतिबद्ध है।"
+    }
+  },
+  {
+    "id": 396,
+    "type": "vocab",
+    "front": "Theism",
+    "back": {
+      "definition_eng": "Belief in the existence of god.",
+      "example_eng": "Theism is a core principle of many world religions.",
+      "definition_hindi": "आस्तिकता",
+      "example_hindi": "आस्तिकता कई विश्व धर्मों का एक मूल सिद्धांत है।"
+    }
+  },
+  {
+    "id": 397,
+    "type": "vocab",
+    "front": "Theist",
+    "back": {
+      "definition_eng": "One who believes in the existence of god.",
+      "example_eng": "As a theist, she prays every day.",
+      "definition_hindi": "आस्तिक",
+      "example_hindi": "एक आस्तिक के रूप में, वह हर दिन प्रार्थना करती है।"
+    }
+  },
+  {
+    "id": 398,
+    "type": "vocab",
+    "front": "Theocracy",
+    "back": {
+      "definition_eng": "Government of a country by religious leaders.",
+      "example_eng": "In a theocracy, religious law is the basis of the country's legal system.",
+      "definition_hindi": "धर्मशास्त्र",
+      "example_hindi": "एक धर्मतंत्र में, धार्मिक कानून देश की कानूनी प्रणाली का आधार होता है।"
+    }
+  },
+  {
+    "id": 399,
+    "type": "vocab",
+    "front": "Theology",
+    "back": {
+      "definition_eng": "The study of religion and beliefs.",
+      "example_eng": "He went to the seminary to study theology.",
+      "definition_hindi": "धर्मशास्र",
+      "example_hindi": "वह धर्मशास्त्र का अध्ययन करने के लिए सेमिनरी गया।"
+    }
+  },
+  {
+    "id": 400,
+    "type": "vocab",
+    "front": "Topology",
+    "back": {
+      "definition_eng": "The way the parts of something are arranged and related.",
+      "example_eng": "The network's topology determined how data flowed between computers.",
+      "definition_hindi": "सांस्थिति",
+      "example_hindi": "नेटवर्क की सांस्थिति ने यह निर्धारित किया कि कंप्यूटरों के बीच डेटा कैसे प्रवाहित होता है।"
+    }
+  },
+  {
+    "id": 401,
+    "type": "vocab",
+    "front": "Traitor",
+    "back": {
+      "definition_eng": "A person who works against his country.",
+      "example_eng": "The soldier was executed as a traitor for selling secrets to the enemy.",
+      "definition_hindi": "गद्दार",
+      "example_hindi": "सैनिक को दुश्मन को रहस्य बेचने के लिए एक गद्दार के रूप में मार दिया गया था।"
+    }
+  },
+  {
+    "id": 402,
+    "type": "vocab",
+    "front": "Transitory",
+    "back": {
+      "definition_eng": "Continuing for only a short time.",
+      "example_eng": "Youth and beauty are often transitory.",
+      "definition_hindi": "क्षणसाथी",
+      "example_hindi": "यौवन और सुंदरता अक्सर क्षणिक होते हैं।"
+    }
+  },
+  {
+    "id": 403,
+    "type": "vocab",
+    "front": "Translucent",
+    "back": {
+      "definition_eng": "Allowing light to pass through but not transparent.",
+      "example_eng": "The frosted glass window was translucent, providing privacy while letting in light.",
+      "definition_hindi": "पारभासी",
+      "example_hindi": "धुंधला कांच की खिड़की पारभासी थी, जो प्रकाश को अंदर आने देते हुए गोपनीयता प्रदान करती थी।"
+    }
+  },
+  {
+    "id": 404,
+    "type": "vocab",
+    "front": "Transparent",
+    "back": {
+      "definition_eng": "Allowing you to see through it (glass etc.).",
+      "example_eng": "The clean window was so transparent it looked like there was no glass at all.",
+      "definition_hindi": "पारदर्शक",
+      "example_hindi": "साफ खिड़की इतनी पारदर्शी थी कि ऐसा लग रहा था जैसे कोई कांच ही नहीं है।"
+    }
+  },
+  {
+    "id": 405,
+    "type": "vocab",
+    "front": "Trivial",
+    "back": {
+      "definition_eng": "Not important or serious; not worth considering.",
+      "example_eng": "They argued over a trivial matter and ruined the evening.",
+      "definition_hindi": "तुच्छ",
+      "example_hindi": "उन्होंने एक तुच्छ मामले पर बहस की और शाम बर्बाद कर दी।"
+    }
+  },
+  {
+    "id": 406,
+    "type": "vocab",
+    "front": "Truant",
+    "back": {
+      "definition_eng": "A child who stays away from school without permission.",
+      "example_eng": "The school has a strict policy for dealing with truant students.",
+      "definition_hindi": "गैर हाजिर रहने वाला",
+      "example_hindi": "स्कूल में बिना अनुमति के स्कूल से अनुपस्थित रहने वाले छात्रों से निपटने के लिए एक सख्त नीति है।"
+    }
+  },
+  {
+    "id": 407,
+    "type": "vocab",
+    "front": "Truism",
+    "back": {
+      "definition_eng": "A statement that is clearly true and does not add anything interesting or important to a discussion.",
+      "example_eng": "His speech was full of clichés and truisms like 'time is money'.",
+      "definition_hindi": "सामान्य सत्य",
+      "example_hindi": "उनका भाषण 'समय ही धन है' जैसे क्लिच और सामान्य सत्यों से भरा था।"
+    }
+  },
+  {
+    "id": 408,
+    "type": "vocab",
+    "front": "Universal",
+    "back": {
+      "definition_eng": "Done by or involving all the people in the world or in a particular group.",
+      "example_eng": "The desire for happiness is a universal human emotion.",
+      "definition_hindi": "सार्वभौमिक",
+      "example_hindi": "खुशी की इच्छा एक सार्वभौमिक मानवीय भावना है।"
+    }
+  },
+  {
+    "id": 409,
+    "type": "vocab",
+    "front": "Usurer",
+    "back": {
+      "definition_eng": "A person who lends money to people at unfairly high rates of interest.",
+      "example_eng": "The poor farmer was trapped in debt to a ruthless usurer.",
+      "definition_hindi": "सूदखोर",
+      "example_hindi": "गरीब किसान एक निर्दयी सूदखोर के कर्ज में फंसा हुआ था।"
+    }
+  },
+  {
+    "id": 410,
+    "type": "vocab",
+    "front": "Vandal",
+    "back": {
+      "definition_eng": "A person who deliberately destroys/damages public property.",
+      "example_eng": "A vandal spray-painted graffiti on the historic monument.",
+      "definition_hindi": "बर्बर",
+      "example_hindi": "एक बर्बर ने ऐतिहासिक स्मारक पर भित्तिचित्र स्प्रे-पेंट कर दिया।"
+    }
+  },
+  {
+    "id": 411,
+    "type": "vocab",
+    "front": "Venerable",
+    "back": {
+      "definition_eng": "Impressive by reason of age; profoundly honoured.",
+      "example_eng": "The venerable professor was respected by all his students.",
+      "definition_hindi": "सम्मानित",
+      "example_hindi": "सम्मानित प्रोफेसर का सभी छात्र सम्मान करते थे।"
+    }
+  },
+  {
+    "id": 412,
+    "type": "vocab",
+    "front": "Veracious",
+    "back": {
+      "definition_eng": "Habitually speaking the truth; precisely accurate.",
+      "example_eng": "He was known to be a veracious witness whose testimony could be trusted.",
+      "definition_hindi": "सत्यप्रिय",
+      "example_hindi": "वह एक सत्यप्रिय गवाह के रूप में जाना जाता था जिसकी गवाही पर भरोसा किया जा सकता था।"
+    }
+  },
+  {
+    "id": 413,
+    "type": "vocab",
+    "front": "Verbatim",
+    "back": {
+      "definition_eng": "Exactly as spoken/written; word for word.",
+      "example_eng": "The court reporter transcribed the testimony verbatim.",
+      "definition_hindi": "शब्द प्रति शब्द",
+      "example_hindi": "अदालत के रिपोर्टर ने गवाही को शब्द प्रति शब्द लिखा।"
+    }
+  },
+  {
+    "id": 414,
+    "type": "vocab",
+    "front": "Verbose",
+    "back": {
+      "definition_eng": "Using/containing more words than are needed.",
+      "example_eng": "His verbose writing style made his articles difficult to read.",
+      "definition_hindi": "वाचाल",
+      "example_hindi": "उनकी वाचाल लेखन शैली ने उनके लेखों को पढ़ना मुश्किल बना दिया।"
+    }
+  },
+  {
+    "id": 415,
+    "type": "vocab",
+    "front": "Versatile",
+    "back": {
+      "definition_eng": "Able to do many things.",
+      "example_eng": "He is a versatile actor who can perform in both comedies and dramas.",
+      "definition_hindi": "बहुमुखी",
+      "example_hindi": "वह एक बहुमुखी अभिनेता है जो कॉमेडी और ड्रामा दोनों में अभिनय कर सकता है।"
+    }
+  },
+  {
+    "id": 416,
+    "type": "vocab",
+    "front": "Veteran",
+    "back": {
+      "definition_eng": "A person who has a lot of experience in a particular area/activity.",
+      "example_eng": "The company hired a veteran of the industry to lead the new project.",
+      "definition_hindi": "अनुभवी",
+      "example_hindi": "कंपनी ने नई परियोजना का नेतृत्व करने के लिए उद्योग के एक अनुभवी को काम पर रखा।"
+    }
+  },
+  {
+    "id": 417,
+    "type": "vocab",
+    "front": "Virtuoso",
+    "back": {
+      "definition_eng": "Someone who is dazzlingly skilled in any field; a musician who is a master of technique and artistry.",
+      "example_eng": "The piano virtuoso received a standing ovation for his performance.",
+      "definition_hindi": "कलाप्रवीण व्यक्ति",
+      "example_hindi": "पियानो वादक को उसके प्रदर्शन के लिए खड़े होकर तालियाँ मिलीं।"
+    }
+  },
+  {
+    "id": 418,
+    "type": "vocab",
+    "front": "Volley",
+    "back": {
+      "definition_eng": "A lot of bullets, stones, arrows etc. that are fired/ thrown at the same time.",
+      "example_eng": "The soldiers fired a volley of shots at the enemy position.",
+      "definition_hindi": "फ़ायर",
+      "example_hindi": "सैनिकों ने दुश्मन की स्थिति पर गोलियों की बौछार कर दी।"
+    }
+  },
+  {
+    "id": 419,
+    "type": "vocab",
+    "front": "Vulnerable",
+    "back": {
+      "definition_eng": "Weak and easily hurt physically / emotionally.",
+      "example_eng": "Young children are particularly vulnerable to diseases.",
+      "definition_hindi": "चपेट में",
+      "example_hindi": "छोटे बच्चे विशेष रूप से बीमारियों की चपेट में आते हैं।"
+    }
+  },
+  {
+    "id": 420,
+    "type": "vocab",
+    "front": "Wreath",
+    "back": {
+      "definition_eng": "An arrangement of flowers and leaves (in a circle) placed on graves, worn on head/ hung on doors.",
+      "example_eng": "They laid a wreath on the soldier's grave as a sign of respect.",
+      "definition_hindi": "पुष्पांजलि",
+      "example_hindi": "उन्होंने सम्मान के प्रतीक के रूप में सैनिक की कब्र पर पुष्पांजलि अर्पित की।"
+    }
+  },
+  {
+    "id": 421,
+    "type": "vocab",
+    "front": "Xenophobia",
+    "back": {
+      "definition_eng": "A fear of people from other countries.",
+      "example_eng": "Rising xenophobia in the country is a cause for great concern.",
+      "definition_hindi": "विदेशी लोगों को न पसन्द करना",
+      "example_hindi": "देश में बढ़ता विदेशी द्वेष बड़ी चिंता का कारण है।"
+    }
+  },
+  {
+    "id": 422,
+    "type": "vocab",
+    "front": "Zealot",
+    "back": {
+      "definition_eng": "A person who is fanatical and uncompromising in pursuit of their religious, political, or other ideals.",
+      "example_eng": "The religious zealot refused to listen to any opposing views.",
+      "definition_hindi": "कट्टरपंथी",
+      "example_hindi": "धार्मिक कट्टरपंथी ने किसी भी विरोधी विचार को सुनने से इनकार कर दिया।"
+    }
+  },
+  {
+    "id": 423,
+    "type": "vocab",
+    "front": "Zoology",
+    "back": {
+      "definition_eng": "The branch of biology that studies animals.",
+      "example_eng": "Her love for animals led her to pursue a career in zoology.",
+      "definition_hindi": "प्राणि विज्ञान",
+      "example_hindi": "जानवरों के प्रति उसके प्यार ने उसे प्राणि विज्ञान में करियर बनाने के लिए प्रेरित किया।"
+    }
+  }
+]

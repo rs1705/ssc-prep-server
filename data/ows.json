@@ -1,0 +1,4182 @@
+[
+  {
+    "id": 1,
+    "type": "ows",
+    "front": "Abattoir",
+    "back": {
+      "definition_eng": "A place where animals are slaughtered for food.",
+      "example_eng": "The meat was delivered fresh from the abattoir.",
+      "definition_hindi": "कसाईख़ाना",
+      "example_hindi": "मांस कसाईख़ाने से ताज़ा पहुँचाया गया था।"
+    }
+  },
+  {
+    "id": 2,
+    "type": "ows",
+    "front": "Abdicate",
+    "back": {
+      "definition_eng": "To formally give up a throne or responsibility.",
+      "example_eng": "The king decided to abdicate in favor of his son.",
+      "definition_hindi": "त्यागना",
+      "example_hindi": "राजा ने अपने बेटे के पक्ष में सिंहासन त्यागने का फैसला किया।"
+    }
+  },
+  {
+    "id": 3,
+    "type": "ows",
+    "front": "Aberration",
+    "back": {
+      "definition_eng": "A departure from what is normal, usual, or expected, typically an unwelcome one.",
+      "example_eng": "His outburst was a temporary aberration from his usually calm demeanor.",
+      "definition_hindi": "मार्ग से हटना, विचलन",
+      "example_hindi": "उसका गुस्सा उसके सामान्य शांत व्यवहार से एक अस्थायी विचलन था।"
+    }
+  },
+  {
+    "id": 4,
+    "type": "ows",
+    "front": "Aborigines",
+    "back": {
+      "definition_eng": "The original inhabitants of a country.",
+      "example_eng": "The aborigines of Australia have a rich cultural heritage.",
+      "definition_hindi": "मूल निवासी",
+      "example_hindi": "ऑस्ट्रेलिया के मूल निवासियों की एक समृद्ध सांस्कृतिक विरासत है।"
+    }
+  },
+  {
+    "id": 5,
+    "type": "ows",
+    "front": "Abridged",
+    "back": {
+      "definition_eng": "A book or text that has been shortened by omitting parts of it while retaining the main elements.",
+      "example_eng": "He read an abridged version of the classic novel.",
+      "definition_hindi": "संक्षिप्त",
+      "example_hindi": "उसने क्लासिक उपन्यास का एक संक्षिप्त संस्करण पढ़ा।"
+    }
+  },
+  {
+    "id": 6,
+    "type": "ows",
+    "front": "Abscond",
+    "back": {
+      "definition_eng": "To leave hurriedly and secretly to avoid detection or arrest for a crime.",
+      "example_eng": "The fugitive decided to abscond from the country.",
+      "definition_hindi": "भाग जाना",
+      "example_hindi": "भगोड़े ने देश से भागने का फैसला किया।"
+    }
+  },
+  {
+    "id": 7,
+    "type": "ows",
+    "front": "Absolute",
+    "back": {
+      "definition_eng": "Not qualified or diminished in any way; total.",
+      "example_eng": "The dictator had absolute power over the country.",
+      "definition_hindi": "पूर्ण, निरंकुश",
+      "example_hindi": "तानाशाह के पास देश पर पूर्ण शक्ति थी।"
+    }
+  },
+  {
+    "id": 8,
+    "type": "ows",
+    "front": "Absolve",
+    "back": {
+      "definition_eng": "To set or declare someone free from blame, guilt, or responsibility.",
+      "example_eng": "The jury absolved him of all charges.",
+      "definition_hindi": "दोषमुक्त करना",
+      "example_hindi": "जूरी ने उसे सभी आरोपों से दोषमुक्त कर दिया।"
+    }
+  },
+  {
+    "id": 9,
+    "type": "ows",
+    "front": "Abstinence",
+    "back": {
+      "definition_eng": "The practice of refraining from something, typically alcohol or food.",
+      "example_eng": "She practices abstinence from alcohol for health reasons.",
+      "definition_hindi": "परहेज़",
+      "example_hindi": "वह स्वास्थ्य कारणों से शराब से परहेज़ करती है।"
+    }
+  },
+  {
+    "id": 10,
+    "type": "ows",
+    "front": "Abstruse",
+    "back": {
+      "definition_eng": "Difficult to understand; obscure.",
+      "example_eng": "The philosophical text was too abstruse for the average reader.",
+      "definition_hindi": "गूढ़",
+      "example_hindi": "दार्शनिक पाठ औसत पाठक के लिए बहुत गूढ़ था।"
+    }
+  },
+  {
+    "id": 11,
+    "type": "ows",
+    "front": "Accolade",
+    "back": {
+      "definition_eng": "An award, honor, or praise.",
+      "example_eng": "She received many accolades for her outstanding performance.",
+      "definition_hindi": "प्रशंसा",
+      "example_hindi": "उसे अपने उत्कृष्ट प्रदर्शन के लिए कई प्रशंसाएँ मिलीं।"
+    }
+  },
+  {
+    "id": 12,
+    "type": "ows",
+    "front": "Acoustics",
+    "back": {
+      "definition_eng": "The science of sound.",
+      "example_eng": "The acoustics of the concert hall were excellent.",
+      "definition_hindi": "ध्वनि-विज्ञान",
+      "example_hindi": "कॉन्सर्ट हॉल का ध्वनि-विज्ञान उत्कृष्ट था।"
+    }
+  },
+  {
+    "id": 13,
+    "type": "ows",
+    "front": "Acquittal",
+    "back": {
+      "definition_eng": "A judgment that a person is not guilty of the crime with which they have been charged.",
+      "example_eng": "The defendant's acquittal came as a surprise to many.",
+      "definition_hindi": "दोषमुक्ति",
+      "example_hindi": "प्रतिवादी की दोषमुक्ति कई लोगों के लिए एक आश्चर्य के रूप में आई।"
+    }
+  },
+  {
+    "id": 14,
+    "type": "ows",
+    "front": "Acrophobia",
+    "back": {
+      "definition_eng": "An extreme or irrational fear of heights.",
+      "example_eng": "Her acrophobia prevented her from climbing the tower.",
+      "definition_hindi": "ऊंचाई का डर",
+      "example_hindi": "उसकी ऊंचाई के डर ने उसे टावर पर चढ़ने से रोक दिया।"
+    }
+  },
+  {
+    "id": 15,
+    "type": "ows",
+    "front": "Addendum",
+    "back": {
+      "definition_eng": "An item of additional material added at the end of a book or other publication.",
+      "example_eng": "The report had an addendum with new research findings.",
+      "definition_hindi": "परिशिष्ट",
+      "example_hindi": "रिपोर्ट में नए शोध निष्कर्षों के साथ एक परिशिष्ट था।"
+    }
+  },
+  {
+    "id": 16,
+    "type": "ows",
+    "front": "Adolescence",
+    "back": {
+      "definition_eng": "The period following the onset of puberty during which a young person develops from a child into an adult.",
+      "example_eng": "Adolescence is a time of significant change.",
+      "definition_hindi": "किशोरावस्था",
+      "example_hindi": "किशोरावस्था महत्वपूर्ण बदलाव का समय होता है।"
+    }
+  },
+  {
+    "id": 17,
+    "type": "ows",
+    "front": "Aesthete",
+    "back": {
+      "definition_eng": "A person who has a special appreciation for art and beauty.",
+      "example_eng": "He was a true aesthete, appreciating every detail of the painting.",
+      "definition_hindi": "सौंदर्यशास्त्री",
+      "example_hindi": "वह एक सच्चा सौंदर्यशास्त्री था, जो पेंटिंग के हर विवरण की सराहना करता था।"
+    }
+  },
+  {
+    "id": 18,
+    "type": "ows",
+    "front": "Affluent",
+    "back": {
+      "definition_eng": "Having a great deal of money; wealthy.",
+      "example_eng": "The city's affluent residents live in large, luxurious homes.",
+      "definition_hindi": "धनी",
+      "example_hindi": "शहर के धनी निवासी बड़े, शानदार घरों में रहते हैं।"
+    }
+  },
+  {
+    "id": 19,
+    "type": "ows",
+    "front": "Agnostic",
+    "back": {
+      "definition_eng": "A person who believes that nothing is known or can be known of the existence or nature of God.",
+      "example_eng": "He considers himself an agnostic, rather than an atheist.",
+      "definition_hindi": "अज्ञेयवादी",
+      "example_hindi": "वह खुद को नास्तिक के बजाय अज्ञेयवादी मानता है।"
+    }
+  },
+  {
+    "id": 20,
+    "type": "ows",
+    "front": "Alimony",
+    "back": {
+      "definition_eng": "Money that a court orders a person to pay to their former husband or wife after they are divorced.",
+      "example_eng": "The court ordered him to pay a significant amount of alimony.",
+      "definition_hindi": "निर्वाह-निधि",
+      "example_hindi": "अदालत ने उसे एक महत्वपूर्ण राशि की निर्वाह-निधि का भुगतान करने का आदेश दिया।"
+    }
+  },
+  {
+    "id": 21,
+    "type": "ows",
+    "front": "Allegory",
+    "back": {
+      "definition_eng": "A story, poem, or picture that can be interpreted to reveal a hidden meaning, typically a moral or political one.",
+      "example_eng": "The book is a political allegory about the dangers of totalitarianism.",
+      "definition_hindi": "रूपक",
+      "example_hindi": "यह किताब अधिनायकवाद के खतरों के बारे में एक राजनीतिक रूपक है।"
+    }
+  },
+  {
+    "id": 22,
+    "type": "ows",
+    "front": "Altruist",
+    "back": {
+      "definition_eng": "A person who is unselfishly concerned for the welfare of others.",
+      "example_eng": "He was an altruist who dedicated his life to helping the poor.",
+      "definition_hindi": "परोपकारी",
+      "example_hindi": "वह एक परोपकारी था जिसने गरीबों की मदद के लिए अपना जीवन समर्पित कर दिया।"
+    }
+  },
+  {
+    "id": 23,
+    "type": "ows",
+    "front": "Amateur",
+    "back": {
+      "definition_eng": "One who does a thing for pleasure and not as a profession.",
+      "example_eng": "He is an amateur photographer, but his photos are excellent.",
+      "definition_hindi": "शौकिया",
+      "example_hindi": "वह एक शौकिया फोटोग्राफर है, लेकिन उसकी तस्वीरें उत्कृष्ट हैं।"
+    }
+  },
+  {
+    "id": 24,
+    "type": "ows",
+    "front": "Ambassador",
+    "back": {
+      "definition_eng": "An accredited diplomat sent by a country as its official representative to a foreign country.",
+      "example_eng": "The ambassador was sent to negotiate a new trade agreement.",
+      "definition_hindi": "राजदूत",
+      "example_hindi": "राजदूत को एक नए व्यापार समझौते पर बातचीत करने के लिए भेजा गया था।"
+    }
+  },
+  {
+    "id": 25,
+    "type": "ows",
+    "front": "Ambidextrous",
+    "back": {
+      "definition_eng": "Able to use both the left and right hands equally well.",
+      "example_eng": "The ambidextrous artist could draw with both hands.",
+      "definition_hindi": "उभयलिंगी",
+      "example_hindi": "वह उभयलिंगी कलाकार दोनों हाथों से चित्र बना सकता था।"
+    }
+  },
+  {
+    "id": 26,
+    "type": "ows",
+    "front": "Ambiguous",
+    "back": {
+      "definition_eng": "Open to more than one interpretation; not having one obvious meaning.",
+      "example_eng": "The politician's response was ambiguous, leaving everyone confused.",
+      "definition_hindi": "अस्पष्ट",
+      "example_hindi": "राजनेता का जवाब अस्पष्ट था, जिससे सभी भ्रमित हो गए।"
+    }
+  },
+  {
+    "id": 27,
+    "type": "ows",
+    "front": "Ambivalent",
+    "back": {
+      "definition_eng": "Having mixed feelings or contradictory ideas about something or someone.",
+      "example_eng": "She felt ambivalent about her new job, as it was both exciting and stressful.",
+      "definition_hindi": "उभयभावी",
+      "example_hindi": "वह अपनी नई नौकरी के बारे में उभयभावी महसूस कर रही थी, क्योंकि यह रोमांचक और तनावपूर्ण दोनों थी।"
+    }
+  },
+  {
+    "id": 28,
+    "type": "ows",
+    "front": "Amnesia",
+    "back": {
+      "definition_eng": "A partial or total loss of memory.",
+      "example_eng": "The accident left him with a case of temporary amnesia.",
+      "definition_hindi": "स्मृतिलोप",
+      "example_hindi": "दुर्घटना ने उसे अस्थायी स्मृतिलोप का एक मामला छोड़ दिया।"
+    }
+  },
+  {
+    "id": 29,
+    "type": "ows",
+    "front": "Amphibian",
+    "back": {
+      "definition_eng": "A cold-blooded vertebrate animal that is born in water and breathes with gills, and later develops lungs and lives on land.",
+      "example_eng": "Frogs and toads are common amphibians.",
+      "definition_hindi": "उभयचर",
+      "example_hindi": "मेंढक और टोड सामान्य उभयचर हैं।"
+    }
+  },
+  {
+    "id": 30,
+    "type": "ows",
+    "front": "Anachronism",
+    "back": {
+      "definition_eng": "An act of attributing a custom, event, or object to a period to which it does not belong.",
+      "example_eng": "The clock in the movie was an anachronism, as clocks were not invented yet.",
+      "definition_hindi": "कालदोष",
+      "example_hindi": "फिल्म में घड़ी एक कालदोष थी, क्योंकि घड़ियों का अभी तक आविष्कार नहीं हुआ था।"
+    }
+  },
+  {
+    "id": 31,
+    "type": "ows",
+    "front": "Anarchist",
+    "back": {
+      "definition_eng": "A person who believes in or tries to bring about anarchy.",
+      "example_eng": "The anarchist wanted to overthrow the government.",
+      "definition_hindi": "अराजकतावादी",
+      "example_hindi": "अराजकतावादी सरकार को उखाड़ फेंकना चाहता था।"
+    }
+  },
+  {
+    "id": 32,
+    "type": "ows",
+    "front": "Anarchy",
+    "back": {
+      "definition_eng": "A state of disorder due to absence or non-recognition of authority or other controlling systems.",
+      "example_eng": "The country fell into anarchy after the civil war.",
+      "definition_hindi": "अराजकता",
+      "example_hindi": "गृहयुद्ध के बाद देश अराजकता में डूब गया।"
+    }
+  },
+  {
+    "id": 33,
+    "type": "ows",
+    "front": "Anecdote",
+    "back": {
+      "definition_eng": "A short, amusing, or interesting story about a real incident or person.",
+      "example_eng": "He shared a humorous anecdote about his childhood.",
+      "definition_hindi": "लघु कथा",
+      "example_hindi": "उसने अपने बचपन के बारे में एक हास्यपूर्ण लघु कथा साझा की।"
+    }
+  },
+  {
+    "id": 34,
+    "type": "ows",
+    "front": "Antagonist",
+    "back": {
+      "definition_eng": "A person who is opposed to, struggles against, or competes with another; opponent.",
+      "example_eng": "The hero and his antagonist had a final showdown.",
+      "definition_hindi": "विरोधी",
+      "example_hindi": "नायक और उसके विरोधी का अंतिम मुकाबला हुआ।"
+    }
+  },
+  {
+    "id": 35,
+    "type": "ows",
+    "front": "Anthropologist",
+    "back": {
+      "definition_eng": "One who studies the evolution of mankind.",
+      "example_eng": "The anthropologist is studying ancient human civilizations.",
+      "definition_hindi": "मानव विज्ञानी",
+      "example_hindi": "मानव विज्ञानी प्राचीन मानव सभ्यताओं का अध्ययन कर रहा है।"
+    }
+  },
+  {
+    "id": 36,
+    "type": "ows",
+    "front": "Antidote",
+    "back": {
+      "definition_eng": "A medicine or other remedy for counteracting the effects of a poison.",
+      "example_eng": "They administered the antidote immediately after the snake bite.",
+      "definition_hindi": "विष-नाशक",
+      "example_hindi": "सांप के काटने के तुरंत बाद उन्होंने विष-नाशक दिया।"
+    }
+  },
+  {
+    "id": 37,
+    "type": "ows",
+    "front": "Apathy",
+    "back": {
+      "definition_eng": "Lack of interest, enthusiasm, or concern.",
+      "example_eng": "The widespread apathy among voters led to a low turnout.",
+      "definition_hindi": "उदासीनता",
+      "example_hindi": "मतदाताओं के बीच व्यापक उदासीनता के कारण मतदान कम हुआ।"
+    }
+  },
+  {
+    "id": 38,
+    "type": "ows",
+    "front": "Apiary",
+    "back": {
+      "definition_eng": "A place where bees are kept, typically a collection of beehives.",
+      "example_eng": "The beekeeper managed a large apiary.",
+      "definition_hindi": "मधुमक्खी-शाला",
+      "example_hindi": "मधुमक्खी पालक एक बड़ी मधुमक्खी-शाला का प्रबंधन करता था।"
+    }
+  },
+  {
+    "id": 39,
+    "type": "ows",
+    "front": "Apocryphal",
+    "back": {
+      "definition_eng": "A story or statement of doubtful authenticity, although widely circulated as being true.",
+      "example_eng": "The story about the buried treasure is probably apocryphal.",
+      "definition_hindi": "संदिग्ध",
+      "example_hindi": "दबे हुए खजाने की कहानी शायद संदिग्ध है।"
+    }
+  },
+  {
+    "id": 40,
+    "type": "ows",
+    "front": "Apostate",
+    "back": {
+      "definition_eng": "A person who renounces a religious or political belief or principle.",
+      "example_eng": "The former priest was condemned as an apostate.",
+      "definition_hindi": "धर्मत्यागी",
+      "example_hindi": "पूर्व पुजारी को एक धर्मत्यागी के रूप में निंदा की गई थी।"
+    }
+  },
+  {
+    "id": 41,
+    "type": "ows",
+    "front": "Appreciation",
+    "back": {
+      "definition_eng": "An increase in the value of an asset.",
+      "example_eng": "The house has seen a great deal of appreciation over the years.",
+      "definition_hindi": "मूल्यवृद्धि",
+      "example_hindi": "वर्षों से घर के मूल्य में काफी वृद्धि हुई है।"
+    }
+  },
+  {
+    "id": 42,
+    "type": "ows",
+    "front": "Aquarium",
+    "back": {
+      "definition_eng": "A building containing tanks of live fish of different species.",
+      "example_eng": "We spent the afternoon at the local aquarium.",
+      "definition_hindi": "मछलीघर",
+      "example_hindi": "हमने दोपहर स्थानीय मछलीघर में बिताई।"
+    }
+  },
+  {
+    "id": 43,
+    "type": "ows",
+    "front": "Arbitrator",
+    "back": {
+      "definition_eng": "A person appointed to settle a dispute.",
+      "example_eng": "The two parties agreed to appoint an arbitrator to resolve the conflict.",
+      "definition_hindi": "पंच",
+      "example_hindi": "दोनों पक्ष संघर्ष को हल करने के लिए एक पंच नियुक्त करने के लिए सहमत हुए।"
+    }
+  },
+  {
+    "id": 44,
+    "type": "ows",
+    "front": "Archaic",
+    "back": {
+      "definition_eng": "Very old or old-fashioned.",
+      "example_eng": "The law was considered archaic and no longer relevant.",
+      "definition_hindi": "पुराना",
+      "example_hindi": "कानून को पुराना और अब प्रासंगिक नहीं माना जाता था।"
+    }
+  },
+  {
+    "id": 45,
+    "type": "ows",
+    "front": "Archives",
+    "back": {
+      "definition_eng": "A collection of historical documents or records.",
+      "example_eng": "The researcher spent hours in the city's archives.",
+      "definition_hindi": "पुरालेख",
+      "example_hindi": "शोधकर्ता ने शहर के पुरालेखों में घंटों बिताए।"
+    }
+  },
+  {
+    "id": 46,
+    "type": "ows",
+    "front": "Arena",
+    "back": {
+      "definition_eng": "A place or scene of activity, debate, or conflict.",
+      "example_eng": "The political arena is a very competitive place.",
+      "definition_hindi": "अखाड़ा",
+      "example_hindi": "राजनीतिक अखाड़ा एक बहुत ही प्रतिस्पर्धी जगह है।"
+    }
+  },
+  {
+    "id": 47,
+    "type": "ows",
+    "front": "Aristocracy",
+    "back": {
+      "definition_eng": "A form of government in which power is held by the nobility.",
+      "example_eng": "The country was once ruled by an aristocracy.",
+      "definition_hindi": "अभिजाततंत्र",
+      "example_hindi": "देश पर कभी अभिजाततंत्र का शासन था।"
+    }
+  },
+  {
+    "id": 48,
+    "type": "ows",
+    "front": "Arsenal",
+    "back": {
+      "definition_eng": "A collection of weapons and military equipment.",
+      "example_eng": "The soldiers were sent to guard the nation's arsenal.",
+      "definition_hindi": "शस्त्रागार",
+      "example_hindi": "सैनिकों को राष्ट्र के शस्त्रागार की रखवाली के लिए भेजा गया था।"
+    }
+  },
+  {
+    "id": 49,
+    "type": "ows",
+    "front": "Ascetic",
+    "back": {
+      "definition_eng": "One who leads an austere life.",
+      "example_eng": "The monk lived an ascetic life, free from all luxuries.",
+      "definition_hindi": "तपस्वी",
+      "example_hindi": "साधु ने सभी विलासिताओं से मुक्त एक तपस्वी जीवन जिया।"
+    }
+  },
+  {
+    "id": 50,
+    "type": "ows",
+    "front": "Atheist",
+    "back": {
+      "definition_eng": "A person who does not believe in the existence of a God or Gods.",
+      "example_eng": "She is an atheist and does not follow any religion.",
+      "definition_hindi": "नास्तिक",
+      "example_hindi": "वह एक नास्तिक है और किसी भी धर्म का पालन नहीं करती।"
+    }
+  },
+  {
+    "id": 51,
+    "type": "ows",
+    "front": "Auditor",
+    "back": {
+      "definition_eng": "A person who officially examines business accounts.",
+      "example_eng": "The company hired an external auditor to review their finances.",
+      "definition_hindi": "लेखा परीक्षक",
+      "example_hindi": "कंपनी ने अपने वित्त की समीक्षा करने के लिए एक बाहरी लेखा परीक्षक को नियुक्त किया।"
+    }
+  },
+  {
+    "id": 52,
+    "type": "ows",
+    "front": "Auditorium",
+    "back": {
+      "definition_eng": "The part of a theatre, concert hall, or other public building in which the audience sits.",
+      "example_eng": "The speaker addressed the large audience in the auditorium.",
+      "definition_hindi": "सभागार",
+      "example_hindi": "वक्ता ने सभागार में बड़े दर्शकों को संबोधित किया।"
+    }
+  },
+  {
+    "id": 53,
+    "type": "ows",
+    "front": "Autobiography",
+    "back": {
+      "definition_eng": "An account of a person's life written by that person.",
+      "example_eng": "The famous actor released his autobiography.",
+      "definition_hindi": "आत्मकथा",
+      "example_hindi": "प्रसिद्ध अभिनेता ने अपनी आत्मकथा जारी की।"
+    }
+  },
+  {
+    "id": 54,
+    "type": "ows",
+    "front": "Autocracy",
+    "back": {
+      "definition_eng": "A system of government by one person with absolute power.",
+      "example_eng": "The country's government was a brutal autocracy.",
+      "definition_hindi": "निरंकुश शासन",
+      "example_hindi": "देश का शासन एक क्रूर निरंकुश शासन था।"
+    }
+  },
+  {
+    "id": 55,
+    "type": "ows",
+    "front": "Autonomy",
+    "back": {
+      "definition_eng": "The right or condition of self-government.",
+      "example_eng": "The region was granted a degree of autonomy.",
+      "definition_hindi": "स्वायत्तता",
+      "example_hindi": "क्षेत्र को कुछ हद तक स्वायत्तता प्रदान की गई थी।"
+    }
+  },
+  {
+    "id": 56,
+    "type": "ows",
+    "front": "Aviary",
+    "back": {
+      "definition_eng": "A large enclosure for keeping birds.",
+      "example_eng": "The zoo had a large aviary with a variety of colorful birds.",
+      "definition_hindi": "पक्षीशाला",
+      "example_hindi": "चिड़ियाघर में रंगीन पक्षियों की एक बड़ी पक्षीशाला थी।"
+    }
+  },
+  {
+    "id": 57,
+    "type": "ows",
+    "front": "Bachelor",
+    "back": {
+      "definition_eng": "A man who has never been married.",
+      "example_eng": "He remained a bachelor his entire life.",
+      "definition_hindi": "अविवाहित पुरुष",
+      "example_hindi": "वह अपने पूरे जीवन अविवाहित पुरुष रहा।"
+    }
+  },
+  {
+    "id": 58,
+    "type": "ows",
+    "front": "Bale",
+    "back": {
+      "definition_eng": "A large bundle of raw or finished goods tightly bound together.",
+      "example_eng": "The farmer stacked the bales of hay.",
+      "definition_hindi": "गठरी",
+      "example_hindi": "किसान ने घास की गठरियां ढेर कीं।"
+    }
+  },
+  {
+    "id": 59,
+    "type": "ows",
+    "front": "Ballad",
+    "back": {
+      "definition_eng": "A poem or song narrating a story in short stanzas.",
+      "example_eng": "The musician performed a beautiful ballad.",
+      "definition_hindi": "गाथागीत",
+      "example_hindi": "संगीतकार ने एक सुंदर गाथागीत प्रस्तुत किया।"
+    }
+  },
+  {
+    "id": 60,
+    "type": "ows",
+    "front": "Barometer",
+    "back": {
+      "definition_eng": "An instrument that measures atmospheric pressure, used especially in forecasting the weather.",
+      "example_eng": "The barometer indicated a drop in pressure, suggesting a storm was coming.",
+      "definition_hindi": "वायुदाब मापी",
+      "example_hindi": "वायुदाब मापी ने दबाव में गिरावट का संकेत दिया, जिससे एक तूफान आने का पता चला।"
+    }
+  },
+  {
+    "id": 61,
+    "type": "ows",
+    "front": "Bibliography",
+    "back": {
+      "definition_eng": "A list of the books referred to in a scholarly work, typically printed as an appendix.",
+      "example_eng": "The essay included a bibliography of all the sources used.",
+      "definition_hindi": "ग्रंथ सूची",
+      "example_hindi": "निबंध में उपयोग किए गए सभी स्रोतों की एक ग्रंथ सूची शामिल थी।"
+    }
+  },
+  {
+    "id": 62,
+    "type": "ows",
+    "front": "Bibliophile",
+    "back": {
+      "definition_eng": "A person who loves or collects books.",
+      "example_eng": "As a bibliophile, she had a massive personal library.",
+      "definition_hindi": "किताब-प्रेमी",
+      "example_hindi": "एक किताब-प्रेमी के रूप में, उसके पास एक विशाल व्यक्तिगत पुस्तकालय था।"
+    }
+  },
+  {
+    "id": 63,
+    "type": "ows",
+    "front": "Bigamy",
+    "back": {
+      "definition_eng": "The act of marrying one person while still legally married to another.",
+      "example_eng": "He was charged with bigamy after it was discovered he had two wives.",
+      "definition_hindi": "द्विविवाह",
+      "example_hindi": "जब यह पता चला कि उसकी दो पत्नियां थीं तो उस पर द्विविवाह का आरोप लगाया गया था।"
+    }
+  },
+  {
+    "id": 64,
+    "type": "ows",
+    "front": "Bilingual",
+    "back": {
+      "definition_eng": "A person who can speak two languages fluently.",
+      "example_eng": "The new employee is bilingual and can communicate with clients in both English and Spanish.",
+      "definition_hindi": "द्विभाषी",
+      "example_hindi": "नया कर्मचारी द्विभाषी है और अंग्रेजी और स्पेनिश दोनों में ग्राहकों के साथ संवाद कर सकता है।"
+    }
+  },
+  {
+    "id": 65,
+    "type": "ows",
+    "front": "Biography",
+    "back": {
+      "definition_eng": "An account of someone's life written by someone else.",
+      "example_eng": "He wrote a biography of the famous explorer.",
+      "definition_hindi": "जीवनी",
+      "example_hindi": "उसने प्रसिद्ध खोजकर्ता की जीवनी लिखी।"
+    }
+  },
+  {
+    "id": 66,
+    "type": "ows",
+    "front": "Bohemian",
+    "back": {
+      "definition_eng": "A socially unconventional person, especially one involved in the arts.",
+      "example_eng": "He lived a bohemian lifestyle, traveling and painting as he pleased.",
+      "definition_hindi": "अपरंपरागत",
+      "example_hindi": "वह एक अपरंपरागत जीवन शैली जीता था, जैसा वह चाहता था यात्रा और चित्रकारी करता था।"
+    }
+  },
+  {
+    "id": 67,
+    "type": "ows",
+    "front": "Botany",
+    "back": {
+      "definition_eng": "The scientific study of plants.",
+      "example_eng": "She is pursuing a degree in botany.",
+      "definition_hindi": "वनस्पति विज्ञान",
+      "example_hindi": "वह वनस्पति विज्ञान में डिग्री प्राप्त कर रही है।"
+    }
+  },
+  {
+    "id": 68,
+    "type": "ows",
+    "front": "Bouquet",
+    "back": {
+      "definition_eng": "An attractively arranged bunch of flowers.",
+      "example_eng": "He gave her a beautiful bouquet of roses.",
+      "definition_hindi": "गुलदस्ता",
+      "example_hindi": "उसने उसे गुलाब का एक सुंदर गुलदस्ता दिया।"
+    }
+  },
+  {
+    "id": 69,
+    "type": "ows",
+    "front": "Brittle",
+    "back": {
+      "definition_eng": "Hard but liable to break or snap easily.",
+      "example_eng": "The old vase was very brittle and broke when it fell.",
+      "definition_hindi": "भंगुर",
+      "example_hindi": "पुराना फूलदान बहुत भंगुर था और जब वह गिरा तो टूट गया।"
+    }
+  },
+  {
+    "id": 70,
+    "type": "ows",
+    "front": "Bureaucracy",
+    "back": {
+      "definition_eng": "A system of government in which most of the important decisions are made by state officials rather than by elected representatives.",
+      "example_eng": "The project was delayed by excessive bureaucracy.",
+      "definition_hindi": "नौकरशाही",
+      "example_hindi": "परियोजना में अत्यधिक नौकरशाही के कारण देरी हुई।"
+    }
+  },
+  {
+    "id": 71,
+    "type": "ows",
+    "front": "Cache",
+    "back": {
+      "definition_eng": "A collection of items of the same type, stored in a hidden or inaccessible place.",
+      "example_eng": "The pirates buried a cache of treasure on the island.",
+      "definition_hindi": "भंडार",
+      "example_hindi": "समुद्री लुटेरों ने द्वीप पर खजाने का एक भंडार दफन किया।"
+    }
+  },
+  {
+    "id": 72,
+    "type": "ows",
+    "front": "Calligraphy",
+    "back": {
+      "definition_eng": "The art of beautiful handwriting.",
+      "example_eng": "The invitation was written in exquisite calligraphy.",
+      "definition_hindi": "सुलेख",
+      "example_hindi": "निमंत्रण उत्कृष्ट सुलेख में लिखा गया था।"
+    }
+  },
+  {
+    "id": 73,
+    "type": "ows",
+    "front": "Cannibal",
+    "back": {
+      "definition_eng": "A person who eats human flesh.",
+      "example_eng": "The story tells of a man captured by a tribe of cannibals.",
+      "definition_hindi": "नरभक्षी",
+      "example_hindi": "कहानी एक नरभक्षी जनजाति द्वारा पकड़े गए एक आदमी के बारे में बताती है।"
+    }
+  },
+  {
+    "id": 74,
+    "type": "ows",
+    "front": "Capricious",
+    "back": {
+      "definition_eng": "Given to sudden and unaccountable changes of mood or behavior.",
+      "example_eng": "His capricious nature made him an unreliable partner.",
+      "definition_hindi": "मनमौजी",
+      "example_hindi": "उसकी मनमौजी प्रकृति ने उसे एक अविश्वसनीय साथी बना दिया।"
+    }
+  },
+  {
+    "id": 75,
+    "type": "ows",
+    "front": "Carnivore",
+    "back": {
+      "definition_eng": "An animal that feeds on other animals.",
+      "example_eng": "Lions and tigers are carnivores.",
+      "definition_hindi": "मांसाहारी",
+      "example_hindi": "शेर और बाघ मांसाहारी होते हैं।"
+    }
+  },
+  {
+    "id": 76,
+    "type": "ows",
+    "front": "Cartographer",
+    "back": {
+      "definition_eng": "A person who draws or produces maps.",
+      "example_eng": "The cartographer was hired to create a new map of the city.",
+      "definition_hindi": "मानचित्रकार",
+      "example_hindi": "शहर का एक नया नक्शा बनाने के लिए मानचित्रकार को काम पर रखा गया था।"
+    }
+  },
+  {
+    "id": 77,
+    "type": "ows",
+    "front": "Celibate",
+    "back": {
+      "definition_eng": "A person who refrains from marriage and sexual relations.",
+      "example_eng": "The priest took a vow to live a celibate life.",
+      "definition_hindi": "अविवाहित",
+      "example_hindi": "पुजारी ने अविवाहित जीवन जीने की कसम खाई।"
+    }
+  },
+  {
+    "id": 78,
+    "type": "ows",
+    "front": "Cemetery",
+    "back": {
+      "definition_eng": "A burial ground or a place where dead bodies are buried.",
+      "example_eng": "The funeral procession moved slowly through the cemetery.",
+      "definition_hindi": "कब्रिस्तान",
+      "example_hindi": "अंतिम संस्कार का जुलूस कब्रिस्तान से धीरे-धीरे चला।"
+    }
+  },
+  {
+    "id": 79,
+    "type": "ows",
+    "front": "Chauvinist",
+    "back": {
+      "definition_eng": "A person displaying aggressive or exaggerated patriotism.",
+      "example_eng": "He was a male chauvinist who believed women were inferior.",
+      "definition_hindi": "कट्टर राष्ट्रवादी",
+      "example_hindi": "वह एक पुरुष कट्टर राष्ट्रवादी था जो मानता था कि महिलाएं हीन हैं।"
+    }
+  },
+  {
+    "id": 80,
+    "type": "ows",
+    "front": "Chronic",
+    "back": {
+      "definition_eng": "A disease or illness that persists for a long time.",
+      "example_eng": "She suffers from chronic back pain.",
+      "definition_hindi": "पुराना",
+      "example_hindi": "वह पुराने पीठ दर्द से पीड़ित है।"
+    }
+  },
+  {
+    "id": 81,
+    "type": "ows",
+    "front": "Chronology",
+    "back": {
+      "definition_eng": "The arrangement of events or dates in the order of their occurrence.",
+      "example_eng": "The historian studied the chronology of the ancient civilization.",
+      "definition_hindi": "कालक्रम",
+      "example_hindi": "इतिहासकार ने प्राचीन सभ्यता के कालक्रम का अध्ययन किया।"
+    }
+  },
+  {
+    "id": 82,
+    "type": "ows",
+    "front": "Cinerarium",
+    "back": {
+      "definition_eng": "A place where the cremated remains (ashes) of the dead are kept.",
+      "example_eng": "The family decided to place their father's ashes in the cinerarium.",
+      "definition_hindi": "अस्थि-कलश-गृह",
+      "example_hindi": "परिवार ने अपने पिता की राख को अस्थि-कलश-गृह में रखने का फैसला किया।"
+    }
+  },
+  {
+    "id": 83,
+    "type": "ows",
+    "front": "Claustrophobia",
+    "back": {
+      "definition_eng": "An extreme or irrational fear of confined places.",
+      "example_eng": "He couldn't use the elevator due to his claustrophobia.",
+      "definition_hindi": "बंद स्थान का डर",
+      "example_hindi": "वह अपने बंद स्थान के डर के कारण लिफ्ट का उपयोग नहीं कर सका।"
+    }
+  },
+  {
+    "id": 84,
+    "type": "ows",
+    "front": "Cognizant",
+    "back": {
+      "definition_eng": "Having knowledge or being aware of something.",
+      "example_eng": "He was cognizant of the risks involved in the project.",
+      "definition_hindi": "जागरूक",
+      "example_hindi": "वह परियोजना में शामिल जोखिमों से जागरूक था।"
+    }
+  },
+  {
+    "id": 85,
+    "type": "ows",
+    "front": "Collusion",
+    "back": {
+      "definition_eng": "Secret or illegal cooperation or conspiracy in order to deceive others.",
+      "example_eng": "They were accused of acting in collusion with a foreign power.",
+      "definition_hindi": "मिलीभगत",
+      "example_hindi": "उन पर एक विदेशी शक्ति के साथ मिलीभगत में काम करने का आरोप लगाया गया था।"
+    }
+  },
+  {
+    "id": 86,
+    "type": "ows",
+    "front": "Colossal",
+    "back": {
+      "definition_eng": "Extremely large.",
+      "example_eng": "The statue was of colossal size.",
+      "definition_hindi": "विशाल",
+      "example_hindi": "प्रतिमा विशाल आकार की थी।"
+    }
+  },
+  {
+    "id": 87,
+    "type": "ows",
+    "front": "Combustible",
+    "back": {
+      "definition_eng": "Able to catch fire and burn easily.",
+      "example_eng": "The warehouse contained many combustible materials.",
+      "definition_hindi": "ज्वलनशील",
+      "example_hindi": "गोदाम में कई ज्वलनशील सामग्री थी।"
+    }
+  },
+  {
+    "id": 88,
+    "type": "ows",
+    "front": "Commemorate",
+    "back": {
+      "definition_eng": "To recall and show respect for (someone or something) in a ceremony.",
+      "example_eng": "A monument was built to commemorate the fallen soldiers.",
+      "definition_hindi": "स्मरण करना",
+      "example_hindi": "गिरे हुए सैनिकों को स्मरण करने के लिए एक स्मारक बनाया गया था।"
+    }
+  },
+  {
+    "id": 89,
+    "type": "ows",
+    "front": "Conciliatory",
+    "back": {
+      "definition_eng": "Intended or likely to placate or pacify.",
+      "example_eng": "He made a conciliatory gesture to end the argument.",
+      "definition_hindi": "मेल-मिलाप का",
+      "example_hindi": "उसने बहस खत्म करने के लिए मेल-मिलाप का एक इशारा किया।"
+    }
+  },
+  {
+    "id": 90,
+    "type": "ows",
+    "front": "Connoisseur",
+    "back": {
+      "definition_eng": "An expert judge in matters of taste.",
+      "example_eng": "He is a connoisseur of fine wines.",
+      "definition_hindi": "गुणज्ञ",
+      "example_hindi": "वह अच्छी शराब का एक गुणज्ञ है।"
+    }
+  },
+  {
+    "id": 91,
+    "type": "ows",
+    "front": "Conscription",
+    "back": {
+      "definition_eng": "Compulsory enlistment for state service, typically into the armed forces.",
+      "example_eng": "The government introduced conscription during the war.",
+      "definition_hindi": "अनिवार्य भर्ती",
+      "example_hindi": "सरकार ने युद्ध के दौरान अनिवार्य भर्ती शुरू की।"
+    }
+  },
+  {
+    "id": 92,
+    "type": "ows",
+    "front": "Contemporary",
+    "back": {
+      "definition_eng": "Living or occurring at the same time.",
+      "example_eng": "He was a contemporary of Shakespeare.",
+      "definition_hindi": "समकालीन",
+      "example_hindi": "वह शेक्सपियर का समकालीन था।"
+    }
+  },
+  {
+    "id": 93,
+    "type": "ows",
+    "front": "Contemptible",
+    "back": {
+      "definition_eng": "Deserving contempt; despicable.",
+      "example_eng": "His actions were contemptible and unforgivable.",
+      "definition_hindi": "घृणित",
+      "example_hindi": "उसके कार्य घृणित और अक्षम्य थे।"
+    }
+  },
+  {
+    "id": 94,
+    "type": "ows",
+    "front": "Convoy",
+    "back": {
+      "definition_eng": "A group of ships or vehicles travelling together, typically accompanied by armed troops, warships, or other vehicles for protection.",
+      "example_eng": "A convoy of trucks carried aid to the war-torn city.",
+      "definition_hindi": "जुलूस",
+      "example_hindi": "ट्रकों का एक जुलूस युद्धग्रस्त शहर में सहायता लेकर गया।"
+    }
+  },
+  {
+    "id": 95,
+    "type": "ows",
+    "front": "Cosmopolitan",
+    "back": {
+      "definition_eng": "Familiar with and at ease in many different countries and cultures.",
+      "example_eng": "She was a cosmopolitan woman who had lived all over the world.",
+      "definition_hindi": "विश्वव्यापी",
+      "example_hindi": "वह एक विश्वव्यापी महिला थी जो दुनिया भर में रह चुकी थी।"
+    }
+  },
+  {
+    "id": 96,
+    "type": "ows",
+    "front": "Credulous",
+    "back": {
+      "definition_eng": "Having or showing too great a readiness to believe things.",
+      "example_eng": "The credulous tourist fell for the scam.",
+      "definition_hindi": "आसानी से विश्वास करने वाला",
+      "example_hindi": "आसानी से विश्वास करने वाला पर्यटक घोटाले का शिकार हो गया।"
+    }
+  },
+  {
+    "id": 97,
+    "type": "ows",
+    "front": "Creche",
+    "back": {
+      "definition_eng": "A nursery where babies and young children are cared for during the working day.",
+      "example_eng": "She leaves her child at the crèche while she is at work.",
+      "definition_hindi": "शिशु-सदन",
+      "example_hindi": "वह काम पर रहते हुए अपने बच्चे को शिशु-सदन में छोड़ देती है।"
+    }
+  },
+  {
+    "id": 98,
+    "type": "ows",
+    "front": "Crematorium",
+    "back": {
+      "definition_eng": "A place where a dead person's body is cremated.",
+      "example_eng": "The body was taken to the crematorium for cremation.",
+      "definition_hindi": "श्मशान",
+      "example_hindi": "शरीर को श्मशान में दाह संस्कार के लिए ले जाया गया।"
+    }
+  },
+  {
+    "id": 99,
+    "type": "ows",
+    "front": "Curator",
+    "back": {
+      "definition_eng": "A keeper or custodian of a museum or other collection.",
+      "example_eng": "The museum curator was an expert in ancient artifacts.",
+      "definition_hindi": "संग्रहालय अध्यक्ष",
+      "example_hindi": "संग्रहालय अध्यक्ष प्राचीन कलाकृतियों में एक विशेषज्ञ था।"
+    }
+  },
+  {
+    "id": 100,
+    "type": "ows",
+    "front": "Cynosure",
+    "back": {
+      "definition_eng": "A person or thing that is the center of attention or admiration.",
+      "example_eng": "The movie star was the cynosure of all eyes at the party.",
+      "definition_hindi": "ध्यान का केंद्र",
+      "example_hindi": "फिल्म स्टार पार्टी में सभी की आँखों का ध्यान का केंद्र था।"
+    }
+  },
+  {
+    "id": 101,
+    "type": "ows",
+    "front": "Debonair",
+    "back": {
+      "definition_eng": "A man who is confident, stylish, and charming.",
+      "example_eng": "He looked very debonair in his tuxedo.",
+      "definition_hindi": "सुंदर और आकर्षक",
+      "example_hindi": "वह अपने टक्सीडो में बहुत सुंदर और आकर्षक लग रहा था।"
+    }
+  },
+  {
+    "id": 102,
+    "type": "ows",
+    "front": "Decade",
+    "back": {
+      "definition_eng": "A period of ten years.",
+      "example_eng": "The 1980s was a decade of great change in music.",
+      "definition_hindi": "दशक",
+      "example_hindi": "1980 का दशक संगीत में महान बदलाव का एक दशक था।"
+    }
+  },
+  {
+    "id": 103,
+    "type": "ows",
+    "front": "Demagogue",
+    "back": {
+      "definition_eng": "A political leader who seeks support by appealing to popular desires and prejudices rather than by using rational argument.",
+      "example_eng": "The demagogue used fear to manipulate the crowd.",
+      "definition_hindi": "लोकप्रिय नेता",
+      "example_hindi": "लोकप्रिय नेता ने भीड़ को हेरफेर करने के लिए डर का इस्तेमाल किया।"
+    }
+  },
+  {
+    "id": 104,
+    "type": "ows",
+    "front": "Demography",
+    "back": {
+      "definition_eng": "The study of statistics such as births, deaths, income, or the incidence of disease, which illustrate the changing structure of human populations.",
+      "example_eng": "The demography of the country showed a rapidly aging population.",
+      "definition_hindi": "जनसांख्यिकी",
+      "example_hindi": "देश की जनसांख्यिकी में तेजी से बूढ़ी होती आबादी को दिखाया गया।"
+    }
+  },
+  {
+    "id": 105,
+    "type": "ows",
+    "front": "Dermatologist",
+    "back": {
+      "definition_eng": "A doctor who specializes in the treatment of skin diseases.",
+      "example_eng": "She visited a dermatologist to treat her severe acne.",
+      "definition_hindi": "त्वचा विशेषज्ञ",
+      "example_hindi": "उसने अपने गंभीर मुँहासे का इलाज करने के लिए एक त्वचा विशेषज्ञ से मुलाकात की।"
+    }
+  },
+  {
+    "id": 106,
+    "type": "ows",
+    "front": "Dilettante",
+    "back": {
+      "definition_eng": "A person who cultivates an area of interest, such as the arts, without real commitment or knowledge.",
+      "example_eng": "He was a dilettante who dabbled in many hobbies.",
+      "definition_hindi": "शौक़ीन",
+      "example_hindi": "वह एक शौक़ीन था जिसने कई शौक में हाथ आजमाया।"
+    }
+  },
+  {
+    "id": 107,
+    "type": "ows",
+    "front": "Dormitory",
+    "back": {
+      "definition_eng": "A large bedroom for a number of people in a school or institution.",
+      "example_eng": "The students lived in the dormitory on campus.",
+      "definition_hindi": "शयनकक्ष",
+      "example_hindi": "छात्र परिसर में शयनकक्ष में रहते थे।"
+    }
+  },
+  {
+    "id": 108,
+    "type": "ows",
+    "front": "Ductile",
+    "back": {
+      "definition_eng": "Able to be drawn out into a thin wire; flexible.",
+      "example_eng": "Gold is a very ductile metal.",
+      "definition_hindi": "नमनीय",
+      "example_hindi": "सोना एक बहुत ही नमनीय धातु है।"
+    }
+  },
+  {
+    "id": 109,
+    "type": "ows",
+    "front": "Eclectic",
+    "back": {
+      "definition_eng": "Deriving ideas, style, or taste from a broad and diverse range of sources.",
+      "example_eng": "The restaurant's menu was an eclectic mix of cuisines.",
+      "definition_hindi": "सारग्राही",
+      "example_hindi": "रेस्तरां का मेनू व्यंजनों का एक सारग्राही मिश्रण था।"
+    }
+  },
+  {
+    "id": 110,
+    "type": "ows",
+    "front": "Edible",
+    "back": {
+      "definition_eng": "Fit or suitable to be eaten.",
+      "example_eng": "The berries were not edible and could be poisonous.",
+      "definition_hindi": "खाने योग्य",
+      "example_hindi": "जामुन खाने योग्य नहीं थे और जहरीले हो सकते थे।"
+    }
+  },
+  {
+    "id": 111,
+    "type": "ows",
+    "front": "Egotist",
+    "back": {
+      "definition_eng": "A person who is excessively conceited or absorbed in themselves; a self-seeker.",
+      "example_eng": "He was an egotist who only talked about his own accomplishments.",
+      "definition_hindi": "अहंकारी",
+      "example_hindi": "वह एक अहंकारी था जो केवल अपनी उपलब्धियों के बारे में बात करता था।"
+    }
+  },
+  {
+    "id": 112,
+    "type": "ows",
+    "front": "Elegy",
+    "back": {
+      "definition_eng": "A poem of serious reflection, typically a lament for the dead.",
+      "example_eng": "He wrote a moving elegy for his deceased friend.",
+      "definition_hindi": "शोक-गीत",
+      "example_hindi": "उसने अपने दिवंगत दोस्त के लिए एक मार्मिक शोक-गीत लिखा।"
+    }
+  },
+  {
+    "id": 113,
+    "type": "ows",
+    "front": "Embezzlement",
+    "back": {
+      "definition_eng": "The act of stealing money that one has been entrusted to manage.",
+      "example_eng": "The accountant was arrested for embezzlement.",
+      "definition_hindi": "गबन",
+      "example_hindi": "लेखाकार को गबन के आरोप में गिरफ्तार किया गया था।"
+    }
+  },
+  {
+    "id": 114,
+    "type": "ows",
+    "front": "Emigrant",
+    "back": {
+      "definition_eng": "A person who leaves their own country to settle permanently in another.",
+      "example_eng": "He was an emigrant from Ireland who settled in America.",
+      "definition_hindi": "उत्प्रवासी",
+      "example_hindi": "वह आयरलैंड से एक उत्प्रवासी था जो अमेरिका में बस गया।"
+    }
+  },
+  {
+    "id": 115,
+    "type": "ows",
+    "front": "Ephemeral",
+    "back": {
+      "definition_eng": "Lasting for a very short time.",
+      "example_eng": "Fame is often ephemeral.",
+      "definition_hindi": "अल्पकालिक",
+      "example_hindi": "शोहरत अक्सर अल्पकालिक होती है।"
+    }
+  },
+  {
+    "id": 116,
+    "type": "ows",
+    "front": "Epilogue",
+    "back": {
+      "definition_eng": "A concluding part added to a literary work.",
+      "example_eng": "The novel's epilogue revealed what happened to the characters years later.",
+      "definition_hindi": "उपसंहार",
+      "example_hindi": "उपन्यास के उपसंहार में पता चला कि वर्षों बाद पात्रों के साथ क्या हुआ।"
+    }
+  },
+  {
+    "id": 117,
+    "type": "ows",
+    "front": "Epitaph",
+    "back": {
+      "definition_eng": "A phrase or statement written in memory of a person who has died, especially on a tombstone.",
+      "example_eng": "The epitaph on his grave read, 'A loving husband and father'.",
+      "definition_hindi": "समाधि-लेख",
+      "example_hindi": "उसकी कब्र पर समाधि-लेख पढ़ा गया, 'एक प्यार करने वाला पति और पिता'।"
+    }
+  },
+  {
+    "id": 118,
+    "type": "ows",
+    "front": "Equilibrium",
+    "back": {
+      "definition_eng": "A state of physical balance or a calm state of mind.",
+      "example_eng": "She was trying to regain her equilibrium after the accident.",
+      "definition_hindi": "संतुलन",
+      "example_hindi": "वह दुर्घटना के बाद अपना संतुलन फिर से हासिल करने की कोशिश कर रही थी।"
+    }
+  },
+  {
+    "id": 119,
+    "type": "ows",
+    "front": "Etymology",
+    "back": {
+      "definition_eng": "The study of the origin and history of words.",
+      "example_eng": "She was fascinated by the etymology of words.",
+      "definition_hindi": "शब्द-व्युत्पत्ति विज्ञान",
+      "example_hindi": "वह शब्दों के शब्द-व्युत्पत्ति विज्ञान से मोहित थी।"
+    }
+  },
+  {
+    "id": 120,
+    "type": "ows",
+    "front": "Euphemism",
+    "back": {
+      "definition_eng": "A mild or indirect word or expression substituted for one considered to be too harsh or blunt when referring to something unpleasant or embarrassing.",
+      "example_eng": "He used 'passed away' as a euphemism for 'died'.",
+      "definition_hindi": "कठोर शब्द के स्थान पर मृदु शब्द का प्रयोग",
+      "example_hindi": "उसने 'मर गया' के लिए एक कठोर शब्द के स्थान पर मृदु शब्द का प्रयोग किया।"
+    }
+  },
+  {
+    "id": 121,
+    "type": "ows",
+    "front": "Exonerate",
+    "back": {
+      "definition_eng": "To officially absolve someone from blame for a fault or wrongdoing.",
+      "example_eng": "The court exonerated him of all responsibility for the crime.",
+      "definition_hindi": "दोषमुक्त करना",
+      "example_hindi": "अदालत ने उसे अपराध के लिए सभी जिम्मेदारी से दोषमुक्त कर दिया।"
+    }
+  },
+  {
+    "id": 122,
+    "type": "ows",
+    "front": "Expurgate",
+    "back": {
+      "definition_eng": "To remove objectionable or unsuitable material from a book or account.",
+      "example_eng": "The book was expurgated to make it suitable for children.",
+      "definition_hindi": "आपत्तिजनक अंश हटाना",
+      "example_hindi": "किताब को बच्चों के लिए उपयुक्त बनाने के लिए आपत्तिजनक अंश हटा दिया गया।"
+    }
+  },
+  {
+    "id": 123,
+    "type": "ows",
+    "front": "Extempore",
+    "back": {
+      "definition_eng": "Spoken or done without preparation.",
+      "example_eng": "He gave an excellent extempore speech.",
+      "definition_hindi": "बिना तैयारी के",
+      "example_hindi": "उन्होंने बिना तैयारी के एक उत्कृष्ट भाषण दिया।"
+    }
+  },
+  {
+    "id": 124,
+    "type": "ows",
+    "front": "Extrovert",
+    "back": {
+      "definition_eng": "An outgoing, socially confident person.",
+      "example_eng": "He is an extrovert who loves meeting new people.",
+      "definition_hindi": "बहिर्मुखी",
+      "example_hindi": "वह एक बहिर्मुखी है जो नए लोगों से मिलना पसंद करता है।"
+    }
+  },
+  {
+    "id": 125,
+    "type": "ows",
+    "front": "Fatalist",
+    "back": {
+      "definition_eng": "A person who believes that all events are predetermined and therefore inevitable.",
+      "example_eng": "He was a fatalist who believed there was nothing he could do to change his destiny.",
+      "definition_hindi": "भाग्यवादी",
+      "example_hindi": "वह एक भाग्यवादी था जो मानता था कि वह अपनी नियति को बदलने के लिए कुछ भी नहीं कर सकता है।"
+    }
+  },
+  {
+    "id": 126,
+    "type": "ows",
+    "front": "Fastidious",
+    "back": {
+      "definition_eng": "Very attentive to and concerned about accuracy and detail.",
+      "example_eng": "He was a fastidious worker who checked every detail.",
+      "definition_hindi": "अति सावधानीपूर्वक",
+      "example_hindi": "वह एक अति सावधानीपूर्वक कर्मचारी था जो हर विवरण की जाँच करता था।"
+    }
+  },
+  {
+    "id": 127,
+    "type": "ows",
+    "front": "Feasible",
+    "back": {
+      "definition_eng": "Possible to do easily or conveniently.",
+      "example_eng": "The plan was not economically feasible.",
+      "definition_hindi": "व्यवहार्य",
+      "example_hindi": "यह योजना आर्थिक रूप से व्यवहार्य नहीं थी।"
+    }
+  },
+  {
+    "id": 128,
+    "type": "ows",
+    "front": "Feminist",
+    "back": {
+      "definition_eng": "A person who supports the belief that women should have the same rights and opportunities as men.",
+      "example_eng": "She is a strong feminist and an advocate for women's rights.",
+      "definition_hindi": "नारीवादी",
+      "example_hindi": "वह एक मजबूत नारीवादी और महिला अधिकारों की समर्थक है।"
+    }
+  },
+  {
+    "id": 129,
+    "type": "ows",
+    "front": "Filicide",
+    "back": {
+      "definition_eng": "The killing of one's own child.",
+      "example_eng": "The mother was arrested for filicide.",
+      "definition_hindi": "अपने बच्चे की हत्या",
+      "example_hindi": "माँ को अपने बच्चे की हत्या के आरोप में गिरफ्तार किया गया था।"
+    }
+  },
+  {
+    "id": 130,
+    "type": "ows",
+    "front": "Fragile",
+    "back": {
+      "definition_eng": "Easily broken or damaged.",
+      "example_eng": "The glass ornament was very fragile.",
+      "definition_hindi": "नाज़ुक",
+      "example_hindi": "कांच का आभूषण बहुत नाज़ुक था।"
+    }
+  },
+  {
+    "id": 131,
+    "type": "ows",
+    "front": "Fratricide",
+    "back": {
+      "definition_eng": "The killing of one's brother.",
+      "example_eng": "The prince was accused of fratricide to seize the throne.",
+      "definition_hindi": "भ्रातृ-हत्या",
+      "example_hindi": "राजकुमार पर सिंहासन हड़पने के लिए भ्रातृ-हत्या का आरोप लगाया गया था।"
+    }
+  },
+  {
+    "id": 132,
+    "type": "ows",
+    "front": "Garrulous",
+    "back": {
+      "definition_eng": "Excessively talkative, especially on trivial matters.",
+      "example_eng": "The garrulous man told everyone his life story.",
+      "definition_hindi": "बातूनी",
+      "example_hindi": "बातूनी आदमी ने हर किसी को अपनी जीवन कहानी बताई।"
+    }
+  },
+  {
+    "id": 133,
+    "type": "ows",
+    "front": "Genocide",
+    "back": {
+      "definition_eng": "The deliberate killing of a large number of people from a particular nation or ethnic group.",
+      "example_eng": "The government was accused of committing genocide against its own people.",
+      "definition_hindi": "नरसंहार",
+      "example_hindi": "सरकार पर अपने ही लोगों के खिलाफ नरसंहार करने का आरोप लगाया गया था।"
+    }
+  },
+  {
+    "id": 134,
+    "type": "ows",
+    "front": "Gerontocracy",
+    "back": {
+      "definition_eng": "A state, society, or group governed by old people.",
+      "example_eng": "The country's gerontocracy was resistant to change.",
+      "definition_hindi": "वृद्ध-शासन",
+      "example_hindi": "देश का वृद्ध-शासन परिवर्तन के प्रति प्रतिरोधी था।"
+    }
+  },
+  {
+    "id": 135,
+    "type": "ows",
+    "front": "Glutton",
+    "back": {
+      "definition_eng": "A person who is excessively greedy for food.",
+      "example_eng": "He was a glutton who ate the entire cake by himself.",
+      "definition_hindi": "पेटू",
+      "example_hindi": "वह एक पेटू था जिसने पूरा केक खुद ही खा लिया।"
+    }
+  },
+  {
+    "id": 136,
+    "type": "ows",
+    "front": "Granary",
+    "back": {
+      "definition_eng": "A storehouse for threshed grain.",
+      "example_eng": "The farmers stored their harvest in the granary.",
+      "definition_hindi": "अन्न भंडार",
+      "example_hindi": "किसानों ने अपनी फसल अन्न भंडार में जमा की।"
+    }
+  },
+  {
+    "id": 137,
+    "type": "ows",
+    "front": "Gregarious",
+    "back": {
+      "definition_eng": "Fond of company; sociable.",
+      "example_eng": "He was a gregarious person who made friends easily.",
+      "definition_hindi": "मिलनसार",
+      "example_hindi": "वह एक मिलनसार व्यक्ति था जो आसानी से दोस्त बना लेता था।"
+    }
+  },
+  {
+    "id": 138,
+    "type": "ows",
+    "front": "Hangar",
+    "back": {
+      "definition_eng": "A large building with an extensive floor area, typically for housing aircraft.",
+      "example_eng": "The plane was moved into the hangar for maintenance.",
+      "definition_hindi": "हवाई जहाज का घर",
+      "example_hindi": "विमान को रखरखाव के लिए हवाई जहाज का घर में ले जाया गया।"
+    }
+  },
+  {
+    "id": 139,
+    "type": "ows",
+    "front": "Harangue",
+    "back": {
+      "definition_eng": "A lengthy and aggressive speech.",
+      "example_eng": "The politician's harangue was met with boos from the crowd.",
+      "definition_hindi": "जोरदार भाषण",
+      "example_hindi": "राजनेता के जोरदार भाषण को भीड़ से हूटिंग मिली।"
+    }
+  },
+  {
+    "id": 140,
+    "type": "ows",
+    "front": "Heliotherapy",
+    "back": {
+      "definition_eng": "The therapeutic use of sunlight.",
+      "example_eng": "He underwent heliotherapy to treat his skin condition.",
+      "definition_hindi": "सूर्य चिकित्सा",
+      "example_hindi": "उसने अपनी त्वचा की स्थिति का इलाज करने के लिए सूर्य चिकित्सा करवाया।"
+    }
+  },
+  {
+    "id": 141,
+    "type": "ows",
+    "front": "Herbivore",
+    "back": {
+      "definition_eng": "An animal that feeds on plants.",
+      "example_eng": "Cows and deer are herbivores.",
+      "definition_hindi": "शाकाहारी",
+      "example_hindi": "गाय और हिरण शाकाहारी होते हैं।"
+    }
+  },
+  {
+    "id": 142,
+    "type": "ows",
+    "front": "Heretic",
+    "back": {
+      "definition_eng": "A person holding an opinion at odds with what is generally accepted.",
+      "example_eng": "He was considered a heretic for his radical views on religion.",
+      "definition_hindi": "विधर्मी",
+      "example_hindi": "धर्म पर अपने कट्टरपंथी विचारों के लिए उसे एक विधर्मी माना जाता था।"
+    }
+  },
+  {
+    "id": 143,
+    "type": "ows",
+    "front": "Homicide",
+    "back": {
+      "definition_eng": "The killing of one person by another.",
+      "example_eng": "The police are investigating a case of homicide.",
+      "definition_hindi": "हत्या",
+      "example_hindi": "पुलिस हत्या के एक मामले की जांच कर रही है।"
+    }
+  },
+  {
+    "id": 144,
+    "type": "ows",
+    "front": "Honorary",
+    "back": {
+      "definition_eng": "Given as a mark of honor, without the usual requirements or functions.",
+      "example_eng": "He was given an honorary degree for his contributions to the community.",
+      "definition_hindi": "मानद",
+      "example_hindi": "उन्हें समुदाय में उनके योगदान के लिए एक मानद डिग्री दी गई थी।"
+    }
+  },
+  {
+    "id": 145,
+    "type": "ows",
+    "front": "Horde",
+    "back": {
+      "definition_eng": "A large group of people.",
+      "example_eng": "A horde of tourists descended on the town.",
+      "definition_hindi": "झुंड",
+      "example_hindi": "पर्यटकों का एक झुंड शहर पर उतर आया।"
+    }
+  },
+  {
+    "id": 146,
+    "type": "ows",
+    "front": "Hypochondriac",
+    "back": {
+      "definition_eng": "A person who is abnormally anxious about their health.",
+      "example_eng": "He was a hypochondriac who constantly worried about being sick.",
+      "definition_hindi": "रोगभ्रम",
+      "example_hindi": "वह एक रोगभ्रम था जो लगातार बीमार होने के बारे में चिंतित था।"
+    }
+  },
+  {
+    "id": 147,
+    "type": "ows",
+    "front": "Iconoclast",
+    "back": {
+      "definition_eng": "A person who attacks cherished beliefs or institutions.",
+      "example_eng": "The famous artist was an iconoclast who challenged traditional art forms.",
+      "definition_hindi": "मूर्तिभंजक",
+      "example_hindi": "प्रसिद्ध कलाकार एक मूर्तिभंजक था जिसने पारंपरिक कला रूपों को चुनौती दी।"
+    }
+  },
+  {
+    "id": 148,
+    "type": "ows",
+    "front": "Illegible",
+    "back": {
+      "definition_eng": "Not clear enough to be read.",
+      "example_eng": "His handwriting was completely illegible.",
+      "definition_hindi": "अपठनीय",
+      "example_hindi": "उसकी लिखावट पूरी तरह से अपठनीय थी।"
+    }
+  },
+  {
+    "id": 149,
+    "type": "ows",
+    "front": "Illicit",
+    "back": {
+      "definition_eng": "Forbidden by law, rules, or custom.",
+      "example_eng": "He was involved in the illicit trade of stolen goods.",
+      "definition_hindi": "अवैध",
+      "example_hindi": "वह चोरी के सामान के अवैध व्यापार में शामिल था।"
+    }
+  },
+  {
+    "id": 150,
+    "type": "ows",
+    "front": "Immortal",
+    "back": {
+      "definition_eng": "Living forever; never dying or decaying.",
+      "example_eng": "The gods in Greek mythology were considered immortal.",
+      "definition_hindi": "अमर",
+      "example_hindi": "ग्रीक पौराणिक कथाओं में देवताओं को अमर माना जाता था।"
+    }
+  },
+  {
+    "id": 151,
+    "type": "ows",
+    "front": "Immigrant",
+    "back": {
+      "definition_eng": "A person who comes to live permanently in a foreign country.",
+      "example_eng": "The country has a large immigrant population.",
+      "definition_hindi": "आप्रवासी",
+      "example_hindi": "देश में एक बड़ी आप्रवासी आबादी है।"
+    }
+  },
+  {
+    "id": 152,
+    "type": "ows",
+    "front": "Impeccable",
+    "back": {
+      "definition_eng": "In accordance with the highest standards of propriety; faultless.",
+      "example_eng": "He was known for his impeccable manners.",
+      "definition_hindi": "निर्दोष",
+      "example_hindi": "वह अपने निर्दोष व्यवहार के लिए जाना जाता था।"
+    }
+  },
+  {
+    "id": 153,
+    "type": "ows",
+    "front": "Inaudible",
+    "back": {
+      "definition_eng": "Unable to be heard.",
+      "example_eng": "The speaker's voice was inaudible at the back of the room.",
+      "definition_hindi": "अश्रव्य",
+      "example_hindi": "वक्ता की आवाज़ कमरे के पीछे अश्रव्य थी।"
+    }
+  },
+  {
+    "id": 154,
+    "type": "ows",
+    "front": "Incorrigible",
+    "back": {
+      "definition_eng": "Not able to be corrected, improved, or reformed.",
+      "example_eng": "He was an incorrigible liar.",
+      "definition_hindi": "असुधार्य",
+      "example_hindi": "वह एक असुधार्य झूठा था।"
+    }
+  },
+  {
+    "id": 155,
+    "type": "ows",
+    "front": "Incredible",
+    "back": {
+      "definition_eng": "Impossible to believe.",
+      "example_eng": "The story was so incredible it couldn't be true.",
+      "definition_hindi": "अविश्वसनीय",
+      "example_hindi": "कहानी इतनी अविश्वसनीय थी कि यह सच नहीं हो सकती थी।"
+    }
+  },
+  {
+    "id": 156,
+    "type": "ows",
+    "front": "Indelible",
+    "back": {
+      "definition_eng": "Making marks that cannot be removed.",
+      "example_eng": "The experience left an indelible mark on his memory.",
+      "definition_hindi": "अमिट",
+      "example_hindi": "अनुभव ने उसकी स्मृति पर एक अमिट छाप छोड़ दी।"
+    }
+  },
+  {
+    "id": 157,
+    "type": "ows",
+    "front": "Indefatigable",
+    "back": {
+      "definition_eng": "Persisting tirelessly.",
+      "example_eng": "She was an indefatigable worker who never complained.",
+      "definition_hindi": "अथक",
+      "example_hindi": "वह एक अथक कार्यकर्ता थी जिसने कभी शिकायत नहीं की।"
+    }
+  },
+  {
+    "id": 158,
+    "type": "ows",
+    "front": "Indignant",
+    "back": {
+      "definition_eng": "Feeling or showing anger or annoyance at what is perceived as unfair treatment.",
+      "example_eng": "He was indignant at the unfair criticism.",
+      "definition_hindi": "गुस्से में",
+      "example_hindi": "वह अनुचित आलोचना से गुस्से में था।"
+    }
+  },
+  {
+    "id": 159,
+    "type": "ows",
+    "front": "Infallible",
+    "back": {
+      "definition_eng": "Incapable of making mistakes or being wrong.",
+      "example_eng": "The Pope is considered infallible on matters of faith.",
+      "definition_hindi": "अचूक",
+      "example_hindi": "पोप को विश्वास के मामलों पर अचूक माना जाता है।"
+    }
+  },
+  {
+    "id": 160,
+    "type": "ows",
+    "front": "Infanticide",
+    "back": {
+      "definition_eng": "The killing of an infant.",
+      "example_eng": "The woman was charged with infanticide.",
+      "definition_hindi": "शिशु-हत्या",
+      "example_hindi": "महिला पर शिशु-हत्या का आरोप लगाया गया था।"
+    }
+  },
+  {
+    "id": 161,
+    "type": "ows",
+    "front": "Insolent",
+    "back": {
+      "definition_eng": "Showing a rude and arrogant lack of respect.",
+      "example_eng": "The student's insolent behavior got him suspended.",
+      "definition_hindi": "अशिष्ट",
+      "example_hindi": "छात्र के अशिष्ट व्यवहार ने उसे निलंबित कर दिया।"
+    }
+  },
+  {
+    "id": 162,
+    "type": "ows",
+    "front": "Insolvent",
+    "back": {
+      "definition_eng": "Unable to pay debts owed.",
+      "example_eng": "The company was declared insolvent and went out of business.",
+      "definition_hindi": "दिवालिया",
+      "example_hindi": "कंपनी को दिवालिया घोषित कर दिया गया और वह व्यापार से बाहर हो गई।"
+    }
+  },
+  {
+    "id": 163,
+    "type": "ows",
+    "front": "Insatiable",
+    "back": {
+      "definition_eng": "Impossible to satisfy.",
+      "example_eng": "He had an insatiable appetite for power.",
+      "definition_hindi": "अतृप्त",
+      "example_hindi": "उसे शक्ति के लिए एक अतृप्त भूख थी।"
+    }
+  },
+  {
+    "id": 164,
+    "type": "ows",
+    "front": "Intrepid",
+    "back": {
+      "definition_eng": "Fearless; adventurous.",
+      "example_eng": "The intrepid explorer crossed the vast desert.",
+      "definition_hindi": "निडर",
+      "example_hindi": "निडर खोजकर्ता ने विशाल रेगिस्तान को पार किया।"
+    }
+  },
+  {
+    "id": 165,
+    "type": "ows",
+    "front": "Introvert",
+    "back": {
+      "definition_eng": "A person who is shy and reserved.",
+      "example_eng": "She is an introvert who prefers to spend time alone.",
+      "definition_hindi": "अंतर्मुखी",
+      "example_hindi": "वह एक अंतर्मुखी है जो अकेले समय बिताना पसंद करती है।"
+    }
+  },
+  {
+    "id": 166,
+    "type": "ows",
+    "front": "Itinerary",
+    "back": {
+      "definition_eng": "A planned route or journey.",
+      "example_eng": "The tour company provided a detailed itinerary for the trip.",
+      "definition_hindi": "यात्रा कार्यक्रम",
+      "example_hindi": "टूर कंपनी ने यात्रा के लिए एक विस्तृत यात्रा कार्यक्रम प्रदान किया।"
+    }
+  },
+  {
+    "id": 167,
+    "type": "ows",
+    "front": "Jovial",
+    "back": {
+      "definition_eng": "Cheerful and friendly.",
+      "example_eng": "He was a jovial man who always had a smile on his face.",
+      "definition_hindi": "हंसमुख",
+      "example_hindi": "वह एक हंसमुख व्यक्ति था जिसके चेहरे पर हमेशा मुस्कान रहती थी।"
+    }
+  },
+  {
+    "id": 168,
+    "type": "ows",
+    "front": "Judiciary",
+    "back": {
+      "definition_eng": "The part of a country's government that is responsible for its legal system.",
+      "example_eng": "The judiciary is responsible for interpreting and applying the law.",
+      "definition_hindi": "न्यायपालिका",
+      "example_hindi": "न्यायपालिका कानून की व्याख्या और उसे लागू करने के लिए जिम्मेदार है।"
+    }
+  },
+  {
+    "id": 169,
+    "type": "ows",
+    "front": "Kennel",
+    "back": {
+      "definition_eng": "A small shelter for a dog or cat.",
+      "example_eng": "The dog was sleeping soundly in its kennel.",
+      "definition_hindi": "कुत्ते का घर",
+      "example_hindi": "कुत्ता अपने कुत्ते का घर में आराम से सो रहा था।"
+    }
+  },
+  {
+    "id": 170,
+    "type": "ows",
+    "front": "Kleptomania",
+    "back": {
+      "definition_eng": "An irresistible compulsion to steal.",
+      "example_eng": "The thief claimed to suffer from kleptomania.",
+      "definition_hindi": "चोरी का जुनून",
+      "example_hindi": "चोर ने चोरी का जुनून से पीड़ित होने का दावा किया।"
+    }
+  },
+  {
+    "id": 171,
+    "type": "ows",
+    "front": "Lexicography",
+    "back": {
+      "definition_eng": "The writing or compiling of dictionaries.",
+      "example_eng": "He dedicated his life to the art of lexicography.",
+      "definition_hindi": "शब्दकोश-निर्माण",
+      "example_hindi": "उन्होंने शब्दकोश-निर्माण की कला के लिए अपना जीवन समर्पित कर दिया।"
+    }
+  },
+  {
+    "id": 172,
+    "type": "ows",
+    "front": "Linguist",
+    "back": {
+      "definition_eng": "A person skilled in foreign languages.",
+      "example_eng": "The linguist was fluent in five different languages.",
+      "definition_hindi": "भाषाविद",
+      "example_hindi": "भाषाविद पांच अलग-अलग भाषाओं में धाराप्रवाह था।"
+    }
+  },
+  {
+    "id": 173,
+    "type": "ows",
+    "front": "Lunatic",
+    "back": {
+      "definition_eng": "A person who is insane or mentally ill.",
+      "example_eng": "The old woman was a lunatic who lived alone.",
+      "definition_hindi": "पागल",
+      "example_hindi": "वह बूढ़ी महिला एक पागल थी जो अकेली रहती थी।"
+    }
+  },
+  {
+    "id": 174,
+    "type": "ows",
+    "front": "Martyr",
+    "back": {
+      "definition_eng": "A person who is killed because of their religious or other beliefs.",
+      "example_eng": "He was hailed as a martyr for his cause.",
+      "definition_hindi": "शहीद",
+      "example_hindi": "उसे अपने उद्देश्य के लिए एक शहीद के रूप में सराहा गया।"
+    }
+  },
+  {
+    "id": 175,
+    "type": "ows",
+    "front": "Matricide",
+    "back": {
+      "definition_eng": "The killing of one's mother.",
+      "example_eng": "He was charged with matricide after his mother's death.",
+      "definition_hindi": "मातृ-हत्या",
+      "example_hindi": "अपनी माँ की मृत्यु के बाद उस पर मातृ-हत्या का आरोप लगाया गया था।"
+    }
+  },
+  {
+    "id": 176,
+    "type": "ows",
+    "front": "Mausoleum",
+    "back": {
+      "definition_eng": "A large and stately building housing a tomb or tombs.",
+      "example_eng": "The king was buried in a grand mausoleum.",
+      "definition_hindi": "मकबरा",
+      "example_hindi": "राजा को एक भव्य मकबरे में दफनाया गया था।"
+    }
+  },
+  {
+    "id": 177,
+    "type": "ows",
+    "front": "Mercenary",
+    "back": {
+      "definition_eng": "A professional soldier hired to serve in a foreign army.",
+      "example_eng": "The mercenary fought for money, not for a cause.",
+      "definition_hindi": "किराये का सैनिक",
+      "example_hindi": "किराये का सैनिक पैसे के लिए लड़ा, किसी कारण के लिए नहीं।"
+    }
+  },
+  {
+    "id": 178,
+    "type": "ows",
+    "front": "Meticulous",
+    "back": {
+      "definition_eng": "Showing great attention to detail; very careful and precise.",
+      "example_eng": "The meticulous artist spent hours on every small detail.",
+      "definition_hindi": "सावधानीपूर्वक",
+      "example_hindi": "सावधानीपूर्वक कलाकार ने हर छोटे विवरण पर घंटों बिताए।"
+    }
+  },
+  {
+    "id": 179,
+    "type": "ows",
+    "front": "Misandrist",
+    "back": {
+      "definition_eng": "A person who dislikes, despises, or is strongly prejudiced against men.",
+      "example_eng": "She was a misandrist who had little trust in men.",
+      "definition_hindi": "पुरुष-द्वेषी",
+      "example_hindi": "वह एक पुरुष-द्वेषी थी जिसे पुरुषों पर बहुत कम भरोसा था।"
+    }
+  },
+  {
+    "id": 180,
+    "type": "ows",
+    "front": "Misanthropist",
+    "back": {
+      "definition_eng": "A person who dislikes humankind and avoids human society.",
+      "example_eng": "The old man was a misanthropist who lived as a hermit.",
+      "definition_hindi": "मानव-द्वेषी",
+      "example_hindi": "बूढ़ा आदमी एक मानव-द्वेषी था जो एक एकांतवासी के रूप में रहता था।"
+    }
+  },
+  {
+    "id": 181,
+    "type": "ows",
+    "front": "Misogynist",
+    "back": {
+      "definition_eng": "A person who dislikes, despises, or is strongly prejudiced against women.",
+      "example_eng": "The sexist comments revealed him to be a misogynist.",
+      "definition_hindi": "स्त्री-द्वेषी",
+      "example_hindi": "लैंगिक टिप्पणियों ने उसे एक स्त्री-द्वेषी के रूप में उजागर किया।"
+    }
+  },
+  {
+    "id": 182,
+    "type": "ows",
+    "front": "Monarchy",
+    "back": {
+      "definition_eng": "A form of government with a monarch at the head.",
+      "example_eng": "The country is a constitutional monarchy.",
+      "definition_hindi": "राजतंत्र",
+      "example_hindi": "देश एक संवैधानिक राजतंत्र है।"
+    }
+  },
+  {
+    "id": 183,
+    "type": "ows",
+    "front": "Monogamy",
+    "back": {
+      "definition_eng": "The practice or state of being married to one person at a time.",
+      "example_eng": "Most modern societies practice monogamy.",
+      "definition_hindi": "एकविवाह",
+      "example_hindi": "अधिकांश आधुनिक समाज एकविवाह का अभ्यास करते हैं।"
+    }
+  },
+  {
+    "id": 184,
+    "type": "ows",
+    "front": "Monotheist",
+    "back": {
+      "definition_eng": "A person who believes in one God.",
+      "example_eng": "Christianity is a monotheist religion.",
+      "definition_hindi": "एकेश्वरवादी",
+      "example_hindi": "ईसाई धर्म एक एकेश्वरवादी धर्म है।"
+    }
+  },
+  {
+    "id": 185,
+    "type": "ows",
+    "front": "Morgue",
+    "back": {
+      "definition_eng": "A place where bodies are kept for identification.",
+      "example_eng": "The police took the body to the morgue.",
+      "definition_hindi": "शवागार",
+      "example_hindi": "पुलिस ने शव को शवागार में ले जाया।"
+    }
+  },
+  {
+    "id": 186,
+    "type": "ows",
+    "front": "Mundane",
+    "back": {
+      "definition_eng": "Lacking interest or excitement; dull.",
+      "example_eng": "He found his job to be mundane and unfulfilling.",
+      "definition_hindi": "साधारण",
+      "example_hindi": "उसने अपनी नौकरी को साधारण और अधूरा पाया।"
+    }
+  },
+  {
+    "id": 187,
+    "type": "ows",
+    "front": "Museologist",
+    "back": {
+      "definition_eng": "A person who specializes in the study of museums and their contents.",
+      "example_eng": "The museologist gave a talk on the new exhibition.",
+      "definition_hindi": "संग्रहालय-विज्ञानी",
+      "example_hindi": "संग्रहालय-विज्ञानी ने नई प्रदर्शनी पर एक बात की।"
+    }
+  },
+  {
+    "id": 188,
+    "type": "ows",
+    "front": "Mutiny",
+    "back": {
+      "definition_eng": "An open rebellion against the proper authorities, especially by soldiers or sailors against their officers.",
+      "example_eng": "The crew of the ship staged a mutiny.",
+      "definition_hindi": "विद्रोह",
+      "example_hindi": "जहाज के चालक दल ने एक विद्रोह किया।"
+    }
+  },
+  {
+    "id": 189,
+    "type": "ows",
+    "front": "Narcissist",
+    "back": {
+      "definition_eng": "A person who has an excessive interest in or admiration of themselves.",
+      "example_eng": "He was such a narcissist that he only talked about his own looks.",
+      "definition_hindi": "आत्ममुग्ध",
+      "example_hindi": "वह इतना आत्ममुग्ध था कि वह केवल अपने रूप के बारे में बात करता था।"
+    }
+  },
+  {
+    "id": 190,
+    "type": "ows",
+    "front": "Nomad",
+    "back": {
+      "definition_eng": "A person who has no fixed residence and wanders from place to place.",
+      "example_eng": "The ancient tribe lived as nomads, following the herds of buffalo.",
+      "definition_hindi": "खानाबदोश",
+      "example_hindi": "प्राचीन जनजाति खानाबदोश के रूप में रहती थी, भैंसों के झुंडों का पीछा करती थी।"
+    }
+  },
+  {
+    "id": 191,
+    "type": "ows",
+    "front": "Nostalgia",
+    "back": {
+      "definition_eng": "A sentimental longing or wistful affection for the past.",
+      "example_eng": "The old photograph filled him with a sense of nostalgia.",
+      "definition_hindi": "पुरानी यादें",
+      "example_hindi": "पुरानी तस्वीर ने उसे पुरानी यादों की भावना से भर दिया।"
+    }
+  },
+  {
+    "id": 192,
+    "type": "ows",
+    "front": "Notorious",
+    "back": {
+      "definition_eng": "Famous or well known for some bad quality or deed.",
+      "example_eng": "He was a notorious criminal.",
+      "definition_hindi": "कुख्यात",
+      "example_hindi": "वह एक कुख्यात अपराधी था।"
+    }
+  },
+  {
+    "id": 193,
+    "type": "ows",
+    "front": "Novice",
+    "back": {
+      "definition_eng": "A person new to or inexperienced in a field or situation.",
+      "example_eng": "He was a novice at painting, but he was eager to learn.",
+      "definition_hindi": "नौसिखिया",
+      "example_hindi": "वह पेंटिंग में एक नौसिखिया था, लेकिन वह सीखने के लिए उत्सुक था।"
+    }
+  },
+  {
+    "id": 194,
+    "type": "ows",
+    "front": "Numismatics",
+    "back": {
+      "definition_eng": "The study or collection of coins, banknotes, and medals.",
+      "example_eng": "He was a serious collector and expert in numismatics.",
+      "definition_hindi": "मुद्राशास्त्र",
+      "example_hindi": "वह एक गंभीर संग्रहकर्ता और मुद्राशास्त्र में विशेषज्ञ था।"
+    }
+  },
+  {
+    "id": 195,
+    "type": "ows",
+    "front": "Obituary",
+    "back": {
+      "definition_eng": "A notice of a death, especially in a newspaper, typically including a brief biography of the deceased person.",
+      "example_eng": "The newspaper printed a long obituary for the famous writer.",
+      "definition_hindi": "शोक संदेश",
+      "example_hindi": "अखबार ने प्रसिद्ध लेखक के लिए एक लंबा शोक संदेश छापा।"
+    }
+  },
+  {
+    "id": 196,
+    "type": "ows",
+    "front": "Oblivious",
+    "back": {
+      "definition_eng": "Not aware of or not concerned about what is happening around one.",
+      "example_eng": "The child was oblivious to the danger.",
+      "definition_hindi": "अनभिज्ञ",
+      "example_hindi": "बच्चा खतरे से अनभिज्ञ था।"
+    }
+  },
+  {
+    "id": 197,
+    "type": "ows",
+    "front": "Obsolete",
+    "back": {
+      "definition_eng": "No longer produced or used; out of date.",
+      "example_eng": "The old technology is now completely obsolete.",
+      "definition_hindi": "अप्रचलित",
+      "example_hindi": "पुरानी तकनीक अब पूरी तरह से अप्रचलित है।"
+    }
+  },
+  {
+    "id": 198,
+    "type": "ows",
+    "front": "Occult",
+    "back": {
+      "definition_eng": "Supernatural, mystical, or magical beliefs, practices, or phenomena.",
+      "example_eng": "She was deeply involved in the occult.",
+      "definition_hindi": "गूढ़ विद्या",
+      "example_hindi": "वह गूढ़ विद्या में गहराई से शामिल थी।"
+    }
+  },
+  {
+    "id": 199,
+    "type": "ows",
+    "front": "Oligarchy",
+    "back": {
+      "definition_eng": "A small group of people having control of a country, organization, or institution.",
+      "example_eng": "The company was run by an oligarchy of wealthy shareholders.",
+      "definition_hindi": "अल्पतंत्र",
+      "example_hindi": "कंपनी को धनी शेयरधारकों के एक अल्पतंत्र द्वारा चलाया जाता था।"
+    }
+  },
+  {
+    "id": 200,
+    "type": "ows",
+    "front": "Omnipotent",
+    "back": {
+      "definition_eng": "Having unlimited power; able to do anything.",
+      "example_eng": "In most religions, God is considered omnipotent.",
+      "definition_hindi": "सर्वशक्तिमान",
+      "example_hindi": "अधिकांश धर्मों में, भगवान को सर्वशक्तिमान माना जाता है।"
+    }
+  },
+  {
+    "id": 201,
+    "type": "ows",
+    "front": "Omnipresent",
+    "back": {
+      "definition_eng": "Present everywhere at the same time.",
+      "example_eng": "The feeling of fear was an omnipresent force in his life.",
+      "definition_hindi": "सर्वव्यापी",
+      "example_hindi": "डर की भावना उसके जीवन में एक सर्वव्यापी शक्ति थी।"
+    }
+  },
+  {
+    "id": 202,
+    "type": "ows",
+    "front": "Omniscient",
+    "back": {
+      "definition_eng": "Knowing everything.",
+      "example_eng": "The narrator in the story was omniscient.",
+      "definition_hindi": "सर्वज्ञ",
+      "example_hindi": "कहानी में कथाकार सर्वज्ञ था।"
+    }
+  },
+  {
+    "id": 203,
+    "type": "ows",
+    "front": "Opaque",
+    "back": {
+      "definition_eng": "Not able to be seen through; not transparent.",
+      "example_eng": "The window was covered with an opaque film.",
+      "definition_hindi": "अपारदर्शी",
+      "example_hindi": "खिड़की को एक अपारदर्शी फिल्म से ढक दिया गया था।"
+    }
+  },
+  {
+    "id": 204,
+    "type": "ows",
+    "front": "Orchard",
+    "back": {
+      "definition_eng": "A piece of enclosed land planted with fruit trees.",
+      "example_eng": "The children spent the afternoon playing in the apple orchard.",
+      "definition_hindi": "बाग",
+      "example_hindi": "बच्चों ने दोपहर सेब के बाग में खेलते हुए बिताई।"
+    }
+  },
+  {
+    "id": 205,
+    "type": "ows",
+    "front": "Ornithology",
+    "back": {
+      "definition_eng": "The scientific study of birds.",
+      "example_eng": "He was a dedicated student of ornithology.",
+      "definition_hindi": "पक्षीविज्ञान",
+      "example_hindi": "वह पक्षीविज्ञान का एक समर्पित छात्र था।"
+    }
+  },
+  {
+    "id": 206,
+    "type": "ows",
+    "front": "Orphanage",
+    "back": {
+      "definition_eng": "A residential institution for the care and education of orphans.",
+      "example_eng": "The child was raised in an orphanage.",
+      "definition_hindi": "अनाथालय",
+      "example_hindi": "बच्चे को एक अनाथालय में पाला गया था।"
+    }
+  },
+  {
+    "id": 207,
+    "type": "ows",
+    "front": "Pacifist",
+    "back": {
+      "definition_eng": "A person who believes that war and violence are unjustifiable.",
+      "example_eng": "He was a pacifist and refused to join the army.",
+      "definition_hindi": "शांतिवादी",
+      "example_hindi": "वह एक शांतिवादी था और सेना में शामिल होने से इनकार कर दिया।"
+    }
+  },
+  {
+    "id": 208,
+    "type": "ows",
+    "front": "Pagoda",
+    "back": {
+      "definition_eng": "A tiered tower with multiple eaves, built in a traditional Asian style.",
+      "example_eng": "The temple was topped with a magnificent pagoda.",
+      "definition_hindi": "पगोडा",
+      "example_hindi": "मंदिर के ऊपर एक शानदार पगोडा था।"
+    }
+  },
+  {
+    "id": 209,
+    "type": "ows",
+    "front": "Panacea",
+    "back": {
+      "definition_eng": "A solution or remedy for all difficulties or diseases.",
+      "example_eng": "There is no panacea for the world's problems.",
+      "definition_hindi": "सर्वरोगनाशक",
+      "example_hindi": "दुनिया की समस्याओं के लिए कोई सर्वरोगनाशक नहीं है।"
+    }
+  },
+  {
+    "id": 210,
+    "type": "ows",
+    "front": "Pandemonium",
+    "back": {
+      "definition_eng": "A wild and noisy disorder or confusion; uproar.",
+      "example_eng": "Pandemonium broke out in the stadium after the goal was scored.",
+      "definition_hindi": "कोलाहल",
+      "example_hindi": "गोल होने के बाद स्टेडियम में कोलाहल मच गया।"
+    }
+  },
+  {
+    "id": 211,
+    "type": "ows",
+    "front": "Parable",
+    "back": {
+      "definition_eng": "A simple story used to illustrate a moral or spiritual lesson.",
+      "example_eng": "The story of the good Samaritan is a well-known parable.",
+      "definition_hindi": "नीति-कथा",
+      "example_hindi": "अच्छे सामरी की कहानी एक प्रसिद्ध नीति-कथा है।"
+    }
+  },
+  {
+    "id": 212,
+    "type": "ows",
+    "front": "Parasite",
+    "back": {
+      "definition_eng": "An organism that lives in or on another organism and benefits by deriving nutrients at the other's expense.",
+      "example_eng": "Fleas are a common parasite on dogs.",
+      "definition_hindi": "परजीवी",
+      "example_hindi": "पिस्सू कुत्तों पर एक आम परजीवी हैं।"
+    }
+  },
+  {
+    "id": 213,
+    "type": "ows",
+    "front": "Patriot",
+    "back": {
+      "definition_eng": "A person who vigorously supports their country and is prepared to defend it against enemies or detractors.",
+      "example_eng": "He was a true patriot who loved his country.",
+      "definition_hindi": "देशभक्त",
+      "example_hindi": "वह एक सच्चा देशभक्त था जो अपने देश से प्यार करता था।"
+    }
+  },
+  {
+    "id": 214,
+    "type": "ows",
+    "front": "Patricide",
+    "back": {
+      "definition_eng": "The killing of one's father.",
+      "example_eng": "The play is a tragedy about a son who commits patricide.",
+      "definition_hindi": "पितृ-हत्या",
+      "example_hindi": "नाटक एक बेटे के बारे में एक त्रासदी है जो पितृ-हत्या करता है।"
+    }
+  },
+  {
+    "id": 215,
+    "type": "ows",
+    "front": "Pecuniary",
+    "back": {
+      "definition_eng": "Relating to or consisting of money.",
+      "example_eng": "He received no pecuniary gain from the venture.",
+      "definition_hindi": "मौद्रिक",
+      "example_hindi": "उसे उद्यम से कोई मौद्रिक लाभ नहीं मिला।"
+    }
+  },
+  {
+    "id": 216,
+    "type": "ows",
+    "front": "Pedestrian",
+    "back": {
+      "definition_eng": "A person walking rather than traveling in a vehicle.",
+      "example_eng": "The street was crowded with pedestrians.",
+      "definition_hindi": "पैदल यात्री",
+      "example_hindi": "सड़क पर पैदल यात्री भरे थे।"
+    }
+  },
+  {
+    "id": 217,
+    "type": "ows",
+    "front": "Philanthropist",
+    "back": {
+      "definition_eng": "A person who seeks to promote the welfare of others, especially by the generous donation of money to good causes.",
+      "example_eng": "The billionaire was a noted philanthropist who donated millions to charity.",
+      "definition_hindi": "परोपकारी",
+      "example_hindi": "अरबपति एक प्रसिद्ध परोपकारी था जिसने दान के लिए लाखों का दान दिया।"
+    }
+  },
+  {
+    "id": 218,
+    "type": "ows",
+    "front": "Philatelist",
+    "back": {
+      "definition_eng": "A person who collects or studies stamps.",
+      "example_eng": "My grandfather is a philatelist and has a rare collection of stamps.",
+      "definition_hindi": "डाक टिकट संग्रहकर्ता",
+      "example_hindi": "मेरे दादा एक डाक टिकट संग्रहकर्ता हैं और उनके पास डाक टिकटों का एक दुर्लभ संग्रह है।"
+    }
+  },
+  {
+    "id": 219,
+    "type": "ows",
+    "front": "Philistine",
+    "back": {
+      "definition_eng": "A person who is hostile or indifferent to culture and the arts.",
+      "example_eng": "He was a philistine who had no appreciation for poetry or music.",
+      "definition_hindi": "असंस्कृत",
+      "example_hindi": "वह एक असंस्कृत था जिसे कविता या संगीत के लिए कोई सराहना नहीं थी।"
+    }
+  },
+  {
+    "id": 220,
+    "type": "ows",
+    "front": "Pioneer",
+    "back": {
+      "definition_eng": "A person who is among the first to explore or settle a new country or area.",
+      "example_eng": "He was a pioneer in the field of computer science.",
+      "definition_hindi": "अग्रदूत",
+      "example_hindi": "वह कंप्यूटर विज्ञान के क्षेत्र में एक अग्रदूत था।"
+    }
+  },
+  {
+    "id": 221,
+    "type": "ows",
+    "front": "Platitude",
+    "back": {
+      "definition_eng": "A remark or statement, especially one with a moral content, that has been used too often to be interesting or thoughtful.",
+      "example_eng": "His speech was full of meaningless platitudes.",
+      "definition_hindi": "घिसी-पिटी बात",
+      "example_hindi": "उसका भाषण अर्थहीन घिसी-पिटी बात से भरा था।"
+    }
+  },
+  {
+    "id": 222,
+    "type": "ows",
+    "front": "Plutocracy",
+    "back": {
+      "definition_eng": "Government by the wealthy.",
+      "example_eng": "The government was seen as a plutocracy, serving only the rich.",
+      "definition_hindi": "धनिक-तंत्र",
+      "example_hindi": "सरकार को एक धनिक-तंत्र के रूप में देखा जाता था, जो केवल अमीरों की सेवा करता था।"
+    }
+  },
+  {
+    "id": 223,
+    "type": "ows",
+    "front": "Polyglot",
+    "back": {
+      "definition_eng": "A person who knows and is able to use several languages.",
+      "example_eng": "The polyglot could speak ten different languages.",
+      "definition_hindi": "बहुभाषी",
+      "example_hindi": "बहुभाषी दस अलग-अलग भाषाएं बोल सकता था।"
+    }
+  },
+  {
+    "id": 224,
+    "type": "ows",
+    "front": "Polygamy",
+    "back": {
+      "definition_eng": "The practice of marrying multiple spouses.",
+      "example_eng": "Polygamy is illegal in many countries.",
+      "definition_hindi": "बहुविवाह",
+      "example_hindi": "बहुविवाह कई देशों में अवैध है।"
+    }
+  },
+  {
+    "id": 225,
+    "type": "ows",
+    "front": "Polytheist",
+    "back": {
+      "definition_eng": "A person who believes in more than one God.",
+      "example_eng": "Ancient Greek religion was polytheist.",
+      "definition_hindi": "बहुदेववादी",
+      "example_hindi": "प्राचीन ग्रीक धर्म बहुदेववादी था।"
+    }
+  },
+  {
+    "id": 226,
+    "type": "ows",
+    "front": "Potable",
+    "back": {
+      "definition_eng": "Safe to drink; drinkable.",
+      "example_eng": "The river water was not potable.",
+      "definition_hindi": "पीने योग्य",
+      "example_hindi": "नदी का पानी पीने योग्य नहीं था।"
+    }
+  },
+  {
+    "id": 227,
+    "type": "ows",
+    "front": "Pragmatist",
+    "back": {
+      "definition_eng": "A person who deals with problems in a practical, realistic way.",
+      "example_eng": "He was a pragmatist who focused on results.",
+      "definition_hindi": "व्यावहारिक",
+      "example_hindi": "वह एक व्यावहारिक था जो परिणामों पर ध्यान केंद्रित करता था।"
+    }
+  },
+  {
+    "id": 228,
+    "type": "ows",
+    "front": "Protagonist",
+    "back": {
+      "definition_eng": "The leading character or one of the major characters in a drama, film, novel, or other fictional text.",
+      "example_eng": "The protagonist of the novel was a young hero.",
+      "definition_hindi": "नायक",
+      "example_hindi": "उपन्यास का नायक एक युवा नायक था।"
+    }
+  },
+  {
+    "id": 229,
+    "type": "ows",
+    "front": "Pseudonym",
+    "back": {
+      "definition_eng": "A fictitious name, especially one used by an author.",
+      "example_eng": "The author published the novel under a pseudonym.",
+      "definition_hindi": "उपनाम",
+      "example_hindi": "लेखक ने उपन्यास को एक उपनाम के तहत प्रकाशित किया।"
+    }
+  },
+  {
+    "id": 230,
+    "type": "ows",
+    "front": "Psephologist",
+    "back": {
+      "definition_eng": "A person who studies elections and voting trends.",
+      "example_eng": "The psephologist analyzed the results of the recent election.",
+      "definition_hindi": "चुनाव-विश्लेषक",
+      "example_hindi": "चुनाव-विश्लेषक ने हाल के चुनाव के परिणामों का विश्लेषण किया।"
+    }
+  },
+  {
+    "id": 231,
+    "type": "ows",
+    "front": "Pyromania",
+    "back": {
+      "definition_eng": "An irresistible impulse to start fires.",
+      "example_eng": "The suspect suffered from pyromania.",
+      "definition_hindi": "आग लगाने का जुनून",
+      "example_hindi": "संदिग्ध आग लगाने का जुनून से पीड़ित था।"
+    }
+  },
+  {
+    "id": 232,
+    "type": "ows",
+    "front": "Quadruped",
+    "back": {
+      "definition_eng": "An animal that has four feet.",
+      "example_eng": "Dogs and cats are quadrupeds.",
+      "definition_hindi": "चौपाया",
+      "example_hindi": "कुत्ते और बिल्लियां चौपाया हैं।"
+    }
+  },
+  {
+    "id": 233,
+    "type": "ows",
+    "front": "Quarantine",
+    "back": {
+      "definition_eng": "A state, period, or place of isolation in which people or animals that have arrived from elsewhere or been exposed to infectious or contagious disease are placed.",
+      "example_eng": "The sick traveler was placed in quarantine.",
+      "definition_hindi": "संगरोध",
+      "example_hindi": "बीमार यात्री को संगरोध में रखा गया था।"
+    }
+  },
+  {
+    "id": 234,
+    "type": "ows",
+    "front": "Quixotic",
+    "back": {
+      "definition_eng": "Exceedingly idealistic; unrealistic and impractical.",
+      "example_eng": "He had quixotic plans to save the world.",
+      "definition_hindi": "अव्यावहारिक",
+      "example_hindi": "उसके पास दुनिया को बचाने के लिए अव्यावहारिक योजनाएं थीं।"
+    }
+  },
+  {
+    "id": 235,
+    "type": "ows",
+    "front": "Regicide",
+    "back": {
+      "definition_eng": "The killing of a king.",
+      "example_eng": "The prince was charged with regicide.",
+      "definition_hindi": "राज-हत्या",
+      "example_hindi": "राजकुमार पर राज-हत्या का आरोप लगाया गया था।"
+    }
+  },
+  {
+    "id": 236,
+    "type": "ows",
+    "front": "Reticent",
+    "back": {
+      "definition_eng": "Not revealing one's thoughts or feelings readily.",
+      "example_eng": "He was a reticent person who rarely spoke about his feelings.",
+      "definition_hindi": "कम बोलने वाला",
+      "example_hindi": "वह एक कम बोलने वाला व्यक्ति था जो शायद ही कभी अपनी भावनाओं के बारे में बात करता था।"
+    }
+  },
+  {
+    "id": 237,
+    "type": "ows",
+    "front": "Retrospection",
+    "back": {
+      "definition_eng": "The act of looking back on past time.",
+      "example_eng": "In retrospection, he realized his mistake.",
+      "definition_hindi": "पिछला अवलोकन",
+      "example_hindi": "पिछला अवलोकन में, उसने अपनी गलती का एहसास किया।"
+    }
+  },
+  {
+    "id": 238,
+    "type": "ows",
+    "front": "Sabbatical",
+    "back": {
+      "definition_eng": "A period of paid leave granted to a university teacher for study or travel.",
+      "example_eng": "The professor was on a sabbatical, traveling and writing a book.",
+      "definition_hindi": "विश्राम-काल",
+      "example_hindi": "प्रोफेसर एक विश्राम-काल पर थे, यात्रा कर रहे थे और एक किताब लिख रहे थे।"
+    }
+  },
+  {
+    "id": 239,
+    "type": "ows",
+    "front": "Sacrilege",
+    "back": {
+      "definition_eng": "Violation or misuse of what is regarded as sacred.",
+      "example_eng": "The defacing of the ancient tomb was an act of sacrilege.",
+      "definition_hindi": "अपवित्रता",
+      "example_hindi": "प्राचीन कब्र का विरूपण अपवित्रता का एक कार्य था।"
+    }
+  },
+  {
+    "id": 240,
+    "type": "ows",
+    "front": "Sanctimonious",
+    "back": {
+      "definition_eng": "Making a show of being morally superior to other people.",
+      "example_eng": "His sanctimonious tone irritated everyone.",
+      "definition_hindi": "पाखंडी",
+      "example_hindi": "उसकी पाखंडी स्वर ने सभी को परेशान कर दिया।"
+    }
+  },
+  {
+    "id": 241,
+    "type": "ows",
+    "front": "Satire",
+    "back": {
+      "definition_eng": "The use of humor, irony, exaggeration, or ridicule to expose and criticize people's stupidity or vices.",
+      "example_eng": "The play was a political satire.",
+      "definition_hindi": "व्यंग्य",
+      "example_hindi": "नाटक एक राजनीतिक व्यंग्य था।"
+    }
+  },
+  {
+    "id": 242,
+    "type": "ows",
+    "front": "Scribe",
+    "back": {
+      "definition_eng": "A person who copies out documents, especially one employed to do this before printing was invented.",
+      "example_eng": "The ancient scribe carefully copied the text.",
+      "definition_hindi": "लेखक",
+      "example_hindi": "प्राचीन लेखक ने सावधानीपूर्वक पाठ की प्रतिलिपि बनाई।"
+    }
+  },
+  {
+    "id": 243,
+    "type": "ows",
+    "front": "Scullery",
+    "back": {
+      "definition_eng": "A small kitchen or room at the back of a house used for washing dishes and other dirty household work.",
+      "example_eng": "She was busy washing dishes in the scullery.",
+      "definition_hindi": "बर्तन मांजने का कमरा",
+      "example_hindi": "वह बर्तन मांजने का कमरा में बर्तन धोने में व्यस्त थी।"
+    }
+  },
+  {
+    "id": 244,
+    "type": "ows",
+    "front": "Sericulture",
+    "back": {
+      "definition_eng": "The production of silk and the rearing of silkworms for this purpose.",
+      "example_eng": "The village's economy was based on sericulture.",
+      "definition_hindi": "रेशम उत्पादन",
+      "example_hindi": "गाँव की अर्थव्यवस्था रेशम उत्पादन पर आधारित थी।"
+    }
+  },
+  {
+    "id": 245,
+    "type": "ows",
+    "front": "Sinecure",
+    "back": {
+      "definition_eng": "A position requiring little or no work but giving the holder status or financial benefit.",
+      "example_eng": "He got a sinecure as a reward for his political support.",
+      "definition_hindi": "आसान नौकरी",
+      "example_hindi": "उसे अपने राजनीतिक समर्थन के लिए एक आसान नौकरी मिली।"
+    }
+  },
+  {
+    "id": 246,
+    "type": "ows",
+    "front": "Somnambulist",
+    "back": {
+      "definition_eng": "A person who walks in their sleep; a sleepwalker.",
+      "example_eng": "The somnambulist walked out of his room in the middle of the night.",
+      "definition_hindi": "नींद में चलने वाला",
+      "example_hindi": "नींद में चलने वाला आधी रात में अपने कमरे से बाहर निकल गया।"
+    }
+  },
+  {
+    "id": 247,
+    "type": "ows",
+    "front": "Somniloquist",
+    "back": {
+      "definition_eng": "A person who talks in their sleep.",
+      "example_eng": "His roommate was a somniloquist who would talk all night.",
+      "definition_hindi": "नींद में बोलने वाला",
+      "example_hindi": "उसका रूममेट एक नींद में बोलने वाला था जो पूरी रात बात करता था।"
+    }
+  },
+  {
+    "id": 248,
+    "type": "ows",
+    "front": "Sororicide",
+    "back": {
+      "definition_eng": "The killing of one's sister.",
+      "example_eng": "The family was devastated by the act of sororicide.",
+      "definition_hindi": "भ्रातृ-हत्या",
+      "example_hindi": "परिवार भ्रातृ-हत्या के कार्य से तबाह हो गया।"
+    }
+  },
+  {
+    "id": 249,
+    "type": "ows",
+    "front": "Spinster",
+    "back": {
+      "definition_eng": "An unmarried woman, typically an older woman beyond the usual age for marriage.",
+      "example_eng": "She was a spinster who lived alone with her cats.",
+      "definition_hindi": "अविवाहित महिला",
+      "example_hindi": "वह एक अविवाहित महिला थी जो अपनी बिल्लियों के साथ अकेली रहती थी।"
+    }
+  },
+  {
+    "id": 250,
+    "type": "ows",
+    "front": "Stoic",
+    "back": {
+      "definition_eng": "A person who can endure pain or hardship without showing their feelings or complaining.",
+      "example_eng": "He was stoic in the face of adversity.",
+      "definition_hindi": "उदासीन",
+      "example_hindi": "वह विपत्ति के सामने उदासीन था।"
+    }
+  },
+  {
+    "id": 251,
+    "type": "ows",
+    "front": "Sycophant",
+    "back": {
+      "definition_eng": "A person who acts obsequiously toward someone important in order to gain advantage.",
+      "example_eng": "He was a sycophant who flattered his boss to get a promotion.",
+      "definition_hindi": "चापलूस",
+      "example_hindi": "वह एक चापलूस था जिसने पदोन्नति पाने के लिए अपने मालिक की चापलूसी की।"
+    }
+  },
+  {
+    "id": 252,
+    "type": "ows",
+    "front": "Symposium",
+    "back": {
+      "definition_eng": "A conference or meeting to discuss a particular topic.",
+      "example_eng": "The scientists attended a symposium on climate change.",
+      "definition_hindi": "संगोष्ठी",
+      "example_hindi": "वैज्ञानिकों ने जलवायु परिवर्तन पर एक संगोष्ठी में भाग लिया।"
+    }
+  },
+  {
+    "id": 253,
+    "type": "ows",
+    "front": "Teetotaller",
+    "back": {
+      "definition_eng": "A person who never drinks alcohol.",
+      "example_eng": "He was a teetotaller and a strong advocate for healthy living.",
+      "definition_hindi": "शराब नहीं पीने वाला",
+      "example_hindi": "वह एक शराब नहीं पीने वाला और स्वस्थ रहने का एक मजबूत समर्थक था।"
+    }
+  },
+  {
+    "id": 254,
+    "type": "ows",
+    "front": "Theocracy",
+    "back": {
+      "definition_eng": "A system of government in which priests rule in the name of God or a god.",
+      "example_eng": "The country was a theocracy, governed by religious leaders.",
+      "definition_hindi": "धर्मतंत्र",
+      "example_hindi": "देश एक धर्मतंत्र था, जिस पर धार्मिक नेताओं का शासन था।"
+    }
+  },
+  {
+    "id": 255,
+    "type": "ows",
+    "front": "Thespian",
+    "back": {
+      "definition_eng": "Relating to drama and the theatre.",
+      "example_eng": "He was a great thespian, known for his performances on stage.",
+      "definition_hindi": "नाटकीय",
+      "example_hindi": "वह एक महान नाटकीय था, जो मंच पर अपने प्रदर्शन के लिए जाना जाता था।"
+    }
+  },
+  {
+    "id": 256,
+    "type": "ows",
+    "front": "Transitory",
+    "back": {
+      "definition_eng": "Not permanent; lasting only for a short time.",
+      "example_eng": "The pain was transitory and went away quickly.",
+      "definition_hindi": "क्षणिक",
+      "example_hindi": "दर्द क्षणिक था और जल्दी से चला गया।"
+    }
+  },
+  {
+    "id": 257,
+    "type": "ows",
+    "front": "Truant",
+    "back": {
+      "definition_eng": "A student who stays away from school without permission.",
+      "example_eng": "The truant was caught by the police and returned to school.",
+      "definition_hindi": "कामचोर",
+      "example_hindi": "कामचोर को पुलिस ने पकड़ लिया और स्कूल वापस लौटा दिया।"
+    }
+  },
+  {
+    "id": 258,
+    "type": "ows",
+    "front": "Ubiquitous",
+    "back": {
+      "definition_eng": "Present, appearing, or found everywhere.",
+      "example_eng": "His ubiquitous presence was a source of annoyance.",
+      "definition_hindi": "सर्वव्यापी",
+      "example_hindi": "उसकी सर्वव्यापी उपस्थिति झुंझलाहट का एक स्रोत थी।"
+    }
+  },
+  {
+    "id": 259,
+    "type": "ows",
+    "front": "Unanimous",
+    "back": {
+      "definition_eng": "Of two or more people) fully in agreement.",
+      "example_eng": "The jury reached a unanimous verdict.",
+      "definition_hindi": "सर्वसम्मत",
+      "example_hindi": "जूरी सर्वसम्मत फैसले पर पहुँची।"
+    }
+  },
+  {
+    "id": 260,
+    "type": "ows",
+    "front": "Utopian",
+    "back": {
+      "definition_eng": "Relating to or aiming for a state in which everything is perfect.",
+      "example_eng": "The idea of a perfect society is a utopian ideal.",
+      "definition_hindi": "आदर्शवादी",
+      "example_hindi": "एक आदर्श समाज का विचार एक आदर्शवादी आदर्श है।"
+    }
+  },
+  {
+    "id": 261,
+    "type": "ows",
+    "front": "Uxoricide",
+    "back": {
+      "definition_eng": "The killing of one's wife.",
+      "example_eng": "He was charged with uxoricide after his wife's death.",
+      "definition_hindi": "पत्नी-हत्या",
+      "example_hindi": "अपनी पत्नी की मृत्यु के बाद उस पर पत्नी-हत्या का आरोप लगाया गया था।"
+    }
+  },
+  {
+    "id": 262,
+    "type": "ows",
+    "front": "Vagrant",
+    "back": {
+      "definition_eng": "A person without a settled home or regular work who wanders from place to place and lives by begging.",
+      "example_eng": "The police arrested the vagrant for loitering.",
+      "definition_hindi": "खानाबदोश",
+      "example_hindi": "पुलिस ने खानाबदोश को घूमते हुए गिरफ्तार किया।"
+    }
+  },
+  {
+    "id": 263,
+    "type": "ows",
+    "front": "Vandalism",
+    "back": {
+      "definition_eng": "Action involving deliberate destruction of or damage to public or private property.",
+      "example_eng": "The city was plagued by acts of vandalism.",
+      "definition_hindi": "बर्बरता",
+      "example_hindi": "शहर बर्बरता के कृत्यों से त्रस्त था।"
+    }
+  },
+  {
+    "id": 264,
+    "type": "ows",
+    "front": "Vegetarian",
+    "back": {
+      "definition_eng": "A person who does not eat meat.",
+      "example_eng": "She is a vegetarian and eats a lot of vegetables.",
+      "definition_hindi": "शाकाहारी",
+      "example_hindi": "वह एक शाकाहारी है और बहुत सारी सब्जियां खाती है।"
+    }
+  },
+  {
+    "id": 265,
+    "type": "ows",
+    "front": "Ventriloquist",
+    "back": {
+      "definition_eng": "A person who can make their voice appear to come from another person or a puppet.",
+      "example_eng": "The ventriloquist performed a show with his puppet.",
+      "definition_hindi": "मुख से पेट से आवाज़ निकालने वाला",
+      "example_hindi": "मुख से पेट से आवाज़ निकालने वाले ने अपनी कठपुतली के साथ एक शो किया।"
+    }
+  },
+  {
+    "id": 266,
+    "type": "ows",
+    "front": "Verbatim",
+    "back": {
+      "definition_eng": "In exactly the same words as were used originally.",
+      "example_eng": "He quoted the speech verbatim.",
+      "definition_hindi": "शब्दशः",
+      "example_hindi": "उसने भाषण को शब्दशः उद्धृत किया।"
+    }
+  },
+  {
+    "id": 267,
+    "type": "ows",
+    "front": "Versatile",
+    "back": {
+      "definition_eng": "Able to adapt or be adapted to many different functions or activities.",
+      "example_eng": "She was a versatile actress who could play any role.",
+      "definition_hindi": "बहुमुखी",
+      "example_hindi": "वह एक बहुमुखी अभिनेत्री थी जो कोई भी भूमिका निभा सकती थी।"
+    }
+  },
+  {
+    "id": 268,
+    "type": "ows",
+    "front": "Veteran",
+    "back": {
+      "definition_eng": "A person who has had a long experience in a particular field.",
+      "example_eng": "He was a veteran of the war.",
+      "definition_hindi": "अनुभवी",
+      "example_hindi": "वह युद्ध का एक अनुभवी था।"
+    }
+  },
+  {
+    "id": 269,
+    "type": "ows",
+    "front": "Vice-versa",
+    "back": {
+      "definition_eng": "With the main items in the preceding statement inverted.",
+      "example_eng": "He likes her, and vice-versa.",
+      "definition_hindi": "उल्टा",
+      "example_hindi": "वह उसे पसंद करता है, और उल्टा भी।"
+    }
+  },
+  {
+    "id": 270,
+    "type": "ows",
+    "front": "Virtuoso",
+    "back": {
+      "definition_eng": "A person highly skilled in music or another artistic pursuit.",
+      "example_eng": "The pianist was a true virtuoso.",
+      "definition_hindi": "कला-कुशल",
+      "example_hindi": "पियानोवादक एक सच्चा कला-कुशल था।"
+    }
+  },
+  {
+    "id": 271,
+    "type": "ows",
+    "front": "Volition",
+    "back": {
+      "definition_eng": "The faculty or power of using one's will.",
+      "example_eng": "He left the company of his own volition.",
+      "definition_hindi": "अपनी इच्छा से",
+      "example_hindi": "उन्होंने अपनी इच्छा से कंपनी छोड़ दी।"
+    }
+  },
+  {
+    "id": 272,
+    "type": "ows",
+    "front": "Vulnerable",
+    "back": {
+      "definition_eng": "Exposed to the possibility of being attacked or harmed, either physically or emotionally.",
+      "example_eng": "The child was vulnerable to exploitation.",
+      "definition_hindi": "कमजोर",
+      "example_hindi": "बच्चा शोषण के प्रति कमजोर था।"
+    }
+  },
+  {
+    "id": 273,
+    "type": "ows",
+    "front": "Wardrobe",
+    "back": {
+      "definition_eng": "A large, tall cupboard in which clothes may be hung or stored.",
+      "example_eng": "She hung her clothes in the wardrobe.",
+      "definition_hindi": "अलमारी",
+      "example_hindi": "उसने अपने कपड़े अलमारी में लटकाए।"
+    }
+  },
+  {
+    "id": 274,
+    "type": "ows",
+    "front": "Wastrel",
+    "back": {
+      "definition_eng": "A wasteful or lazy person.",
+      "example_eng": "He was a wastrel who spent all his inheritance on gambling.",
+      "definition_hindi": "फिज़ूलखर्ची",
+      "example_hindi": "वह एक फिजूलखर्ची था जिसने जुए पर अपनी पूरी विरासत खर्च कर दी।"
+    }
+  },
+  {
+    "id": 275,
+    "type": "ows",
+    "front": "Xenophobia",
+    "back": {
+      "definition_eng": "Dislike of or prejudice against people from other countries.",
+      "example_eng": "The politician's speech was condemned as an act of xenophobia.",
+      "definition_hindi": "विदेशी-द्वेष",
+      "example_hindi": "राजनेता के भाषण को विदेशी-द्वेष के एक कार्य के रूप में निंदा की गई।"
+    }
+  },
+  {
+    "id": 276,
+    "type": "ows",
+    "front": "Zenith",
+    "back": {
+      "definition_eng": "The time at which something is most powerful or successful.",
+      "example_eng": "He was at the zenith of his career.",
+      "definition_hindi": "शिखर",
+      "example_hindi": "वह अपने करियर के शिखर पर था।"
+    }
+  },
+  {
+    "id": 277,
+    "type": "ows",
+    "front": "Abstentious",
+    "back": {
+      "definition_eng": "Not self-indulgent.",
+      "example_eng": "He led an abstentious lifestyle, free from excess.",
+      "definition_hindi": "संयमी",
+      "example_hindi": "उन्होंने संयमी जीवन शैली अपनाई, जो अधिकता से मुक्त थी।"
+    }
+  },
+  {
+    "id": 278,
+    "type": "ows",
+    "front": "Adroit",
+    "back": {
+      "definition_eng": "Clever or skillful in using the hands or mind.",
+      "example_eng": "He was an adroit negotiator.",
+      "definition_hindi": "निपुण",
+      "example_hindi": "वह एक निपुण वार्ताकार था।"
+    }
+  },
+  {
+    "id": 279,
+    "type": "ows",
+    "front": "Almanac",
+    "back": {
+      "definition_eng": "An annual calendar containing important dates and statistical information.",
+      "example_eng": "The farmer consulted his almanac for planting dates.",
+      "definition_hindi": "पंचांग",
+      "example_hindi": "किसान ने रोपण की तारीखों के लिए अपने पंचांग से परामर्श किया।"
+    }
+  },
+  {
+    "id": 280,
+    "type": "ows",
+    "front": "Ambrosia",
+    "back": {
+      "definition_eng": "The food of the gods.",
+      "example_eng": "The dessert was so delicious it was like ambrosia.",
+      "definition_hindi": "अमृत",
+      "example_hindi": "मिठाई इतनी स्वादिष्ट थी कि वह अमृत के समान थी।"
+    }
+  },
+  {
+    "id": 281,
+    "type": "ows",
+    "front": "Anesthetic",
+    "back": {
+      "definition_eng": "A substance that induces insensitivity to pain.",
+      "example_eng": "The dentist used an anesthetic to numb the area.",
+      "definition_hindi": "संज्ञाहरण",
+      "example_hindi": "दंत चिकित्सक ने क्षेत्र को सुन्न करने के लिए एक संज्ञाहरण का उपयोग किया।"
+    }
+  },
+  {
+    "id": 282,
+    "type": "ows",
+    "front": "Anonymous",
+    "back": {
+      "definition_eng": "Not identified by name; of unknown name.",
+      "example_eng": "The letter was sent by an anonymous sender.",
+      "definition_hindi": "अनाम",
+      "example_hindi": "पत्र एक अनाम प्रेषक द्वारा भेजा गया था।"
+    }
+  },
+  {
+    "id": 283,
+    "type": "ows",
+    "front": "Antipathy",
+    "back": {
+      "definition_eng": "A deep-seated feeling of dislike; aversion.",
+      "example_eng": "There was a strong antipathy between the two rivals.",
+      "definition_hindi": "घृणा",
+      "example_hindi": "दो प्रतिद्वंद्वियों के बीच एक मजबूत घृणा थी।"
+    }
+  },
+  {
+    "id": 284,
+    "type": "ows",
+    "front": "Aphrodisiac",
+    "back": {
+      "definition_eng": "A food, drink, or drug that stimulates sexual desire.",
+      "example_eng": "Oysters are often considered an aphrodisiac.",
+      "definition_hindi": "कामोद्दीपक",
+      "example_hindi": "सीप को अक्सर एक कामोद्दीपक माना जाता है।"
+    }
+  },
+  {
+    "id": 285,
+    "type": "ows",
+    "front": "Arborist",
+    "back": {
+      "definition_eng": "A specialist in the cultivation, care, and management of trees.",
+      "example_eng": "The arborist was called to trim the old oak tree.",
+      "definition_hindi": "वृक्ष-विज्ञानी",
+      "example_hindi": "पुराने ओक के पेड़ को ट्रिम करने के लिए वृक्ष-विज्ञानी को बुलाया गया था।"
+    }
+  },
+  {
+    "id": 286,
+    "type": "ows",
+    "front": "Arcade",
+    "back": {
+      "definition_eng": "A covered passageway with arches along one or both sides.",
+      "example_eng": "The shops were located along a beautiful stone arcade.",
+      "definition_hindi": "मेहराबदार गलियारा",
+      "example_hindi": "दुकानें एक सुंदर पत्थर के मेहराबदार गलियारा के साथ स्थित थीं।"
+    }
+  },
+  {
+    "id": 287,
+    "type": "ows",
+    "front": "Arson",
+    "back": {
+      "definition_eng": "The criminal act of deliberately setting fire to property.",
+      "example_eng": "The police suspect arson was the cause of the fire.",
+      "definition_hindi": "आगज़नी",
+      "example_hindi": "पुलिस को संदेह है कि आग का कारण आगज़नी था।"
+    }
+  },
+  {
+    "id": 288,
+    "type": "ows",
+    "front": "Assiduous",
+    "back": {
+      "definition_eng": "Showing great care, attention, and effort.",
+      "example_eng": "The project required assiduous planning.",
+      "definition_hindi": "परिश्रमी",
+      "example_hindi": "परियोजना के लिए परिश्रमी योजना की आवश्यकता थी।"
+    }
+  },
+  {
+    "id": 289,
+    "type": "ows",
+    "front": "Astrologer",
+    "back": {
+      "definition_eng": "A person who studies the movements and relative positions of celestial bodies and interprets them as having an influence on human affairs.",
+      "example_eng": "The astrologer predicted his future based on the stars.",
+      "definition_hindi": "ज्योतिषी",
+      "example_hindi": "ज्योतिषी ने तारों के आधार पर उसके भविष्य की भविष्यवाणी की।"
+    }
+  },
+  {
+    "id": 290,
+    "type": "ows",
+    "front": "Astronomer",
+    "back": {
+      "definition_eng": "A person who studies celestial objects, space, and the physical universe.",
+      "example_eng": "The astronomer discovered a new galaxy.",
+      "definition_hindi": "खगोल विज्ञानी",
+      "example_hindi": "खगोल विज्ञानी ने एक नई आकाशगंगा की खोज की।"
+    }
+  },
+  {
+    "id": 291,
+    "type": "ows",
+    "front": "Audacity",
+    "back": {
+      "definition_eng": "The willingness to take bold risks; daring.",
+      "example_eng": "He had the audacity to challenge the authority.",
+      "definition_hindi": "साहस",
+      "example_hindi": "उसमें अधिकार को चुनौती देने का साहस था।"
+    }
+  },
+  {
+    "id": 292,
+    "type": "ows",
+    "front": "Benefactor",
+    "back": {
+      "definition_eng": "A person who gives money or other help to a person or cause.",
+      "example_eng": "The museum was built with the help of a generous benefactor.",
+      "definition_hindi": "उपकारी",
+      "example_hindi": "संग्रहालय एक उदार उपकारी की मदद से बनाया गया था।"
+    }
+  },
+  {
+    "id": 293,
+    "type": "ows",
+    "front": "Blasphemy",
+    "back": {
+      "definition_eng": "The act or offence of speaking sacrilegiously about God or sacred things.",
+      "example_eng": "He was accused of blasphemy for his remarks.",
+      "definition_hindi": "ईशनिंदा",
+      "example_hindi": "उस पर अपनी टिप्पणियों के लिए ईशनिंदा का आरोप लगाया गया था।"
+    }
+  },
+  {
+    "id": 294,
+    "type": "ows",
+    "front": "Botany",
+    "back": {
+      "definition_eng": "The scientific study of plants.",
+      "example_eng": "She is pursuing a degree in botany.",
+      "definition_hindi": "वनस्पति विज्ञान",
+      "example_hindi": "वह वनस्पति विज्ञान में डिग्री प्राप्त कर रही है।"
+    }
+  },
+  {
+    "id": 295,
+    "type": "ows",
+    "front": "Cacography",
+    "back": {
+      "definition_eng": "Bad handwriting or spelling.",
+      "example_eng": "His cacography was so bad that no one could read his notes.",
+      "definition_hindi": "बुरी लिखावट",
+      "example_hindi": "उसकी बुरी लिखावट इतनी खराब थी कि कोई भी उसके नोट्स नहीं पढ़ सकता था।"
+    }
+  },
+  {
+    "id": 296,
+    "type": "ows",
+    "front": "Caretaker",
+    "back": {
+      "definition_eng": "A person employed to look after a public building or house.",
+      "example_eng": "The caretaker was responsible for the building's maintenance.",
+      "definition_hindi": "कार्यवाहक",
+      "example_hindi": "कार्यवाहक इमारत के रखरखाव के लिए जिम्मेदार था।"
+    }
+  },
+  {
+    "id": 297,
+    "type": "ows",
+    "front": "Cavalry",
+    "back": {
+      "definition_eng": "Soldiers who fought on horseback.",
+      "example_eng": "The cavalry charged across the field.",
+      "definition_hindi": "अश्वारोही",
+      "example_hindi": "अश्वारोही ने मैदान के पार हमला किया।"
+    }
+  },
+  {
+    "id": 298,
+    "type": "ows",
+    "front": "Celibacy",
+    "back": {
+      "definition_eng": "The state of abstaining from marriage and sexual relations.",
+      "example_eng": "The priest took a vow of celibacy.",
+      "definition_hindi": "ब्रह्मचर्य",
+      "example_hindi": "पुजारी ने ब्रह्मचर्य की कसम खाई।"
+    }
+  },
+  {
+    "id": 299,
+    "type": "ows",
+    "front": "Chauffeur",
+    "back": {
+      "definition_eng": "A person employed to drive a private or hired car.",
+      "example_eng": "The wealthy man's chauffeur drove him to work every day.",
+      "definition_hindi": "निजी चालक",
+      "example_hindi": "धनी व्यक्ति का निजी चालक उसे हर दिन काम पर ले जाता था।"
+    }
+  },
+  {
+    "id": 300,
+    "type": "ows",
+    "front": "Chronicler",
+    "back": {
+      "definition_eng": "A person who writes accounts of important or historical events.",
+      "example_eng": "The chronicler documented the events of the king's reign.",
+      "definition_hindi": "इतिहासकार",
+      "example_hindi": "इतिहासकार ने राजा के शासनकाल की घटनाओं का दस्तावेजीकरण किया।"
+    }
+  },
+  {
+    "id": 301,
+    "type": "ows",
+    "front": "Cremate",
+    "back": {
+      "definition_eng": "To dispose of a dead person's body by burning it to ashes.",
+      "example_eng": "The family decided to cremate the body.",
+      "definition_hindi": "दाह संस्कार करना",
+      "example_hindi": "परिवार ने शरीर का दाह संस्कार करने का फैसला किया।"
+    }
+  },
+  {
+    "id": 302,
+    "type": "ows",
+    "front": "Curio",
+    "back": {
+      "definition_eng": "A rare, unusual, or intriguing object.",
+      "example_eng": "The shop was filled with interesting curios from around the world.",
+      "definition_hindi": "अनोखी वस्तु",
+      "example_hindi": "दुकान दुनिया भर की दिलचस्प अनोखी वस्तु से भरी थी।"
+    }
+  },
+  {
+    "id": 303,
+    "type": "ows",
+    "front": "Debacle",
+    "back": {
+      "definition_eng": "A sudden and disastrous failure.",
+      "example_eng": "The concert was a complete debacle.",
+      "definition_hindi": "विनाशकारी असफलता",
+      "example_hindi": "कॉन्सर्ट एक पूरी तरह से विनाशकारी असफलता थी।"
+    }
+  },
+  {
+    "id": 304,
+    "type": "ows",
+    "front": "Deism",
+    "back": {
+      "definition_eng": "Belief in the existence of a supreme being, specifically of a creator who does not intervene in the universe.",
+      "example_eng": "He followed a philosophy of deism.",
+      "definition_hindi": "ईश्वरवाद",
+      "example_hindi": "उन्होंने ईश्वरवाद के दर्शन का पालन किया।"
+    }
+  },
+  {
+    "id": 305,
+    "type": "ows",
+    "front": "Dermatology",
+    "back": {
+      "definition_eng": "The branch of medicine concerned with the diagnosis and treatment of skin disorders.",
+      "example_eng": "She is studying dermatology in medical school.",
+      "definition_hindi": "त्वचा विज्ञान",
+      "example_hindi": "वह मेडिकल स्कूल में त्वचा विज्ञान का अध्ययन कर रही है।"
+    }
+  },
+  {
+    "id": 306,
+    "type": "ows",
+    "front": "Effeminate",
+    "back": {
+      "definition_eng": "A man who has or shows feminine characteristics.",
+      "example_eng": "His effeminate mannerisms were often a subject of mockery.",
+      "definition_hindi": "स्त्री-सुलभ",
+      "example_hindi": "उसके स्त्री-सुलभ व्यवहार अक्सर उपहास का विषय थे।"
+    }
+  },
+  {
+    "id": 307,
+    "type": "ows",
+    "front": "Electorate",
+    "back": {
+      "definition_eng": "All the people in a country or area who are entitled to vote in an election.",
+      "example_eng": "The politician appealed directly to the electorate.",
+      "definition_hindi": "मतदाता",
+      "example_hindi": "राजनेता ने सीधे मतदाता से अपील की।"
+    }
+  },
+  {
+    "id": 308,
+    "type": "ows",
+    "front": "Empathy",
+    "back": {
+      "definition_eng": "The ability to understand and share the feelings of another.",
+      "example_eng": "He showed great empathy for the victims.",
+      "definition_hindi": "सहानुभूति",
+      "example_hindi": "उन्होंने पीड़ितों के लिए महान सहानुभूति दिखाई।"
+    }
+  },
+  {
+    "id": 309,
+    "type": "ows",
+    "front": "Endemic",
+    "back": {
+      "definition_eng": "Regularly found among particular people or in a certain area.",
+      "example_eng": "The disease is endemic to this region.",
+      "definition_hindi": "स्थानिक",
+      "example_hindi": "यह बीमारी इस क्षेत्र के लिए स्थानिक है।"
+    }
+  },
+  {
+    "id": 310,
+    "type": "ows",
+    "front": "Entomology",
+    "back": {
+      "definition_eng": "The scientific study of insects.",
+      "example_eng": "He was a professor of entomology.",
+      "definition_hindi": "कीटविज्ञान",
+      "example_hindi": "वह कीटविज्ञान के प्रोफेसर थे।"
+    }
+  },
+  {
+    "id": 311,
+    "type": "ows",
+    "front": "Epicure",
+    "back": {
+      "definition_eng": "A person who takes particular pleasure in fine food and drink.",
+      "example_eng": "He considered himself an epicure.",
+      "definition_hindi": "भोजन-प्रेमी",
+      "example_hindi": "वह खुद को एक भोजन-प्रेमी मानता था।"
+    }
+  },
+  {
+    "id": 312,
+    "type": "ows",
+    "front": "Epistle",
+    "back": {
+      "definition_eng": "A letter or a literary work in the form of a letter.",
+      "example_eng": "The king sent an official epistle to the foreign ruler.",
+      "definition_hindi": "पत्र",
+      "example_hindi": "राजा ने विदेशी शासक को एक आधिकारिक पत्र भेजा।"
+    }
+  },
+  {
+    "id": 313,
+    "type": "ows",
+    "front": "Epitome",
+    "back": {
+      "definition_eng": "A person or thing that is a perfect example of a particular quality or type.",
+      "example_eng": "He was the epitome of grace and elegance.",
+      "definition_hindi": "सार",
+      "example_hindi": "वह कृपा और लालित्य का सार था।"
+    }
+  },
+  {
+    "id": 314,
+    "type": "ows",
+    "front": "Equine",
+    "back": {
+      "definition_eng": "Relating to or affecting horses or other members of the horse family.",
+      "example_eng": "The disease affects the equine population.",
+      "definition_hindi": "अश्व-संबंधी",
+      "example_hindi": "यह रोग अश्व-संबंधी आबादी को प्रभावित करता है।"
+    }
+  },
+  {
+    "id": 315,
+    "type": "ows",
+    "front": "Eremite",
+    "back": {
+      "definition_eng": "A Christian hermit or recluse.",
+      "example_eng": "The eremite lived in a small cave in the mountains.",
+      "definition_hindi": "तपस्वी",
+      "example_hindi": "तपस्वी पहाड़ों में एक छोटी गुफा में रहता था।"
+    }
+  },
+  {
+    "id": 316,
+    "type": "ows",
+    "front": "Espionage",
+    "back": {
+      "definition_eng": "The practice of spying or using spies to obtain political and military information.",
+      "example_eng": "The two countries were engaged in a war of espionage.",
+      "definition_hindi": "जासूसी",
+      "example_hindi": "दो देश जासूसी के युद्ध में लगे हुए थे।"
+    }
+  },
+  {
+    "id": 317,
+    "type": "ows",
+    "front": "Ethnology",
+    "back": {
+      "definition_eng": "The study of the characteristics of various peoples and the differences and relationships between them.",
+      "example_eng": "She studied the ethnology of ancient tribes.",
+      "definition_hindi": "जाति विज्ञान",
+      "example_hindi": "उसने प्राचीन जनजातियों के जाति विज्ञान का अध्ययन किया।"
+    }
+  },
+  {
+    "id": 318,
+    "type": "ows",
+    "front": "Eulogy",
+    "back": {
+      "definition_eng": "A speech or piece of writing that praises someone or something highly, typically someone who has just died.",
+      "example_eng": "He delivered a heartfelt eulogy at his father's funeral.",
+      "definition_hindi": "प्रशंसा-भाषण",
+      "example_hindi": "उन्होंने अपने पिता के अंतिम संस्कार में एक हार्दिक प्रशंसा-भाषण दिया।"
+    }
+  },
+  {
+    "id": 319,
+    "type": "ows",
+    "front": "Exemplary",
+    "back": {
+      "definition_eng": "Serving as a desirable model; representing the best of its kind.",
+      "example_eng": "His behavior was exemplary and he was praised by all.",
+      "definition_hindi": "अनुकरणीय",
+      "example_hindi": "उसका व्यवहार अनुकरणीय था और सभी ने उसकी प्रशंसा की।"
+    }
+  },
+  {
+    "id": 320,
+    "type": "ows",
+    "front": "Expatriate",
+    "back": {
+      "definition_eng": "A person who lives outside their native country.",
+      "example_eng": "He was an expatriate living in France for many years.",
+      "definition_hindi": "प्रवासी",
+      "example_hindi": "वह कई वर्षों से फ्रांस में रहने वाला एक प्रवासी था।"
+    }
+  },
+  {
+    "id": 321,
+    "type": "ows",
+    "front": "Expunge",
+    "back": {
+      "definition_eng": "To erase or remove completely.",
+      "example_eng": "The judge ordered the remarks to be expunged from the record.",
+      "definition_hindi": "मिटाना",
+      "example_hindi": "न्यायाधीश ने टिप्पणियों को रिकॉर्ड से मिटाने का आदेश दिया।"
+    }
+  },
+  {
+    "id": 322,
+    "type": "ows",
+    "front": "Extemporaneous",
+    "back": {
+      "definition_eng": "Done without preparation; impromptu.",
+      "example_eng": "He gave an extemporaneous speech.",
+      "definition_hindi": "तत्काल",
+      "example_hindi": "उन्होंने एक तत्काल भाषण दिया।"
+    }
+  },
+  {
+    "id": 323,
+    "type": "ows",
+    "front": "Extol",
+    "back": {
+      "definition_eng": "To praise enthusiastically.",
+      "example_eng": "He extolled the virtues of his new car.",
+      "definition_hindi": "प्रशंसा करना",
+      "example_hindi": "उसने अपनी नई कार के गुणों की प्रशंसा की।"
+    }
+  },
+  {
+    "id": 324,
+    "type": "ows",
+    "front": "Fascism",
+    "back": {
+      "definition_eng": "A political philosophy, movement, or regime that exalts nation and often race above the individual.",
+      "example_eng": "The country was ruled by a totalitarian regime of fascism.",
+      "definition_hindi": "फासीवाद",
+      "example_hindi": "देश पर फासीवाद के एक सर्वाधिकारवादी शासन का शासन था।"
+    }
+  },
+  {
+    "id": 325,
+    "type": "ows",
+    "front": "Fatal",
+    "back": {
+      "definition_eng": "Causing death.",
+      "example_eng": "The accident was a fatal one.",
+      "definition_hindi": "घातक",
+      "example_hindi": "दुर्घटना एक घातक थी।"
+    }
+  },
+  {
+    "id": 326,
+    "type": "ows",
+    "front": "Flora",
+    "back": {
+      "definition_eng": "The plants of a particular region, habitat, or geological period.",
+      "example_eng": "The flora of the rainforest is incredibly diverse.",
+      "definition_hindi": "वनस्पति",
+      "example_hindi": "वर्षावन की वनस्पति अविश्वसनीय रूप से विविध है।"
+    }
+  },
+  {
+    "id": 327,
+    "type": "ows",
+    "front": "Fugitive",
+    "back": {
+      "definition_eng": "A person who has escaped from captivity or is in hiding.",
+      "example_eng": "The police were searching for the fugitive.",
+      "definition_hindi": "भगोड़ा",
+      "example_hindi": "पुलिस भगोड़े की तलाश कर रही थी।"
+    }
+  },
+  {
+    "id": 328,
+    "type": "ows",
+    "front": "Gastronomy",
+    "back": {
+      "definition_eng": "The practice or art of choosing, cooking, and eating good food.",
+      "example_eng": "He was a master of French gastronomy.",
+      "definition_hindi": "पाक-कला",
+      "example_hindi": "वह फ्रेंच पाक-कला का एक मास्टर था।"
+    }
+  },
+  {
+    "id": 329,
+    "type": "ows",
+    "front": "Homogeneous",
+    "back": {
+      "definition_eng": "Of the same kind; alike.",
+      "example_eng": "The population was homogeneous, with very little diversity.",
+      "definition_hindi": "सजातीय",
+      "example_hindi": "आबादी सजातीय थी, जिसमें बहुत कम विविधता थी।"
+    }
+  },
+  {
+    "id": 330,
+    "type": "ows",
+    "front": "Horticulture",
+    "back": {
+      "definition_eng": "The art or practice of garden cultivation and management.",
+      "example_eng": "She studied horticulture and became a landscape designer.",
+      "definition_hindi": "बागवानी",
+      "example_hindi": "उसने बागवानी का अध्ययन किया और एक परिदृश्य डिजाइनर बन गई।"
+    }
+  },
+  {
+    "id": 331,
+    "type": "ows",
+    "front": "Hypocrite",
+    "back": {
+      "definition_eng": "A person who pretends to have virtues, moral or religious beliefs, principles, etc., that he or she does not actually possess.",
+      "example_eng": "He was a hypocrite who preached honesty but was a liar.",
+      "definition_hindi": "पाखंडी",
+      "example_hindi": "वह एक पाखंडी था जिसने ईमानदारी का प्रचार किया लेकिन एक झूठा था।"
+    }
+  },
+  {
+    "id": 332,
+    "type": "ows",
+    "front": "Illegitimate",
+    "back": {
+      "definition_eng": "Not authorized by law; unlawful.",
+      "example_eng": "He was an illegitimate child.",
+      "definition_hindi": "अवैध",
+      "example_hindi": "वह एक अवैध बच्चा था।"
+    }
+  },
+  {
+    "id": 333,
+    "type": "ows",
+    "front": "Impetuous",
+    "back": {
+      "definition_eng": "Acting or done quickly and without thought or care.",
+      "example_eng": "His impetuous decision led to a disastrous outcome.",
+      "definition_hindi": "अविवेकी",
+      "example_hindi": "उसके अविवेकी निर्णय के कारण एक विनाशकारी परिणाम हुआ।"
+    }
+  },
+  {
+    "id": 334,
+    "type": "ows",
+    "front": "Improvise",
+    "back": {
+      "definition_eng": "To create and perform spontaneously or without preparation.",
+      "example_eng": "The musician had to improvise after his music sheet blew away.",
+      "definition_hindi": "तत्काल बनाना",
+      "example_hindi": "संगीतकार को अपनी संगीत शीट उड़ जाने के बाद तत्काल बनाना पड़ा।"
+    }
+  },
+  {
+    "id": 335,
+    "type": "ows",
+    "front": "Incomprehensible",
+    "back": {
+      "definition_eng": "Not able to be understood; not intelligible.",
+      "example_eng": "The instructions were completely incomprehensible.",
+      "definition_hindi": "अगम्य",
+      "example_hindi": "निर्देश पूरी तरह से अगम्य थे।"
+    }
+  },
+  {
+    "id": 336,
+    "type": "ows",
+    "front": "Indispensable",
+    "back": {
+      "definition_eng": "Absolutely necessary.",
+      "example_eng": "His assistance was indispensable to the project.",
+      "definition_hindi": "अपरिहार्य",
+      "example_hindi": "उसकी सहायता परियोजना के लिए अपरिहार्य थी।"
+    }
+  },
+  {
+    "id": 337,
+    "type": "ows",
+    "front": "Indulgent",
+    "back": {
+      "definition_eng": "Having a tendency to be overly generous or lenient with someone.",
+      "example_eng": "She was an indulgent mother who spoiled her children.",
+      "definition_hindi": "उदार",
+      "example_hindi": "वह एक उदार माँ थी जो अपने बच्चों को बिगाड़ देती थी।"
+    }
+  },
+  {
+    "id": 338,
+    "type": "ows",
+    "front": "Invincible",
+    "back": {
+      "definition_eng": "Too powerful to be defeated or overcome.",
+      "example_eng": "The army was considered invincible.",
+      "definition_hindi": "अजेय",
+      "example_hindi": "सेना को अजेय माना जाता था।"
+    }
+  },
+  {
+    "id": 339,
+    "type": "ows",
+    "front": "Invulnerable",
+    "back": {
+      "definition_eng": "Impossible to harm or damage.",
+      "example_eng": "The fortress was thought to be invulnerable to attack.",
+      "definition_hindi": "अभेद्य",
+      "example_hindi": "किले को हमले के लिए अभेद्य माना जाता था।"
+    }
+  },
+  {
+    "id": 340,
+    "type": "ows",
+    "front": "Irreconcilable",
+    "back": {
+      "definition_eng": "Incompatible; not able to be brought into harmony or agreement.",
+      "example_eng": "They had irreconcilable differences that led to their divorce.",
+      "definition_hindi": "असंगत",
+      "example_hindi": "उनके असंगत मतभेद थे जिनके कारण उनका तलाक हो गया।"
+    }
+  },
+  {
+    "id": 341,
+    "type": "ows",
+    "front": "Jubilee",
+    "back": {
+      "definition_eng": "A special anniversary of an event, especially a 50th anniversary.",
+      "example_eng": "The queen celebrated her diamond jubilee.",
+      "definition_hindi": "जयंती",
+      "example_hindi": "रानी ने अपनी हीरक जयंती मनाई।"
+    }
+  },
+  {
+    "id": 342,
+    "type": "ows",
+    "front": "Jurisprudence",
+    "back": {
+      "definition_eng": "The theory or philosophy of law.",
+      "example_eng": "He was a professor of jurisprudence.",
+      "definition_hindi": "न्यायशास्त्र",
+      "example_hindi": "वह न्यायशास्त्र के प्रोफेसर थे।"
+    }
+  },
+  {
+    "id": 343,
+    "type": "ows",
+    "front": "Linguistics",
+    "back": {
+      "definition_eng": "The scientific study of language and its structure.",
+      "example_eng": "She is pursuing a doctorate in linguistics.",
+      "definition_hindi": "भाषाविज्ञान",
+      "example_hindi": "वह भाषाविज्ञान में डॉक्टरेट कर रही है।"
+    }
+  },
+  {
+    "id": 344,
+    "type": "ows",
+    "front": "Malevolent",
+    "back": {
+      "definition_eng": "Having or showing a wish to do evil to others.",
+      "example_eng": "The villain had a malevolent smile.",
+      "definition_hindi": "दुर्भावनापूर्ण",
+      "example_hindi": "खलनायक की एक दुर्भावनापूर्ण मुस्कान थी।"
+    }
+  },
+  {
+    "id": 345,
+    "type": "ows",
+    "front": "Mariticide",
+    "back": {
+      "definition_eng": "The killing of one's husband.",
+      "example_eng": "The woman was charged with mariticide.",
+      "definition_hindi": "पति-हत्या",
+      "example_hindi": "महिला पर पति-हत्या का आरोप लगाया गया था।"
+    }
+  },
+  {
+    "id": 346,
+    "type": "ows",
+    "front": "Metropolis",
+    "back": {
+      "definition_eng": "The chief city of a country or region.",
+      "example_eng": "New York is a major metropolis.",
+      "definition_hindi": "महानगर",
+      "example_hindi": "न्यूयॉर्क एक प्रमुख महानगर है।"
+    }
+  },
+  {
+    "id": 347,
+    "type": "ows",
+    "front": "Misogamy",
+    "back": {
+      "definition_eng": "Dislike of marriage.",
+      "example_eng": "His misogamy led him to remain a bachelor.",
+      "definition_hindi": "विवाह-द्वेष",
+      "example_hindi": "उनके विवाह-द्वेष ने उन्हें एक अविवाहित पुरुष बना दिया।"
+    }
+  },
+  {
+    "id": 348,
+    "type": "ows",
+    "front": "Monotheism",
+    "back": {
+      "definition_eng": "The doctrine or belief that there is only one God.",
+      "example_eng": "Islam and Judaism are examples of monotheism.",
+      "definition_hindi": "एकेश्वरवाद",
+      "example_hindi": "इस्लाम और यहूदी धर्म एकेश्वरवाद के उदाहरण हैं।"
+    }
+  },
+  {
+    "id": 349,
+    "type": "ows",
+    "front": "Mortuary",
+    "back": {
+      "definition_eng": "A morgue or funeral home.",
+      "example_eng": "The body was taken to the mortuary.",
+      "definition_hindi": "शवागार",
+      "example_hindi": "शव को शवागार में ले जाया गया।"
+    }
+  },
+  {
+    "id": 350,
+    "type": "ows",
+    "front": "Naive",
+    "back": {
+      "definition_eng": "Showing a lack of experience, wisdom, or judgment.",
+      "example_eng": "She was a naive girl who believed everything she was told.",
+      "definition_hindi": "भोला",
+      "example_hindi": "वह एक भोला लड़की थी जो सब कुछ मानती थी जो उसे बताया गया था।"
+    }
+  },
+  {
+    "id": 351,
+    "type": "ows",
+    "front": "Narcissism",
+    "back": {
+      "definition_eng": "Excessive self-love and self-admiration.",
+      "example_eng": "His narcissism prevented him from seeing his own flaws.",
+      "definition_hindi": "आत्ममुग्धता",
+      "example_hindi": "उसकी आत्ममुग्धता ने उसे अपनी कमियों को देखने से रोका।"
+    }
+  },
+  {
+    "id": 352,
+    "type": "ows",
+    "front": "Nefarious",
+    "back": {
+      "definition_eng": "Wicked or criminal.",
+      "example_eng": "The nefarious plot was foiled by the police.",
+      "definition_hindi": "दुष्ट",
+      "example_hindi": "दुष्ट साजिश को पुलिस ने नाकाम कर दिया।"
+    }
+  },
+  {
+    "id": 353,
+    "type": "ows",
+    "front": "Neophyte",
+    "back": {
+      "definition_eng": "A person who is new to a subject, skill, or belief; a novice.",
+      "example_eng": "He was a neophyte in the world of stock trading.",
+      "definition_hindi": "नौसिखिया",
+      "example_hindi": "वह स्टॉक ट्रेडिंग की दुनिया में एक नौसिखिया था।"
+    }
+  },
+  {
+    "id": 354,
+    "type": "ows",
+    "front": "Obsequious",
+    "back": {
+      "definition_eng": "Obedient or attentive to an excessive or servile degree.",
+      "example_eng": "He was an obsequious assistant who did everything his boss told him to do.",
+      "definition_hindi": "चापलूसी",
+      "example_hindi": "वह एक चापलूसी सहायक था जिसने अपने मालिक को जो कुछ भी बताया वह किया।"
+    }
+  },
+  {
+    "id": 355,
+    "type": "ows",
+    "front": "Ophthalmologist",
+    "back": {
+      "definition_eng": "A doctor who specializes in eye and vision care.",
+      "example_eng": "She made an appointment with an ophthalmologist to check her vision.",
+      "definition_hindi": "नेत्र रोग विशेषज्ञ",
+      "example_hindi": "उसने अपनी दृष्टि की जांच करने के लिए एक नेत्र रोग विशेषज्ञ के साथ एक नियुक्ति की।"
+    }
+  },
+  {
+    "id": 356,
+    "type": "ows",
+    "front": "Optimist",
+    "back": {
+      "definition_eng": "A person who tends to be hopeful and confident about the future.",
+      "example_eng": "She was an optimist who always looked on the bright side.",
+      "definition_hindi": "आशावादी",
+      "example_hindi": "वह एक आशावादी थी जो हमेशा उज्ज्वल पक्ष को देखती थी।"
+    }
+  },
+  {
+    "id": 357,
+    "type": "ows",
+    "front": "Orthography",
+    "back": {
+      "definition_eng": "The conventional spelling system of a language.",
+      "example_eng": "The orthography of the language is very complex.",
+      "definition_hindi": "वर्तनी",
+      "example_hindi": "भाषा की वर्तनी बहुत जटिल है।"
+    }
+  },
+  {
+    "id": 358,
+    "type": "ows",
+    "front": "Ostracize",
+    "back": {
+      "definition_eng": "To exclude from a society or group.",
+      "example_eng": "He was ostracized by his friends after his betrayal.",
+      "definition_hindi": "समाज से बहिष्कृत करना",
+      "example_hindi": "उसके विश्वासघात के बाद उसे उसके दोस्तों द्वारा समाज से बहिष्कृत किया गया था।"
+    }
+  },
+  {
+    "id": 359,
+    "type": "ows",
+    "front": "Oxymoron",
+    "back": {
+      "definition_eng": "A figure of speech in which contradictory terms appear in conjunction.",
+      "example_eng": "The phrase 'living dead' is an oxymoron.",
+      "definition_hindi": "विरोधाभास",
+      "example_hindi": "'जीवित मृत' वाक्यांश एक विरोधाभास है।"
+    }
+  },
+  {
+    "id": 360,
+    "type": "ows",
+    "front": "Panegyric",
+    "back": {
+      "definition_eng": "A public speech or published text in praise of someone or something.",
+      "example_eng": "The president's panegyric was widely praised.",
+      "definition_hindi": "प्रशंसा",
+      "example_hindi": "राष्ट्रपति की प्रशंसा की व्यापक रूप से प्रशंसा की गई।"
+    }
+  },
+  {
+    "id": 361,
+    "type": "ows",
+    "front": "Parable",
+    "back": {
+      "definition_eng": "A simple story used to illustrate a moral or spiritual lesson.",
+      "example_eng": "The story of the good Samaritan is a well-known parable.",
+      "definition_hindi": "नीति-कथा",
+      "example_hindi": "अच्छे सामरी की कहानी एक प्रसिद्ध नीति-कथा है।"
+    }
+  },
+  {
+    "id": 362,
+    "type": "ows",
+    "front": "Pestilence",
+    "back": {
+      "definition_eng": "A fatal epidemic disease.",
+      "example_eng": "The city was struck by a pestilence that killed thousands.",
+      "definition_hindi": "महामारी",
+      "example_hindi": "शहर एक महामारी से प्रभावित हुआ था जिसमें हजारों लोग मारे गए थे।"
+    }
+  },
+  {
+    "id": 363,
+    "type": "ows",
+    "front": "Philology",
+    "back": {
+      "definition_eng": "The study of literary texts and of written records.",
+      "example_eng": "He was a professor of classical philology.",
+      "definition_hindi": "भाषाविज्ञान",
+      "example_hindi": "वह शास्त्रीय भाषाविज्ञान के प्रोफेसर थे।"
+    }
+  },
+  {
+    "id": 364,
+    "type": "ows",
+    "front": "Philology",
+    "back": {
+      "definition_eng": "The study of literary texts and of written records.",
+      "example_eng": "He was a professor of classical philology.",
+      "definition_hindi": "भाषाविज्ञान",
+      "example_hindi": "वह शास्त्रीय भाषाविज्ञान के प्रोफेसर थे।"
+    }
+  },
+  {
+    "id": 365,
+    "type": "ows",
+    "front": "Philogyny",
+    "back": {
+      "definition_eng": "Love of women.",
+      "example_eng": "His philogyny was well known among his female friends.",
+      "definition_hindi": "स्त्री-प्रेम",
+      "example_hindi": "उनका स्त्री-प्रेम उनकी महिला दोस्तों के बीच अच्छी तरह से जाना जाता था।"
+    }
+  },
+  {
+    "id": 366,
+    "type": "ows",
+    "front": "Philomath",
+    "back": {
+      "definition_eng": "A lover of learning and study.",
+      "example_eng": "He was a philomath who spent all his time in the library.",
+      "definition_hindi": "ज्ञान-प्रेमी",
+      "example_hindi": "वह एक ज्ञान-प्रेमी था जिसने अपना सारा समय पुस्तकालय में बिताया।"
+    }
+  },
+  {
+    "id": 367,
+    "type": "ows",
+    "front": "Plagiarist",
+    "back": {
+      "definition_eng": "A person who takes the work or ideas of another and passes them off as their own.",
+      "example_eng": "The student was caught being a plagiarist.",
+      "definition_hindi": "साहित्यिक चोर",
+      "example_hindi": "छात्र को साहित्यिक चोर के रूप में पकड़ा गया था।"
+    }
+  },
+  {
+    "id": 368,
+    "type": "ows",
+    "front": "Plenary",
+    "back": {
+      "definition_eng": "A meeting or session attended by all participants at a conference or assembly.",
+      "example_eng": "The plenary session was attended by all members.",
+      "definition_hindi": "पूर्ण",
+      "example_hindi": "पूर्ण सत्र में सभी सदस्यों ने भाग लिया।"
+    }
+  },
+  {
+    "id": 369,
+    "type": "ows",
+    "front": "Posthumous",
+    "back": {
+      "definition_eng": "Occurring, awarded, or appearing after the death of the originator.",
+      "example_eng": "The artist received a posthumous award for his work.",
+      "definition_hindi": "मरणोपरांत",
+      "example_hindi": "कलाकार को उनके काम के लिए मरणोपरांत पुरस्कार मिला।"
+    }
+  },
+  {
+    "id": 370,
+    "type": "ows",
+    "front": "Potentate",
+    "back": {
+      "definition_eng": "A monarch or ruler, especially an autocratic one.",
+      "example_eng": "The potentate ruled with an iron fist.",
+      "definition_hindi": "सम्राट",
+      "example_hindi": "सम्राट ने एक लोहे के मुट्ठी से शासन किया।"
+    }
+  },
+  {
+    "id": 371,
+    "type": "ows",
+    "front": "Preamble",
+    "back": {
+      "definition_eng": "A preliminary or introductory statement.",
+      "example_eng": "The constitution begins with a preamble.",
+      "definition_hindi": "प्रस्तावना",
+      "example_hindi": "संविधान एक प्रस्तावना के साथ शुरू होता है।"
+    }
+  },
+  {
+    "id": 372,
+    "type": "ows",
+    "front": "Prelude",
+    "back": {
+      "definition_eng": "An action or event serving as an introduction to something more important.",
+      "example_eng": "The small conflict was a prelude to the war.",
+      "definition_hindi": "प्रस्तावना",
+      "example_hindi": "छोटा संघर्ष युद्ध की एक प्रस्तावना था।"
+    }
+  },
+  {
+    "id": 373,
+    "type": "ows",
+    "front": "Prerogative",
+    "back": {
+      "definition_eng": "A right or privilege exclusive to a particular individual or class.",
+      "example_eng": "It was the king's prerogative to declare war.",
+      "definition_hindi": "विशेषाधिकार",
+      "example_hindi": "युद्ध की घोषणा करना राजा का विशेषाधिकार था।"
+    }
+  },
+  {
+    "id": 374,
+    "type": "ows",
+    "front": "Progeny",
+    "back": {
+      "definition_eng": "A descendant or the descendants of a person, animal, or plant; offspring.",
+      "example_eng": "The old farmer's progeny inherited his land.",
+      "definition_hindi": "वंश",
+      "example_hindi": "पुराने किसान के वंश को उसकी भूमि विरासत में मिली।"
+    }
+  },
+  {
+    "id": 375,
+    "type": "ows",
+    "front": "Prologue",
+    "back": {
+      "definition_eng": "An introductory speech or section of a literary work.",
+      "example_eng": "The play's prologue introduced the main characters.",
+      "definition_hindi": "प्रस्तावना",
+      "example_hindi": "नाटक की प्रस्तावना ने मुख्य पात्रों को पेश किया।"
+    }
+  },
+  {
+    "id": 376,
+    "type": "ows",
+    "front": "Propensity",
+    "back": {
+      "definition_eng": "An inclination or natural tendency to behave in a particular way.",
+      "example_eng": "He had a propensity for getting into trouble.",
+      "definition_hindi": "प्रवृत्ति",
+      "example_hindi": "उसमें मुसीबत में पड़ने की प्रवृत्ति थी।"
+    }
+  },
+  {
+    "id": 377,
+    "type": "ows",
+    "front": "Prose",
+    "back": {
+      "definition_eng": "Written or spoken language in its ordinary form, without metrical structure.",
+      "example_eng": "He wrote a beautiful piece of prose.",
+      "definition_hindi": "गद्य",
+      "example_hindi": "उसने गद्य का एक सुंदर टुकड़ा लिखा।"
+    }
+  },
+  {
+    "id": 378,
+    "type": "ows",
+    "front": "Provisional",
+    "back": {
+      "definition_eng": "Arranged or existing for the present, possibly to be changed later.",
+      "example_eng": "The new government was a provisional one.",
+      "definition_hindi": "अस्थायी",
+      "example_hindi": "नई सरकार एक अस्थायी थी।"
+    }
+  },
+  {
+    "id": 379,
+    "type": "ows",
+    "front": "Raconteur",
+    "back": {
+      "definition_eng": "A person who tells anecdotes in a skillful and amusing way.",
+      "example_eng": "He was a gifted raconteur.",
+      "definition_hindi": "कहानीकार",
+      "example_hindi": "वह एक प्रतिभाशाली कहानीकार था।"
+    }
+  },
+  {
+    "id": 380,
+    "type": "ows",
+    "front": "Recidivism",
+    "back": {
+      "definition_eng": "The tendency of a convicted criminal to reoffend.",
+      "example_eng": "The program was designed to reduce recidivism.",
+      "definition_hindi": "फिर से अपराध करने की प्रवृत्ति",
+      "example_hindi": "कार्यक्रम को फिर से अपराध करने की प्रवृत्ति को कम करने के लिए डिज़ाइन किया गया था।"
+    }
+  }
+]
