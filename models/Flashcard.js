@@ -1,48 +1,54 @@
 const mongoose = require("mongoose");
 
-const CartFrontSchema = new mongoose.Schema({
-  text: {
-    type: String,
-    require: true,
-  },
-  pronunciation: {
-    english: {
+const CartFrontSchema = new mongoose.Schema(
+  {
+    text: {
       type: String,
+      require: true,
+    },
+    pronunciation: {
+      english: {
+        type: String,
+        required: false,
+      },
+      hindi: {
+        type: String,
+        require: false,
+      },
+    },
+  },
+  { _id: false }
+);
+
+const CardBackSchema = new mongoose.Schema(
+  {
+    content_eng: {
+      type: String,
+      required: true,
+    },
+    example_eng: {
+      type: [String],
       required: false,
     },
-    hindi: {
-      type: String,
-      require: false,
+    content_hindi: {
+      type: [String],
+      required: false,
+    },
+    example_hindi: {
+      type: [String],
+      required: false,
+    },
+    synonyms: {
+      type: [String],
+      required: false,
+    },
+    antonyms: {
+      type: [String],
+      required: false,
     },
   },
-});
-
-const CardBackSchema = new mongoose.Schema({
-  content_eng: {
-    type: String,
-    required: true,
-  },
-  example_eng: {
-    type: [String],
-    required: false,
-  },
-  content_hindi: {
-    type: [String],
-    required: false,
-  },
-  example_hindi: {
-    type: [String],
-    required: false,
-  },
-  synonyms: {
-    type: [String],
-    required: false,
-  },
-  antonyms: {
-    type: [String],
-    required: false,
-  },
-});
+  { _id: false }
+);
 
 const FlashcardSchema = new mongoose.Schema(
   {
@@ -55,6 +61,14 @@ const FlashcardSchema = new mongoose.Schema(
       required: true,
     },
     difficulty: {
+      type: String,
+      required: false,
+    },
+    exam: {
+      type: String,
+      required: false,
+    },
+    year: {
       type: String,
       required: false,
     },
@@ -77,8 +91,10 @@ const FlashcardSchema = new mongoose.Schema(
 FlashcardSchema.statics.getFilteredCards = async function ({
   subject,
   type,
+  exam,
+  year,
   difficulty,
-  tag,
+  tags,
   alphabet,
 }) {
   let query = {};
@@ -88,15 +104,21 @@ FlashcardSchema.statics.getFilteredCards = async function ({
   if (type) {
     query.type = type;
   }
+  if (exam) {
+    query.exam = exam;
+  }
+  if (year) {
+    query.year = year;
+  }
+
   if (difficulty) {
     query.difficulty = difficulty;
   }
-  if (tag) {
-    query.tags = { $in: [tag] };
+  if (tags && tags.length > 0) {
+    query.tags = { $all: tags };
   }
 
-  console.log(query);
-  let result = await this.find(query);
+  let result = await this.find(query).sort({ "front.text": 1 });
   if (alphabet) {
     const upper = alphabet.toUpperCase();
     result = result((card) => card.front.text[0].toUpperCase() === upper);
