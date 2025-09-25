@@ -96,6 +96,7 @@ FlashcardSchema.statics.getFilteredCards = async function ({
   difficulty,
   tags,
   alphabet,
+  highFrequency,
 }) {
   let query = {};
   if (subject) {
@@ -110,19 +111,23 @@ FlashcardSchema.statics.getFilteredCards = async function ({
   if (year) {
     query.year = year;
   }
-
   if (difficulty) {
     query.difficulty = difficulty;
   }
   if (tags && tags.length > 0) {
     query.tags = { $all: tags };
   }
+  if (highFrequency) {
+    query.tags = { $in: "high frequency" };
+  }
 
-  let result = await this.find(query).sort({ "front.text": 1 });
   if (alphabet) {
     const upper = alphabet.toUpperCase();
-    result = result((card) => card.front.text[0].toUpperCase() === upper);
+    query["front.text"] = { $regex: `^${upper}`, $options: "i" };
   }
+  console.log(query);
+
+  let result = await this.find(query).sort({ "front.text": 1 });
 
   return result;
 };

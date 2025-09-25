@@ -1,7 +1,8 @@
 const Flashcard = require("../models/Flashcard");
 
 exports.getFilteredCards = async (req, res) => {
-  const { subject, type, difficulty, alphabet, exam, year } = req.query;
+  const { subject, type, difficulty, alphabet, exam, year, highFrequency } =
+    req.query;
   const tags = req.query.tags?.split(",");
   try {
     const cards = await Flashcard.getFilteredCards({
@@ -12,6 +13,7 @@ exports.getFilteredCards = async (req, res) => {
       difficulty,
       tags,
       alphabet,
+      highFrequency,
     });
     res.status(200).json(cards);
   } catch (error) {
