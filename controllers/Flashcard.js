@@ -1,4 +1,4 @@
-const Flashcard = require("../models/Flashcard");
+const Flashcard = require("../models/flashcard");
 
 exports.getFilteredCards = async (req, res) => {
   const { subject, type, difficulty, alphabet, exam, year, highFrequency } =

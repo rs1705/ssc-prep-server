@@ -5,7 +5,7 @@ const app = express();
 const connectDB = require("./db");
 
 //routes
-const flashcardRoute = require("./routes/Flashcard");
+const flashcardRoute = require("./routes/flashcard");
 
 app.use(cors());
 app.use(express.json());
@@ -23,9 +23,9 @@ app.use((req, res, next) => {
 });
 
 app.use("/api/flashcards", flashcardRoute);
-
+const PORT = process.env.PORT || 8080;
 connectDB().then(() => {
-  app.listen(8080, () => {
-    console.log("server up and running.");
+  app.listen(PORT, () => {
+    console.log(`Server up and running on port ${PORT}`);
   });
 });
