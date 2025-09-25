@@ -1,11 +1,13 @@
+require("dotenv").config();
+
 const express = require("express");
 const cors = require("cors");
 const app = express();
 
-const connectDB = require("./db");
+const connectDB = require("./db.js");
 
 //routes
-const flashcardRoute = require("./routes/flashcard");
+const flashcardRoute = require("./routes/flashcard.js");
 
 app.use(cors());
 app.use(express.json());
