@@ -3,11 +3,11 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const app = express();
-
+const path = require("path");
 const connectDB = require("./db.js");
 
 //routes
-const flashcardRoute = require("./routes/flashcard.js");
+const flashcardRoute = require(path.join(__dirname, "routes", "flashcard.js"));
 
 app.use(cors());
 app.use(express.json());
