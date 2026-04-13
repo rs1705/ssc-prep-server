@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
 const CartFrontSchema = new mongoose.Schema(
   {
@@ -17,7 +17,7 @@ const CartFrontSchema = new mongoose.Schema(
       },
     },
   },
-  { _id: false }
+  { _id: false },
 );
 
 const CardBackSchema = new mongoose.Schema(
@@ -47,7 +47,7 @@ const CardBackSchema = new mongoose.Schema(
       required: false,
     },
   },
-  { _id: false }
+  { _id: false },
 );
 
 const FlashcardSchema = new mongoose.Schema(
@@ -85,7 +85,7 @@ const FlashcardSchema = new mongoose.Schema(
       required: false,
     },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 FlashcardSchema.statics.getFilteredCards = async function ({
@@ -132,6 +132,5 @@ FlashcardSchema.statics.getFilteredCards = async function ({
   return result;
 };
 
-module.exports =
-  mongoose.models.Flashcard ||
+export default mongoose.model.Flashcard ||
   mongoose.model("Flashcard", FlashcardSchema, "flashcards");

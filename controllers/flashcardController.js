@@ -1,6 +1,6 @@
-const Flashcard = require("../models/flashcard.js");
+import Flashcard from "../models/flashcardModel.js";
 
-exports.getFilteredCards = async (req, res) => {
+export async function getFilteredCards(req, res) {
   const { subject, type, difficulty, alphabet, exam, year, highFrequency } =
     req.query;
   const tags = req.query.tags?.split(",");
@@ -19,4 +19,4 @@ exports.getFilteredCards = async (req, res) => {
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
-};
+}

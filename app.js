@@ -1,14 +1,14 @@
-require("dotenv").config();
-
 import express, { json } from "express";
 import cors from "cors";
+import dotenv from "dotenv";
+dotenv.config();
 const app = express();
 
 import connectDB from "./db.js";
 
 //routes
-import flashcardRoute from "./routes/flashcard.js";
-
+import flashcardRoute from "./routes/flashcardRoute.js";
+import interactionRoute from "./routes/interactionRoute.js";
 app.use(cors());
 app.use(json());
 app.use((req, res, next) => {
@@ -25,6 +25,7 @@ app.use((req, res, next) => {
 });
 
 app.use("/api/flashcards", flashcardRoute);
+app.use("/api/interaction", interactionRoute);
 const PORT = process.env.PORT || 8080;
 connectDB().then(() => {
   app.listen(PORT, () => {
