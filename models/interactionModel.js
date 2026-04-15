@@ -12,10 +12,16 @@ const FlashcardInteractionSchema = new mongoose.Schema(
       ref: "Flashcard",
     },
 
-    status: {
+    learningStatus: {
       type: String,
-      enum: ["known", "unknown", "important"],
+      enum: ["known", "unknown"],
+      default: "unknown",
       required: true,
+    },
+
+    isImportant: {
+      type: Boolean,
+      default: false,
     },
 
     reviewCount: {
@@ -39,22 +45,26 @@ const FlashcardInteractionSchema = new mongoose.Schema(
 );
 FlashcardInteractionSchema.index({ userId: 1, cardId: 1 }, { unique: true });
 
-FlashcardInteractionSchema.statics.saveInteraction = async function (
+FlashcardInteractionSchema.statics.saveInteractions = async function (
   userId,
   cardId,
-  status,
+  action,
 ) {
   const existing = await this.findOne({ userId, cardId });
+
   if (existing) {
-    existing.status = status;
     existing.reviewCount += 1;
     existing.lastReviewed = new Date();
-
-    if (status === "known") {
+    if (action === "known") {
       existing.correctCount += 1;
+      existing.learningStatus = "known";
     }
-    if (status === "unknown") {
+    if (action === "unknown") {
+      existing.learningStatus = "unknown";
       existing.wrongCount += 1;
+    }
+    if (action === "important") {
+      existing.isImportant = !existing.isImportant;
     }
 
     return await existing.save();
@@ -63,26 +73,27 @@ FlashcardInteractionSchema.statics.saveInteraction = async function (
   return await this.create({
     userId,
     cardId,
-    status,
-    correctCount: status === "known" ? 1 : 0,
-    wrongCount: status === "unknown" ? 1 : 0,
+    learningStatus: action,
+    correctCount: action === "known" ? 1 : 0,
+    wrongCount: action === "unknown" ? 1 : 0,
   });
 };
 
-FlashcardInteractionSchema.statics.getRevisionCards = async function (userId) {
-  const interactions = await this.find({
+FlashcardInteractionSchema.statics.getInteractions = async function (userId) {
+  const userInteractions = await this.find({
     userId,
-    status: { $in: ["unknown", "important"] },
+  });
+  const iMap = {};
+  userInteractions.forEach((i) => {
+    iMap[i.cardId] = i.status;
   });
 
-  const cardIds = interactions.map((i) => i.cardId);
-  const Flashcard = mongoose.model("Flashcard");
-  return await Flashcard.find({ _id: { $in: cardIds } });
+  return iMap;
 };
 
 export default mongoose.models.flashcardInteraction ||
   mongoose.model(
     "FlashcardInteraction",
     FlashcardInteractionSchema,
-    "FlashcardInteractions",
+    "flashcardInteractions",
   );

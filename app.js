@@ -25,7 +25,7 @@ app.use((req, res, next) => {
 });
 
 app.use("/api/flashcards", flashcardRoute);
-app.use("/api/interaction", interactionRoute);
+app.use("/api/interactions", interactionRoute);
 const PORT = process.env.PORT || 8080;
 connectDB().then(() => {
   app.listen(PORT, () => {
