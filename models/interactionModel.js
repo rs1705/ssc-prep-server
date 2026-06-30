@@ -11,14 +11,12 @@ const FlashcardInteractionSchema = new mongoose.Schema(
       required: true,
       ref: "Flashcard",
     },
-
     learningStatus: {
       type: String,
       enum: ["known", "unknown"],
       default: "unknown",
       required: true,
     },
-
     isImportant: {
       type: Boolean,
       default: false,
