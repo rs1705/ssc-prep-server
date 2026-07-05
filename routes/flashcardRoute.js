@@ -1,8 +1,8 @@
 import { Router } from "express";
 const router = Router();
-import { getFilteredCards } from "../controllers/flashcardController.js";
+import { getFilteredCards, getStudyDeck } from "../controllers/flashcardController.js";
 import { verifyToken } from "../middleware/auth.js";
 
-router.get("/getFilteredCards", verifyToken, getFilteredCards);
-
+router.get("/getFilteredCards", getFilteredCards);
+router.get("/getStudyDeck", verifyToken, getStudyDeck)
 export default router;

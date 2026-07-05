@@ -1,6 +1,5 @@
-import admin from "firebase-admin"
+import { initializeApp } from "firebase-admin/app";
+initializeApp({
+    projectId: "ssc-prep-auth",
 
-admin.initializeApp({
-    projectId: "ssc-prep-auth"
-})
-export default admin;
+});

@@ -1,4 +1,4 @@
-import admin from "../firebase";
+import { getAuth } from "firebase-admin/auth";
 
 export const verifyToken = async (req, res, next) => {
     try {
@@ -14,13 +14,14 @@ export const verifyToken = async (req, res, next) => {
         const token = authHeader.split(' ')[1];
 
         // Verify the token from firebase
-        const decodedToken = await admin.auth().verifyIdToken(token);
+        const decodedToken = await getAuth().verifyIdToken(token);
 
         //If it's valid, Firebase gives us the user's info. 
         // We attach their unique user ID (uid) to the `req` object for our routes to use!
         req.user = { uid: decodedToken.uid };
 
         // 6. Tell Express to move on to the actual route handler
+        console.log("token verified successfully");
         next();
     } catch (error) {
         console.error("Token verification failed:", error);

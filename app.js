@@ -5,10 +5,11 @@ dotenv.config();
 const app = express();
 
 import connectDB from "./db.js";
-
+import "./firebase.js"
 //routes
 import flashcardRoute from "./routes/flashcardRoute.js";
 import interactionRoute from "./routes/interactionRoute.js";
+
 app.use(cors());
 app.use(json());
 app.use((req, res, next) => {
@@ -30,5 +31,5 @@ const PORT = process.env.PORT || 8080;
 connectDB().then(() => {
   app.listen(PORT, () => {
     console.log(`Server up and running on port ${PORT}`);
-  });
+  })
 });

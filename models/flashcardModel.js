@@ -125,7 +125,7 @@ FlashcardSchema.statics.getFilteredCards = async function ({
     const upper = alphabet.toUpperCase();
     query["front.text"] = { $regex: `^${upper}`, $options: "i" };
   }
-  console.log(query);
+  console.log("query string", query);
 
   let result = await this.find(query).sort({ "front.text": 1 });
 
