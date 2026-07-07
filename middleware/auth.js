@@ -21,7 +21,6 @@ export const verifyToken = async (req, res, next) => {
         req.user = { uid: decodedToken.uid };
 
         // 6. Tell Express to move on to the actual route handler
-        console.log("token verified successfully");
         next();
     } catch (error) {
         console.error("Token verification failed:", error);

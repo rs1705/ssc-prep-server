@@ -27,7 +27,7 @@ export async function getFilteredCards(req, res) {
 export const getStudyDeck = async (req, res) => {
   try {
     const userId = req.user.uid;
-    const DAILY_NEW_LIMIT = 30;
+    const DUE_CARDS_DAILY_LIMIT = 30;
     const interactions = await FlashcardInteraction.find({
       userId
     });
@@ -35,17 +35,27 @@ export const getStudyDeck = async (req, res) => {
     const dueInteractions = interactions.filter(interaction => new Date(interaction.due).getTime() <= now)
     const dueCardIds = dueInteractions.map(i => i.cardId)
 
-    const dueCards = await Flashcard.find({ _id: { $in: dueCardIds } })
+    const dueCards = await Flashcard.find({ _id: { $in: dueCardIds } }).limit(DUE_CARDS_DAILY_LIMIT)
+    let NEW_CARDS_DAILY_LIMIT;
+    if (dueCards.length === 0) {
+      NEW_CARDS_DAILY_LIMIT = DUE_CARDS_DAILY_LIMIT
+    } else {
+      NEW_CARDS_DAILY_LIMIT = DUE_CARDS_DAILY_LIMIT - dueCards.length
+    }
+    console.log("NEW_CARDS_DAILY_LIMIT", NEW_CARDS_DAILY_LIMIT);
+    console.log("DUE_CARDS_DAILY_LIMIT", DUE_CARDS_DAILY_LIMIT);
+
 
     const interactedCardIds = interactions.map(i => i.cardId)
+
     const newCards = await Flashcard.find({
       _id: { $nin: interactedCardIds }
-    }).limit(DAILY_NEW_LIMIT)
+    }).limit(NEW_CARDS_DAILY_LIMIT)
 
     const studyDeck = [...dueCards, ...newCards]
     res.status(200).json(studyDeck)
   } catch (error) {
-    console.log("Error generating study deck.", error);
+
     res.status(500).json({ message: "Failed to generate study deck." })
   }
 }

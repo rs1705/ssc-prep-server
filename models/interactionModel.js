@@ -17,7 +17,7 @@ const FlashcardInteractionSchema = new mongoose.Schema(
       type: Boolean,
       default: false,
     },
-    lastReviewed: {
+    last_review: {
       type: Date,
       default: Date.now,
     },
@@ -82,6 +82,7 @@ FlashcardInteractionSchema.statics.saveInteractions = async function (
       reps: existing.reps,
       lapses: existing.lapses,
       state: existing.state,
+      last_review: new Date(existing.last_review)
     }
   }
 
@@ -99,7 +100,7 @@ FlashcardInteractionSchema.statics.saveInteractions = async function (
     existing.reps = nextCardState.reps;
     existing.lapses = nextCardState.lapses
     existing.state = nextCardState.state;
-    existing.lastReviewed = now
+    existing.last_review = now
     return await existing.save()
   }
 
@@ -114,7 +115,7 @@ FlashcardInteractionSchema.statics.saveInteractions = async function (
     reps: nextCardState.reps,
     lapses: nextCardState.lapses,
     state: nextCardState.state,
-    lastReviewed: now,
+    last_review: now,
   })
 
 

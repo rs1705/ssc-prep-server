@@ -3,7 +3,7 @@ import FlashcardInteraction from "../models/interactionModel.js";
 export async function saveInteractions(req, res) {
   const { cardId, rating } = req.body;
   const userId = req.user.uid
-  console.log(userId);
+  console.log("saving user interaction for  ", cardId, rating);
   if (!userId) {
     return res.status(401).json({ message: "User not found" });
   }
@@ -16,6 +16,7 @@ export async function saveInteractions(req, res) {
 
     return res.json(interaction);
   } catch (error) {
+    console.log(error);
     return res.status(500).json({ message: "Internal server error" });
   }
 }
