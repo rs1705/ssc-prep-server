@@ -3,9 +3,11 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { FirebaseModule } from './firebase/firebase.module';
 import { AuthModule } from './auth/auth.module';
+import { PrismaModule } from './prisma/prisma.module';
+import { AdminModule } from './admin/admin.module';
 
 @Module({
-  imports: [FirebaseModule, AuthModule],
+  imports: [FirebaseModule, AuthModule, PrismaModule, AdminModule],
   controllers: [AppController],
   providers: [AppService],
 })
