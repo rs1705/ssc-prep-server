@@ -10,86 +10,125 @@ export class AdminService {
 
   async savePaper(payload: any) {
     try {
-      const { examMetadata, questions } = payload;
-      
+      const { examMetadata, passages, questions } = payload;
+
       // 1. Upsert ExamPaper
-      const paper = await this.prisma.examPaper.findFirst({
+      let paper = await this.prisma.examPaper.findFirst({
         where: {
           examName: examMetadata.examName,
           year: examMetadata.year,
           shift: examMetadata.shift,
-        }
+        },
       });
 
-      let examPaperId = paper?.id;
-
       if (!paper) {
-        const newPaper = await this.prisma.examPaper.create({
+        paper = await this.prisma.examPaper.create({
           data: {
             title: `${examMetadata.examName} ${examMetadata.year} - ${examMetadata.shift}`,
             examName: examMetadata.examName,
             year: examMetadata.year,
             shift: examMetadata.shift,
             date: new Date(examMetadata.date),
-          }
+          },
         });
-        examPaperId = newPaper.id;
+      }
+      const examPaperId = paper.id;
+
+      // 2. Save Passages
+      const passageMap = new Map<string, string>();
+      if (passages && passages.length > 0) {
+        for (const p of passages) {
+          if (p.passageText) {
+            const newPassage = await this.prisma.passage.create({
+              data: { text: p.passageText },
+            });
+            passageMap.set(p.passageId, newPassage.id);
+          }
+        }
       }
 
-      // 2. Insert Questions with Deduplication Hash
+      // 3. Pre-compute all hashes and batch fetch existing items in 1 query
+      const questionHashes = questions.map((q: any) => {
+        const normalized = q.content.question.toLowerCase().replace(/\s+/g, "");
+        return crypto.createHash("sha256").update(normalized).digest("hex");
+      });
+
+      const existingItems = await this.prisma.item.findMany({
+        where: { hash: { in: questionHashes } },
+        select: { id: true, hash: true },
+      });
+      const existingHashMap = new Map(
+        existingItems.map((item) => [item.hash, item.id]),
+      );
+
+      // 4. Build array of operations for Prisma batched transaction
+      const ops: any[] = [];
       let newCount = 0;
       let existingCount = 0;
 
-      for (const q of questions) {
-        // Normalize text to create hash (removes all whitespace and lowercases)
-        const normalized = q.content.question.toLowerCase().replace(/\s+/g, '');
-        const hash = crypto.createHash('sha256').update(normalized).digest('hex');
+      for (let i = 0; i < questions.length; i++) {
+        const q = questions[i];
+        const hash = questionHashes[i];
 
-        // Check if question exists
-        const existingItem = await this.prisma.item.findUnique({
-          where: { hash: hash }
-        });
-
-        if (existingItem) {
-          // Just connect to ExamPaper
-          await this.prisma.item.update({
-            where: { id: existingItem.id },
-            data: {
-              examPapers: {
-                connect: { id: examPaperId }
-              }
-            }
-          });
+        if (existingHashMap.has(hash)) {
+          const existingId = existingHashMap.get(hash)!;
+          ops.push(
+            this.prisma.item.update({
+              where: { id: existingId },
+              data: {
+                examPapers: {
+                  connect: { id: examPaperId },
+                },
+              },
+            }),
+          );
           existingCount++;
         } else {
-          // Attach requiresImage to the JSONB content so the frontend can handle diagrams later
-          const itemContent = { ...q.content, requiresImage: q.requiresImage || false };
+          const itemContent = {
+            ...q.content,
+            requiresImage: q.requiresImage || false,
+          };
+          const itemData: any = {
+            type: "PYQ",
+            subject: q.subject,
+            topics: q.topics || (q.topic ? [q.topic] : ["Uncategorized"]),
+            subtopics: q.subtopics || (q.subtopic ? [q.subtopic] : []),
+            difficulty: q.difficulty || null,
+            content: itemContent,
+            hash: hash,
+            examPapers: {
+              connect: { id: examPaperId },
+            },
+          };
 
-          // Create new item
-          await this.prisma.item.create({
-            data: {
-              type: "PYQ",
-              subject: q.subject,
-              topic: q.topic || "Uncategorized",
-              subtopic: q.subtopic,
-              content: itemContent,
-              hash: hash,
-              examPapers: {
-                connect: { id: examPaperId }
-              }
-            }
-          });
+          if (q.passageId && passageMap.has(q.passageId)) {
+            itemData.passage = {
+              connect: { id: passageMap.get(q.passageId) },
+            };
+          }
+
+          ops.push(
+            this.prisma.item.create({
+              data: itemData,
+            }),
+          );
           newCount++;
         }
       }
 
+      // 5. Execute operations concurrently in small chunks to avoid database connection exhaustion and 5s transaction limits
+      const chunkSize = 15;
+      for (let i = 0; i < ops.length; i += chunkSize) {
+        const chunk = ops.slice(i, i + chunkSize);
+        await Promise.all(chunk);
+      }
+
       return {
         success: true,
-        message: `Saved! ${newCount} new questions created, ${existingCount} duplicate questions linked.`
+        message: `Saved! ${newCount} new questions created, ${existingCount} duplicate questions linked.`,
       };
-      
-    } catch (error) {
-      this.logger.error('Error saving paper', error);
+    } catch (error: any) {
+      this.logger.error("Error saving paper", error);
       return { success: false, error: error.message };
     }
   }

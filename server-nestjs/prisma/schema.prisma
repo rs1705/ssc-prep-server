@@ -4,8 +4,9 @@
 // Get a free hosted Postgres database in seconds: `npx create-db`
 
 generator client {
-  provider = "prisma-client"
-  output   = "../generated/prisma"
+  provider     = "prisma-client"
+  output       = "../generated/prisma"
+  moduleFormat = "cjs"
 }
 
 datasource db {
@@ -55,13 +56,25 @@ model ExamPaper {
 // THE UNIFIED ITEM (Question, Flashcard, Formula)
 // ----------------------------------------------------
 
+model Passage {
+  id        String   @id @default(uuid())
+  text      String
+  createdAt DateTime @default(now())
+
+  items Item[]
+}
+
 model Item {
   id String @id @default(uuid())
 
   // Hierarchy
-  subject  String // "English", "Maths", "Reasoning", "GK"
-  topic    String? // "Geometry", "Vocabulary"
-  subtopic String? // "Triangles", "Idioms"
+  subject   String // "English", "Maths", "Reasoning", "GK"
+  topics    String[] // ["Geometry", "Vocabulary"]
+  subtopics String[] // ["Triangles", "Idioms"]
+
+  // Passage Relationship for Reading Comprehension
+  passageId String?
+  passage   Passage? @relation(fields: [passageId], references: [id])
 
   // Metadata
   type       String // "PYQ", "Flashcard", "Formula", "GameData"
