@@ -5,9 +5,10 @@ import { FirebaseModule } from './firebase/firebase.module';
 import { AuthModule } from './auth/auth.module';
 import { PrismaModule } from './prisma/prisma.module';
 import { AdminModule } from './admin/admin.module';
+import { ExamPapersModule } from './exam-papers/exam-papers.module';
 
 @Module({
-  imports: [FirebaseModule, AuthModule, PrismaModule, AdminModule],
+  imports: [FirebaseModule, AuthModule, PrismaModule, AdminModule, ExamPapersModule],
   controllers: [AppController],
   providers: [AppService],
 })

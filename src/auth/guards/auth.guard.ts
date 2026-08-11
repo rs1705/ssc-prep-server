@@ -23,7 +23,11 @@ export class AuthGuard implements CanActivate {
       const decodedToken = await this.firebaseService
         .getAuth()
         .verifyIdToken(token);
-      request.user = { uid: decodedToken.uid };
+      request.user = {
+        uid: decodedToken.uid,
+        email: decodedToken.email,
+        name: decodedToken.name,
+      };
       return true;
     } catch (error) {
       throw new UnauthorizedException('Invalid or expired token.');

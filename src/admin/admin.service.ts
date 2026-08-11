@@ -31,6 +31,13 @@ export class AdminService {
             date: new Date(examMetadata.date),
           },
         });
+      } else {
+        await this.prisma.examPaper.update({
+          where: { id: paper.id },
+          data: {
+            items: { set: [] },
+          },
+        });
       }
       const examPaperId = paper.id;
 
@@ -72,14 +79,31 @@ export class AdminService {
 
         if (existingHashMap.has(hash)) {
           const existingId = existingHashMap.get(hash)!;
+          const itemContent = {
+            ...q.content,
+            requiresImage: q.requiresImage || false,
+          };
+          const updateData: any = {
+            subject: q.subject,
+            topics: q.topics || (q.topic ? [q.topic] : ["Uncategorized"]),
+            subtopics: q.subtopics || (q.subtopic ? [q.subtopic] : []),
+            difficulty: q.difficulty || null,
+            content: itemContent,
+            examPapers: {
+              connect: { id: examPaperId },
+            },
+          };
+
+          if (q.passageId && passageMap.has(q.passageId)) {
+            updateData.passage = {
+              connect: { id: passageMap.get(q.passageId) },
+            };
+          }
+
           ops.push(
             this.prisma.item.update({
               where: { id: existingId },
-              data: {
-                examPapers: {
-                  connect: { id: examPaperId },
-                },
-              },
+              data: updateData,
             }),
           );
           existingCount++;
