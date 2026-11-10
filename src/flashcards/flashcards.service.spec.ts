@@ -76,6 +76,16 @@ describe('FlashcardsService.list', () => {
     const cards = await service.list({ limit: 2 });
     expect(cards.map((c) => c.front.text)).toEqual(['abate', 'mild']);
   });
+
+  it('returns a random sample of the requested size when random is set', async () => {
+    const { prisma, service } = setup();
+    prisma.item.findMany.mockResolvedValue(
+      Array.from({ length: 20 }, (_, i) => item(String(i), `w${i}`)),
+    );
+    const cards = await service.list({ random: true, limit: 5 });
+    expect(cards).toHaveLength(5);
+    expect(new Set(cards.map((c) => c.id)).size).toBe(5);
+  });
 });
 
 describe('FlashcardsService.studyDeck', () => {

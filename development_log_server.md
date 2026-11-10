@@ -72,3 +72,7 @@ This document tracks the major architectural decisions, milestones, and features
 ## 9. Real rating intervals in the study deck
 
 - `previewReview(state, now)` in `fsrs-scheduler.ts` returns the due date for each rating ("1".."4") without saving. `GET /flashcards/study-deck` now adds `nextReview` to every card (from its stored FSRS state, or as a new card), so the client shows true intervals on Again/Hard/Good/Easy. 2 new tests (29 flashcard tests pass).
+
+## 10. Random flashcard samples for games
+
+- `GET /flashcards?random=true&limit=N` returns N cards in random order (Fisher-Yates on the filtered set) so each game run gets fresh words. New test (30 flashcard tests pass).

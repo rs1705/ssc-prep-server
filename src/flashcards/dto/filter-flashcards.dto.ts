@@ -78,4 +78,10 @@ export class FilterFlashcardsDto {
   @Min(1)
   @Max(1000)
   limit?: number;
+
+  /** Return the matches in random order (games ask for a fresh sample each run). */
+  @IsOptional()
+  @Transform(({ value }) => value === true || value === 'true')
+  @IsBoolean()
+  random?: boolean;
 }

@@ -26,6 +26,16 @@ export interface ReviewResult {
   scheduledDays: number;
 }
 
+/** Fisher-Yates on a copy. */
+function shuffled<T>(items: T[]): T[] {
+  const copy = [...items];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
 /** "vocab" -> "Vocab". Topics are stored capitalised by the seed/ingestion. */
 function capitalise(value: string): string {
   return value.charAt(0).toUpperCase() + value.slice(1).toLowerCase();
@@ -78,7 +88,8 @@ export class FlashcardsService {
     }
 
     const items = await this.prisma.item.findMany({ where: { AND: and } });
-    const cards = sortByFront(toFlashcardDtos(items));
+    const dtos = toFlashcardDtos(items);
+    const cards = filter.random ? shuffled(dtos) : sortByFront(dtos);
     return filter.limit ? cards.slice(0, filter.limit) : cards;
   }
 
