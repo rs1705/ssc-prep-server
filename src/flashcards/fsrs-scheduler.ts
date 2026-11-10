@@ -52,3 +52,25 @@ export function scheduleReview(
     lastReview: now,
   };
 }
+
+/** Due date for each possible rating, keyed "1".."4" (ISO strings). */
+export type ReviewPreview = Record<'1' | '2' | '3' | '4', string>;
+
+/**
+ * What would happen for each rating, without saving anything. Lets the client
+ * show real intervals ("10 min", "3 d") on the rating buttons.
+ */
+export function previewReview(
+  current: StoredFsrsState | null,
+  now: Date = new Date(),
+): ReviewPreview {
+  const preview = {} as ReviewPreview;
+  for (const rating of [1, 2, 3, 4] as const) {
+    preview[String(rating) as keyof ReviewPreview] = scheduleReview(
+      current,
+      rating,
+      now,
+    ).dueDate.toISOString();
+  }
+  return preview;
+}

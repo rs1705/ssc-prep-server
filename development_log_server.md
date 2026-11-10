@@ -68,3 +68,7 @@ This document tracks the major architectural decisions, milestones, and features
 - **`src/pyqs/`**: `GET /pyqs/topics?subject=`, `GET /pyqs?subject=&topic=&limit=` (shuffled practice set), `GET /pyqs/papers?subject=`, `GET /pyqs/papers/:id?subject=` (one subject's section of a paper, `durationSeconds = count * 36`). `subject` is `maths | english | reasoning | gk`, mapped to the paper's section names in `pyq.mapper.ts`.
 - `toPyqDto` drops questions flagged `requiresImage` (no images are served yet); papers are labelled "SSC CGL Tier 1 · {year}".
 - Data: the 200 PYQs already in Neon (2 CGL papers, 50 per subject) with markdown + LaTeX content. Checked with curl: every subject returns topics and 2 papers.
+
+## 9. Real rating intervals in the study deck
+
+- `previewReview(state, now)` in `fsrs-scheduler.ts` returns the due date for each rating ("1".."4") without saving. `GET /flashcards/study-deck` now adds `nextReview` to every card (from its stored FSRS state, or as a new card), so the client shows true intervals on Again/Hard/Good/Easy. 2 new tests (29 flashcard tests pass).

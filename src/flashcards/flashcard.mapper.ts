@@ -39,6 +39,8 @@ export interface FlashcardDto {
   front: FlashcardFront;
   back: FlashcardBack;
   tags: string[];
+  /** Study deck only: due date for each rating ("1".."4"), from FSRS. */
+  nextReview?: Record<'1' | '2' | '3' | '4', string>;
 }
 
 function isFlashcardContent(value: unknown): value is FlashcardContent {

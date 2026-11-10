@@ -1,4 +1,4 @@
-import { scheduleReview } from './fsrs-scheduler';
+import { previewReview, scheduleReview } from './fsrs-scheduler';
 
 const NOW = new Date('2026-11-10T10:00:00.000Z');
 
@@ -32,5 +32,22 @@ describe('scheduleReview', () => {
     const lapsed = scheduleReview(reviewState, 1, reviewState.dueDate);
     expect(lapsed.lapses).toBeGreaterThanOrEqual(reviewState.lapses);
     expect(lapsed.reps).toBe(3);
+  });
+});
+
+describe('previewReview', () => {
+  it('returns one due date per rating, matching scheduleReview', () => {
+    const preview = previewReview(null, NOW);
+    expect(Object.keys(preview).sort()).toEqual(['1', '2', '3', '4']);
+    expect(preview['3']).toBe(scheduleReview(null, 3, NOW).dueDate.toISOString());
+  });
+
+  it('orders the intervals Again <= Hard <= Good <= Easy', () => {
+    const first = scheduleReview(null, 3, NOW);
+    const p = previewReview(first, first.dueDate);
+    const t = (k: '1' | '2' | '3' | '4') => new Date(p[k]).getTime();
+    expect(t('1')).toBeLessThanOrEqual(t('2'));
+    expect(t('2')).toBeLessThanOrEqual(t('3'));
+    expect(t('3')).toBeLessThanOrEqual(t('4'));
   });
 });

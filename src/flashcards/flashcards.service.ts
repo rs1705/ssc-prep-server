@@ -9,7 +9,7 @@ import {
   toFlashcardDtos,
   type FlashcardDto,
 } from './flashcard.mapper';
-import { scheduleReview, type Rating } from './fsrs-scheduler';
+import { previewReview, scheduleReview, type Rating } from './fsrs-scheduler';
 
 /** Cards served per day: due reviews first, then new cards to fill the rest. */
 export const DAILY_CARD_LIMIT = 30;
@@ -110,7 +110,15 @@ export class FlashcardsService {
           })
         : [];
 
-    return toFlashcardDtos([...due.map((d) => d.item), ...fresh]);
+    // Attach real FSRS intervals so the rating buttons can show them.
+    const now = new Date();
+    const stateByItem = new Map(due.map((d) => [d.itemId, d]));
+    return toFlashcardDtos([...due.map((d) => d.item), ...fresh]).map(
+      (card) => ({
+        ...card,
+        nextReview: previewReview(stateByItem.get(card.id) ?? null, now),
+      }),
+    );
   }
 
   /** Record a rating and schedule the next review (one transaction). */
