@@ -1,4 +1,6 @@
 import { Module } from '@nestjs/common';
+import { APP_GUARD } from '@nestjs/core';
+import { ThrottlerGuard, ThrottlerModule } from '@nestjs/throttler';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { FirebaseModule } from './firebase/firebase.module';
@@ -13,6 +15,8 @@ import { PyqsModule } from './pyqs/pyqs.module';
 
 @Module({
   imports: [
+    // Per-IP limit for every route: 120 requests a minute is far above normal use.
+    ThrottlerModule.forRoot([{ ttl: 60_000, limit: 120 }]),
     FirebaseModule,
     AuthModule,
     PrismaModule,
@@ -24,6 +28,6 @@ import { PyqsModule } from './pyqs/pyqs.module';
     PyqsModule,
   ],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [AppService, { provide: APP_GUARD, useClass: ThrottlerGuard }],
 })
 export class AppModule {}
