@@ -12,6 +12,7 @@ import { SessionsModule } from './sessions/sessions.module';
 import { ItemsModule } from './items/items.module';
 import { FlashcardsModule } from './flashcards/flashcards.module';
 import { PyqsModule } from './pyqs/pyqs.module';
+import { ProgressModule } from './progress/progress.module';
 
 @Module({
   imports: [
@@ -26,6 +27,7 @@ import { PyqsModule } from './pyqs/pyqs.module';
     ItemsModule,
     FlashcardsModule,
     PyqsModule,
+    ProgressModule,
   ],
   controllers: [AppController],
   providers: [AppService, { provide: APP_GUARD, useClass: ThrottlerGuard }],

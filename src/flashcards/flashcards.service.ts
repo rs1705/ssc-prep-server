@@ -87,10 +87,28 @@ export class FlashcardsService {
       });
     }
 
-    const items = await this.prisma.item.findMany({ where: { AND: and } });
-    const dtos = toFlashcardDtos(items);
+    const dtos = await this.cachedCards(and);
     const cards = filter.random ? shuffled(dtos) : sortByFront(dtos);
     return filter.limit ? cards.slice(0, filter.limit) : cards;
+  }
+
+  /**
+   * The card bank only changes when content is uploaded, so filtered lists are
+   * kept in memory for a few minutes. Games ask for random samples of the same
+   * deck again and again; this saves a database round trip each time.
+   */
+  private readonly cardCache = new Map<string, { at: number; cards: FlashcardDto[] }>();
+  private static readonly CARD_CACHE_MS = 5 * 60_000;
+
+  private async cachedCards(and: Prisma.ItemWhereInput[]): Promise<FlashcardDto[]> {
+    const key = JSON.stringify(and);
+    const hit = this.cardCache.get(key);
+    if (hit && Date.now() - hit.at < FlashcardsService.CARD_CACHE_MS) return hit.cards;
+    const items = await this.prisma.item.findMany({ where: { AND: and } });
+    const cards = toFlashcardDtos(items);
+    if (this.cardCache.size > 200) this.cardCache.clear();
+    this.cardCache.set(key, { at: Date.now(), cards });
+    return cards;
   }
 
   /** Today's spaced-repetition deck: cards due for review, then unseen ones. */

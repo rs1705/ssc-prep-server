@@ -33,6 +33,17 @@ model User {
   interactions Interaction[]
   bookmarks    Bookmark[]
   fsrsData     FsrsData[]
+  progress     UserProgress?
+}
+
+// Practice progress kept in sync across a user's devices: history, mistakes,
+// daily plan, unfinished sessions and exam date, as one merged JSON document
+// (see src/progress/merge.ts for how two copies are combined).
+model UserProgress {
+  userId    String   @id
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  data      Json
+  updatedAt DateTime @updatedAt
 }
 
 // ----------------------------------------------------
