@@ -12,6 +12,7 @@
  *  - planStreak:  the one with the later day; on the same day, the higher count.
  *  - unfinished:  per screen, the newer session; a newer removal deletes it.
  *  - examDate:    the newer value.
+ *  - seen:        per game pool, the later cycle; within a cycle, the union.
  */
 
 export interface Activity {
@@ -47,6 +48,8 @@ export interface ProgressDoc {
   unfinished: Record<string, Unfinished>;
   unfinishedRemoved: { path: string; at: number }[];
   examDate: { value: string | null; at: number };
+  /** Game pool -> words shown this cycle (oldest first). */
+  seen: Record<string, { cycle: number; ids: string[] }>;
 }
 
 export const LIMITS = {
@@ -57,6 +60,8 @@ export const LIMITS = {
   planDays: 60,
   unfinished: 20,
   unfinishedRemoved: 200,
+  seenPools: 50,
+  seenIds: 3000,
 };
 
 const DAY_KEY = /^\d{4}-\d{2}-\d{2}$/;
@@ -77,6 +82,7 @@ export function emptyDoc(): ProgressDoc {
     unfinished: {},
     unfinishedRemoved: [],
     examDate: { value: null, at: 0 },
+    seen: {},
   };
 }
 
@@ -126,6 +132,17 @@ export function normalizeDoc(input: unknown): ProgressDoc {
     value: typeof exam.value === 'string' && DAY_KEY.test(exam.value) ? exam.value : null,
     at: num(exam.at),
   };
+
+  for (const [pool, entry] of Object.entries(obj(d.seen)).slice(0, LIMITS.seenPools)) {
+    const e = obj(entry);
+    if (pool.length > 80) continue;
+    doc.seen[pool] = {
+      cycle: Math.max(0, Math.floor(num(e.cycle))),
+      ids: arr<string>(e.ids)
+        .filter((id) => typeof id === 'string' && id.length <= 120)
+        .slice(-LIMITS.seenIds),
+    };
+  }
   return doc;
 }
 
@@ -210,5 +227,16 @@ export function mergeDocs(aIn: ProgressDoc, bIn: ProgressDoc): ProgressDoc {
   );
 
   out.examDate = a.examDate.at >= b.examDate.at ? a.examDate : b.examDate;
+
+  // Seen words: a later cycle replaces an earlier one; the same cycle is unioned.
+  out.seen = {};
+  for (const pool of new Set([...Object.keys(a.seen), ...Object.keys(b.seen)])) {
+    const x = a.seen[pool];
+    const y = b.seen[pool];
+    if (!x || !y) out.seen[pool] = (x ?? y)!;
+    else if (x.cycle !== y.cycle) out.seen[pool] = x.cycle > y.cycle ? x : y;
+    else out.seen[pool] = { cycle: x.cycle, ids: [...new Set([...x.ids, ...y.ids])].slice(-LIMITS.seenIds) };
+  }
+  out.seen = Object.fromEntries(Object.entries(out.seen).slice(0, LIMITS.seenPools));
   return out;
 }

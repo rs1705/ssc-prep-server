@@ -69,3 +69,19 @@ describe('normalizeDoc', () => {
     expect(normalizeDoc(null)).toEqual(emptyDoc());
   });
 });
+
+describe('seen pools', () => {
+  it('unions the same cycle and lets a later cycle win', () => {
+    const a = doc({ seen: { hangman: { cycle: 1, ids: ['a', 'b'] }, wordle: { cycle: 2, ids: ['x'] } } });
+    const b = doc({ seen: { hangman: { cycle: 1, ids: ['b', 'c'] }, wordle: { cycle: 1, ids: ['y', 'z'] } } });
+    const out = mergeDocs(a, b);
+    expect(out.seen.hangman).toEqual({ cycle: 1, ids: ['a', 'b', 'c'] });
+    expect(out.seen.wordle).toEqual({ cycle: 2, ids: ['x'] });
+  });
+
+  it('drops malformed entries', () => {
+    const d = normalizeDoc({ seen: { ok: { cycle: 1, ids: ['a', 3] }, bad: 'nope' } });
+    expect(d.seen.ok).toEqual({ cycle: 1, ids: ['a'] });
+    expect(d.seen.bad).toEqual({ cycle: 0, ids: [] });
+  });
+});
