@@ -16,7 +16,9 @@ export class ProgressService {
 
   async get(firebaseUser: FirebaseUser): Promise<ProgressDoc> {
     const user = await this.auth.syncUserWithFirebase(firebaseUser);
-    const row = await this.prisma.userProgress.findUnique({ where: { userId: user.id } });
+    const row = await this.prisma.userProgress.findUnique({
+      where: { userId: user.id },
+    });
     return row ? normalizeDoc(row.data) : emptyDoc();
   }
 
@@ -25,7 +27,10 @@ export class ProgressService {
    * device then adopts. Concurrent syncs from two devices are retried so
    * neither overwrites the other.
    */
-  async sync(firebaseUser: FirebaseUser, incoming: unknown): Promise<ProgressDoc> {
+  async sync(
+    firebaseUser: FirebaseUser,
+    incoming: unknown,
+  ): Promise<ProgressDoc> {
     if (JSON.stringify(incoming ?? null).length > MAX_BYTES) {
       throw new PayloadTooLargeException('Progress document is too large.');
     }
@@ -33,13 +38,20 @@ export class ProgressService {
     const device = normalizeDoc(incoming);
 
     for (let attempt = 0; attempt < 5; attempt++) {
-      const row = await this.prisma.userProgress.findUnique({ where: { userId: user.id } });
-      const merged = mergeDocs(row ? normalizeDoc(row.data) : emptyDoc(), device);
+      const row = await this.prisma.userProgress.findUnique({
+        where: { userId: user.id },
+      });
+      const merged = mergeDocs(
+        row ? normalizeDoc(row.data) : emptyDoc(),
+        device,
+      );
       const data = merged as unknown as object;
 
       if (!row) {
         try {
-          await this.prisma.userProgress.create({ data: { userId: user.id, data } });
+          await this.prisma.userProgress.create({
+            data: { userId: user.id, data },
+          });
           return merged;
         } catch {
           continue; // Another device created it first: merge with that.

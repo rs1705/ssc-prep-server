@@ -1,7 +1,10 @@
 import { Body, Controller, Get, Put, UseGuards } from '@nestjs/common';
 import { Throttle } from '@nestjs/throttler';
 import { AuthGuard } from 'src/auth/guards/auth.guard';
-import { CurrentUser, type FirebaseUser } from 'src/auth/current-user.decorator';
+import {
+  CurrentUser,
+  type FirebaseUser,
+} from 'src/auth/current-user.decorator';
 import { ProgressService } from './progress.service';
 
 /** The signed-in user's practice progress, synced across devices. */

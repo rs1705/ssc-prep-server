@@ -13,6 +13,7 @@
  *  - unfinished:  per screen, the newer session; a newer removal deletes it.
  *  - examDate:    the newer value.
  *  - seen:        per game pool, the later cycle; within a cycle, the union.
+ *  - attempts:    finished mock / past-paper / sectional tests, union by id, newest first.
  */
 
 export interface Activity {
@@ -50,6 +51,26 @@ export interface ProgressDoc {
   examDate: { value: string | null; at: number };
   /** Game pool -> words shown this cycle (oldest first). */
   seen: Record<string, { cycle: number; ids: string[] }>;
+  /** Finished full-length or sectional tests, newest first. */
+  attempts: Attempt[];
+}
+
+/** A finished test: enough to rebuild the result and reopen the review. */
+export interface Attempt {
+  id: string;
+  at: number;
+  kind: 'mock' | 'paper' | 'section';
+  title: string;
+  paperId: string | null;
+  subject: string | null;
+  /** Question ids per section, in the order they were shown. */
+  sections: { subject: string; ids: string[] }[];
+  /** questionId -> chosen option label. */
+  answers: Record<string, string>;
+  marks: number;
+  maxMarks: number;
+  correct: number;
+  wrong: number;
 }
 
 export const LIMITS = {
@@ -62,13 +83,17 @@ export const LIMITS = {
   unfinishedRemoved: 200,
   seenPools: 50,
   seenIds: 3000,
+  attempts: 50,
 };
 
 const DAY_KEY = /^\d{4}-\d{2}-\d{2}$/;
-const num = (v: unknown, d = 0) => (typeof v === 'number' && Number.isFinite(v) ? v : d);
+const num = (v: unknown, d = 0) =>
+  typeof v === 'number' && Number.isFinite(v) ? v : d;
 const arr = <T>(v: unknown): T[] => (Array.isArray(v) ? (v as T[]) : []);
 const obj = (v: unknown): Record<string, unknown> =>
-  v && typeof v === 'object' && !Array.isArray(v) ? (v as Record<string, unknown>) : {};
+  v && typeof v === 'object' && !Array.isArray(v)
+    ? (v as Record<string, unknown>)
+    : {};
 
 export function emptyDoc(): ProgressDoc {
   return {
@@ -83,6 +108,7 @@ export function emptyDoc(): ProgressDoc {
     unfinishedRemoved: [],
     examDate: { value: null, at: 0 },
     seen: {},
+    attempts: [],
   };
 }
 
@@ -95,45 +121,74 @@ export function normalizeDoc(input: unknown): ProgressDoc {
     (a) => a && typeof a.id === 'string' && Number.isFinite(a.at),
   );
   doc.mistakes = arr<Mistake>(d.mistakes)
-    .filter((m) => m && typeof m.id === 'string' && typeof m.prompt === 'string' && Number.isFinite(m.at))
-    .map((m) => ({ ...m, rightDays: arr<string>(m.rightDays).filter((x) => typeof x === 'string' && DAY_KEY.test(x)) }));
-  doc.mistakesRemoved = arr<{ prompt: string; at: number }>(d.mistakesRemoved).filter(
-    (r) => r && typeof r.prompt === 'string' && Number.isFinite(r.at),
-  );
+    .filter(
+      (m) =>
+        m &&
+        typeof m.id === 'string' &&
+        typeof m.prompt === 'string' &&
+        Number.isFinite(m.at),
+    )
+    .map((m) => ({
+      ...m,
+      rightDays: arr<string>(m.rightDays).filter(
+        (x) => typeof x === 'string' && DAY_KEY.test(x),
+      ),
+    }));
+  doc.mistakesRemoved = arr<{ prompt: string; at: number }>(
+    d.mistakesRemoved,
+  ).filter((r) => r && typeof r.prompt === 'string' && Number.isFinite(r.at));
   doc.mastered = arr<number>(d.mastered).filter((t) => Number.isFinite(t));
 
   for (const [day, steps] of Object.entries(obj(d.plan))) {
     if (!DAY_KEY.test(day)) continue;
     const clean: Record<string, number> = {};
     for (const [step, count] of Object.entries(obj(steps))) {
-      if (typeof step === 'string' && step.length <= 20) clean[step] = Math.max(0, num(count));
+      if (typeof step === 'string' && step.length <= 20)
+        clean[step] = Math.max(0, num(count));
     }
     doc.plan[day] = clean;
   }
 
   const streak = obj(d.planStreak);
   doc.planStreak = {
-    last: typeof streak.last === 'string' && DAY_KEY.test(streak.last) ? streak.last : null,
+    last:
+      typeof streak.last === 'string' && DAY_KEY.test(streak.last)
+        ? streak.last
+        : null,
     count: Math.max(0, Math.floor(num(streak.count))),
   };
 
   for (const [path, entry] of Object.entries(obj(d.unfinished))) {
     const e = obj(entry);
-    if (typeof path === 'string' && path.startsWith('/') && Number.isFinite(e.at)) {
-      doc.unfinished[path] = { ...(e as object), path, at: num(e.at) } as Unfinished;
+    if (
+      typeof path === 'string' &&
+      path.startsWith('/') &&
+      Number.isFinite(e.at)
+    ) {
+      doc.unfinished[path] = {
+        ...(e as object),
+        path,
+        at: num(e.at),
+      };
     }
   }
-  doc.unfinishedRemoved = arr<{ path: string; at: number }>(d.unfinishedRemoved).filter(
-    (r) => r && typeof r.path === 'string' && Number.isFinite(r.at),
-  );
+  doc.unfinishedRemoved = arr<{ path: string; at: number }>(
+    d.unfinishedRemoved,
+  ).filter((r) => r && typeof r.path === 'string' && Number.isFinite(r.at));
 
   const exam = obj(d.examDate);
   doc.examDate = {
-    value: typeof exam.value === 'string' && DAY_KEY.test(exam.value) ? exam.value : null,
+    value:
+      typeof exam.value === 'string' && DAY_KEY.test(exam.value)
+        ? exam.value
+        : null,
     at: num(exam.at),
   };
 
-  for (const [pool, entry] of Object.entries(obj(d.seen)).slice(0, LIMITS.seenPools)) {
+  for (const [pool, entry] of Object.entries(obj(d.seen)).slice(
+    0,
+    LIMITS.seenPools,
+  )) {
     const e = obj(entry);
     if (pool.length > 80) continue;
     doc.seen[pool] = {
@@ -143,7 +198,62 @@ export function normalizeDoc(input: unknown): ProgressDoc {
         .slice(-LIMITS.seenIds),
     };
   }
+
+  doc.attempts = newestFirst(
+    arr<unknown>(d.attempts)
+      .map(normalizeAttempt)
+      .filter((x): x is Attempt => x !== null),
+  ).slice(0, LIMITS.attempts);
   return doc;
+}
+
+const ATTEMPT_KINDS = ['mock', 'paper', 'section'];
+const shortStr = (v: unknown, max: number) =>
+  typeof v === 'string' && v.length <= max ? v : null;
+
+function normalizeAttempt(input: unknown): Attempt | null {
+  const a = obj(input);
+  const id = shortStr(a.id, 64);
+  const title = shortStr(a.title, 160);
+  if (
+    !id ||
+    !title ||
+    !Number.isFinite(a.at) ||
+    !ATTEMPT_KINDS.includes(a.kind as string)
+  )
+    return null;
+  const sections = arr<unknown>(a.sections)
+    .slice(0, 4)
+    .map((x) => {
+      const sec = obj(x);
+      return {
+        subject: shortStr(sec.subject, 20) ?? '',
+        ids: arr<unknown>(sec.ids)
+          .filter((q): q is string => typeof q === 'string' && q.length <= 64)
+          .slice(0, 150),
+      };
+    })
+    .filter((sec) => sec.subject && sec.ids.length > 0);
+  if (sections.length === 0) return null;
+  const answers: Record<string, string> = {};
+  for (const [q, label] of Object.entries(obj(a.answers)).slice(0, 400)) {
+    if (q.length <= 64 && typeof label === 'string' && label.length <= 4)
+      answers[q] = label;
+  }
+  return {
+    id,
+    at: num(a.at),
+    kind: a.kind as Attempt['kind'],
+    title,
+    paperId: shortStr(a.paperId, 64),
+    subject: shortStr(a.subject, 20),
+    sections,
+    answers,
+    marks: num(a.marks),
+    maxMarks: num(a.maxMarks),
+    correct: Math.max(0, Math.floor(num(a.correct))),
+    wrong: Math.max(0, Math.floor(num(a.wrong))),
+  };
 }
 
 function newestFirst<T extends { at: number }>(items: T[]): T[] {
@@ -157,7 +267,8 @@ export function mergeDocs(aIn: ProgressDoc, bIn: ProgressDoc): ProgressDoc {
 
   // Activities: union by id.
   const acts = new Map<string, Activity>();
-  for (const x of [...a.activities, ...b.activities]) if (!acts.has(x.id)) acts.set(x.id, x);
+  for (const x of [...a.activities, ...b.activities])
+    if (!acts.has(x.id)) acts.set(x.id, x);
   out.activities = newestFirst([...acts.values()]).slice(0, LIMITS.activities);
 
   // Removed mistakes: newest removal per prompt.
@@ -165,10 +276,9 @@ export function mergeDocs(aIn: ProgressDoc, bIn: ProgressDoc): ProgressDoc {
   for (const r of [...a.mistakesRemoved, ...b.mistakesRemoved]) {
     removed.set(r.prompt, Math.max(removed.get(r.prompt) ?? 0, r.at));
   }
-  out.mistakesRemoved = newestFirst([...removed].map(([prompt, at]) => ({ prompt, at }))).slice(
-    0,
-    LIMITS.mistakesRemoved,
-  );
+  out.mistakesRemoved = newestFirst(
+    [...removed].map(([prompt, at]) => ({ prompt, at })),
+  ).slice(0, LIMITS.mistakesRemoved);
 
   // Mistakes: newer copy wins, review days are combined, removals win when newer.
   const mistakes = new Map<string, Mistake>();
@@ -180,23 +290,35 @@ export function mergeDocs(aIn: ProgressDoc, bIn: ProgressDoc): ProgressDoc {
     }
     const winner = m.at > prev.at ? m : prev;
     const days =
-      m.at === prev.at ? [...new Set([...(prev.rightDays ?? []), ...(m.rightDays ?? [])])].sort() : winner.rightDays ?? [];
+      m.at === prev.at
+        ? [
+            ...new Set([...(prev.rightDays ?? []), ...(m.rightDays ?? [])]),
+          ].sort()
+        : (winner.rightDays ?? []);
     mistakes.set(m.prompt, { ...winner, rightDays: days });
   }
   out.mistakes = newestFirst(
-    [...mistakes.values()].filter((m) => !((removed.get(m.prompt) ?? -1) >= m.at)),
+    [...mistakes.values()].filter(
+      (m) => !((removed.get(m.prompt) ?? -1) >= m.at),
+    ),
   ).slice(0, LIMITS.mistakes);
 
-  out.mastered = [...new Set([...a.mastered, ...b.mastered])].sort((x, y) => y - x).slice(0, LIMITS.mastered);
+  out.mastered = [...new Set([...a.mastered, ...b.mastered])]
+    .sort((x, y) => y - x)
+    .slice(0, LIMITS.mastered);
 
   // Plan: per day and step, the higher count; keep the most recent days.
   for (const src of [a.plan, b.plan]) {
     for (const [day, steps] of Object.entries(src)) {
       const target = (out.plan[day] ??= {});
-      for (const [step, count] of Object.entries(steps)) target[step] = Math.max(target[step] ?? 0, count);
+      for (const [step, count] of Object.entries(steps))
+        target[step] = Math.max(target[step] ?? 0, count);
     }
   }
-  const keepDays = Object.keys(out.plan).sort().reverse().slice(0, LIMITS.planDays);
+  const keepDays = Object.keys(out.plan)
+    .sort()
+    .reverse()
+    .slice(0, LIMITS.planDays);
   out.plan = Object.fromEntries(keepDays.map((d) => [d, out.plan[d]]));
 
   const sa = a.planStreak;
@@ -211,17 +333,21 @@ export function mergeDocs(aIn: ProgressDoc, bIn: ProgressDoc): ProgressDoc {
   for (const r of [...a.unfinishedRemoved, ...b.unfinishedRemoved]) {
     unRemoved.set(r.path, Math.max(unRemoved.get(r.path) ?? 0, r.at));
   }
-  out.unfinishedRemoved = newestFirst([...unRemoved].map(([path, at]) => ({ path, at }))).slice(
-    0,
-    LIMITS.unfinishedRemoved,
-  );
+  out.unfinishedRemoved = newestFirst(
+    [...unRemoved].map(([path, at]) => ({ path, at })),
+  ).slice(0, LIMITS.unfinishedRemoved);
   const un = new Map<string, Unfinished>();
-  for (const u of [...Object.values(a.unfinished), ...Object.values(b.unfinished)]) {
+  for (const u of [
+    ...Object.values(a.unfinished),
+    ...Object.values(b.unfinished),
+  ]) {
     const prev = un.get(u.path);
     if (!prev || u.at > prev.at) un.set(u.path, u);
   }
   out.unfinished = Object.fromEntries(
-    newestFirst([...un.values()].filter((u) => !((unRemoved.get(u.path) ?? -1) >= u.at)))
+    newestFirst(
+      [...un.values()].filter((u) => !((unRemoved.get(u.path) ?? -1) >= u.at)),
+    )
       .slice(0, LIMITS.unfinished)
       .map((u) => [u.path, u]),
   );
@@ -230,13 +356,28 @@ export function mergeDocs(aIn: ProgressDoc, bIn: ProgressDoc): ProgressDoc {
 
   // Seen words: a later cycle replaces an earlier one; the same cycle is unioned.
   out.seen = {};
-  for (const pool of new Set([...Object.keys(a.seen), ...Object.keys(b.seen)])) {
+  for (const pool of new Set([
+    ...Object.keys(a.seen),
+    ...Object.keys(b.seen),
+  ])) {
     const x = a.seen[pool];
     const y = b.seen[pool];
     if (!x || !y) out.seen[pool] = (x ?? y)!;
     else if (x.cycle !== y.cycle) out.seen[pool] = x.cycle > y.cycle ? x : y;
-    else out.seen[pool] = { cycle: x.cycle, ids: [...new Set([...x.ids, ...y.ids])].slice(-LIMITS.seenIds) };
+    else
+      out.seen[pool] = {
+        cycle: x.cycle,
+        ids: [...new Set([...x.ids, ...y.ids])].slice(-LIMITS.seenIds),
+      };
   }
-  out.seen = Object.fromEntries(Object.entries(out.seen).slice(0, LIMITS.seenPools));
+  out.seen = Object.fromEntries(
+    Object.entries(out.seen).slice(0, LIMITS.seenPools),
+  );
+
+  // Attempts never change once saved: union by id, newest first.
+  const attempts = new Map<string, Attempt>();
+  for (const x of [...a.attempts, ...b.attempts])
+    if (!attempts.has(x.id)) attempts.set(x.id, x);
+  out.attempts = newestFirst([...attempts.values()]).slice(0, LIMITS.attempts);
   return out;
 }

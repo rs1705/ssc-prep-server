@@ -151,6 +151,18 @@ export class MocksService {
     };
   }
 
+  /** Questions by id, in the order asked for; unknown or unusable ids are skipped. */
+  async questionsById(ids: string[]): Promise<PyqDto[]> {
+    const items = await this.prisma.item.findMany({
+      where: { ...usable, id: { in: ids } },
+      include: { passage: true, examPapers: true },
+    });
+    const byId = new Map(toPyqDtos(items).map((q) => [q.id, q]));
+    return ids
+      .map((id) => byId.get(id))
+      .filter((q): q is PyqDto => q !== undefined);
+  }
+
   /** A fresh 100-question mock drawn from every past paper. */
   async generate(): Promise<FullPaper> {
     const items = await this.prisma.item.findMany({

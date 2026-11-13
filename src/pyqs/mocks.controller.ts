@@ -1,4 +1,13 @@
-import { Controller, Get, Param, ParseUUIDPipe } from '@nestjs/common';
+import {
+  Body,
+  Controller,
+  Get,
+  HttpCode,
+  Param,
+  ParseUUIDPipe,
+  Post,
+} from '@nestjs/common';
+import { QuestionIdsDto } from './dto/question-ids.dto';
 import { MocksService } from './mocks.service';
 
 /** Full-length Tier 1 tests: real past papers and generated mocks. Public, read-only. */
@@ -22,5 +31,12 @@ export class MocksController {
   @Get('new')
   generate() {
     return this.mocks.generate();
+  }
+
+  /** POST /mocks/questions { ids }: questions by id, in that order (reopening a past attempt). */
+  @Post('questions')
+  @HttpCode(200)
+  questions(@Body() body: QuestionIdsDto) {
+    return this.mocks.questionsById(body.ids);
   }
 }
