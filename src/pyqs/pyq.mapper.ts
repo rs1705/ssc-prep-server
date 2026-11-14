@@ -14,6 +14,31 @@ export const SUBJECT_SECTION: Record<SubjectKey, string> = {
 export interface PyqOption {
   label: string;
   text: string;
+  /** The option in the content-block format (main-app/CONTENT_FORMAT.md), when it has more than text. */
+  blocks?: ContentBlock[];
+}
+
+/**
+ * One block of the content format (main-app/CONTENT_FORMAT.md). The server passes blocks
+ * through as stored; the app's renderer checks each spec before drawing it.
+ */
+export type ContentBlock = { type: string } & Record<string, unknown>;
+
+/** At most this many blocks per field, so one bad row can't bloat a response. */
+const MAX_BLOCKS = 60;
+
+/** Blocks as stored, or undefined when the field is missing or malformed. */
+export function blocksOrUndefined(value: unknown): ContentBlock[] | undefined {
+  if (!Array.isArray(value) || value.length === 0 || value.length > MAX_BLOCKS)
+    return undefined;
+  const ok = value.every(
+    (b) =>
+      typeof b === 'object' &&
+      b !== null &&
+      !Array.isArray(b) &&
+      typeof (b as { type?: unknown }).type === 'string',
+  );
+  return ok ? (value as ContentBlock[]) : undefined;
 }
 
 /** Shape stored in `Item.content` for `type = "PYQ"`. */
@@ -23,6 +48,8 @@ interface PyqContent {
   correctAnswerLabel: string;
   explanation?: string;
   requiresImage?: boolean;
+  questionBlocks?: unknown;
+  explanationBlocks?: unknown;
 }
 
 export interface PyqDto {
@@ -30,11 +57,15 @@ export interface PyqDto {
   topic: string;
   subtopics: string[];
   difficulty: string | null;
-  /** Markdown with inline LaTeX ($...$). */
+  /** Markdown with inline LaTeX ($...$). Always set, also when blocks are. */
   question: string;
+  /** The question in the block format (tables, series, diagrams), when it has one. */
+  questionBlocks?: ContentBlock[];
   options: PyqOption[];
   answer: string;
   explanation: string;
+  /** The explanation in the block format, when it has one. */
+  explanationBlocks?: ContentBlock[];
   /** Shared reading passage, when the question belongs to one. */
   passage: string | null;
   /** e.g. "SSC CGL Tier 1 · 2025" */
@@ -78,15 +109,24 @@ export function toPyqDto(item: ItemWithRelations): PyqDto | null {
   if (!options.some((o) => o.label === correctAnswerLabel)) return null;
 
   const paper = item.examPapers?.[0];
+  const questionBlocks = blocksOrUndefined(item.content.questionBlocks);
+  const explanationBlocks = blocksOrUndefined(item.content.explanationBlocks);
   return {
     id: item.id,
     topic: item.topics[0] ?? 'General',
     subtopics: item.subtopics,
     difficulty: item.difficulty,
     question,
-    options,
+    ...(questionBlocks ? { questionBlocks } : {}),
+    options: options.map((o) => {
+      const blocks = blocksOrUndefined(o.blocks);
+      return blocks
+        ? { label: o.label, text: o.text, blocks }
+        : { label: o.label, text: o.text };
+    }),
     answer: correctAnswerLabel,
     explanation: explanation ?? '',
+    ...(explanationBlocks ? { explanationBlocks } : {}),
     passage: item.passage?.text ?? null,
     source: paper ? paperLabel(paper) : null,
   };
