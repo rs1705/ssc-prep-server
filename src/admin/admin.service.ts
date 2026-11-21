@@ -32,6 +32,11 @@ export class AdminService {
     try {
       const { examMetadata, passages, questions } = payload;
 
+      // The topic list travels with the paper (Item.topicTags hold its subtopic IDs).
+      // Saved first, so a failure here leaves the paper as it was.
+      if (Array.isArray(payload.taxonomy))
+        await this.saveTopics(payload.taxonomy);
+
       // 1. Upsert ExamPaper
       let paper = await this.prisma.examPaper.findFirst({
         where: {
@@ -51,15 +56,18 @@ export class AdminService {
             date: new Date(examMetadata.date),
           },
         });
-      } else {
-        await this.prisma.examPaper.update({
-          where: { id: paper.id },
-          data: {
-            items: { set: [] },
-          },
-        });
       }
       const examPaperId = paper.id;
+      // The paper's questions as they stand: a re-publish updates these in place (and the
+      // paper keeps them until the new set is saved, so a failed save changes nothing).
+      const previous = new Set(
+        (
+          await this.prisma.item.findMany({
+            where: { examPapers: { some: { id: examPaperId } } },
+            select: { id: true },
+          })
+        ).map((i) => i.id),
+      );
 
       // 2. Save Passages
       const passageMap = new Map<string, string>();
@@ -110,16 +118,13 @@ export class AdminService {
         if (
           old &&
           !claimed.has(old.id) &&
-          optionKey(old.content) === optionKey(q.content)
+          (previous.has(old.id) ||
+            optionKey(old.content) === optionKey(q.content))
         ) {
           claimed.add(old.id);
           existingHashMap.set(questionHashes[i], old.id);
         }
       });
-
-      // The topic list travels with the paper; Item.topicTags hold its subtopic IDs.
-      if (Array.isArray(payload.taxonomy))
-        await this.saveTopics(payload.taxonomy);
 
       // 4. Build array of operations for Prisma batched transaction
       const ops: any[] = [];
@@ -198,10 +203,16 @@ export class AdminService {
 
       // 5. Execute operations concurrently in small chunks to avoid database connection exhaustion and 5s transaction limits
       const chunkSize = 15;
+      const saved: { id: string }[] = [];
       for (let i = 0; i < ops.length; i += chunkSize) {
         const chunk = ops.slice(i, i + chunkSize);
-        await Promise.all(chunk);
+        saved.push(...(await Promise.all(chunk)));
       }
+      // The paper now holds exactly this upload's questions.
+      await this.prisma.examPaper.update({
+        where: { id: examPaperId },
+        data: { items: { set: saved.map((item) => ({ id: item.id })) } },
+      });
 
       return {
         success: true,
@@ -243,9 +254,11 @@ export class AdminService {
         walk(level === 0 ? n.topics : n.subtopics, level + 1, n.id);
       });
     walk(subjects, 0, null);
-    for (let i = 0; i < rows.length; i += 25) {
-      await this.prisma.$transaction(
-        rows.slice(i, i + 25).map((r) =>
+    // Plain upserts in small parallel batches: a transaction over ~150 rows outlasts
+    // Prisma's 5 s limit on a remote database.
+    for (let i = 0; i < rows.length; i += 15) {
+      await Promise.all(
+        rows.slice(i, i + 15).map((r) =>
           this.prisma.topic.upsert({
             where: { id: r.id },
             create: r,
