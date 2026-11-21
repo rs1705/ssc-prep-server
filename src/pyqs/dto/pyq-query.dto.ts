@@ -27,7 +27,7 @@ export class PyqQueryDto extends SubjectQueryDto {
   @IsOptional()
   @Transform(trimmed)
   @IsString()
-  @MaxLength(60)
+  @MaxLength(80)
   topic?: string;
 
   @IsOptional()

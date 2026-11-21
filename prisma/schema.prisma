@@ -63,6 +63,19 @@ model ExamPaper {
   sessions Session[] // Users taking this full paper as a mock test
 }
 
+// The topic list: subjects, topics and subtopics with fixed IDs
+// ("quant", "quant.geometry", "quant.geometry.triangles"). Sent by the pipeline with each
+// paper; Item.tags holds subtopic IDs.
+model Topic {
+  id       String   @id
+  name     String
+  level    Int // 0 subject, 1 topic, 2 subtopic
+  parentId String?
+  position Int // order among siblings
+  concepts String[] @default([])
+  aliases  String[] @default([])
+}
+
 // ----------------------------------------------------
 // THE UNIFIED ITEM (Question, Flashcard, Formula)
 // ----------------------------------------------------
@@ -82,6 +95,10 @@ model Item {
   subject   String // "English", "Maths", "Reasoning", "GK"
   topics    String[] // ["Geometry", "Vocabulary"]
   subtopics String[] // ["Triangles", "Idioms"]
+  // Subtopic IDs from the topic list (Topic rows), main one first: ["quant.geometry.triangles"]
+  topicTags String[] @default([])
+
+  @@index([topicTags], type: Gin)
 
   // Passage Relationship for Reading Comprehension
   passageId String?

@@ -13,6 +13,12 @@ export class PyqsController {
     return this.pyqs.topics(query.subject);
   }
 
+  /** GET /pyqs/topic-tree?subject=maths — topics → subtopics with question counts. */
+  @Get('topic-tree')
+  topicTree(@Query() query: SubjectQueryDto) {
+    return this.pyqs.topicTree(query.subject);
+  }
+
   /** GET /pyqs/papers?subject=maths */
   @Get('papers')
   papers(@Query() query: SubjectQueryDto) {
@@ -28,7 +34,7 @@ export class PyqsController {
     return this.pyqs.sectionalPaper(id, query.subject);
   }
 
-  /** GET /pyqs?subject=maths&topic=Arithmetic&limit=10 */
+  /** GET /pyqs?subject=maths&topic=quant.geometry.triangles&limit=10 (a topic-list ID or old topic name) */
   @Get()
   practiceSet(@Query() query: PyqQueryDto) {
     return this.pyqs.practiceSet(query.subject, query.topic, query.limit);

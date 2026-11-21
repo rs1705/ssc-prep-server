@@ -3,6 +3,7 @@ import { Prisma } from 'generated/prisma/client';
 import { PrismaService } from 'src/prisma/prisma.service';
 import {
   SUBJECT_SECTION,
+  SUBJECT_TOPIC_ID,
   paperLabel,
   toPyqDtos,
   type PyqDto,
@@ -17,6 +18,15 @@ export interface TopicSummary {
   topic: string;
   count: number;
   subtopics: string[];
+}
+
+/** A node of the topic tree with how many usable questions sit under it. */
+export interface TopicNode {
+  id: string;
+  name: string;
+  count: number;
+  concepts: string[];
+  children: TopicNode[];
 }
 
 export interface PaperSummary {
@@ -83,16 +93,69 @@ export class PyqsService {
       .sort((a, b) => b.count - a.count || a.topic.localeCompare(b.topic));
   }
 
-  /** A shuffled practice set, optionally limited to one topic. */
+  /**
+   * The subject's topic tree (topics → subtopics) with question counts, in syllabus order.
+   * Every node is listed, empty ones with count 0, so the app can show them greyed out.
+   */
+  async topicTree(subject: SubjectKey): Promise<TopicNode[]> {
+    const root = SUBJECT_TOPIC_ID[subject];
+    const [rows, items] = await Promise.all([
+      this.prisma.topic.findMany({
+        where: { id: { startsWith: `${root}.` } },
+        orderBy: { position: 'asc' },
+      }),
+      this.prisma.item.findMany({
+        where: this.baseWhere(subject),
+        select: { topicTags: true },
+      }),
+    ]);
+    // A question counts once under each node it is tagged into.
+    const counts = new Map<string, number>();
+    for (const item of items) {
+      const nodes = new Set<string>();
+      for (const tag of item.topicTags) {
+        const parts = tag.split('.');
+        for (let i = 2; i <= parts.length; i++)
+          nodes.add(parts.slice(0, i).join('.'));
+      }
+      nodes.forEach((n) => counts.set(n, (counts.get(n) ?? 0) + 1));
+    }
+    const node = (r: (typeof rows)[number]): TopicNode => ({
+      id: r.id,
+      name: r.name,
+      count: counts.get(r.id) ?? 0,
+      concepts: r.concepts,
+      children: rows.filter((c) => c.parentId === r.id).map(node),
+    });
+    return rows.filter((r) => r.parentId === root).map(node);
+  }
+
+  /**
+   * A shuffled practice set, optionally limited to one topic: a topic-list ID (a topic or
+   * subtopic, e.g. "quant.geometry" or "quant.geometry.triangles") or an old topic name.
+   */
   async practiceSet(
     subject: SubjectKey,
     topic?: string,
     limit = DEFAULT_SET_SIZE,
   ): Promise<PyqDto[]> {
+    let filter: Prisma.ItemWhereInput = {};
+    if (topic?.startsWith(`${SUBJECT_TOPIC_ID[subject]}.`)) {
+      const under = await this.prisma.topic.findMany({
+        where: {
+          OR: [{ id: topic }, { id: { startsWith: `${topic}.` } }],
+          level: 2,
+        },
+        select: { id: true },
+      });
+      filter = { topicTags: { hasSome: under.map((t) => t.id) } };
+    } else if (topic) {
+      filter = { topics: { has: topic } };
+    }
     const items = await this.prisma.item.findMany({
       where: {
         ...this.baseWhere(subject),
-        ...(topic ? { topics: { has: topic } } : {}),
+        ...filter,
       },
       include: { passage: true, examPapers: true },
     });

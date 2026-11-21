@@ -1,6 +1,26 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
-import * as crypto from 'crypto';
+import { itemHash, legacyHash, optionKey } from './item-hash';
+
+/** Subtopic IDs sent with a question (`tags` from the pipeline). */
+function topicTagsOf(q: any): string[] {
+  return Array.isArray(q.tags)
+    ? q.tags
+        .filter(
+          (t: unknown) => typeof t === 'string' && /^[a-z0-9.-]{1,80}$/.test(t),
+        )
+        .slice(0, 5)
+    : [];
+}
+
+interface TopicNode {
+  id: string;
+  name: string;
+  concepts?: string[];
+  aliases?: string[];
+  topics?: TopicNode[];
+  subtopics?: TopicNode[];
+}
 
 @Injectable()
 export class AdminService {
@@ -54,12 +74,15 @@ export class AdminService {
         }
       }
 
-      // 3. Pre-compute all hashes and batch fetch existing items in 1 query
-      const questionHashes = questions.map((q: any) => {
-        const normalized = q.content.question.toLowerCase().replace(/\s+/g, "");
-        return crypto.createHash("sha256").update(normalized).digest("hex");
-      });
-
+      // 3. Hashes (stem + figure + options + passage) and the items already saved with them.
+      // Items saved before the v2 hash carry the stem-only hash: one is reused only when its
+      // options match too, and then takes the new hash.
+      const passageText = new Map<string, string>(
+        (passages ?? []).map((p: any) => [p.passageId, p.passageText]),
+      );
+      const questionHashes: string[] = questions.map((q: any) =>
+        itemHash(q, q.passageId ? passageText.get(q.passageId) : undefined),
+      );
       const existingItems = await this.prisma.item.findMany({
         where: { hash: { in: questionHashes } },
         select: { id: true, hash: true },
@@ -67,6 +90,36 @@ export class AdminService {
       const existingHashMap = new Map(
         existingItems.map((item) => [item.hash, item.id]),
       );
+      const legacy = await this.prisma.item.findMany({
+        where: {
+          hash: {
+            in: questions
+              .filter(
+                (_: any, i: number) => !existingHashMap.has(questionHashes[i]),
+              )
+              .map(legacyHash),
+          },
+        },
+        select: { id: true, hash: true, content: true },
+      });
+      const legacyByHash = new Map(legacy.map((item) => [item.hash, item]));
+      const claimed = new Set<string>();
+      questions.forEach((q: any, i: number) => {
+        if (existingHashMap.has(questionHashes[i])) return;
+        const old = legacyByHash.get(legacyHash(q));
+        if (
+          old &&
+          !claimed.has(old.id) &&
+          optionKey(old.content) === optionKey(q.content)
+        ) {
+          claimed.add(old.id);
+          existingHashMap.set(questionHashes[i], old.id);
+        }
+      });
+
+      // The topic list travels with the paper; Item.topicTags hold its subtopic IDs.
+      if (Array.isArray(payload.taxonomy))
+        await this.saveTopics(payload.taxonomy);
 
       // 4. Build array of operations for Prisma batched transaction
       const ops: any[] = [];
@@ -85,10 +138,12 @@ export class AdminService {
           };
           const updateData: any = {
             subject: q.subject,
-            topics: q.topics || (q.topic ? [q.topic] : ["Uncategorized"]),
+            topics: q.topics || (q.topic ? [q.topic] : ['Uncategorized']),
             subtopics: q.subtopics || (q.subtopic ? [q.subtopic] : []),
             difficulty: q.difficulty || null,
+            topicTags: topicTagsOf(q),
             content: itemContent,
+            hash,
             examPapers: {
               connect: { id: examPaperId },
             },
@@ -113,11 +168,12 @@ export class AdminService {
             requiresImage: q.requiresImage || false,
           };
           const itemData: any = {
-            type: "PYQ",
+            type: 'PYQ',
             subject: q.subject,
-            topics: q.topics || (q.topic ? [q.topic] : ["Uncategorized"]),
+            topics: q.topics || (q.topic ? [q.topic] : ['Uncategorized']),
             subtopics: q.subtopics || (q.subtopic ? [q.subtopic] : []),
             difficulty: q.difficulty || null,
+            topicTags: topicTagsOf(q),
             content: itemContent,
             hash: hash,
             examPapers: {
@@ -152,8 +208,51 @@ export class AdminService {
         message: `Saved! ${newCount} new questions created, ${existingCount} duplicate questions linked.`,
       };
     } catch (error: any) {
-      this.logger.error("Error saving paper", error);
+      this.logger.error('Error saving paper', error);
       return { success: false, error: error.message };
+    }
+  }
+
+  /** Upserts the topic list (subject → topic → subtopic) sent with a paper. */
+  private async saveTopics(subjects: TopicNode[]) {
+    const rows: {
+      id: string;
+      name: string;
+      level: number;
+      parentId: string | null;
+      position: number;
+      concepts: string[];
+      aliases: string[];
+    }[] = [];
+    const walk = (
+      nodes: TopicNode[] | undefined,
+      level: number,
+      parentId: string | null,
+    ) =>
+      (nodes ?? []).slice(0, 500).forEach((n, position) => {
+        if (typeof n?.id !== 'string' || typeof n?.name !== 'string') return;
+        rows.push({
+          id: n.id.slice(0, 80),
+          name: n.name.slice(0, 120),
+          level,
+          parentId,
+          position,
+          concepts: (n.concepts ?? []).map(String).slice(0, 30),
+          aliases: (n.aliases ?? []).map(String).slice(0, 40),
+        });
+        walk(level === 0 ? n.topics : n.subtopics, level + 1, n.id);
+      });
+    walk(subjects, 0, null);
+    for (let i = 0; i < rows.length; i += 25) {
+      await this.prisma.$transaction(
+        rows.slice(i, i + 25).map((r) =>
+          this.prisma.topic.upsert({
+            where: { id: r.id },
+            create: r,
+            update: r,
+          }),
+        ),
+      );
     }
   }
 }

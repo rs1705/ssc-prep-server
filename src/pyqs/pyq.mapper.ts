@@ -11,6 +11,14 @@ export const SUBJECT_SECTION: Record<SubjectKey, string> = {
   gk: 'General Awareness',
 };
 
+/** URL subject key -> subject ID in the topic list (Topic rows, Item.topicTags). */
+export const SUBJECT_TOPIC_ID: Record<SubjectKey, string> = {
+  maths: 'quant',
+  english: 'english',
+  reasoning: 'reasoning',
+  gk: 'ga',
+};
+
 export interface PyqOption {
   label: string;
   text: string;
