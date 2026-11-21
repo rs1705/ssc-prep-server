@@ -18,6 +18,7 @@ interface TopicNode {
   name: string;
   concepts?: string[];
   aliases?: string[];
+  group?: string;
   topics?: TopicNode[];
   subtopics?: TopicNode[];
 }
@@ -234,6 +235,7 @@ export class AdminService {
       position: number;
       concepts: string[];
       aliases: string[];
+      group: string | null;
     }[] = [];
     const walk = (
       nodes: TopicNode[] | undefined,
@@ -250,6 +252,10 @@ export class AdminService {
           position,
           concepts: (n.concepts ?? []).map(String).slice(0, 30),
           aliases: (n.aliases ?? []).map(String).slice(0, 40),
+          group:
+            typeof n.group === 'string' && n.group.trim()
+              ? n.group.trim().slice(0, 60)
+              : null,
         });
         walk(level === 0 ? n.topics : n.subtopics, level + 1, n.id);
       });

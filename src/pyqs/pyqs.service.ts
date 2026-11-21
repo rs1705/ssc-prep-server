@@ -26,6 +26,8 @@ export interface TopicNode {
   name: string;
   count: number;
   concepts: string[];
+  /** Topics only: the heading it sits under ("Arithmetic"); null when none. */
+  group: string | null;
   children: TopicNode[];
 }
 
@@ -125,6 +127,7 @@ export class PyqsService {
       name: r.name,
       count: counts.get(r.id) ?? 0,
       concepts: r.concepts,
+      group: r.group,
       children: rows.filter((c) => c.parentId === r.id).map(node),
     });
     return rows.filter((r) => r.parentId === root).map(node);

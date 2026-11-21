@@ -72,6 +72,7 @@ model Topic {
   level    Int // 0 subject, 1 topic, 2 subtopic
   parentId String?
   position Int // order among siblings
+  group    String? // topics only: the heading it sits under ("Arithmetic", "Advanced Maths")
   concepts String[] @default([])
   aliases  String[] @default([])
 }
