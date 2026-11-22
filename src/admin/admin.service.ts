@@ -141,6 +141,8 @@ export class AdminService {
           const itemContent = {
             ...q.content,
             requiresImage: q.requiresImage || false,
+            // Where it sits in the paper, so tests show questions in the paper's order.
+            questionNumber: Number(q.sourceQuestionNumber) || undefined,
           };
           const updateData: any = {
             subject: q.subject,
@@ -172,6 +174,7 @@ export class AdminService {
           const itemContent = {
             ...q.content,
             requiresImage: q.requiresImage || false,
+            questionNumber: Number(q.sourceQuestionNumber) || undefined,
           };
           const itemData: any = {
             type: 'PYQ',

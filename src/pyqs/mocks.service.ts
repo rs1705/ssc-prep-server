@@ -8,6 +8,7 @@ import {
   type ItemWithRelations,
   type PyqDto,
   type SubjectKey,
+  inPaperOrder,
 } from './pyq.mapper';
 
 /** SSC CGL Tier 1 section order. */
@@ -132,7 +133,10 @@ export class MocksService {
     if (!paper) throw new NotFoundException('Paper not found.');
 
     const sections = this.toSections(
-      paper.items.map((item) => ({ ...item, examPapers: [paper] })),
+      inPaperOrder(paper.items).map((item) => ({
+        ...item,
+        examPapers: [paper],
+      })),
       (items) => groupPassages(items),
     );
     if (sections.some((s) => s.questions.length === 0)) {

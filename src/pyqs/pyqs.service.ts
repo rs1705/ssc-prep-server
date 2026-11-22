@@ -4,6 +4,7 @@ import { PrismaService } from 'src/prisma/prisma.service';
 import {
   SUBJECT_SECTION,
   SUBJECT_TOPIC_ID,
+  inPaperOrder,
   paperLabel,
   toPyqDtos,
   type PyqDto,
@@ -215,7 +216,10 @@ export class PyqsService {
     if (!paper) throw new NotFoundException('Paper not found.');
 
     const questions = toPyqDtos(
-      paper.items.map((item) => ({ ...item, examPapers: [paper] })),
+      inPaperOrder(paper.items).map((item) => ({
+        ...item,
+        examPapers: [paper],
+      })),
     );
     if (questions.length === 0) {
       throw new NotFoundException(

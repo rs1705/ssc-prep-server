@@ -143,3 +143,15 @@ export function toPyqDto(item: ItemWithRelations): PyqDto | null {
 export function toPyqDtos(items: ItemWithRelations[]): PyqDto[] {
   return items.map(toPyqDto).filter((dto): dto is PyqDto => dto !== null);
 }
+
+/** Items in the order they appear in the paper (content.questionNumber), then by ID. */
+export function inPaperOrder<T extends { id: string; content: unknown }>(
+  items: T[],
+): T[] {
+  const num = (item: T) => {
+    const n = (item.content as { questionNumber?: unknown } | null)
+      ?.questionNumber;
+    return typeof n === 'number' ? n : Number.MAX_SAFE_INTEGER;
+  };
+  return [...items].sort((a, b) => num(a) - num(b) || a.id.localeCompare(b.id));
+}
