@@ -34,7 +34,7 @@ export class PyqsController {
     return this.pyqs.sectionalPaper(id, query.subject);
   }
 
-  /** GET /pyqs?subject=maths&topic=quant.geometry.triangles&limit=10 (a topic-list ID or old topic name) */
+  /** GET /pyqs?subject=maths&topic=quant.geometry.triangles&limit=10 (a topic-list ID, "group:Arithmetic" for a whole group, or an old topic name) */
   @Get()
   practiceSet(@Query() query: PyqQueryDto) {
     return this.pyqs.practiceSet(query.subject, query.topic, query.limit);

@@ -143,7 +143,19 @@ export class PyqsService {
     limit = DEFAULT_SET_SIZE,
   ): Promise<PyqDto[]> {
     let filter: Prisma.ItemWhereInput = {};
-    if (topic?.startsWith(`${SUBJECT_TOPIC_ID[subject]}.`)) {
+    const root = SUBJECT_TOPIC_ID[subject];
+    if (topic?.startsWith('group:')) {
+      // A whole group ("group:Arithmetic"): every subtopic of its topics.
+      const topics = await this.prisma.topic.findMany({
+        where: { parentId: root, group: topic.slice(6) },
+        select: { id: true },
+      });
+      const under = await this.prisma.topic.findMany({
+        where: { parentId: { in: topics.map((t) => t.id) } },
+        select: { id: true },
+      });
+      filter = { topicTags: { hasSome: under.map((t) => t.id) } };
+    } else if (topic?.startsWith(`${root}.`)) {
       const under = await this.prisma.topic.findMany({
         where: {
           OR: [{ id: topic }, { id: { startsWith: `${topic}.` } }],
