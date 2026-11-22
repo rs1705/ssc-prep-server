@@ -69,7 +69,7 @@ model ExamPaper {
 model Topic {
   id       String   @id
   name     String
-  level    Int // 0 subject, 1 topic, 2 subtopic
+  level    Int // 0 subject, 1 topic, 2 subtopic, 3 concept
   parentId String?
   position Int // order among siblings
   group    String? // topics only: the heading it sits under ("Arithmetic", "Advanced Maths")
@@ -98,8 +98,11 @@ model Item {
   subtopics String[] // ["Triangles", "Idioms"]
   // Subtopic IDs from the topic list (Topic rows), main one first: ["quant.geometry.triangles"]
   topicTags String[] @default([])
+  // Concept IDs (level-3 Topic rows), each under one of topicTags: ["quant.geometry.triangles.centroid-medians"]
+  conceptTags String[] @default([])
 
   @@index([topicTags], type: Gin)
+  @@index([conceptTags], type: Gin)
 
   // Passage Relationship for Reading Comprehension
   passageId String?

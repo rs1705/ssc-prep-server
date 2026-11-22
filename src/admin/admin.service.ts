@@ -2,6 +2,18 @@ import { Injectable, Logger } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 import { itemHash, legacyHash, optionKey } from './item-hash';
 
+/** Concept IDs sent with a question (`conceptTags` from the pipeline). */
+function conceptTagsOf(q: any): string[] {
+  return Array.isArray(q.conceptTags)
+    ? q.conceptTags
+        .filter(
+          (t: unknown) =>
+            typeof t === 'string' && /^[a-z0-9.-]{1,120}$/.test(t),
+        )
+        .slice(0, 5)
+    : [];
+}
+
 /** Subtopic IDs sent with a question (`tags` from the pipeline). */
 function topicTagsOf(q: any): string[] {
   return Array.isArray(q.tags)
@@ -16,7 +28,8 @@ function topicTagsOf(q: any): string[] {
 interface TopicNode {
   id: string;
   name: string;
-  concepts?: string[];
+  /** Names (older pipeline) or { id, name } (concepts with IDs). */
+  concepts?: (string | { id?: string; name?: string })[];
   aliases?: string[];
   group?: string;
   topics?: TopicNode[];
@@ -150,6 +163,7 @@ export class AdminService {
             subtopics: q.subtopics || (q.subtopic ? [q.subtopic] : []),
             difficulty: q.difficulty || null,
             topicTags: topicTagsOf(q),
+            conceptTags: conceptTagsOf(q),
             content: itemContent,
             hash,
             examPapers: {
@@ -183,6 +197,7 @@ export class AdminService {
             subtopics: q.subtopics || (q.subtopic ? [q.subtopic] : []),
             difficulty: q.difficulty || null,
             topicTags: topicTagsOf(q),
+            conceptTags: conceptTagsOf(q),
             content: itemContent,
             hash: hash,
             examPapers: {
@@ -253,7 +268,10 @@ export class AdminService {
           level,
           parentId,
           position,
-          concepts: (n.concepts ?? []).map(String).slice(0, 30),
+          concepts: (n.concepts ?? [])
+            .map((c) => (typeof c === 'string' ? c : String(c?.name ?? '')))
+            .filter(Boolean)
+            .slice(0, 30),
           aliases: (n.aliases ?? []).map(String).slice(0, 40),
           group:
             typeof n.group === 'string' && n.group.trim()
@@ -261,6 +279,27 @@ export class AdminService {
               : null,
         });
         walk(level === 0 ? n.topics : n.subtopics, level + 1, n.id);
+        // A subtopic's concepts with IDs become level-3 rows, so questions can be
+        // filtered and counted by concept.
+        if (level === 2)
+          (n.concepts ?? []).slice(0, 30).forEach((c, i) => {
+            if (
+              typeof c !== 'object' ||
+              typeof c?.id !== 'string' ||
+              typeof c?.name !== 'string'
+            )
+              return;
+            rows.push({
+              id: c.id.slice(0, 120),
+              name: c.name.slice(0, 120),
+              level: 3,
+              parentId: n.id,
+              position: i,
+              concepts: [],
+              aliases: [],
+              group: null,
+            });
+          });
       });
     walk(subjects, 0, null);
     // Plain upserts in small parallel batches: a transaction over ~150 rows outlasts

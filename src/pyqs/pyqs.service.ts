@@ -109,7 +109,7 @@ export class PyqsService {
       }),
       this.prisma.item.findMany({
         where: this.baseWhere(subject),
-        select: { topicTags: true },
+        select: { topicTags: true, conceptTags: true },
       }),
     ]);
     // A question counts once under each node it is tagged into.
@@ -121,6 +121,7 @@ export class PyqsService {
         for (let i = 2; i <= parts.length; i++)
           nodes.add(parts.slice(0, i).join('.'));
       }
+      item.conceptTags.forEach((c) => nodes.add(c));
       nodes.forEach((n) => counts.set(n, (counts.get(n) ?? 0) + 1));
     }
     const node = (r: (typeof rows)[number]): TopicNode => ({
@@ -156,6 +157,17 @@ export class PyqsService {
         select: { id: true },
       });
       filter = { topicTags: { hasSome: under.map((t) => t.id) } };
+    } else if (
+      topic?.startsWith(`${root}.`) &&
+      (
+        await this.prisma.topic.findUnique({
+          where: { id: topic },
+          select: { level: true },
+        })
+      )?.level === 3
+    ) {
+      // One concept.
+      filter = { conceptTags: { has: topic } };
     } else if (topic?.startsWith(`${root}.`)) {
       const under = await this.prisma.topic.findMany({
         where: {
