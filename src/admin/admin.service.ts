@@ -302,6 +302,12 @@ export class AdminService {
           });
       });
     walk(subjects, 0, null);
+    // The list sent is the whole list: rows it no longer has (renamed or removed items)
+    // go, so the topic tree only shows current topics.
+    if (rows.length)
+      await this.prisma.topic.deleteMany({
+        where: { id: { notIn: rows.map((r) => r.id) } },
+      });
     // Plain upserts in small parallel batches: a transaction over ~150 rows outlasts
     // Prisma's 5 s limit on a remote database.
     for (let i = 0; i < rows.length; i += 15) {
