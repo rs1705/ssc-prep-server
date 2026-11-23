@@ -1,7 +1,12 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access -- jest mocks are intentionally loosely typed */
 import { NotFoundException } from '@nestjs/common';
 import type { Item } from 'generated/prisma/client';
-import { DAILY_CARD_LIMIT, FlashcardsService } from './flashcards.service';
+import {
+  DAILY_CARD_LIMIT,
+  FlashcardsService,
+  NEW_CARDS_PER_DAY,
+  startOfIndianDay,
+} from './flashcards.service';
 
 const user = { uid: 'firebase-1', email: 'a@b.c', name: 'Test' };
 
@@ -26,7 +31,10 @@ function setup() {
       findUnique: jest.fn().mockResolvedValue(null),
       upsert: jest.fn().mockReturnValue('upsert-op'),
     },
-    interaction: { create: jest.fn().mockReturnValue('create-op') },
+    interaction: {
+      create: jest.fn().mockReturnValue('create-op'),
+      groupBy: jest.fn().mockResolvedValue([]),
+    },
     user: { findUnique: jest.fn().mockResolvedValue({ id: 'user-1' }) },
     $transaction: jest.fn(),
   };
@@ -104,6 +112,30 @@ describe('FlashcardsService.studyDeck', () => {
     );
   });
 
+  it('stops handing out new cards once the daily allowance is used, even after a reload', async () => {
+    const { prisma, service } = setup();
+    prisma.interaction.groupBy.mockResolvedValue(
+      Array.from({ length: NEW_CARDS_PER_DAY - 5 }, (_, i) => ({
+        itemId: `seen-${i}`,
+      })),
+    );
+    await service.studyDeck(user);
+    expect(prisma.item.findMany.mock.calls[0][0].take).toBe(5);
+
+    prisma.item.findMany.mockClear();
+    prisma.interaction.groupBy.mockResolvedValue(
+      Array.from({ length: NEW_CARDS_PER_DAY }, (_, i) => ({
+        itemId: `seen-${i}`,
+      })),
+    );
+    prisma.fsrsData.findMany.mockResolvedValue([
+      { item: item('due-1', 'due') },
+    ]);
+    const deck = await service.studyDeck(user);
+    expect(prisma.item.findMany).not.toHaveBeenCalled();
+    expect(deck.map((c) => c.front.text)).toEqual(['due']);
+  });
+
   it('skips the new-card query when the daily limit is already due', async () => {
     const { prisma, service } = setup();
     prisma.fsrsData.findMany.mockResolvedValue(
@@ -139,6 +171,9 @@ describe('FlashcardsService.review', () => {
     prisma.$transaction.mockResolvedValue([
       {
         dueDate: new Date(),
+        difficulty: 5,
+        elapsedDays: 0,
+        lastReview: new Date(),
         state: 1,
         reps: 1,
         lapses: 0,
@@ -162,5 +197,18 @@ describe('FlashcardsService.review', () => {
     });
     expect(upsert.create.reps).toBe(1);
     expect(result).toMatchObject({ cardId: 'card-1', rating: 3, reps: 1 });
+    expect(Object.keys(result.nextReview)).toEqual(['1', '2', '3', '4']);
+  });
+});
+
+describe('startOfIndianDay', () => {
+  it('is midnight IST, i.e. 18:30 UTC the evening before', () => {
+    expect(
+      startOfIndianDay(new Date('2026-11-23T10:00:00Z')).toISOString(),
+    ).toBe('2026-11-22T18:30:00.000Z');
+    // 20:00 UTC is already 01:30 the next day in India.
+    expect(
+      startOfIndianDay(new Date('2026-11-23T20:00:00Z')).toISOString(),
+    ).toBe('2026-11-23T18:30:00.000Z');
   });
 });
