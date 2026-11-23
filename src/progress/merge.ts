@@ -15,6 +15,7 @@
  *  - seen:        per game pool, the later cycle; within a cycle, the union.
  *  - attempts:    finished mock / past-paper / sectional tests, union by id, newest first.
  *  - answered:    per question, the newer answer; newest kept, capped.
+ *  - xp:          awards by id (they never change); folded old days by the larger total.
  */
 
 export interface Activity {
@@ -56,6 +57,21 @@ export interface ProgressDoc {
   attempts: Attempt[];
   /** questionId -> the last answer: when, right or not, and its topic/concept IDs. */
   answered: Record<string, Answered>;
+  /** XP: recent awards by id, and older days folded into totals. */
+  xp: XpRecord;
+}
+
+/** One XP award: what it was for is in its id (client lib/xp.ts). */
+export interface XpAward {
+  at: number;
+  amount: number;
+  source: string;
+}
+
+export interface XpRecord {
+  awards: Record<string, XpAward>;
+  /** "YYYY-MM-DD" -> XP that day, for days older than a month. */
+  days: Record<string, number>;
 }
 
 /** One answered past-year question (drives topic progress). */
@@ -96,6 +112,10 @@ export const LIMITS = {
   seenIds: 3000,
   attempts: 50,
   answered: 5000,
+  xpAwards: 6000,
+  xpDays: 3000,
+  /** No single award is worth more than this (a full mock with full marks is ~300). */
+  xpAward: 1000,
 };
 
 const DAY_KEY = /^\d{4}-\d{2}-\d{2}$/;
@@ -122,6 +142,7 @@ export function emptyDoc(): ProgressDoc {
     seen: {},
     attempts: [],
     answered: {},
+    xp: { awards: {}, days: {} },
   };
 }
 
@@ -228,7 +249,36 @@ export function normalizeDoc(input: unknown): ProgressDoc {
       return [[id, { at: num(e.at), ok: e.ok === true, tags }] as const];
     }),
   );
+
+  const xp = obj(d.xp);
+  doc.xp = {
+    awards: newestAwards(
+      Object.entries(obj(xp.awards)).flatMap(([id, v]) => {
+        const e = obj(v);
+        const amount = num(e.amount);
+        const source = shortStr(e.source, 20);
+        if (id.length > 120 || !Number.isFinite(e.at) || amount <= 0 || amount > LIMITS.xpAward || !source) return [];
+        return [[id, { at: num(e.at), amount: Math.round(amount), source }] as const];
+      }),
+    ),
+    days: Object.fromEntries(
+      Object.entries(obj(xp.days))
+        .filter(([day, v]) => DAY_KEY.test(day) && num(v) > 0)
+        .sort(([x], [y]) => (x < y ? 1 : -1))
+        .slice(0, LIMITS.xpDays)
+        .map(([day, v]) => [day, Math.round(num(v))]),
+    ),
+  };
   return doc;
+}
+
+/** The newest XP awards, capped, as a record. */
+function newestAwards(
+  entries: (readonly [string, XpAward])[],
+): Record<string, XpAward> {
+  return Object.fromEntries(
+    [...entries].sort((x, y) => y[1].at - x[1].at).slice(0, LIMITS.xpAwards),
+  );
 }
 
 /** The newest answers, capped, as a record. */
@@ -420,5 +470,16 @@ export function mergeDocs(aIn: ProgressDoc, bIn: ProgressDoc): ProgressDoc {
     if (!prev || x.at > prev.at) answered.set(id, x);
   }
   out.answered = newestAnswered([...answered]);
+
+  // XP: awards never change, so union by id; a folded day keeps the larger total.
+  out.xp = {
+    awards: newestAwards([
+      ...Object.entries(b.xp.awards),
+      ...Object.entries(a.xp.awards),
+    ]),
+    days: { ...a.xp.days },
+  };
+  for (const [day, n] of Object.entries(b.xp.days))
+    out.xp.days[day] = Math.max(out.xp.days[day] ?? 0, n);
   return out;
 }

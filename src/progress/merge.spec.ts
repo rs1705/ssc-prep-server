@@ -243,4 +243,42 @@ describe('answered questions', () => {
     expect(out.answered.bad).toBeUndefined();
     expect(mergeDocs(b as never, a as never).answered).toEqual(out.answered);
   });
+
+  it('merges XP: awards by id, folded days by the larger total', () => {
+    const a = {
+      ...emptyDoc(),
+      xp: {
+        awards: { 'q:1': { at: 1, amount: 10, source: 'answer' } },
+        days: { '2026-09-01': 40 },
+      },
+    };
+    const b = {
+      ...emptyDoc(),
+      xp: {
+        awards: {
+          'q:1': { at: 1, amount: 10, source: 'answer' },
+          'q:2': { at: 2, amount: 2, source: 'answer' },
+        },
+        days: { '2026-09-01': 55, '2026-09-02': 20 },
+      },
+    };
+    const out = mergeDocs(a, b);
+    expect(Object.keys(out.xp.awards).sort()).toEqual(['q:1', 'q:2']);
+    expect(out.xp.days).toEqual({ '2026-09-01': 55, '2026-09-02': 20 });
+  });
+
+  it('drops XP awards that are malformed or too large', () => {
+    const doc = normalizeDoc({
+      xp: {
+        awards: {
+          ok: { at: 1, amount: 10, source: 'answer' },
+          huge: { at: 1, amount: 999999, source: 'answer' },
+          neg: { at: 1, amount: -5, source: 'answer' },
+        },
+        days: { 'not-a-day': 5 },
+      },
+    });
+    expect(Object.keys(doc.xp.awards)).toEqual(['ok']);
+    expect(doc.xp.days).toEqual({});
+  });
 });
