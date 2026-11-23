@@ -218,3 +218,29 @@ describe('attempts', () => {
     expect(out.attempts[0].id).toBe(`a${LIMITS.attempts + 4}`);
   });
 });
+
+describe('answered questions', () => {
+  it('keeps the newer answer per question and drops malformed ones', () => {
+    const a = {
+      answered: {
+        q1: { at: 1, ok: false, tags: ['quant.arith.ages'] },
+        bad: { ok: true },
+      },
+    };
+    const b = {
+      answered: {
+        q1: { at: 2, ok: true, tags: ['quant.arith.ages'] },
+        q2: { at: 1, ok: true, tags: [] },
+      },
+    };
+    const out = mergeDocs(a as never, b as never);
+    expect(out.answered.q1).toEqual({
+      at: 2,
+      ok: true,
+      tags: ['quant.arith.ages'],
+    });
+    expect(out.answered.q2.ok).toBe(true);
+    expect(out.answered.bad).toBeUndefined();
+    expect(mergeDocs(b as never, a as never).answered).toEqual(out.answered);
+  });
+});

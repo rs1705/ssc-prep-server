@@ -14,6 +14,7 @@
  *  - examDate:    the newer value.
  *  - seen:        per game pool, the later cycle; within a cycle, the union.
  *  - attempts:    finished mock / past-paper / sectional tests, union by id, newest first.
+ *  - answered:    per question, the newer answer; newest kept, capped.
  */
 
 export interface Activity {
@@ -53,6 +54,16 @@ export interface ProgressDoc {
   seen: Record<string, { cycle: number; ids: string[] }>;
   /** Finished full-length or sectional tests, newest first. */
   attempts: Attempt[];
+  /** questionId -> the last answer: when, right or not, and its topic/concept IDs. */
+  answered: Record<string, Answered>;
+}
+
+/** One answered past-year question (drives topic progress). */
+export interface Answered {
+  at: number;
+  ok: boolean;
+  /** Subtopic and concept IDs of the question. */
+  tags: string[];
 }
 
 /** A finished test: enough to rebuild the result and reopen the review. */
@@ -84,6 +95,7 @@ export const LIMITS = {
   seenPools: 50,
   seenIds: 3000,
   attempts: 50,
+  answered: 5000,
 };
 
 const DAY_KEY = /^\d{4}-\d{2}-\d{2}$/;
@@ -109,6 +121,7 @@ export function emptyDoc(): ProgressDoc {
     examDate: { value: null, at: 0 },
     seen: {},
     attempts: [],
+    answered: {},
   };
 }
 
@@ -204,7 +217,27 @@ export function normalizeDoc(input: unknown): ProgressDoc {
       .map(normalizeAttempt)
       .filter((x): x is Attempt => x !== null),
   ).slice(0, LIMITS.attempts);
+
+  doc.answered = newestAnswered(
+    Object.entries(obj(d.answered)).flatMap(([id, v]) => {
+      const e = obj(v);
+      if (id.length > 64 || !Number.isFinite(e.at)) return [];
+      const tags = arr<unknown>(e.tags)
+        .filter((t): t is string => typeof t === 'string' && t.length <= 120)
+        .slice(0, 8);
+      return [[id, { at: num(e.at), ok: e.ok === true, tags }] as const];
+    }),
+  );
   return doc;
+}
+
+/** The newest answers, capped, as a record. */
+function newestAnswered(
+  entries: (readonly [string, Answered])[],
+): Record<string, Answered> {
+  return Object.fromEntries(
+    [...entries].sort((x, y) => y[1].at - x[1].at).slice(0, LIMITS.answered),
+  );
 }
 
 const ATTEMPT_KINDS = ['mock', 'paper', 'section'];
@@ -379,5 +412,13 @@ export function mergeDocs(aIn: ProgressDoc, bIn: ProgressDoc): ProgressDoc {
   for (const x of [...a.attempts, ...b.attempts])
     if (!attempts.has(x.id)) attempts.set(x.id, x);
   out.attempts = newestFirst([...attempts.values()]).slice(0, LIMITS.attempts);
+
+  // Answered questions: the newer answer per question.
+  const answered = new Map<string, Answered>(Object.entries(a.answered));
+  for (const [id, x] of Object.entries(b.answered)) {
+    const prev = answered.get(id);
+    if (!prev || x.at > prev.at) answered.set(id, x);
+  }
+  out.answered = newestAnswered([...answered]);
   return out;
 }

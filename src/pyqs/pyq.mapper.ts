@@ -78,6 +78,8 @@ export interface PyqDto {
   passage: string | null;
   /** e.g. "SSC CGL Tier 1 · 2025" */
   source: string | null;
+  /** Subtopic and concept IDs from the topic list (for topic progress). */
+  tags: string[];
 }
 
 export type ItemWithRelations = Item & {
@@ -137,6 +139,7 @@ export function toPyqDto(item: ItemWithRelations): PyqDto | null {
     ...(explanationBlocks ? { explanationBlocks } : {}),
     passage: item.passage?.text ?? null,
     source: paper ? paperLabel(paper) : null,
+    tags: [...(item.topicTags ?? []), ...(item.conceptTags ?? [])],
   };
 }
 
